@@ -1,25 +1,20 @@
-## About
+## C-MOOR Module: {Title}
 
-C-MOOR_Template is a C-MOOR-customized version of [OTTR_Template](https://github.com/jhudsl/OTTR_Template).
+This repository contains the source material for the C-MOOR module on {Title}.  The rendered content can be viewed freely at {url}.
 
-- Adds C-MOOR-specific styling and assets (logo, colors, etc.)
-- Adds C-MOOR-specific starting content (e.g. `index.Rmd`)
+This module teaches...
 
-## Content made using this template:
+This module is designed for... {audience}
 
-- C-MOOR Module: Model Organisms and Biological Databases \[[source](https://github.com/C-MOOR/module-model-org-db)\]\[[render](https://www.c-moor.org/module-model-org-db/)\]
+## C-MOOR Collection
 
-## Using C-MOOR_Template
+This content is part of a collection of teaching resources developed by C-MOOR.  C-MOOR works to break down barriers to scientific participation and build pathways for the next generation of data scientists through authentic research experiences.  Learn more about C-MOOR by [viewing our projects](https://github.com/c-moor), or read about how C-MOOR is [integrating research experience into undergraduate biology courses](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html) at Clovis Community College.
 
-Instructions for using C-MOOR_Template can be found in the [wiki](https://github.com/C-MOOR/C-MOOR_Template/wiki).
+## Forking
 
-## About OTTR (Open-source Tools for Training Resources)
-
-C-MOOR_Template is based on OTTR.  The purpose of OTTR is to make course publishing maintenance across multiple different platforms _less painful_.
-
-Go to [ottrproject.org](https://www.ottrproject.org/) to learn more! :tada:
-
-_OTTR helps you_:   
+This module uses OTTR to render R Markdown content into multiple formats.  If you would like to fork this repository, you can learn more about how OTTR works by visiting [ottrproject.org](https://www.ottrproject.org/)
+  
+OTTR helps you:
 
 - Edit and write a course in [RMarkdown files](https://rmarkdown.rstudio.com/) and have it published to multiple different platforms:
   - [Leanpub](https://leanpub.com/bookstore?type=course)
@@ -31,9 +26,9 @@ _OTTR helps you_:
 
 [See the OTTR pre-print here!](https://arxiv.org/abs/2203.07083)
 
-<img src="https://docs.google.com/presentation/d/18k_QN7l6zqZQXoiRfKWzcYFXNXJJEo6j4daYGoc3UcU/export/png?id=18k_QN7l6zqZQXoiRfKWzcYFXNXJJEo6j4daYGoc3UcU&pageid=gf4fcf6569c_2_29" width="500"/>
-
 ## Encountering problems?
 
-If you are encountering any problems, please file a GitHub issue or contact us at {}.
+If you are encountering any problems with this module, please file a GitHub issue or contact us at {}.
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />All materials in this course are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> unless noted otherwise.
 
