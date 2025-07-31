@@ -1,21 +1,69 @@
 url	chapt_title	img_path
 http://science.c-moor.org/CURE-MicrobialMysteries/index.html	About	resources/chapt_screen_images/index.png
+http://science.c-moor.org/CURE-MicrobialMysteries/instructor-guide.html	Instructor Guide	resources/chapt_screen_images/instructor-guide.png
 http://science.c-moor.org/CURE-MicrobialMysteries/introduction.html	1 Introduction	resources/chapt_screen_images/introduction.png
-http://science.c-moor.org/CURE-MicrobialMysteries/motivation.html	1.1 Motivation	resources/chapt_screen_images/motivation.png
-http://science.c-moor.org/CURE-MicrobialMysteries/target-audience.html	1.2 Target Audience	resources/chapt_screen_images/target-audience.png
-http://science.c-moor.org/CURE-MicrobialMysteries/curriculum.html	1.3 Curriculum	resources/chapt_screen_images/curriculum.png
-http://science.c-moor.org/CURE-MicrobialMysteries/a-new-chapter.html	2 A new chapter	resources/chapt_screen_images/a-new-chapter.png
-http://science.c-moor.org/CURE-MicrobialMysteries/learning-objectives.html	2.1 Learning Objectives	resources/chapt_screen_images/learning-objectives.png
-http://science.c-moor.org/CURE-MicrobialMysteries/libraries.html	2.2 Libraries	resources/chapt_screen_images/libraries.png
-http://science.c-moor.org/CURE-MicrobialMysteries/topic-of-section.html	2.3 Topic of Section	resources/chapt_screen_images/topic-of-section.png
-http://science.c-moor.org/CURE-MicrobialMysteries/code-examples.html	2.4 Code examples	resources/chapt_screen_images/code-examples.png
-http://science.c-moor.org/CURE-MicrobialMysteries/image-example.html	2.5 Image example	resources/chapt_screen_images/image-example.png
-http://science.c-moor.org/CURE-MicrobialMysteries/video-examples.html	2.6 Video examples	resources/chapt_screen_images/video-examples.png
-http://science.c-moor.org/CURE-MicrobialMysteries/file-examples.html	2.7 File examples	resources/chapt_screen_images/file-examples.png
-http://science.c-moor.org/CURE-MicrobialMysteries/website-examples.html	2.8 Website Examples	resources/chapt_screen_images/website-examples.png
-http://science.c-moor.org/CURE-MicrobialMysteries/citation-examples.html	2.9 Citation examples	resources/chapt_screen_images/citation-examples.png
-http://science.c-moor.org/CURE-MicrobialMysteries/stylized-boxes.html	2.10 Stylized boxes	resources/chapt_screen_images/stylized-boxes.png
-http://science.c-moor.org/CURE-MicrobialMysteries/dropdown-summaries.html	2.11 Dropdown summaries	resources/chapt_screen_images/dropdown-summaries.png
-http://science.c-moor.org/CURE-MicrobialMysteries/print-out-session-info.html	2.12 Print out session info	resources/chapt_screen_images/print-out-session-info.png
+http://science.c-moor.org/CURE-MicrobialMysteries/welcome-to-your-genomics-adventure.html	1.1 Welcome to Your Genomics Adventure	resources/chapt_screen_images/welcome-to-your-genomics-adventure.png
+http://science.c-moor.org/CURE-MicrobialMysteries/activity---create-accounts.html	1.2 Activity - Create Accounts	resources/chapt_screen_images/activity---create-accounts.png
+http://science.c-moor.org/CURE-MicrobialMysteries/the-scientic-process.html	1.3 The Scientic Process	resources/chapt_screen_images/the-scientic-process.png
+http://science.c-moor.org/CURE-MicrobialMysteries/homework---post-introductions.html	1.4 Homework - Post Introductions	resources/chapt_screen_images/homework---post-introductions.png
+http://science.c-moor.org/CURE-MicrobialMysteries/scientific-literature.html	2 Scientific Literature	resources/chapt_screen_images/scientific-literature.png
+http://science.c-moor.org/CURE-MicrobialMysteries/lecture---whats-in-your-xyz.html	2.1 Lecture - What’s in Your XYZ	resources/chapt_screen_images/lecture---whats-in-your-xyz.png
+http://science.c-moor.org/CURE-MicrobialMysteries/pre-lab---scientific-literature.html	2.2 Pre-lab - Scientific Literature	resources/chapt_screen_images/pre-lab---scientific-literature.png
+http://science.c-moor.org/CURE-MicrobialMysteries/discussion---scientific-literature.html	2.3 Discussion - Scientific Literature	resources/chapt_screen_images/discussion---scientific-literature.png
+http://science.c-moor.org/CURE-MicrobialMysteries/lecture---scientific-literature.html	2.4 Lecture - Scientific Literature	resources/chapt_screen_images/lecture---scientific-literature.png
+http://science.c-moor.org/CURE-MicrobialMysteries/project---scientific-literature.html	2.5 Project - Scientific Literature	resources/chapt_screen_images/project---scientific-literature.png
+http://science.c-moor.org/CURE-MicrobialMysteries/presentation---scientific-literature.html	2.6 Presentation - Scientific Literature	resources/chapt_screen_images/presentation---scientific-literature.png
+http://science.c-moor.org/CURE-MicrobialMysteries/microbial-genomes.html	3 Microbial Genomes	resources/chapt_screen_images/microbial-genomes.png
+http://science.c-moor.org/CURE-MicrobialMysteries/lecture---microbial-genome.html	3.1 Lecture - Microbial Genome	resources/chapt_screen_images/lecture---microbial-genome.png
+http://science.c-moor.org/CURE-MicrobialMysteries/pre-lab---microbial-genomes.html	3.2 Pre-lab - Microbial Genomes	resources/chapt_screen_images/pre-lab---microbial-genomes.png
+http://science.c-moor.org/CURE-MicrobialMysteries/discussion---microbial-genomes.html	3.3 Discussion - Microbial Genomes	resources/chapt_screen_images/discussion---microbial-genomes.png
+http://science.c-moor.org/CURE-MicrobialMysteries/project---microbial-genomes.html	3.4 Project - Microbial Genomes	resources/chapt_screen_images/project---microbial-genomes.png
+http://science.c-moor.org/CURE-MicrobialMysteries/presentation---microbial-genomes.html	3.5 Presentation - Microbial Genomes	resources/chapt_screen_images/presentation---microbial-genomes.png
+http://science.c-moor.org/CURE-MicrobialMysteries/taxonomy-profiling.html	4 Taxonomy Profiling	resources/chapt_screen_images/taxonomy-profiling.png
+http://science.c-moor.org/CURE-MicrobialMysteries/activity---taxonomy-profiling-spreadsheet.html	4.1 Activity - Taxonomy Profiling Spreadsheet	resources/chapt_screen_images/activity---taxonomy-profiling-spreadsheet.png
+http://science.c-moor.org/CURE-MicrobialMysteries/lecture---taxonomy-profiling.html	4.2 Lecture - Taxonomy Profiling	resources/chapt_screen_images/lecture---taxonomy-profiling.png
+http://science.c-moor.org/CURE-MicrobialMysteries/prelab---taxonomy-profiling.html	4.3 Prelab - Taxonomy Profiling	resources/chapt_screen_images/prelab---taxonomy-profiling.png
+http://science.c-moor.org/CURE-MicrobialMysteries/discussion---taxonomy-profiling.html	4.4 Discussion - Taxonomy Profiling	resources/chapt_screen_images/discussion---taxonomy-profiling.png
+http://science.c-moor.org/CURE-MicrobialMysteries/project---taxonomy-profiling.html	4.5 Project - Taxonomy Profiling	resources/chapt_screen_images/project---taxonomy-profiling.png
+http://science.c-moor.org/CURE-MicrobialMysteries/presentation---taxonomy-profiling.html	4.6 Presentation - Taxonomy Profiling	resources/chapt_screen_images/presentation---taxonomy-profiling.png
+http://science.c-moor.org/CURE-MicrobialMysteries/finding-amrs.html	5 Finding AMRs	resources/chapt_screen_images/finding-amrs.png
+http://science.c-moor.org/CURE-MicrobialMysteries/lecture---finding-amrs.html	5.1 Lecture - Finding AMRs	resources/chapt_screen_images/lecture---finding-amrs.png
+http://science.c-moor.org/CURE-MicrobialMysteries/prelab---finding-amrs.html	5.2 Prelab - Finding AMRs	resources/chapt_screen_images/prelab---finding-amrs.png
+http://science.c-moor.org/CURE-MicrobialMysteries/discussion---finding-amrs.html	5.3 Discussion - Finding AMRs	resources/chapt_screen_images/discussion---finding-amrs.png
+http://science.c-moor.org/CURE-MicrobialMysteries/project---finding-amrs.html	5.4 Project - Finding AMRs	resources/chapt_screen_images/project---finding-amrs.png
+http://science.c-moor.org/CURE-MicrobialMysteries/presentation---finding-amrs.html	5.5 Presentation - Finding AMRs	resources/chapt_screen_images/presentation---finding-amrs.png
+http://science.c-moor.org/CURE-MicrobialMysteries/kickstart-project-work.html	6 Kickstart Project Work	resources/chapt_screen_images/kickstart-project-work.png
+http://science.c-moor.org/CURE-MicrobialMysteries/lecture---kickstart-project-work.html	6.1 Lecture - Kickstart Project Work	resources/chapt_screen_images/lecture---kickstart-project-work.png
+http://science.c-moor.org/CURE-MicrobialMysteries/activity---kickstart-project-work.html	6.2 Activity - Kickstart Project Work	resources/chapt_screen_images/activity---kickstart-project-work.png
+http://science.c-moor.org/CURE-MicrobialMysteries/identifying-datasets.html	7 Identifying Datasets	resources/chapt_screen_images/identifying-datasets.png
+http://science.c-moor.org/CURE-MicrobialMysteries/lecture---possible-datasets.html	7.1 Lecture - Possible Datasets	resources/chapt_screen_images/lecture---possible-datasets.png
+http://science.c-moor.org/CURE-MicrobialMysteries/activity---possible-datasets.html	7.2 Activity - Possible Datasets	resources/chapt_screen_images/activity---possible-datasets.png
+http://science.c-moor.org/CURE-MicrobialMysteries/conducting-your-research.html	8 Conducting Your Research	resources/chapt_screen_images/conducting-your-research.png
+http://science.c-moor.org/CURE-MicrobialMysteries/scientific-posters.html	9 Scientific Posters	resources/chapt_screen_images/scientific-posters.png
+http://science.c-moor.org/CURE-MicrobialMysteries/lecture---scientific-posters.html	9.1 Lecture - Scientific Posters	resources/chapt_screen_images/lecture---scientific-posters.png
+http://science.c-moor.org/CURE-MicrobialMysteries/activity---scientific-posters.html	9.2 Activity - Scientific Posters	resources/chapt_screen_images/activity---scientific-posters.png
+http://science.c-moor.org/CURE-MicrobialMysteries/making-group-poster.html	9.3 Making Group Poster	resources/chapt_screen_images/making-group-poster.png
+http://science.c-moor.org/CURE-MicrobialMysteries/activity---share-your-poster.html	9.4 Activity - Share Your Poster	resources/chapt_screen_images/activity---share-your-poster.png
+http://science.c-moor.org/CURE-MicrobialMysteries/professional-development-1.html	10 Professional Development	resources/chapt_screen_images/professional-development-1.png
+http://science.c-moor.org/CURE-MicrobialMysteries/lecture---next-steps.html	10.1 Lecture - Next Steps	resources/chapt_screen_images/lecture---next-steps.png
+http://science.c-moor.org/CURE-MicrobialMysteries/activity---next-steps.html	10.2 Activity - Next Steps	resources/chapt_screen_images/activity---next-steps.png
+http://science.c-moor.org/CURE-MicrobialMysteries/science-talks.html	10.3 Science Talks	resources/chapt_screen_images/science-talks.png
+http://science.c-moor.org/CURE-MicrobialMysteries/create-your-cv.html	10.4 Create your CV	resources/chapt_screen_images/create-your-cv.png
+http://science.c-moor.org/CURE-MicrobialMysteries/c-moor-scholars.html	11 C-MOOR Scholars	resources/chapt_screen_images/c-moor-scholars.png
+http://science.c-moor.org/CURE-MicrobialMysteries/c-moor-scholars-1.html	11.1 C-MOOR Scholars	resources/chapt_screen_images/c-moor-scholars-1.png
+http://science.c-moor.org/CURE-MicrobialMysteries/pursue-further-research.html	11.2 Pursue further research	resources/chapt_screen_images/pursue-further-research.png
+http://science.c-moor.org/CURE-MicrobialMysteries/biodigs.html	11.3 BioDIGS	resources/chapt_screen_images/biodigs.png
+http://science.c-moor.org/CURE-MicrobialMysteries/online-community.html	12 Online Community	resources/chapt_screen_images/online-community.png
+http://science.c-moor.org/CURE-MicrobialMysteries/galaxy-tutorials.html	13 Galaxy Tutorials	resources/chapt_screen_images/galaxy-tutorials.png
+http://science.c-moor.org/CURE-MicrobialMysteries/a-short-introduction-to-galaxy.html	13.1 A short introduction to Galaxy	resources/chapt_screen_images/a-short-introduction-to-galaxy.png
+http://science.c-moor.org/CURE-MicrobialMysteries/qc-and-galaxy-workflows.html	13.2 QC and Galaxy Workflows	resources/chapt_screen_images/qc-and-galaxy-workflows.png
+http://science.c-moor.org/CURE-MicrobialMysteries/galaxy-data-collections.html	13.3 Galaxy data collections	resources/chapt_screen_images/galaxy-data-collections.png
+http://science.c-moor.org/CURE-MicrobialMysteries/sciserver-tutorials.html	14 SciServer Tutorials	resources/chapt_screen_images/sciserver-tutorials.png
+http://science.c-moor.org/CURE-MicrobialMysteries/meet-r.html	14.1 Meet R	resources/chapt_screen_images/meet-r.png
+http://science.c-moor.org/CURE-MicrobialMysteries/r-for-data-science-1.html	14.2 R for Data Science 1	resources/chapt_screen_images/r-for-data-science-1.png
+http://science.c-moor.org/CURE-MicrobialMysteries/test-driver.html	14.3 test-driveR	resources/chapt_screen_images/test-driver.png
+http://science.c-moor.org/CURE-MicrobialMysteries/r-for-data-science-2.html	14.4 R for Data Science 2	resources/chapt_screen_images/r-for-data-science-2.png
 http://science.c-moor.org/CURE-MicrobialMysteries/about-the-authors.html	About the Authors	resources/chapt_screen_images/about-the-authors.png
-http://science.c-moor.org/CURE-MicrobialMysteries/references.html	References	resources/chapt_screen_images/references.png
+http://science.c-moor.org/CURE-MicrobialMysteries/example-cure-and-minicure-projects.html	15 Example CURE and miniCURE Projects	resources/chapt_screen_images/example-cure-and-minicure-projects.png
+http://science.c-moor.org/CURE-MicrobialMysteries/troubleshooting.html	16 Troubleshooting	resources/chapt_screen_images/troubleshooting.png
+http://science.c-moor.org/CURE-MicrobialMysteries/references-1.html	References	resources/chapt_screen_images/references-1.png
