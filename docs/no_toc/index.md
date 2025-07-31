@@ -1,6 +1,6 @@
 ---
-title: "Course Name"
-date: "July 30, 2025"
+title: "CURE Microbial Mysteries"
+date: "July 31, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
