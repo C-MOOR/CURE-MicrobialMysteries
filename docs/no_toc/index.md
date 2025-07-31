@@ -1,5 +1,5 @@
 ---
-title: "CURE Microbial Mysteries"
+title: "CURE: Microbial Mysteries"
 date: "July 31, 2025"
 site: bookdown::bookdown_site
 documentclass: book
@@ -19,130 +19,75 @@ output:
 
 # About {-}
 
-What is the essence/purpose of this course or module (2-3 sentences).
+Welcome to Microbial Mysteries, a Course-based Undergraduate Research Experience (CURE) that takes you on a genomics adventure from soil to gut!
 
-<div class="figure">
-<img src="assets/C-MOOR_Template/c-moor-logo-horizontal.png" alt="C-MOOR logo" width="789" />
-<p class="caption">(\#fig:unnamed-chunk-1)C-MOOR logo</p>
-</div>
-
-### Audience and Prerequisites {- .unlisted}
-
-What is the target audience?
-
-<!-- Example:
-This module is designed for introductory biology courses.  Key ideas center around genes and homologs, and the proteins they encode.  We typically include this module as part of a Molecular Biology unit.
--->
-
-**Prerequisites**:
-
-  - Prereq 1
-  - Prereq 2
-  
-Why are these needed?  Provide a brief explanation that will help instructors decide whether it's a good fit for their students.
-
-<!-- Example:
-
-**Prerequisites**: Basic understanding of genes and homology
-
-The project portion of the module involves looking up genes in different databases (human and model organism). Students should have a basic understanding of what a gene is (and why we care about them), and why it makes sense to study similar genes (i.e. homologs) across different organisms.  This module will help solidify these concepts by having students investigate concrete examples of genes and their homologs.
-
--->
+This CURE allows students to develop a project using genomics datasets from environments such as human gut and soil, and learn how organisms, high-throughput sequencing, and the scientific process are used in both basic and clinical research.
 
 
-### Format {- .unlisted}
+<img src="index_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-<!--
-Class Type should be one of the following (from CourseSource):
-- Lecture
-- Lab
-- Seminar
-- Discussion Section
-- On-line
-- Other
--->
+### Skills Level {- .unlisted}
 
-<!--
-Lesson Length should be one of the following (from CourseSource):
-- Portion of one class period
-- One class period
-- Multiple class periods
-- One term (semester or quarter)
-- One year
-- Other
+::: {.notice}
+_Genetics_  
+**Novice**: Introduction to [central dogma of molecular biology](https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code)
 
-You can then provide additional details
+_Programming skills_  
+**Novice**: No programming experience needed
 
-Example:
+_Research skills_ 
+**Novice**: No scientific researdch experience needed
+:::
 
-- **Class Type:** Lab (computer based)
-- **Lesson Length:** One class period (2-3 hr lab)
-    - 40 min setup and introduction (for shorter lab periods, these can be done ahead of time)
-    - 2 hr core lab exercises
-    - Optional 20 min "challenge" exercise
-    
-Another example:
-
-- **Class Type:** Lab (computer based)
-- **Lesson Length:** One class period (2-3 hr lab)
-    - 30 min pre-lab introducing ...
-    - 15 min lab-lecture
-    - 1.5 hr core lab exercises
-      - 45 min exercises covering...
-      - 45 min project investigating...
-    - (flexible) write-up and/or present findings
-
--->
-
-- **Class Type:**
-- **Lesson Length:**
 
 ### Learning Goals {-}
 
-1. Goal 1 
-1. Goal 2
-1. Goal 3
+- **Navigate biological databases** - access the wealth of publically available scientific knowledge and data (e.g. NCBI).
+- **Analyze Big Data** - e.g. plot and interpret results from next generation sequencing (NGS) experiment.
+- **Gain skills in computational and bioinformatics data analysis** - e.g. web-based platforms or command-line bioingofmatics tools (e.g. Galaxy, R).
+- **Practice the scientific process and critical thinking** -  learing to read and evaluate scientific literature, ask questions, identify avenues for research, design experiments, analyze and interpret data, and integrating results into the broader scientific discourse.
+- **Engage in scientific research** - Apply knowledge and skills learned to complete a project using existing datasets to ask new questions, generate novel conclusions and create and present a Final Poster.
 
 ### Core Competencies {- .unlisted}
 
-This activity addresses the following core concepts and competencies:
+The activities in this CURE address several core concepts and competencies as identified by professional societies and working groups.  The table below lists the relevant core concepts and competencies adopted from the following sources:
 
-<table>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> **Vision and Change** </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> **Genetics** </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> **Bioinformatics** </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-</tbody>
-</table>
-
-Core concepts and competencies are taken from the following sources:
-
-  - [Vision and Change in Undergraduate Biology Education](https://visionandchange.org/) AAAS report
-  - [Genetics Core Competencies](https://genetics-gsa.org/education/genetics-learning-framework/) by [GSA](https://genetics-gsa.org/)
+  - [Scientific Thinking and Critical Thinking in Science Education](https://doi.org/10.1007/s11191-023-00460-5)
+  - [Genetics Learning Framework](https://genetics-gsa.org/education/genetics-learning-framework/) by [GSA](https://genetics-gsa.org/)
   - [Bioinformatics core competencies for undergraduate life sciences education](https://doi.org/10.1371/journal.pone.0196878) by [NIBLSE](https://qubeshub.org/community/groups/niblse)
+- [Establishing a baseline of science communication skills in an undergraduate environmental science course](https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-021-00304-0)
+
+
+|**Critical Thinking**|
+| :--|
+| - Enhancing higher-order cognitive skills that go beyond memorization|
+| - Solve problems using quantitative and qualitative information and analysis|
+| - Promote scientific evidence-based thinking and active learning|
+|<br>| 
+|**Genetics**|
+| - Locate, read, and comprehend primary literature research papers on genetics topics|
+| - Implement observational strategies to formulate a question|
+| - Generate testable hypotheses|
+| - Generate and interpret graphs displaying experimental results|
+| - Critique data and datasets and use bioinformatics to assess genetics data|
+| <br>|
+|**Bioinformatics**|
+| - Explain the role of computation in addressing hypothesis-driven and hypothesis-generating questions within the life sciences|
+| - Develop bioinformatics core competencies for undergraduate life sciences education| 
+| - Use bioinformatics tools to examine complex biological problems in genetics, evolution, information flow, and other important areas of biology|
+| - Find, retrieve, and organize various types of biological data |
+| use bioinformatics tools to analyze genomic and/or metagenomic data | 
+| - Explore and/or model biological interactions and networks a using bioinformatics|
+| <br>|
+|**Scientific Communication**|
+| - Communicate experimental results effectively, including written summaries, verbal presentations and poster presentation|
+| - Understand Essential Elements for Effective Science Communication (EEES) such as Who? (is the audience), Why? (e.g. Purpose), What? (content) and How? (e.g. style).
 
 
 ### C-MOOR Content Collection {- .unlisted}
 
 
 This content is part of a collection of teaching resources developed by C-MOOR.  C-MOOR works to break down barriers to scientific participation and build pathways for the next generation of data scientists through authentic research experiences.  Learn more about C-MOOR by [viewing our projects](https://github.com/c-moor), or read about how C-MOOR is [integrating research experience into undergraduate biology courses](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html) at Clovis Community College.
-
-
-<!-- ## Available course formats
-This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.
-
-- The material for this course can be viewed without login requirement on this [Bookdown website](LINK HERE). This format might be most appropriate for you if you rely on screen-reader technology.
-- This course can be taken for [free certification through Leanpub](LINK HERE).
-- This course can be taken on [Coursera for certification here](LINK HERE) (but it is not available for free on Coursera).
-- Our courses are open source, you can find the [source material for this course on GitHub](LINK HERE). 
 -->
+
 
