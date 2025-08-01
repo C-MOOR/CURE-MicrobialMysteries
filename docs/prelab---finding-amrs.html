@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2025-07-31" />
+<meta name="date" content="2025-08-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -458,8 +458,8 @@
 <p>Use Galaxy platform to:</p>
 <ol style="list-style-type: decimal">
 <li>Perform <em>de novo</em> genome assembly of long reads into ‘contigs’, using the <code>Flye</code> tool.</li>
-<li>Visualize contigs with the <code>Bandage Image</code> tool</li>
-<li>Identify AMRs in the contig assemblies using the <code>ABRicate</code> tool</li>
+<li>Visualize contigs with the <code>Bandage Image</code> tool.</li>
+<li>Identify AMRs in the contig assemblies using the <code>ABRicate</code> tool.</li>
 </ol>
 </div>
 <div id="introduction-8" class="section level3 hasAnchor" number="5.2.3">
@@ -492,11 +492,12 @@
 <h3><span class="header-section-number">5.2.4</span> Activity 1 – Flye assembly<a href="prelab---finding-amrs.html#activity-1-flye-assembly" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 45 min</em></p>
 <div class="notice">
-<p>The sample used in this activity is the <a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF">Zymo Gut Microbiome Standard</a>, sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this Activity.</p>
+<p>The sample used in this activity is the <a href="https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF">Zymo Gut Microbiome Standard</a>, sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this activity.</p>
 </div>
 <div id="instructions-34" class="section level4 hasAnchor" number="5.2.4.1">
 <h4><span class="header-section-number">5.2.4.1</span> Instructions<a href="prelab---finding-amrs.html#instructions-34" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p><strong>1. Run Flye assembly tool in Galaxy using <mark style="background-color: yellow">Zymo Gut Standard D6331 subset2</mark> to assemble gut microbial genomes.</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Run Flye assembly tool in Galaxy using <mark style="background-color: yellow">Zymo Gut Standard D6331 subset2</mark> to assemble gut microbial genomes.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Obtain <strong>.fastq</strong> file from <code>Zymo_Gut_Standard_D6331_subset2</code>: <a href="https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2">https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2</a>.</p></li>
 <li><p>Name your new history <strong>“Finding gut AMRs”</strong>.</p></li>
@@ -507,6 +508,7 @@
 <li>Under <strong>Perform metagenomic assembly</strong>: select <code>Yes</code>.</li>
 <li>Under <strong>Generate a log file</strong>: select <code>Yes</code>.</li>
 </ul></li>
+</ol></li>
 </ol>
 <p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 <p><img src="resources/images/finding-AMRs_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_10.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
@@ -586,7 +588,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">2B. Based on your Flye output <code>log report file</code>: At the very bottom of the file find the length of the longest assembled fragment? Look for <code>Largest frg</code>?</th>
+<th align="left">2B. Based on your Flye output <code>log report file</code>: At the very bottom of the file find the length of the longest assembled fragment? Look for <code>Largest frg</code>.</th>
 </tr>
 </thead>
 <tbody>
@@ -606,7 +608,7 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">*At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above`</td>
+<td align="left">*At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above.</td>
 </tr>
 <tr class="even">
 <td align="left"><br></td>
@@ -620,7 +622,7 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3A. Based on your Flye output <code>assembly info file</code> sorted by contig length (high to low, in base pairs, bp) - What is the longest `contig size?</th>
+<th align="left">3A. Based on your Flye output <code>assembly info file</code> sorted by contig length (high to low, in base pairs, bp) - What is the longest contig size?</th>
 </tr>
 </thead>
 <tbody>
@@ -902,7 +904,8 @@
 </table>
 <p><strong>2. Research an AMR gene.</strong></p>
 <ul>
-<li>Use any search tools for your research, but we encourage you to use PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/">https://pubmed.ncbi.nlm.nih.gov/</a> where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input. Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.</li>
+<li><p>Use any search tools for your research, but we encourage you to use PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/">https://pubmed.ncbi.nlm.nih.gov/</a> where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input.</p></li>
+<li><p>Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.</p></li>
 </ul>
 <table>
 <colgroup>
