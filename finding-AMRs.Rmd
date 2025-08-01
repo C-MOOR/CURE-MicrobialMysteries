@@ -73,7 +73,7 @@ The sample used in this activity is the [Zymo Gut Microbiome Standard](https://w
 
 #### Instructions
 
-**1. Run Flye assembly tool in Galaxy using <mark style="background-color: yellow">Zymo Gut Standard D6331 subset2</mark> to assemble gut microbial genomes.**
+1. Run Flye assembly tool in Galaxy using <mark style="background-color: yellow">Zymo Gut Standard D6331 subset2</mark> to assemble gut microbial genomes.
 
     a. Obtain **.fastq** file from `Zymo_Gut_Standard_D6331_subset2`: [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2).
 
@@ -81,10 +81,10 @@ The sample used in this activity is the [Zymo Gut Microbiome Standard](https://w
 
     c. Run **Flye** tool to assess sequence quality using the following Tool Parameters:
 
-    - Under **Input Reads**: select your `aymo_gut_standard_D6331_subset2` **.fastq** dataset.
-    - Under **Mode**: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
-    - Under **Perform metagenomic assembly**: select `Yes`.
-    - Under **Generate a log file**: select `Yes`.
+        - Under **Input Reads**: select your `aymo_gut_standard_D6331_subset2` **.fastq** dataset.
+        - Under **Mode**: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
+        - Under **Perform metagenomic assembly**: select `Yes`.
+        - Under **Generate a log file**: select `Yes`.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g33689793048_0_0#slide=id.g33689793048_0_0")
@@ -351,10 +351,10 @@ The sample used in this activity is from the [BioDIGS Project](https://biodigs.o
 
     c. Run **Flye** tool to assess sequence quality using the following **Tool Parameters**.
 
-    - Under **Input Reads**: select your nano `pore-soil-subset-filtered` **.fastq** dataset.
-    - Under **Mode**: select `--nano-raw` option, since the sequences were obtained using Nanopore sequencing technology.
-    - Under **Perform metagenomic assembly**: select `Yes`.
-    - Under **Generate a log file**: select `Yes`.
+        - Under **Input Reads**: select your nano `pore-soil-subset-filtered` **.fastq** dataset.
+        - Under **Mode**: select `--nano-raw` option, since the sequences were obtained using Nanopore sequencing technology.
+        - Under **Perform metagenomic assembly**: select `Yes`.
+        - Under **Generate a log file**: select `Yes`.
 
 2. Explore Flye output **assembly info** file which is sorted by length (in base pairs, bp) of the contig (high to low). 
 
