@@ -374,3 +374,4 @@ grading-criteria-23
 footnotes-30
 example-cure-and-minicure-projects
 troubleshooting
+core-competencies-1
