@@ -1,6 +1,6 @@
 ---
 title: "CURE: Microbial Mysteries"
-date: "August 01, 2025"
+date: "August 05, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
