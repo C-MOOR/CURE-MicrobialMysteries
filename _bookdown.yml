@@ -14,6 +14,7 @@ rmd_files: ["index.Rmd",
             "sciserver-tutorials.Rmd",
             "About.Rmd",
             "Appendix.Rmd",
+            "core-competencies.Rmd",
             "References.Rmd"]
 new_session: yes
 delete_merged_file: true
