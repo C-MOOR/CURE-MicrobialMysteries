@@ -1,6 +1,6 @@
 # (PART\*) APPENDIX {-}
 
-# Example CURE and miniCURE Projects
+# Example CURE Projects
 
 <h2>Look at This!</h2>
 
