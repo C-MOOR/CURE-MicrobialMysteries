@@ -5,11 +5,11 @@
 
 **Taxonomic profiling** refers to the annotation and classification of metagenomics sequencing reads with taxonomic information. Due to the high complexity of metagenomics data, long-read shotgun sequencing offers many advantages over short-read sequencing for taxonomic classification. In this module, we will get a taste of long-read metagenomics sequencing data, and learn to classify and visualize taxonomy in Galaxy platform using tools like Kraken 2 to annotate and Krona plot to visualize taxonomy.
 
-![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_319.png){width=100%}
+![](taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_319.png){width=100%}
 
 This **Taxonomy Profiling module** offers hands-on experience with real data. We will use **lecture** material to learn about taxa and related concepts like taxonomic classification and species abundance. In the **Activity** portion of the module we will explore taxonomy of **gut microbiome standard** from Zymo Research using output of Kraken 2. This standard is a sample of known microbes with expected relative abundances. Through this activity we will become familiar with the structure of our taxonomy data and do some basic analyses. In **Prelab** activity, we will have a chance to perform taxonomy profiling ourselves using raw sequences from the gut microbiome standard on Galaxy platform to reproduce the results we analyzed in the previous activity, using the tools Kraken 2 (for assignment of taxonomy to sequencing reads) and Krona pie charts (for visualization). Subsequently, we will do a **Project** activity, where we will taxonomically classify a **soil** metagenome sample which serves as an example of an uncurated novel data. We will compare our results with the gut microbiome standard over a variety of metrics to learn what to expect when handling real data.
 
-![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_331.png){width=100%}
+![](taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_331.png){width=100%}
 
 ## Activity - Taxonomy Profiling Spreadsheet
 
@@ -17,7 +17,7 @@ This **Taxonomy Profiling module** offers hands-on experience with real data. We
 
 Here we will have a hands-on experience with real taxonomy profiling data!  We will explore the Kraken2 output for [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF) and optionally compare to the [Zymo Human Fecal Reference](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf) profile. We will introduce concepts of taxa and their relationships, begin familiarizing ourselves with data analysis goals to quantify the proportion of classified and unclassified species, identify the most abundant species, etc. 
 
-![](resources/images/taxonomy-profiling_files/figure-docx//16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk_g35f391192_00.png){width=100%}
+![](taxonomy-profiling_files/figure-docx//16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk_g35f391192_00.png){width=100%}
 
 See accompanying [slides](http://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk).
 
@@ -46,7 +46,7 @@ The sample used in this activity is the [Zymo Gut Microbiome Standard](https://w
 1. Access tax-data-gut.tsv and open it with Google Sheets [here](http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-).
 
 
-![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_60.png){width=100%}
+![](taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_60.png){width=100%}
 
 2. Identify what information is provided in columns of the tax-data-gut taxonomy file.
 
@@ -193,7 +193,7 @@ Last Revised: July 2025
 
 ## Lecture - Taxonomy Profiling
 
-![](resources/images/taxonomy-profiling_files/figure-docx//10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY_g35f391192_00.png){width=100%}
+![](taxonomy-profiling_files/figure-docx//10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY_g35f391192_00.png){width=100%}
 
 [Slides: Taxonomy Profiling](https://docs.google.com/presentation/d/10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY/edit?usp=sharing)
 
@@ -271,7 +271,7 @@ b. Run NanoPlot using default settings. Under Tool Parameters, **check the follo
   - Browse to select your fastq dataset. **Note**: Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
   - Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete. Answer related questions below.
 
-![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_66.png){width=100%}
+![](taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_66.png){width=100%}
 
 #### Questions
 
@@ -353,7 +353,7 @@ b. Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 
 a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling) and click on **Run**. 
 
-![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_82.png){width=100%}
+![](taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_82.png){width=100%}
 
 b. Browse to select your fastq dataset by clicking on the ‘...’ tab.
 
@@ -365,7 +365,7 @@ e. Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, 
 
 - *Note, that it can take longer than 30 minutes to run the scheduled jobs in part, because Galaxy servers are public shared resources used concurrently by numerous users, so that when many users demand resources like CPU, memory, or disk space, it can create bottlenecks and delays, affecting the speed of your particular job.*
 
-![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_92.png){width=100%}
+![](taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_92.png){width=100%}
 
 2. Examine select aspects of Kraken 2 tool. 
 
@@ -482,7 +482,7 @@ b. Then, in the search bar enter ‘Kraken 2’’ and select the **Kraken2** to
 
 Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes. Click on Display icon (eyeball) next to the **Krona_pie_chart** dataset to explore the results as a Krona pie chart. 
 
-![](resources/images/taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g336203e918d_0_0.png){width=100%}
+![](taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g336203e918d_0_0.png){width=100%}
 
 | 3A. What are the 2 main phyla you observe?| 
 |:--|

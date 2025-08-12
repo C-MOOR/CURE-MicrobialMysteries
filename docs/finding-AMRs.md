@@ -5,16 +5,16 @@
 [Antimicrobial resistance genes](https://en.wikipedia.org/wiki/Antimicrobial_resistance) (AMR genes) allow microbes to counteract the effects of antimicrobial drugs used to treat infections.
 Databases such as the [NCBI Pathogen Detection Reference Gene Catalog](https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance) and the [Comprehensive Antibiotic Resistance Database](https://card.mcmaster.ca) contain thousands of curated resistance genes and help make AMR-related data more widely available.
 
-![](resources/images/finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_440.png){width=100%}
+![](finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_440.png){width=100%}
 
 In the **Finding AMRs module**, the **lecture** material will cover antibiotic resistance and concepts of genome assembly and genome annotation. In the **Prelab** activity, using `Galaxy` platform, we will assemble the prototype of gut microbiome using gut microbiome standard from Zymo Research.  We will first assemble the genomes into *contigs*, then visualize the contigs using `Bandage Image` tool, followed by screening contigs for AMRs using the tool [ABRicate](https://github.com/tseemann/abricate)antimicrobial genes using a variety of databases including the NCBI database. 
 A similar strategy can be used to screen for virulence factors using databases such as the [Virulence Factor Database](https://pubmed.gov/34850947) (VFDB). For **Project** activity, students will perform *soil* genome assembly and in addition to annotating soil metagenomes with AMRs, we will assemble contigs into larger *MAGs*, and learn about annotating MAGs with tools like `GTDB-Tk`. 
 
-![](resources/images/finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_345.png){width=100%}
+![](finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_345.png){width=100%}
 
 ## Lecture - Finding AMRs
 
-![](resources/images/finding-AMRs_files/figure-docx//165OHha9IYOctuyzg1CG0LwGxNnbC85JyJfMZT6xnYHw_g35f391192_00.png){width=100%}
+![](finding-AMRs_files/figure-docx//165OHha9IYOctuyzg1CG0LwGxNnbC85JyJfMZT6xnYHw_g35f391192_00.png){width=100%}
 
 [Slides: Finding AMRs](https://docs.google.com/presentation/d/165OHha9IYOctuyzg1CG0LwGxNnbC85JyJfMZT6xnYHw/edit?usp=sharing)
 
@@ -36,7 +36,7 @@ Use Galaxy platform to:
 
 Genome assembly is the process of reconstructing genomes from the DNA sequencing reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. `Flye`, is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using `Flye` we will aim to reconstruct bacterial genomes and plasmids and enable detection of important genes implicated in anbibiotic resistance. Ideally, after assembly we want to get back circular contigs as that would typically indicate the identification of entire microbial genome(s) or plasmid(s)!
 
-![](resources/images/finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_459.png){width=100%}
+![](finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_459.png){width=100%}
 
 Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMRs. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: [10.1038/nrmicro2312](https://doi.org/10.1038/nrmicro2312) and [10.3390/antibiotics13121112](https://doi.org/10.3390/antibiotics13121112).
 
@@ -72,13 +72,13 @@ The sample used in this activity is the [Zymo Gut Microbiome Standard](https://w
         - Under **Perform metagenomic assembly**: select `Yes`.
         - Under **Generate a log file**: select `Yes`.
 
-![](resources/images/finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_0.png){width=100%}
+![](finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_0.png){width=100%}
 
-![](resources/images/finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_10.png){width=100%}
+![](finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_10.png){width=100%}
 
 **2. View Flye results** - Explore Flye output files and answer questions below.
 
-![](resources/images/finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_21.png){width=100%}
+![](finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_21.png){width=100%}
 
 #### Questions
 

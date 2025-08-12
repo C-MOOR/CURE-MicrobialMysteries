@@ -4,13 +4,13 @@
 
 Microbial genomes range in size and organization. Despite their small size and having fewer number of coding genes, bacteria are more taxonomically diverse, more abundant and more successful in colonizing neew habitats - they are present in virtually every environment on earth!. This is in part due to bacteria having very 'busy' genomes with a high proportion of protein-coding functional genes and regions (and very little noncoding DNA and introns) which provide a source of innovation, novelty and adaptation e.g. by simply altering (mutating) functional genes [(P.C. Kirchberger et al, 2020)](https://doi.org/10.1146/annurev-micro-020518-115822). In contrast, eukaryotic genomes mostly consist of noncoding DNA, and a lot of mutations are bound to occur in those abundant noncoding regions.
 
-![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_0.png){width=100%}
+![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_0.png){width=100%}
 
 In this **Microbial Genomes module**, we will learn about microbial genomes and microbial databases. In the **Pre-lab** activity, we will use *E. coli* to explore NIH genetic sequence database **GenBank**, bacterial databases such as **BV-BRC** and tree of life database **Lifemap**. For **Project** activity, we will continue microbial genome exploration using a published metagenome-assembled genomes or **MAGs**, which are microbial genomes assembled (reconstructed from) metagenome sequencing data. We will learn about the taxonomy of the MAG, its size, and assembly statistics and about its genes.
 
 ## Lecture - Microbial Genome
 
-![](resources/images/microbial-genomes_files/figure-docx//1bnFhIIu6ZXSCjlrz5qWc7BZNz-7VfYWkKgbz3kL-ZNU_g35f391192_00.png){width=100%}
+![](microbial-genomes_files/figure-docx//1bnFhIIu6ZXSCjlrz5qWc7BZNz-7VfYWkKgbz3kL-ZNU_g35f391192_00.png){width=100%}
 
 [Slides: Microbial Genomes](https://docs.google.com/presentation/d/1bnFhIIu6ZXSCjlrz5qWc7BZNz-7VfYWkKgbz3kL-ZNU/edit?usp=sharing)
 
@@ -30,7 +30,7 @@ Impress all the information that is freely available about well studied (and not
 
 ### Activity 1 – GenBank
 
-![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_0.png){width=100%}
+![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_0.png){width=100%}
 
 #### Activity 1 - Part I
 
@@ -344,7 +344,7 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 
 In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab **enter** the GenBank number of your MAG (e.g. GCF_030147545.1) and click **Search**. 
 
-![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_77.png){width=100%}
+![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_77.png){width=100%}
 
 |**2. Record below the GENOME name for the MAG assembly associated with the GenBank ID you entered.**| 
 |:--|
@@ -352,7 +352,7 @@ In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.n
 
 For the 1st MAG (GCF_030147545.1), the GENOME name is "Alcanivorax sp. genome ASM3014754v1":
 
-![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357b6795023_0_2.png){width=100%}
+![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357b6795023_0_2.png){width=100%}
 
 Click on the GENOME name of your MAG to **explore genome assembly summary** information.
 
@@ -390,7 +390,7 @@ Click on the GENOME name of your MAG to **explore genome assembly summary** info
 - MAGs are made up of Contigs. To see which contigs make up your MAG, go back to GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), and search for your MAG using its GenBank ID (e.g.GCF_030147545.1). 
 - You will see that MAG GCF_030147545.1 is composed of 42 contigs:
 
-![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_0.png)
+![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_0.png)
 
 |**1. Each contig has its own accession number. Choose a contig of reasonably large size (> 75 kb), click on the contig, then find and record below the Contig’s ID (Accession number/GenBank ID) for further examination.**|
 |:--|
@@ -459,11 +459,11 @@ b. On the tree map, use plus and minus tabs to zoom in and out and visualize you
 
 1. In GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), for the contig you chose in activity 1 click on **Graphics** to explore the genome browser and the genes. 
 
-![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_15.png){width=100%}
+![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_15.png){width=100%}
 
 2. **Select genes of interest**. A lot of genes found in the Contigs will have no ‘familiar’ short symbol and instead have a long alphabetical-and-numerical- name. Such genes are either uncharacterized, hypothetical or have functional or structural similarity to known genes/proteins, but have not been confirmed. However, some Contig genes will be annotated with a ‘familiar’ short gene symbol, matching known genes. Please use the genes with the short symbols for this activity, since the ‘other’ genes will not be found in the databases.
 
-![](resources/images/microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_31.png){width=100%}
+![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_31.png){width=100%}
 
 3. For the 3 genes of choice, use the BV-BRC [bv-brc.org](https://www.bv-brc.org) to find more information on your genes.
 
