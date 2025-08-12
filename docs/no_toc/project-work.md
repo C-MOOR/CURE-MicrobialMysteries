@@ -9,7 +9,7 @@
 
 The purpose of **Project Work** is to gain practice in scientific exploration and research, communication, and work on your scientific poster! The purpose of **Kickstart Project Work** lab is to kick off project work with reviewing project work goals, setting up project work expectations, and modeling getting started with data import and analysis.
 
-<img src="resources/images/project-work_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_46.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="project-work_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_46.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 <h2>Learning Objectives</h2>
 
@@ -20,7 +20,7 @@ The purpose of **Project Work** is to gain practice in scientific exploration an
 
 ## Lecture - Kickstart Project Work
 
-<img src="resources/images/project-work_files/figure-html//1j1u4frdYt18nVmjMs6ZPRoP1KfXxognVUYG-2itH6kE_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="project-work_files/figure-html//1j1u4frdYt18nVmjMs6ZPRoP1KfXxognVUYG-2itH6kE_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 [Slides: Possible Datasets](https://docs.google.com/presentation/d/1j1u4frdYt18nVmjMs6ZPRoP1KfXxognVUYG-2itH6kE/edit?usp=sharing)
 
@@ -164,7 +164,7 @@ Last Revised: June, 2025
 
 ## Lecture - Possible Datasets
 
-<img src="resources/images/project-work_files/figure-html//1VxwSmAY8BUs3EfVcxPm3I8kNYJWjVqoHJrGOX3X3sog_g35f391192_00.png" width="480" />
+<img src="project-work_files/figure-html//1VxwSmAY8BUs3EfVcxPm3I8kNYJWjVqoHJrGOX3X3sog_g35f391192_00.png" width="480" />
 
 [Slides: Possible Datasets](https://docs.google.com/presentation/d/1VxwSmAY8BUs3EfVcxPm3I8kNYJWjVqoHJrGOX3X3sog/edit?usp=sharing)
 

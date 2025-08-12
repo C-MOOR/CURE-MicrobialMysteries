@@ -21,7 +21,7 @@ In this module, we will learn about microbial diversity, the field of genomics a
 [Slides: What's in Your XYZ?](https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws/edit?usp=sharing)
 
 
-## Pre-lab - Scientific Literature
+## Prelab - Scientific Literature
 
 ### Purpose 
 
@@ -31,7 +31,7 @@ R.D. Sleator, C. Shortall, and C. Hill.  Metagenomics.  Letters in Applied Micro
 ### Learning Objectives 
 
 - Read a review paper that summarizes the field of metagenomics.
-- Broadly understand the scope of the review and the gaps in the field. 
+- Engage with the content by finding something interesting and new, and asking a question.  
 
 ### Introduction 
 
@@ -60,7 +60,7 @@ Read the review paper “Metagenomics” by Sleator, Shortall, and Hill, 2008 Le
 |:--|
 |<br>|
 
-#### Grading Criteria
+### Grading Criteria
 
 - <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
@@ -109,7 +109,7 @@ b. Summarize -- Identify best answer and add to slidedeck
 
 ### Purpose
 
-Examine research on metagenomic diversity by reading Xue, *et al*. Metagenome sequencing and 103 microbial genomes from ballast water and sediments. Scientific Data.2023 Aug 10;10(1):536. [(pubmed.gov/37563185)](https://pubmed.ncbi.nlm.nih.gov/37563185/)
+Examine research on metagenomic diversity by reading Xue, *et al*. Metagenome sequencing and 103 microbial genomes from ballast water and sediments. Scientific Data.2023 Aug 10;10(1):536. [(pubmed.gov/37563185)](https://pubmed.ncbi.nlm.nih.gov/37563185/). The main text of the paper and the supplement can be found below, in the  'Resources' section of this assignment.
 
 ### Learning Objectives
 - Understand the purpose and experimental setup of the paper
@@ -119,19 +119,19 @@ Examine research on metagenomic diversity by reading Xue, *et al*. Metagenome se
 
 Understanding microbial composition and diversity in different environments is critical for assessing the benefits and threats of the bacterial community in that environment.  In the publication by [Xue, et al. 2023](https://pubmed.ncbi.nlm.nih.gov/37563185/), the authors study microbial diversity in the ballast-tank water from two ships, with the idea that such a unique and isolated water environment may select for specific microbes.  Luckily in their research they don’t find bacterium *Vibrio cholerae*, but that is exactly what they would find in the ballast water of cargo ships if they did the analysis during the cholera pandemic(s) of the 1800s.
 
-### Activity
+### Activity 1 - with group in class
 
-*Estimated time: 90 min*
+*Estimated time: 30 min*
 
 #### Instructions
 
-Based on the study by Xue, et al.2023, answer the following questions.  The main text of the paper and the supplement can be found below, in the  'Resources' section of this assignment.
+1. Form working groups in class.
+2. Read the abstract and the introduction with your group and discuss the main objectives and purpose of the paper.
+3. Answer questions below.
 
-#### Questions
+#### Questions  
 
-##### Overview of the Paper 
-
-- Suggestion: Answer questions below in class working in groups.
+**1. Overview of the Paper** 
 
 |1A. What is the purpose of this study?|
 |:--|
@@ -145,69 +145,88 @@ Based on the study by Xue, et al.2023, answer the following questions.  The main
 |:--|
 |<br>|
 
-##### General Methods 
+**2. General Methods** 
 
-- Suggestion: Answer questions below in class working in groups.
-
-|1. Discuss how many and what samples were used for this study? Are there any replicates?|
+|2A. Discuss how many and what samples were used for this study? Are there any replicates?|
 |:--|
 |<br>|
 
-|2. Discuss some methods used in this paper.|
+|2B. Discuss some methods used in this paper.|
 |:--|
 |<br>|
 
-|3. Discuss steps authors used to ensure their data is available to the public.|
+|2C. Discuss steps authors used to ensure their data is available to the public.|
 |:--|
 |<br>|
 
-##### Figure Methods
-
-1. Explain in your own words the approach/methods used in each figure, focusing on how did the researchers tested their hypothesis? 
-
-- Suggestion: For figure 1, work in groups in class to answer the questions. For homework, each group can be asigned a figure panel.
+**3. Figure 1 Methods and Results**
 
 | Figure | Methods |
 |:-|:-|
 | Fig. 1B | in class |
 | Fig. 1C | in class |
+|<br>|
+
+| Figure | Main Findings |
+|:-|:-|
+| Fig. 1B | in class |
+| Fig. 1C | in class |
+|<br>|
+
+
+### Activity 2 - with group homework
+
+*Estimated time: 60 min*
+
+#### Instructions
+
+1. With your working group for homework answer questions below.
+
+#### Questions  
+
+1. Methods
+
+| Figure | Methods |
+|:-|:-|
 | Fig. 2 | homework |
 | Fig. 3A | homework |
 | Fig. 3B | homework |
 | Fig. 3C| homework |
 
 
-### Results (in class and Homework)
-
-1. What are the main results (findings) from each figure?
-
-- Suggestion: For figure 1, work in groups in class to answer the questions. For homework, each group can be asigned a figure panel.
+2. Results 
 
 | Figure | Main Findings |
 |:-|:-|
-| Fig. 1B | in class |
-| Fig. 1C | in class |
 | Fig. 2 | homework |
 | Fig. 3A | homework |
 | Fig. 3B | homework |
 | Fig. 3C | homework |
+|<br>|
 
-#### Conclusions 
+3. Conclusions
 
-1. Read the discussion section. What were the main conclusions the authors made in this study?
+|3A. Read the discussion section. What were the main conclusions the authors made in this study?|
+|:-|
+| |
+|<br>|
 
-2. Do the figures agree with their conclusion?
+|3B. Do the figures agree with their conclusion?|
+|:-|
+| |
+|<br>|
 
-#### Future Directions 
+4. Future Directions
 
-1. Scientific work builds on previous studies. What do you believe could be the next step to further the work these researchers did? 
+|4A. Scientific work builds on previous studies. What do you believe could be the next step to further the work these researchers did?|
+|:--|
+| |
+|<br>|
 
- - What follow-up question(s) do you have for the authors?
-
-2. What is the impact of this research area in general (or this study in particular?)
-
-- Do you believe further research in this area may benefit society? Can we build on what this study found?
-- Do you think there are risks associated with such studies?
+|4B. What might be the impact of this research area in general (or this study in particular?)|
+|:--|
+| |
+|<br>|
 
 ### Grading Criteria
 
@@ -223,6 +242,8 @@ Based on the study by Xue, et al.2023, answer the following questions.  The main
 
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
+
+Last Revised: August 2025
 
 ## Presentation - Scientific Literature
 
@@ -252,4 +273,5 @@ c. Update slide title to summarize your main takeaway
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: January 2025
+
 

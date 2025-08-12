@@ -14,7 +14,7 @@ In this section we will go over how to create a scientific poster. We chose a po
   - The Notre Dame of Maryland University Research Day
   - The GRADS-4C Conference (2025)
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 - **Serve as a physical representation of student achievement**: If printed, once finished with the class, students can choose to take their poster with them or leave it with the class to be hung up around the classroom or the hallways. This gives their research project more visibility, serves as an advertisement for other students who might be interested in taking the class, and showcases what students have accomplished. 
 
@@ -28,7 +28,7 @@ In this section we will go over how to create a scientific poster. We chose a po
 
 *Estimated time: ---*
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 [Scientific Posters](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
 
@@ -105,7 +105,7 @@ Notice these posters are sized at 36 x 42 inches, but there are many other commo
 
 #### The header: title, authors, and affiliations
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_67.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_67.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 Since you completed this work as a team of scientists, all of your team members are considered authors. List your team members in alphabetical order. The author’s affiliation is the university, college, research institution or company that the work was conducted at.  
 
@@ -134,11 +134,11 @@ We will include the C-MOOR logo, the logo of your institution(s), and the most i
 
 C-MOOR Abstract examples:
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g36d8202a6d3_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g36d8202a6d3_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 PacBio's published abstract on 'Genome-resolved metagenome assembly of human oral microbiome using highly accurate long-read sequencing'. 
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_149.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_149.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 An abstract is a concise summary of your work. An effective abstract will inform the reader of the relevant background to the research, scientific hypothesis being tested, the purpose of the study, the main methods, and the most important results and conclusions.  
 
@@ -181,7 +181,7 @@ Many scientists choose to write the abstract last, after they fully understand t
 
 #### Introduction
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_18.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_18.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 Introductions typically appears immediately after the Abstract section and contains background information. Sometimes, an Introduction section can be used instead of the Abstract section, in which case, the Introduction will contain both, abstract information plus additional background information. 
 An Introduction typically contains the relevant information and context needed to understand the study and the study's hypothesis/aims/objectives and does not include the methodology, results, or takeaways from the study. 
@@ -189,7 +189,7 @@ An Introduction typically contains the relevant information and context needed t
 
 #### Materials and Methods
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_1_1.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_1_1.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 The materials and methods section will detail your analysis of the data. Don’t provide any of your results, just the methods. If you did not generate the data yourself from raw samples, you will simply cite the paper that made them instead of detailing their construction. We will also need to list any programs we used and provide credit to their creators.
 
@@ -197,7 +197,7 @@ Some other things you might include would be what type of analysis you decided t
 
 #### Results
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_6.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33d6e3b928f_0_6.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 The Results section is where you will detail your data primarily through **figures and tables**, though sometimes written text is included. Begin by creating your tables and figures. 
 
@@ -221,7 +221,7 @@ The Results section is where you will detail your data primarily through **figur
 
 #### Conclusions/Discussion
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_52.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_52.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 The discussion section of the paper is your chance to analyze and interpret your results. The discussion section generally addresses the following:
 
@@ -232,7 +232,7 @@ The discussion section of the paper is your chance to analyze and interpret your
 
 #### References
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_80.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_80.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 All the references that you cite on your poster must be present in a References section including the following sections: Introduction, Methods, and Discussion. To save space on our posters, we will number our references (ex. 1-5) and use the numbers as citations throughout the text of your poster. You may have a lot of references; it is okay to put them in tiny text if you have to in order to make them fit.
 
@@ -250,7 +250,7 @@ Online article only:
 
 #### Acknowledgements
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_30.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_30.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 The acknowledgements section is where you give thanks to the people, organizations, and institutions that have supported you in your research. If relevant, include the grant ID # of your funding source. Institutions and organizations that have contributed to your research - but you do not belong to - can be thanked here.
 
@@ -389,13 +389,13 @@ Last Revised: April 2025
 
 Now that you've finished your C-MOOR project, how do you close out your research experience or take it further? In this section we'll explore how to publicize and use your experience to help build your professional career.
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_229.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_229.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 ## Lecture - Next Steps
 
 *Estimated time: ---*
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 [Slides: Next Steps](https://docs.google.com/presentation/d/1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns/edit?usp=sharing)
 
@@ -518,7 +518,7 @@ The two invited speakers for the Microbial Mysteries CURE Spring 2025 at the JHU
 1. Dr. Karina Gutiérrez-García
 2. Dr. Leah Guthrie
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_263.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_263.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 For each speaker, students were asked to prepare by completing the Science Talks Activities.
 
@@ -607,7 +607,7 @@ A: You can, however we suggest being explicit in your experience and add the lev
 
 ## C-MOOR Scholars
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_4.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_4.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 C-MOOR Scholars are research clubs that function as an extension of the C-MOOR curriculum. You can explore techniques and concepts from modules you've yet to take to learn about different approaches we can use to explore different questions through genomics, connect with other scholars and mentors, and experience the climate of a research lab. 
 
@@ -643,7 +643,7 @@ Meet the C-MOOR Scholars and learn how you can support them
 
 Perhaps you're interested in pursuing research beyond what C-MOOR currently provides. Maybe you're more interested in wet lab work, or a specific model organism. We encourage you to try all sorts of different opportunities even if you feel totally comfortable working with C-MOOR so you can better understand what kind of roles suit you best. This section serves as a guide for some common jumping off points to find outside research opportunities.
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_98.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362974128df_0_98.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 ### Research opportunities at your institution
 
@@ -680,7 +680,7 @@ Don't be surprised if it takes the researcher a while to get back to you or if t
 
 This section is primarily geared toward instructors as students will be able to get access to the BioDIGS data through their local C-MOOR Scholars chapter.
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_10.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+<img src="community-analysis-and-feedback_files/figure-html//1dI8-_iVqbkzNMf11M4dK85E8ZW3OyZECs_YwMKw5fhs_g362a06a915d_2_10.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 **What is BioDIGS?**: [BioDIGS](biodigs.org) is a project from the Genomic Data Science Community Network (GDSCN), which aims to characterize the microbiome of soil throughout sites in the US while connecting scientists to research. 
 
@@ -698,13 +698,13 @@ Below is a sampling of some discussion forums that you may find useful:
 - [support.bioconductor.org](https://support.bioconductor.org){target="_blank"} for all things R/Bioconductor
 - [help.anvilproject.org](https://help.anvilproject.org){target="_blank"} for interactions with the GDSCN BioDIGS consortium [https://biodigs.org/#home](https://biodigs.org/#home)
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_16.png" width="480" />
+<img src="community-analysis-and-feedback_files/figure-html//1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_16.png" width="480" />
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_5.png" width="480" />
+<img src="community-analysis-and-feedback_files/figure-html//1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_5.png" width="480" />
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_22.png" width="480" />
+<img src="community-analysis-and-feedback_files/figure-html//1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_22.png" width="480" />
 
-<img src="resources/images/community-analysis-and-feedback_files/figure-html//1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_12.png" width="480" />
+<img src="community-analysis-and-feedback_files/figure-html//1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_12.png" width="480" />
 
 
 

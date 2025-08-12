@@ -160,7 +160,7 @@ d. In the “Compute Image” drop-down menu, select “C-MOOR LearnR”
 
 e. Under “Data Volumes”, check the box next to “C-MOOR Data”
 
-<img src="resources/images/sciserver-tutorials_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_9.png" width="480" />
+<img src="sciserver-tutorials_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_9.png" width="480" />
 f. Scroll down and click “Create”. This may take a moment.
 
 g. Start your C-MOOR LearnR container by clicking on its name
@@ -171,7 +171,7 @@ g. Start your C-MOOR LearnR container by clicking on its name
 
 a. Click on “test-driveR”. The tutorial will open in a new tab.
 
-<img src="resources/images/sciserver-tutorials_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_27.png" width="480" />
+<img src="sciserver-tutorials_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_27.png" width="480" />
 Complete the tutorial and answer the questions below.
 
 #### Questions
