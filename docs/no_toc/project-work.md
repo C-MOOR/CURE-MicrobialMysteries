@@ -47,7 +47,7 @@ The purpose of **Project Work** is to gain practice in scientific exploration an
 |1. Share your Galaxy history with SRR29980924fastq data you downloaded with Faster Download and Extract Reads in FASTQ tool.|
 |:--------|
 | Galaxy history Link: |
-<br>
+|<br>|
 
 
 |2. Find and record the following features of your downloaded dataset below.|
@@ -56,7 +56,7 @@ The purpose of **Project Work** is to gain practice in scientific exploration an
 |File format:|
 |Job Runtime (Wall Clock):|
 |First line of the sequencing file:|
-<br>
+|<br>|
 
 |3. Inspect SRR29980924 entry in NCBI https://www.ncbi.nlm.nih.gov/sra. Obtain the following sequencing information.|
 |:--------|
@@ -64,7 +64,7 @@ The purpose of **Project Work** is to gain practice in scientific exploration an
 |Instrument:|
 |Strategy:|
 |Run:|
-<br>
+|<br>|
 
 ### Activity 2 – Taxonomically classify nanopore-soil-subset MAGs with GTDB-Tk in Galaxy
 
@@ -77,17 +77,17 @@ Using **GTDB-Tk Classify genomes** tool, classify the nanopore-soil MAGs you obt
 |1. Record summary of MAG classification of Bacteria below.|
 |:--------|
 ||
-<br>
+|<br>|
 
 |2. Record summary of MAG classification of Archaea below.|
 |:--------|
 ||
-<br>
+|<br>|
 
 |3. Share your Galaxy history to GTDBtk classification below.|
 |:--------|
 ||
-<br>
+|<br>|
 
 ### Activity 3 – Import an SRA dataset of interest for your research project
 
@@ -102,7 +102,7 @@ Upload sequencing reads from a dataset of interest using the **Faster Download a
 |Accession ID:  |
 |File size: |
 |Job Runtime (Wall Clock): |
-<br>
+|<br>|
 
 |2. Inspect your SRA entry in NCBI https://www.ncbi.nlm.nih.gov/sra. Obtain the following sequencing information.|
 |:--------|
@@ -110,7 +110,7 @@ Upload sequencing reads from a dataset of interest using the **Faster Download a
 | Instrument:  |
 |Strategy: |
 | Run: |
-<br>
+|<br>|
 
 
 ### Activity 4 – Use a new Galaxy tool that may be useful for your project
@@ -131,21 +131,21 @@ Find one new Galaxy tool that you think may be useful for your research project.
 |1. Briefly describe the tool e.g. how it works, what it takes as input, and what it produces as output.|
 |:--------|
 ||
-<br>
+|<br>|
 
 |2. Describe briefly any problems you had running the tool and troubleshooting steps you tried.|
 |:--------|
 ||
-<br>
+|<br>|
 
 |3.  If you were able to get the tool to run, describe the results and whether they provide additional information for your project.|
 |:--------|
 ||
-<br>
+|<br>|
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 ### Footnotes
 
@@ -238,9 +238,8 @@ Conducting your research involves prioritizing, scaffolding and organizing your 
 
 Research lab meetings are great forums to receive community analysis and feedback.  Many classes going forward will be spent discussing your project progress, alternating between data results and troubleshooting methods.  Refer to this organizer to see what we’ll discuss on a given day and find the appropriate slidedeck.
 
-<br>
 
-<mark style="background color: yellow">Use this organizer to find instructions and track documents.
+<mark style="background color: yellow">Use this organizer to find instructions and track documents</mark>.
 
 #### Round Table Data & Troubleshooting 
 
@@ -413,5 +412,6 @@ April 24 | Wrap-Up: Professional Development
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: June 2025
+
 
 
