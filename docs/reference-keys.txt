@@ -55,7 +55,7 @@ instructions-7
 footnotes-4
 microbial-genomes
 lecture---microbial-genome
-pre-lab---microbial-genomes
+prelab---microbial-genomes
 purpose-4
 learning-objectives-3
 activity-1-genbank

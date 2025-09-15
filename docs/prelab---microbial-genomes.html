@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>4.5 Project - Taxonomy Profiling | CURE: Microbial Mysteries</title>
+  <title>3.2 Prelab - Microbial Genomes | CURE: Microbial Mysteries</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="4.5 Project - Taxonomy Profiling | CURE: Microbial Mysteries" />
+  <meta property="og:title" content="3.2 Prelab - Microbial Genomes | CURE: Microbial Mysteries" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="4.5 Project - Taxonomy Profiling | CURE: Microbial Mysteries" />
+  <meta name="twitter:title" content="3.2 Prelab - Microbial Genomes | CURE: Microbial Mysteries" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="discussion---taxonomy-profiling.html"/>
-<link rel="next" href="presentation---taxonomy-profiling.html"/>
+<link rel="prev" href="lecture---microbial-genome.html"/>
+<link rel="next" href="discussion---microbial-genomes.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -449,507 +449,430 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="project---taxonomy-profiling" class="section level2 hasAnchor" number="4.5">
-<h2><span class="header-section-number">4.5</span> Project - Taxonomy Profiling<a href="project---taxonomy-profiling.html#project---taxonomy-profiling" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="purpose-8" class="section level3 hasAnchor" number="4.5.1">
-<h3><span class="header-section-number">4.5.1</span> Purpose<a href="project---taxonomy-profiling.html#purpose-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>To use a variety of Galaxy tools to perform Quality Control (QC), sequence quality filtering, taxonomy profiling, and visualization of a metagenomics soil sample sequenced with long-read Nanopore technology.</p>
+<div id="prelab---microbial-genomes" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Prelab - Microbial Genomes<a href="prelab---microbial-genomes.html#prelab---microbial-genomes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="purpose-4" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Purpose<a href="prelab---microbial-genomes.html#purpose-4" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Impress all the information that is freely available about well studied (and not so well studied) bacterial species. Start with E. coli as one of the best and longest studied before going into recently discovered bacteria (with less information).</p>
 </div>
-<div id="learning-objectives-7" class="section level3 hasAnchor" number="4.5.2">
-<h3><span class="header-section-number">4.5.2</span> Learning Objectives<a href="project---taxonomy-profiling.html#learning-objectives-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>In this exercise, using tools on Galaxy you will be:</p>
+<div id="learning-objectives-3" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Learning Objectives<a href="prelab---microbial-genomes.html#learning-objectives-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
-<li>Performing QC and quality filtering of your soil metagenomics data with the NanoPlot and fastp tools.</li>
-<li>Running a workflow to perform taxonomy profiling and visualization of a soil metagenome.</li>
+<li>GenBank – Explore sequence database of all publicly available DNA sequences</li>
+<li>Sequence Browser – Observe genome organization using graphical representation</li>
+<li>Bacterial database BV-BRC - Explore bacterial genes and their function</li>
+<li>Taxonomy Browser – Identify relationships between taxa</li>
+<li>Lifemap - Tree of Live viewer to visualize relationships between taxa</li>
 </ol>
-<p>Throughout these objectives you will be comparing soil and gut metagenomes.</p>
 </div>
-<div id="introduction-7" class="section level3 hasAnchor" number="4.5.3">
-<h3><span class="header-section-number">4.5.3</span> Introduction<a href="project---taxonomy-profiling.html#introduction-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><strong>Note</strong>, the total time for a Galaxy step to complete depends on and will increase based on multiple factors such the input file size, a long queue when many other people are analyzing data, the complexity of the job itself and errors. See the table below for the <em>minimum</em> time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete.
-<br></p>
-<p>Note, that you can save time by:</p>
-<ol style="list-style-type: decimal">
-<li>Submitting multiple jobs that use the same input (NanoPlot and fastp)</li>
-<li>Submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job finishes.</li>
-</ol>
-<p><strong>Table of approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
+<div id="activity-1-genbank" class="section level3 hasAnchor" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> Activity 1 – GenBank<a href="prelab---microbial-genomes.html#activity-1-genbank" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="microbial-genomes_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+<div id="activity-1---part-i" class="section level4 hasAnchor" number="3.2.3.1">
+<h4><span class="header-section-number">3.2.3.1</span> Activity 1 - Part I<a href="prelab---microbial-genomes.html#activity-1---part-i" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><em>Estimated time: 5 min</em></p>
+</div>
+<div id="instructions-8" class="section level4 hasAnchor" number="3.2.3.2">
+<h4><span class="header-section-number">3.2.3.2</span> Instructions<a href="prelab---microbial-genomes.html#instructions-8" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Navigate to <strong>GenBank</strong> <a href="https://www.ncbi.nlm.nih.gov/genbank">https://www.ncbi.nlm.nih.gov/genbank</a> and enter ‘E. coli strain K-12’ in the search bar (which should default to <strong>Nucleotide</strong>). This will give you a list of almost 300,000 E. coli sequences. Go down the list and click on the entry that corresponds to the complete genome of the substrain MG1655, which should be on page 1! Click on the selection and answer the following questions.</p>
+</div>
+<div id="questions-4" class="section level4 hasAnchor" number="3.2.3.3">
+<h4><span class="header-section-number">3.2.3.3</span> Questions<a href="prelab---microbial-genomes.html#questions-4" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
 <thead>
 <tr class="header">
-<th align="left">Nanoplot</th>
-<th align="left">fastp</th>
-<th align="left">Taxonomy workflow</th>
+<th align="left"><strong>1. What is the size of this <em>E. coli</em> genome in bp and Kbp</strong>?</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">15 min</td>
-<td align="left">15 min</td>
-<td align="left">30 min</td>
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>2. Is the <em>E. coli</em> genome linear or circular</strong>?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>3. What is the ACCESSION number?</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="activity-1-qc" class="section level3 hasAnchor" number="4.5.4">
-<h3><span class="header-section-number">4.5.4</span> Activity 1 – QC<a href="project---taxonomy-profiling.html#activity-1-qc" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: 50 min</em></p>
-<div id="activity-1---part-i---import-data-and-run-nanoplot" class="section level4 hasAnchor" number="4.5.4.1">
-<h4><span class="header-section-number">4.5.4.1</span> Activity 1 - Part I - Import data and run NanoPlot<a href="project---taxonomy-profiling.html#activity-1---part-i---import-data-and-run-nanoplot" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="activity-1---part-ii" class="section level4 hasAnchor" number="3.2.3.4">
+<h4><span class="header-section-number">3.2.3.4</span> Activity 1 - Part II<a href="prelab---microbial-genomes.html#activity-1---part-ii" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><em>Estimated time: 5 min</em></p>
 </div>
-<div id="instructions-29" class="section level4 hasAnchor" number="4.5.4.2">
-<h4><span class="header-section-number">4.5.4.2</span> Instructions<a href="project---taxonomy-profiling.html#instructions-29" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ol style="list-style-type: decimal">
-<li>Import the dataset into Galaxy.</li>
-</ol>
-<ol style="list-style-type: lower-alpha">
-<li><p>Open the nanopore-soil-pilot public history <a href="https://usegalaxy.org/u/valerie-g/h/nanopore-soil-pilot-1">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-pilot-1</a></p></li>
-<li><p>Click on <code>Import this history</code>, select Copy only the active, non-deleted datasets and then Copy History.</p></li>
-<li><p>Confirm <mark style="background color: green">Nanopore-soil-pilot-subset</mark> exists in your history by clicking on the Home button on top left.</p></li>
-</ol>
-<ol start="2" style="list-style-type: decimal">
-<li>Run the <strong>NanoPlot</strong> tool in Galaxy to assess sequence quality using the <strong>default settings</strong>.</li>
-</ol>
-<ol style="list-style-type: lower-alpha">
-<li><p>Click on the Tools icon. Then, in the search bar enter ‘NanoPlot’ and select the NanoPlot tool.</p></li>
-<li><p>Under <strong>files</strong> browse to select your Nanopore-soil-pilot-subset fastq dataset.</p></li>
-<li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the NanoPlot job is scheduled, run, and completed.</p></li>
-</ol>
+<div id="instructions-9" class="section level4 hasAnchor" number="3.2.3.5">
+<h4><span class="header-section-number">3.2.3.5</span> Instructions<a href="prelab---microbial-genomes.html#instructions-9" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Back in GenBank <a href="https://www.ncbi.nlm.nih.gov/genbank">https://www.ncbi.nlm.nih.gov/genbank</a>, under the <strong>Nucleotide</strong> search tab, instead of typing ‘E. coli strain K-12’, type in the ACCESSION number you found (NZ_CP169634).</p>
 </div>
-<div id="questions-21" class="section level4 hasAnchor" number="4.5.4.3">
-<h4><span class="header-section-number">4.5.4.3</span> Questions<a href="project---taxonomy-profiling.html#questions-21" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="questions-5" class="section level4 hasAnchor" number="3.2.3.6">
+<h4><span class="header-section-number">3.2.3.6</span> Questions<a href="prelab---microbial-genomes.html#questions-5" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">1. Click on the Display icon (eyeball) next to the NanoPlot output NanoStats report and record:</th>
+<th align="left"><strong>1. How many records do you observe after an ACCESSION number entry?</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Read mean length (mean read length):</td>
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>2. What can you conclude about what is the ACCESSION number?</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-2-genomes-genes-and-other-databases" class="section level3 hasAnchor" number="3.2.4">
+<h3><span class="header-section-number">3.2.4</span> Activity 2 – Genomes, genes, and other databases<a href="prelab---microbial-genomes.html#activity-2-genomes-genes-and-other-databases" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-2---part-i" class="section level4 hasAnchor" number="3.2.4.1">
+<h4><span class="header-section-number">3.2.4.1</span> Activity 2 - Part I<a href="prelab---microbial-genomes.html#activity-2---part-i" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><em>Estimated time: 5 min</em></p>
+</div>
+<div id="instructions-10" class="section level4 hasAnchor" number="3.2.4.2">
+<h4><span class="header-section-number">3.2.4.2</span> Instructions<a href="prelab---microbial-genomes.html#instructions-10" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>After entering your accession number, the on the right of the page, under <strong>Related Information</strong>, click on Assembly link to explore genome assembly information.</p>
+</div>
+<div id="questions-6" class="section level4 hasAnchor" number="3.2.4.3">
+<h4><span class="header-section-number">3.2.4.3</span> Questions<a href="prelab---microbial-genomes.html#questions-6" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>1. How many chromosomes does E. coli have?</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>2. What is the genome coverage of this sequenced genome?</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>3. How many genes were annotated for this genome?</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="activity-2---part-ii" class="section level4 hasAnchor" number="3.2.4.4">
+<h4><span class="header-section-number">3.2.4.4</span> Activity 2 - Part II<a href="prelab---microbial-genomes.html#activity-2---part-ii" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><em>Estimated time: 10 min</em></p>
+</div>
+<div id="instructions-11" class="section level4 hasAnchor" number="3.2.4.5">
+<h4><span class="header-section-number">3.2.4.5</span> Instructions<a href="prelab---microbial-genomes.html#instructions-11" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Go back and on the top of the page and click on <strong>Graphics</strong> to explore genome browser.</p>
+<ol style="list-style-type: lower-alpha">
+<li>Hover along one of many green vertical sticks.</li>
+</ol>
+<ul>
+<li>You can also zoom into a smaller and smaller genomic region for higher resolution.</li>
+</ul>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Hover along one of many red vertical sticks.</li>
+</ol>
+<ul>
+<li>You can also zoom into a smaller and smaller genomic region for higher resolution.</li>
+</ul>
+</div>
+<div id="questions-7" class="section level4 hasAnchor" number="3.2.4.6">
+<h4><span class="header-section-number">3.2.4.6</span> Questions<a href="prelab---microbial-genomes.html#questions-7" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>1. What do the ‘green sticks’ represent?</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>2. What do the ‘red sticks’ represent?</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>3. Record 5 genes you found present in E. coli</strong>.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Gene 1</td>
 </tr>
 <tr class="even">
-<td align="left">Read Mean quality (mean_qual):</td>
+<td align="left">Gene 2</td>
 </tr>
 <tr class="odd">
-<td align="left">Proportion of reads with quality &gt; Q20 (Reads &gt; Q20):</td>
+<td align="left">Gene 3</td>
+</tr>
+<tr class="even">
+<td align="left">Gene 4</td>
+</tr>
+<tr class="odd">
+<td align="left">Gene 5</td>
 </tr>
 <tr class="even">
 <td align="left"><br></td>
 </tr>
 </tbody>
 </table>
-<p><strong>2. Compare the NanoPlot results with the gut data.</strong></p>
+</div>
+<div id="activity-2---part-iii" class="section level4 hasAnchor" number="3.2.4.7">
+<h4><span class="header-section-number">3.2.4.7</span> Activity 2 - Part III<a href="prelab---microbial-genomes.html#activity-2---part-iii" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><em>Estimated time: 10 min</em></p>
+</div>
+<div id="instructions-12" class="section level4 hasAnchor" number="3.2.4.8">
+<h4><span class="header-section-number">3.2.4.8</span> Instructions<a href="prelab---microbial-genomes.html#instructions-12" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC <a href="https://www.bv-brc.org">https://www.bv-brc.org</a>. Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate <mark style="background-color: lightyellow">No results found</mark>.</p>
+<p><strong>For the 3 genes below, and one gene of your choice from activity above</strong>, in the BV-BRC <strong>Search</strong> space,</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>From a dropdown menu select <strong>“Pathways”</strong>.</p></li>
+<li><p>Type in the gene name and <strong>click enter</strong>. This will result in a lot of entries for different organisms.</p></li>
+<li><p>To retrieve information specifically for <em>E. coli (Escherichia coli)</em>, in the <strong>Keyword</strong> space type “Escherichia”.</p></li>
+<li><p>Check one of the boxes corresponding to <em>E. coli</em> strains and enter below which E. coli strain <strong>(Genome Name)</strong> you selected. <mark style="background-color: lightyellow">If no E. coli entry is present, select and record another bacterial Genome Name to learn about your gene’s function</mark>.</p></li>
+</ol>
+</div>
+<div id="questions-8" class="section level4 hasAnchor" number="3.2.4.9">
+<h4><span class="header-section-number">3.2.4.9</span> Questions<a href="prelab---microbial-genomes.html#questions-8" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
+<th align="left"><strong>1. Record Genome Name associated with the following genes</strong>.</th>
 <th align="left"></th>
-<th align="left">Nanopore soil pilot (this activity)</th>
-<th align="left">Zymo gut standard (taxonomy profiling pre-lab)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">mean read length:</td>
-<td align="left"></td>
+<td align="left"><strong>Gene ID</strong></td>
+<td align="left"><strong>Genome Name</strong></td>
+</tr>
+<tr class="even">
+<td align="left">Gene 1: ampC</td>
+<td align="left">Escherichia coli 07798</td>
+</tr>
+<tr class="odd">
+<td align="left">Gene 2: mgtA</td>
 <td align="left"></td>
 </tr>
 <tr class="even">
-<td align="left">mean_qual:</td>
-<td align="left"></td>
+<td align="left">Gene 3: cdd</td>
 <td align="left"></td>
 </tr>
 <tr class="odd">
-<td align="left">Reads &gt; Q20:</td>
-<td align="left"></td>
+<td align="left">Gene 4: Your gene</td>
 <td align="left"></td>
 </tr>
 <tr class="even">
 <td align="left"><br></td>
 <td align="left"></td>
-<td align="left"></td>
 </tr>
 </tbody>
 </table>
 <table>
-<colgroup>
-<col width="100%" />
-</colgroup>
 <thead>
 <tr class="header">
-<th align="left">3. Which dataset has better sequence quality, the Zymo-gut-standard (taxonomy profiling pre-lab) or the Nanopore-soil pilot (taxonomy profiling project)? Why?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="activity-1---part-ii---quality-filtering-with-fastp" class="section level4 hasAnchor" number="4.5.4.4">
-<h4><span class="header-section-number">4.5.4.4</span> Activity 1 - Part II - Quality filtering with fastp<a href="project---taxonomy-profiling.html#activity-1---part-ii---quality-filtering-with-fastp" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-</div>
-<div id="instructions-30" class="section level4 hasAnchor" number="4.5.4.5">
-<h4><span class="header-section-number">4.5.4.5</span> Instructions<a href="project---taxonomy-profiling.html#instructions-30" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Although the majority of bases in the soil dataset are of high quality ( &gt;Q20, or 1 in 100 base error), we can filter out very low quality reads to further improve dataset quality. In this activity run fastp tool to filter out reads with a high proportion of low quality bases (&lt;Q15) using the default settings.</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Click on the Tools icon. Then, in the search bar enter <strong>fastp</strong> and select the fastp tool.</p></li>
-<li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the fastp job is scheduled, run, and completed.</p></li>
-</ol>
-</div>
-<div id="questions-22" class="section level4 hasAnchor" number="4.5.4.6">
-<h4><span class="header-section-number">4.5.4.6</span> Questions<a href="project---taxonomy-profiling.html#questions-22" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p><strong>1. Compare your dataset BEFORE and AFTER filtering using fastp: HTML report output.</strong></p>
-<table>
-<thead>
-<tr class="header">
+<th align="left"><strong>2. For the 3 genes from the activity above, record gene Product</strong>.</th>
 <th align="left"></th>
-<th align="left">Before</th>
-<th align="left">After</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Mean Length</td>
-<td align="left"></td>
+<td align="left"><strong>Gene ID</strong></td>
+<td align="left"><strong>Gene Product</strong></td>
+</tr>
+<tr class="even">
+<td align="left">Gene 1: ampC</td>
+<td align="left">Beta-lactamase</td>
+</tr>
+<tr class="odd">
+<td align="left">Gene 2:</td>
 <td align="left"></td>
 </tr>
 <tr class="even">
-<td align="left">total reads</td>
-<td align="left"></td>
+<td align="left">Gene 3:</td>
 <td align="left"></td>
 </tr>
 <tr class="odd">
-<td align="left">total bases</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Q20 bases (%):</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Q30 bases (%):</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="even">
 <td align="left"><br></td>
-<td align="left"></td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 <table>
 <colgroup>
-<col width="100%" />
+<col width="50%" />
+<col width="50%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">2. Compare your BEFORE and AFTER quality plots from activity above. Use the charts in the section titled Filtering Statistics. What key quality improvement can you observe after fastp quality filtering. <code>Hint 1</code>: look at 5’ end, 3’ end and the middle? <code>Hint 2</code>: Pay attention to the y-axis.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="activity-2-taxonomy-profiling" class="section level3 hasAnchor" number="4.5.5">
-<h3><span class="header-section-number">4.5.5</span> Activity 2 – Taxonomy Profiling<a href="project---taxonomy-profiling.html#activity-2-taxonomy-profiling" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: 50 min (~35 min computing)</em></p>
-<div id="activity-2---part-i---run-taxonomy-profiling-workflow" class="section level4 hasAnchor" number="4.5.5.1">
-<h4><span class="header-section-number">4.5.5.1</span> Activity 2 - Part I - Run Taxonomy Profiling Workflow<a href="project---taxonomy-profiling.html#activity-2---part-i---run-taxonomy-profiling-workflow" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-</div>
-<div id="instructions-31" class="section level4 hasAnchor" number="4.5.5.2">
-<h4><span class="header-section-number">4.5.5.2</span> Instructions<a href="project---taxonomy-profiling.html#instructions-31" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ol style="list-style-type: decimal">
-<li>Run the ‘Taxonomy Profiling’ workflow on your fastp-filtered data from Activity 1 and view the results.</li>
-</ol>
-<ol style="list-style-type: lower-alpha">
-<li><p>Open the taxonomy-profiling public workflow <a href="https://usegalaxy.org/u/cutsort/w/taxonomy-profiling">https://usegalaxy.org/u/cutsort/w/taxonomy-profiling</a>.</p></li>
-<li><p>Click on Run.</p></li>
-<li><p>Browse to select your fastp-filtered fastq dataset <mark style="background color: green">“fastp on data1:Read 1 output”</mark> dataset by clicking on the <code>‘...’</code> tab.</p></li>
-<li><p>Under <strong>kraken_database</strong> select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.</p></li>
-<li><p>Click <strong>Run Workflow</strong>.</p></li>
-<li><p>Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, run, and completed.</p></li>
-</ol>
-<ol start="2" style="list-style-type: decimal">
-<li>Click on the Display icon (eyeball) next to the output file with converted_kraken_report. Explore the metagenomic diversity of the soil sample by performing the taxonomy profiling spreadsheet activity you did during week 1.</li>
-</ol>
-<ol style="list-style-type: lower-alpha">
-<li><p>Click on <strong>converted_kraken_report</strong>, find the download button and <strong>download</strong> the report.</p></li>
-<li><p><mark style="background color: yellow">Change the extension of your taxonomy file from .tabular to .tsv</mark>.</p></li>
-<li><p>Upload your taxonomy .tsv file to Google Drive and open it with Google Sheets.</p></li>
-<li><p>Create a header row and enter the following column information.</p></li>
-</ol>
-<ul>
-<li>Col A = Counts.</li>
-<li>Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species).</li>
-<li>Each row corresponds to a different taxa.</li>
-</ul>
-<ol start="5" style="list-style-type: lower-alpha">
-<li>Evaluate what proportion of data was taxonomically classified.</li>
-</ol>
-<ul>
-<li>Insert a new column A; we will use this temporary column for calculations, so you can name this column “Calculations”.</li>
-<li>In e.g. cell A2, calculate the sum of all reads observed in the soil sample.</li>
-</ul>
-</div>
-<div id="questions-23" class="section level4 hasAnchor" number="4.5.5.3">
-<h4><span class="header-section-number">4.5.5.3</span> Questions<a href="project---taxonomy-profiling.html#questions-23" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<table>
-<thead>
-<tr class="header">
-<th align="left">1. How many total read counts are there?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left">2. Determine the percentage of reads that are unclassified</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left">3. What percentage of reads are classified?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<p><strong>4. Identify the most abundant taxa (those at &gt;0.1%).</strong></p>
-<p>Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Select columns B through I.</p></li>
-<li><p>In the Data menu, select “Sort range by column B (Z to A)”.</p></li>
-<li><p>Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.</p></li>
-<li><p>In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.</p></li>
-</ol>
-<table>
-<thead>
-<tr class="header">
-<th align="left">4A. How many ‘abundant’ taxa (at &gt; 0.1%) do you observe?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left">4B. What are the taxonomic ranks of most abundant taxa?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left">4C. What is the most abundant eukaryote observed and its read count?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left">4D. What is the most abundant archaea observed and its read count?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left">4E. What is the most abundant virus observed and its read count?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="activity-2---part-ii---analyze-kraken-2-results" class="section level4 hasAnchor" number="4.5.5.4">
-<h4><span class="header-section-number">4.5.5.4</span> Activity 2 - Part II - Analyze Kraken 2 results<a href="project---taxonomy-profiling.html#activity-2---part-ii---analyze-kraken-2-results" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-</div>
-<div id="instructions-32" class="section level4 hasAnchor" number="4.5.5.5">
-<h4><span class="header-section-number">4.5.5.5</span> Instructions<a href="project---taxonomy-profiling.html#instructions-32" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<ol style="list-style-type: decimal">
-<li>Click on the Display icon (eyeball) next to the output file with <strong>kraken2_with_pluspf_database_output_report</strong>. This output report is an extended version of the converted_kraken_report. The output contains 6 columns. See info for select column headers below:</li>
-</ol>
-<ul>
-<li>Column 1: Percentage (%) of a given taxon</li>
-<li>Column 2: # of reads per given taxon</li>
-<li>Column 4: A rank code, indicating (U)nclassified, (R)oot, (D)omain, (K)ingdom, (P)hylum, (C)lass, (O)rder, (F)amily, (G)enus, or (S)pecies. Note, that in this extended file, some rank codes will have numbers associated with them; Ignore this aspect of the document for the moment.</li>
-<li>Column 6: Identified taxa/scientific name.
-<br></li>
-</ul>
-<p><code>Of note</code>: The benefit of kraken2_with_pluspf_database_output_report is that it summarizes converted_kraken_report and calculates summary percentages for taxonomic ranks. For example, your converted_kraken_report has hundreds of lines for phylum Proteobacteria, while kraken2_with_pluspf_database_output_report has 1 line summarizing the percent abundance of all Proteobacteria.</p>
-</div>
-<div id="questions-24" class="section level4 hasAnchor" number="4.5.5.6">
-<h4><span class="header-section-number">4.5.5.6</span> Questions<a href="project---taxonomy-profiling.html#questions-24" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">1. What is the percentage of Unclassified taxa? Does it match your calculations in Activity 2 - Part I?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">2. What percentage of bacteria is Proteobacteria, the most abundant Phyla observed?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left">3. What is the most abundant class observed and at what percentage?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="activity-2---part-iii---krona-pie-chart" class="section level4 hasAnchor" number="4.5.5.7">
-<h4><span class="header-section-number">4.5.5.7</span> Activity 2 - Part III - Krona Pie Chart<a href="project---taxonomy-profiling.html#activity-2---part-iii---krona-pie-chart" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-</div>
-<div id="instructions-33" class="section level4 hasAnchor" number="4.5.5.8">
-<h4><span class="header-section-number">4.5.5.8</span> Instructions<a href="project---taxonomy-profiling.html#instructions-33" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Krona pie chart is one of the outputs of the taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes.</p>
-<ol style="list-style-type: lower-alpha">
-<li>View the Krona results: Click on the Display icon (eyeball) next to the output file named <strong>krona_pie_chart</strong>.</li>
-<li>Double click on Bacteria kingdom (k_Bacteria) to explore further.</li>
-<li>Answer questions below</li>
-</ol>
-</div>
-<div id="questions-25" class="section level4 hasAnchor" number="4.5.5.9">
-<h4><span class="header-section-number">4.5.5.9</span> Questions<a href="project---taxonomy-profiling.html#questions-25" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<table>
-<thead>
-<tr class="header">
-<th align="left">1. What are the 2 main phyla you observe?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left">2. What appears to be the more diverse phyla of the two?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><br></td>
-</tr>
-</tbody>
-</table>
-<p><strong>3. Use Krona and/or Kraken2 outputs to compare your taxonomy from this soil sample, to the gut taxonomy results from your taxonomy-prelab</strong> (Zymo-gut-standard <a href="https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..">ZymoBIOMICS® Gut Microbiome Standard</a></p>
-<p><strong>3A. Fill out the comparison table below</strong></p>
-<table>
-<thead>
-<tr class="header">
+<th align="left"><strong>3. For the 3 genes from the activity above, record Pathway Name (relates to function)</strong>.</th>
 <th align="left"></th>
-<th align="left">Nanopore soil pilot</th>
-<th align="left">Zymo gut standard</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">What are 2 most abundant phyla</td>
-<td align="left"></td>
-<td align="left"></td>
+<td align="left"><strong>Gene ID</strong></td>
+<td align="left"><strong>Pathway Name</strong></td>
 </tr>
 <tr class="even">
-<td align="left">What are 2 most abundant species</td>
-<td align="left"></td>
-<td align="left"></td>
+<td align="left">Gene 1: ampC</td>
+<td align="left">beta-Lactam resistance</td>
 </tr>
 <tr class="odd">
-<td align="left">% Classified taxa</td>
-<td align="left"></td>
+<td align="left">Gene 2:</td>
 <td align="left"></td>
 </tr>
 <tr class="even">
-<td align="left">% Unclassified taxa</td>
-<td align="left"></td>
+<td align="left">Gene 3:</td>
 <td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="left"><br></td>
 <td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note</strong>, For some well characterized genes you can additionally obtain more detailed information about the gene/protein function.</p>
+<ul>
+<li>To do so, from the ‘green’ menu on the right, select <strong>FEATURE</strong> option, to learn from the Special Properties section about a special property of your gene.</li>
+</ul>
+</div>
+</div>
+<div id="activity-3---taxonomy-and-tree-of-life" class="section level3 hasAnchor" number="3.2.5">
+<h3><span class="header-section-number">3.2.5</span> Activity 3 - Taxonomy and tree of life<a href="prelab---microbial-genomes.html#activity-3---taxonomy-and-tree-of-life" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 30 min</em></p>
+<div id="activity-3---part-i" class="section level4 hasAnchor" number="3.2.5.1">
+<h4><span class="header-section-number">3.2.5.1</span> Activity 3 - Part I<a href="prelab---microbial-genomes.html#activity-3---part-i" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="instructions-13" class="section level4 hasAnchor" number="3.2.5.2">
+<h4><span class="header-section-number">3.2.5.2</span> Instructions<a href="prelab---microbial-genomes.html#instructions-13" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: lower-alpha">
+<li><p>Back in NCBI enter the <em>E. coli</em> accession number again. Under <strong>Related Information</strong> on the right, click on <strong>Taxonomy</strong> and then on the provided link for the <em>E. coli</em>.</p></li>
+<li><p>Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names.</p></li>
+</ol>
+</div>
+<div id="questions-9" class="section level4 hasAnchor" number="3.2.5.3">
+<h4><span class="header-section-number">3.2.5.3</span> Questions<a href="prelab---microbial-genomes.html#questions-9" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1. <strong>Record 7 core taxonomy ranks below</strong>.</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Kingdom:</td>
 <td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Phylum:</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Class:</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Order:</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Family:</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Genus:</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Species:</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="activity-3---part-ii" class="section level4 hasAnchor" number="3.2.5.4">
+<h4><span class="header-section-number">3.2.5.4</span> Activity 3 - Part II<a href="prelab---microbial-genomes.html#activity-3---part-ii" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="instructions-14" class="section level4 hasAnchor" number="3.2.5.5">
+<h4><span class="header-section-number">3.2.5.5</span> Instructions<a href="prelab---microbial-genomes.html#instructions-14" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: lower-alpha">
+<li><p>As with the BV-BRC database above, we can use another database called <strong>Lifemap</strong> to visually explore the <em>E. coli</em> in the context of the tree of life. Go to <a href="https://lifemap-ncbi.univ-lyon1.fr">https://lifemap-ncbi.univ-lyon1.fr</a>, type E. coli and click species tab.</p></li>
+<li><p>On the tree map, the yellow tag will indicate <em>E. coli</em>. Use plus and minus tabs to zoom in and out and visualize E. coli relative to other organisms on the map.</p></li>
+</ol>
+</div>
+<div id="questions-10" class="section level4 hasAnchor" number="3.2.5.6">
+<h4><span class="header-section-number">3.2.5.6</span> Questions<a href="prelab---microbial-genomes.html#questions-10" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>1. How many Domains of life are there?</strong>.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
 </tr>
 </tbody>
 </table>
@@ -959,45 +882,110 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">3B. Discuss taxonomy diversity between soil and gut, providing 3 points:</th>
+<th align="left"><strong>2. Zoom into and find nodes for the E. coli Genus, Family, Order, Class and Phylum. Do they match what you found in the NCBI Taxonomy Browser for Lineage?</strong>.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">1.</td>
+<td align="left"><br></td>
 </tr>
-<tr class="even">
-<td align="left">2.</td>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>3. What are some other members of the Genus (Escherichia) to which E. coli belongs?</strong>.</th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
-<td align="left">3.</td>
+<td align="left"><br></td>
 </tr>
-<tr class="even">
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>4. What are some other members of the Family (Enterobacteriaceae) to which E. coli belongs?</strong>.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>5. What are some other members of the Order (Enterobacterales) to which E. coli belongs?</strong>.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>6. What are some other members of the Class (Gammaproteobacteria) to which E. coli belongs?</strong>.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>7. What are some other members of the Phylum (Pseudomonadota) to which E. coli belongs?</strong>.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
 <td align="left"><br></td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="grading-criteria-8" class="section level3 hasAnchor" number="4.5.6">
-<h3><span class="header-section-number">4.5.6</span> Grading Criteria<a href="project---taxonomy-profiling.html#grading-criteria-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="grading-criteria-4" class="section level3 hasAnchor" number="3.2.6">
+<h3><span class="header-section-number">3.2.6</span> Grading Criteria<a href="prelab---microbial-genomes.html#grading-criteria-4" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li><mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.</li>
+<li><mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.</li>
 </ul>
 </div>
-<div id="footnotes-12" class="section level3 hasAnchor" number="4.5.7">
-<h3><span class="header-section-number">4.5.7</span> Footnotes<a href="project---taxonomy-profiling.html#footnotes-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="footnotes-5" class="section level3 hasAnchor" number="3.2.7">
+<h3><span class="header-section-number">3.2.7</span> Footnotes<a href="prelab---microbial-genomes.html#footnotes-5" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><strong>Resources</strong></p>
 <ul>
 <li>Google Doc</li>
-<li>Species composition in the Gut Microbiome Standard dataset: <a href="https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..">ZymoBIOMICS® Gut Microbiome Standard</a></li>
 </ul>
 <p><strong>Contributions and Affiliations</strong></p>
 <ul>
 <li>Valeriya Gaysinskaya, Johns Hopkins University</li>
 <li>Frederick Tan, Johns Hopkins University</li>
 </ul>
-<p>Last Revised: May 2025</p>
+<p>Last Revised: June 2025</p>
 </div>
 </div>
 <hr>
@@ -1011,8 +999,8 @@
           </div>
         </div>
       </div>
-<a href="discussion---taxonomy-profiling.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="presentation---taxonomy-profiling.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="lecture---microbial-genome.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="discussion---microbial-genomes.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
