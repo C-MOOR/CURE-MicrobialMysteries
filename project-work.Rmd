@@ -172,8 +172,10 @@ Last Revised: June, 2025
 
 ## Lecture - Possible Datasets
 
-```{r, echo=FALSE, fig.alt=''}
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+
 ottrpal::include_slide("https://docs.google.com/presentation/d/1VxwSmAY8BUs3EfVcxPm3I8kNYJWjVqoHJrGOX3X3sog/edit?slide=id.g35f391192_00#slide=id.g35f391192_00")
+
 ```
 
 [Slides: Possible Datasets](https://docs.google.com/presentation/d/1VxwSmAY8BUs3EfVcxPm3I8kNYJWjVqoHJrGOX3X3sog/edit?usp=sharing)
@@ -423,4 +425,5 @@ April 24 | Wrap-Up: Professional Development
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: June 2025
+
 
