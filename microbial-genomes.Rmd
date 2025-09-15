@@ -20,7 +20,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1bnFhIIu6ZXSCjlrz
 
 [Slides: Microbial Genomes](https://docs.google.com/presentation/d/1bnFhIIu6ZXSCjlrz5qWc7BZNz-7VfYWkKgbz3kL-ZNU/edit?usp=sharing)
 
-## Pre-lab - Microbial Genomes
+## Prelab - Microbial Genomes
 
 ### Purpose
 
@@ -134,11 +134,11 @@ b. Hover along one of many red vertical sticks.
 
 |**3. Record 5 genes you found present in E. coli**.|
 |:-|
-| Gene 1 
-| Gene 2
-| Gene 3
-| Gene 4
-| Gene 5
+| Gene 1 |
+| Gene 2 |
+| Gene 3 |
+| Gene 4 |
+| Gene 5 |
 | <br> |
 
 #### Activity 2 - Part III
@@ -147,7 +147,7 @@ b. Hover along one of many red vertical sticks.
 
 #### Instructions
 
-To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate <mark style="background-color: lightyellow">No results found.
+To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate <mark style="background-color: lightyellow">No results found</mark>.
 
 **For the 3 genes below, and one gene of your choice from activity above**, in the BV-BRC **Search** space, 
 
@@ -157,7 +157,7 @@ b. Type in the gene name and **click enter**. This will result in a lot of entri
 
 c. To retrieve information specifically for *E. coli (Escherichia coli)*, in the **Keyword** space type “Escherichia”.
 
-d. Check one of the boxes corresponding to *E. coli* strains and enter below which E. coli strain **(Genome Name)** you selected. <mark style="background-color: lightyellow">If no E. coli entry is present, select and record another bacterial Genome Name to learn about your gene’s function.
+d. Check one of the boxes corresponding to *E. coli* strains and enter below which E. coli strain **(Genome Name)** you selected. <mark style="background-color: lightyellow">If no E. coli entry is present, select and record another bacterial Genome Name to learn about your gene’s function</mark>.
 
 #### Questions
 
@@ -608,6 +608,7 @@ Last Revised: May 2025
   - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 
