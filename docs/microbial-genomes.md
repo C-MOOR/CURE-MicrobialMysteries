@@ -22,11 +22,11 @@ Impress all the information that is freely available about well studied (and not
 
 ### Learning Objectives
 
-1. GenBank – Explore sequence database of all publicly available DNA sequences
-2. Sequence Browser – Observe genome organization using graphical representation
-3. Bacterial database BV-BRC - Explore bacterial genes and their function
-4. Taxonomy Browser – Identify relationships between taxa
-5. Lifemap - Tree of Live viewer to visualize relationships between taxa
+1. GenBank – Explore sequence database of all publicly available DNA sequences.
+2. Sequence Browser – Observe genome organization using graphical representation.
+3. Bacterial database BV-BRC - Explore bacterial genes and their function.
+4. Taxonomy Browser – Identify relationships between taxa.
+5. Lifemap - Tree of Live viewer to visualize relationships between taxa.
 
 ### Activity 1 – GenBank
 
@@ -312,7 +312,9 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 #### Instructions 
 
 - In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/), 17 of 103 uncovered MAGs from ballast water or sediment were of very high quality and completeness. You will follow up on one of them!
+
 - **Choose one of these 17 MAGs** (see 17 GenBank IDs below) to follow up in this activity.
+
 - Use GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/) to answer questions. 
 
 |GenBank IDs for 17 quality MAGs| 
@@ -334,7 +336,7 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 | 15. GCF_030148515.1 |
 | 16. GCF_030147875.1 |
 | 17. GCF_030149465.1 |
-
+| <br> |
 
 #### Questions
 
@@ -388,6 +390,7 @@ Click on the GENOME name of your MAG to **explore genome assembly summary** info
 #### Instructions
 
 - MAGs are made up of Contigs. To see which contigs make up your MAG, go back to GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), and search for your MAG using its GenBank ID (e.g.GCF_030147545.1). 
+
 - You will see that MAG GCF_030147545.1 is composed of 42 contigs.
 
 ![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_0.png)
@@ -401,7 +404,7 @@ a. For the contig you chose in activity above, under **Related Information** on 
 
 b. Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names. 
 
-|**2. Record 7 core taxonomy ranks for your Contig.**|
+|**2. Record 7 core taxonomy ranks for your Contig.**| |
 |:--|:--|
 | Kingdom: | |
 | Phylum:| |
@@ -503,7 +506,7 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 | Gene3:| |
 |<br>| |
 
-### Activity 3 – Go Deeper!
+### Activity 3 – Go Deeper.
 
 *Estimated time: [30] min*
 
@@ -590,6 +593,7 @@ Last Revised: May 2025
   - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 
