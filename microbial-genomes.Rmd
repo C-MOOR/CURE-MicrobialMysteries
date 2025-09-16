@@ -116,11 +116,11 @@ Go back and on the top of the page and click on **Graphics** to explore genome b
 
 a. Hover along one of many green vertical sticks.  
 
-- You can also zoom into a smaller and smaller genomic region for higher resolution.
+  - You can also zoom into a smaller and smaller genomic region for higher resolution.
 
 b. Hover along one of many red vertical sticks.
 
-- You can also zoom into a smaller and smaller genomic region for higher resolution.
+  - You can also zoom into a smaller and smaller genomic region for higher resolution.
 
 #### Questions
 
@@ -149,7 +149,7 @@ b. Hover along one of many red vertical sticks.
 
 To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate <mark style="background-color: lightyellow">No results found</mark>.
 
-**For the 3 genes below, and one gene of your choice from activity above**, in the BV-BRC **Search** space, 
+**For the 3 genes below, and one gene of your choice from activity above**, in the BV-BRC **Search** space. 
 
 a. From a dropdown menu select **“Pathways”**. 
 
@@ -254,13 +254,13 @@ b. On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus t
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
+  - <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
 
 ### Footnotes
 
 **Resources**
 
-- Google Doc
+  - Google Doc
 
 **Contributions and Affiliations**
 
@@ -283,11 +283,11 @@ Last Revised: June 2025
 
 2. Pair up into groups (10 min).
 
-a. Discuss -- Each group member briefly describes answers to prelab assignment.
+  a. Discuss -- Each group member briefly describes answers to prelab assignment.
 
-b. Summarize -- Identify best answer and add to slidedeck [here](https://docs.google.com/presentation/d/1PxqLt-MDFCTSBWm0-j-mY268b3YUiPMRqYMtcJ5JDL4/edit?usp=sharing)
+  b. Summarize -- Identify best answer and add to slidedeck [here](https://docs.google.com/presentation/d/1PxqLt-MDFCTSBWm0-j-mY268b3YUiPMRqYMtcJ5JDL4/edit?usp=sharing).
 
-3. Share group discussion (2 min each group)
+3. Share group discussion (2 min each group).
 
 ### Footnotes
 
@@ -400,7 +400,7 @@ Click on the GENOME name of your MAG to **explore genome assembly summary** info
 #### Instructions
 
 - MAGs are made up of Contigs. To see which contigs make up your MAG, go back to GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), and search for your MAG using its GenBank ID (e.g.GCF_030147545.1). 
-- You will see that MAG GCF_030147545.1 is composed of 42 contigs:
+- You will see that MAG GCF_030147545.1 is composed of 42 contigs.
 
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g357f32d72ad_0_0#slide=id.g357f32d72ad_0_0")
@@ -503,7 +503,7 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
-|<br>|
+|<br>| |
 
 |**3. Record gene Product associated with your genes of interest in bv-brc database.| |
 |:--|:--|
@@ -511,7 +511,7 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
-|<br>|
+|<br>| |
 
 |**4. Record Pathway Name associated with your genes of interest in bv-brc database.| |
 |:--|:--|
@@ -519,7 +519,7 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
-|<br>|
+|<br>| |
 
 ### Activity 3 – Go Deeper!
 
@@ -586,18 +586,18 @@ Last Revised: May 2025
 
 1. Open the “Microbial Genomes Presentation” [slidedeck](https://docs.google.com/presentation/d/17hFixGrtYtM0EzEOcU1aAi0CVRu36OqtNIXtbuiu0Os/edit?usp=sharing)
 
-2. Create at least two slides (feel free to make more!) to present your findings. E.g.,
+2. Create at least two slides (feel free to make more!) to present your findings. E.g.
 
-  - Describe the MAG you explored (Activity 1) and some of its genes (Activity 2)
+  - Describe the MAG you explored (Activity 1) and some of its genes (Activity 2).
   - What did you discover about your organism and gene (Activity 3)?
 
 3. Iterate your slides being sure to:
 
-  - Add bullet points on key details you understand (Notice) and questions you have (Wonder)
-  - Include one or more plots or images that support your points
-  - Create slide titles that summarize your main takeaway
+  - Add bullet points on key details you understand (Notice) and questions you have (Wonder).
+  - Include one or more plots or images that support your points.
+  - Create slide titles that summarize your main takeaway.
 
-4. Present at next class (5 min each group)
+4. Present at next class (5 min each group).
 
 
 ### Footnotes
@@ -608,6 +608,7 @@ Last Revised: May 2025
   - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 
