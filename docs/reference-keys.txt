@@ -102,7 +102,7 @@ introduction-4
 activity-2-genomes-genes-and-databases
 instructions-18
 questions-12
-activity-3-go-deeper.
+activity-3-go-deeper
 instructions-19
 questions-13
 grading-criteria-5
