@@ -470,7 +470,7 @@ b. On the tree map, use plus and minus tabs to zoom in and out and visualize you
 
 #### Questions
 
-|**1. Record 5 genes of interest for your Contig.| |
+|**1. Record 5 genes of interest for your Contig**.| |
 |:--|:--|
 | Gene1: | |
 | Gene2:| |
@@ -480,7 +480,7 @@ b. On the tree map, use plus and minus tabs to zoom in and out and visualize you
 
 For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** space, a) from a dropdown menu select **Pathways**, b) type in the gene name and click enter. This will result in a lot of entries for different organisms. c) check one of the boxes corresponding to the gene of interest and enter below which species/strain (**Genome Name**) you selected.
 
-|**2. Record Genome Name associated with your 3 genes of interest in bv-brc database.| |
+|**2. Record Genome Name associated with your 3 genes of interest in bv-brc database**.| |
 |:--|:--|
 |**Gene**| **Genome Name**|
 | Gene1: | |
@@ -488,7 +488,7 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 | Gene3:| |
 |<br>| |
 
-|**3. Record gene Product associated with your genes of interest in bv-brc database.| |
+|**3. Record gene Product associated with your genes of interest in bv-brc database**.| |
 |:--|:--|
 |**Gene**| **Product**|
 | Gene1: | |
@@ -496,7 +496,7 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 | Gene3:| |
 |<br>| |
 
-|**4. Record Pathway Name associated with your genes of interest in bv-brc database.| |
+|**4. Record Pathway Name associated with your genes of interest in bv-brc database**.| |
 |:--|:--|
 |**Gene**| **Pathway Name**|
 | Gene1: | |
@@ -516,25 +516,25 @@ Use any tools available at your disposal to follow up on your MAG and gene of in
 
 1. For the **taxa** you identified for your chosen MAG in activity 1, what can you learn about this organism (species or genus for example) in 15 minutes using any tools at your disposal? 
 
-|**1a. What did you learn? |
+|**1a. What did you learn?** |
 |:--|
 |   |
 | <br> |
 
 
-|**1b. What tools did you use? |
+|**1b. What tools did you use?** |
 |:--|
 |   |
 | <br> |
 
 2. For one of the **genes** you identified for your chosen contig in activity 2, what can you learn about this gene in 15 minutes using any tools at your disposal?
 
-|**2a. What did you learn? |
+|**2a. What did you learn?** |
 |:--|
 |   |
 | <br> |
 
-|**2b. What tools did you use? |
+|**2b. What tools did you use?** |
 |:--|
 |   |
 | <br> |
@@ -591,6 +591,7 @@ Last Revised: May 2025
   - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 
