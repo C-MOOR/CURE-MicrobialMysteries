@@ -1,7 +1,3 @@
-```{r, include = FALSE}
-ottrpal::set_knitr_image_path()
-```
-
 # Microbial Genomes
 
 Microbial genomes range in size and organization. Despite their small size and having fewer number of coding genes, bacteria are more taxonomically diverse, more abundant and more successful in colonizing neew habitats - they are present in virtually every environment on earth!. This is in part due to bacteria having very 'busy' genomes with a high proportion of protein-coding functional genes and regions (and very little noncoding DNA and introns) which provide a source of innovation, novelty and adaptation e.g. by simply altering (mutating) functional genes [(P.C. Kirchberger et al, 2020)](https://doi.org/10.1146/annurev-micro-020518-115822). In contrast, eukaryotic genomes mostly consist of noncoding DNA, and a lot of mutations are bound to occur in those abundant noncoding regions.
@@ -24,7 +20,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1bnFhIIu6ZXSCjlrz
 
 ### Purpose
 
-Impress all the information that is freely available about well studied (and not so well studied) bacterial species.  Start with E. coli as one of the best and longest studied before going into recently discovered bacteria (with less information).
+Impress all the information that is freely available about well studied (and not so well studied) bacterial species. Start with E. coli as one of the best and longest studied before going into recently discovered bacteria (with less information).
 
 ### Learning Objectives
 
@@ -524,7 +520,7 @@ For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** sp
 | Gene3:| |
 |<br>| |
 
-### Activity 3 – Go Deeper.
+### Activity 3 – Go Deeper
 
 *Estimated time: [30] min*
 
@@ -611,6 +607,7 @@ Last Revised: May 2025
   - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 
