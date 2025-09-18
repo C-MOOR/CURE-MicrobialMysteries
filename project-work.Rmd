@@ -47,7 +47,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1j1u4frdYt18nVmjM
 
 #### Instructions
 
-1. Upload sequencing reads for accession id SRR29980924 in Galaxy using **Faster Download and Extract Reads in FASTQ** tool .
+1. Upload sequencing reads for accession id SRR29980924 in Galaxy using **Faster Download and Extract Reads in FASTQ** tool.
 2. Make your Galaxy history sharable.
 
 #### Questions
@@ -101,7 +101,7 @@ Using **GTDB-Tk Classify genomes** tool, classify the nanopore-soil MAGs you obt
 
 #### Instructions
 
-Upload sequencing reads from a dataset of interest using the **Faster Download and Extract Reads in FASTQ** tool.  Refer back to the table in the **Activity: Possible Datasets** for BioProjects with known long read metagenomics datasets.
+Upload sequencing reads from a dataset of interest using the **Faster Download and Extract Reads in FASTQ** tool.  Refer back to the table in the **Activity Possible Datasets** for BioProjects with known long read metagenomics datasets.
 
 #### Questions
 
@@ -195,15 +195,15 @@ A few ideas to get you started with the Project Work can be found in the **Possi
 
 2. Pick one and answer the following questions
 
-a) Notice – What about this abstract most interests you?
+ a. Notice – What about this abstract most interests you?
 
-b) Dataset – Summarize at a high level where the samples came from, how many there are, and what technology was used for sequencing.
+ b. Dataset – Summarize at a high level where the samples came from, how many there are, and what technology was used for sequencing.
 
-c) Wonder – Two or three questions you would like to ask using this (and any other) datasets.
+ c. Wonder – Two or three questions you would like to ask using this (and any other) datasets.
 
 3. Post your answers by replying to the “Project Work: Possible Datasets” topic in the Discussion Forum
 
-|Possible Datasets (Long-read PacBio)|
+|Possible Datasets (Long-read PacBio)| | | |
 |:--|:--|:--|:--|
 |**Soil**| | | |
 | |Antarctic |PRJNA1126331 | https://pubmed.gov/39300163/| 
@@ -236,184 +236,113 @@ Last Revised: May 2025
 
 # Conducting Your Research
 
-Conducting your research involves prioritizing, scaffolding and organizing your research as you progress towards a final poster presentation.  To help you conduct your research in an organized and efficient manner, and with feedback and review from both, peers and instructors, several key aspects of conducting research will be a part of your resech work. They include round table updates, written check-ins, advisory meetings, and peer reviews.  During the Project Work phase, you will be documenting, summarizing and updating relevant documenents which will fall under 3 categories:
+Conducting your research involves **prioritizing**, **scaffolding** and **organizing** your work as you progress towards a final poster presentation.  This chapter outlines how to approach your research in an organized and efficient manner, incorporating feedback and review from both, peers and instructors. 
 
+Your research process will involve several recurrent activities during the **Project Work phase**, including:
 
-```
-1. Round Table Data & Troubleshooting** - Reviewed and discussed as a community In-Class 
-2. Written Check-Ins** - Group-specific write-ups checked by instructor(s)
-3. Advisory Meetings** - Group-specific in-person meetings between individual groups and instructor(s)
-```
+- **Round Table Data and Troubleshooting** (in-class, community discussions)
+- **Written Checkins** (Group-specific written updates for instructors and peers)
+- **Advisory Meetings** (Scheduled group meetings with instructors)
 
+## Project Work Organizer
 
-### Project Work Organizer
+Research lab meetings are valuable opportunities to receive community analysis and feedback.  Many class sessions should be spent discussing project progress, alternating between data results and troubleshooting methods.  
 
-Research lab meetings are great forums to receive community analysis and feedback.  Many classes going forward will be spent discussing your project progress, alternating between data results and troubleshooting methods.  Refer to this organizer to see what we’ll discuss on a given day and find the appropriate slidedeck.
+Use the **Project Work Organizer** to:
 
+- Locate the appropriate slidedecks
+- Track your document and milestones
+- Receive instructor feedback and peer review
 
-<mark style="background color: yellow">Use this organizer to find instructions and track documents</mark>.
+By following the Project Work Organizer, participating in Round Table sessions, submitting thorough Written Check-Ins, and engaging in Advisory Meetings, you will:
 
-#### Round Table Data & Troubleshooting 
+- Receive regular feedback from peers and instructors
+- Stay organized and on schedule
+- Develop your project into a polished final poster presentation
 
-Research lab meetings are great forums to receive community analysis and feedback. In-class round table data and troubleshooting sessions and slidedecks will be used to report on and get feedback on your ongoing research. Consider these in-class project work updates your research lab meetings!
+### Round Table Data & Troubleshooting 
 
-**1. Track and share your work and progress using Slidedecks**
+Round table sessions are in-class "research lab meetings" where students share progress, receive feedback, and collaboratevely troubleshoot problems. 
 
-a. Instructor will create a single Slidedeck - **Round Table Data** for all groups 
+**How it Works**
 
-b. Instructor will create a single Slidedeck - **Round Table Troubleshooting**  for all groups
+- The instructor will create **shared slidedecks for all groups**: 
+  - **Round Table Data** slidedeck
+  - **Round Table Troubleshooting** slidedeck
+  - **Poster** slidedeck
+  - **Final Presentation** slidececk
+- Students will present and update their work using these slidedecks on designed class days.
 
-c. Instructor will create a single Slidedeck - **Poster** for all groups
+**Sample Round Table Schedule**
 
-d. Instructor will create a single Slidedeck - **Final Presentation** for all groups
-
-**2. Use the following (sample) project Work organizer for your In-class Project Work updates.**
-
-
-|Course Week | Day 1 | Day 2
-|:--| --|-- | 
+|Course Week | Day 1 | Day 2 |
+|:--|:--|:-- | 
 |6| Round Table Data| Round Table Troubleshooting |
-|7| Round Table Data| Science Talks|
+|7| Round Table Data| Guest Science Talks|
 |8| Round Table Troubleshooting| Round Table Data | 
 |9| Round Table Data | Round Table Troubleshooting|
 |10|Round Table Data | Round Table Troubleshooting |
 |11| Round Table Poster Review| Round Table Poster Review |
-|12| Science Talks| Round Table Poster Review|
+|12| Guest Science Talks| Round Table Poster Review|
 |13| Final Poster Presentations | Wrap-up |
 
 
-#### Written check-ins
+### Written Check-ins
 
-Written check-ins encompass a written document for groups-instructor interaction, and will also be used for peer reviews. 
+Written check-ins are documents for group-instructor interaction, and they will also serve as the platform for peer reviews. 
 
-**1. Track and share your work and progress using test document**
+**How it Works**
 
-For each group, instructor will create a text document **Doc** which will include the following sections:
+Each group will be assigned a Written **Check-in Document** which will include the following sections:
 
-**a. Written Check-in (Doc)** - Progress will be assessed through several written check-ins.  These documents will allow you to summarize the work you’ve done, receive feedback from colleagues, and provide another opportunity to ask for help.  Your check-in should be concise but complete (full sentences) and include the following information:
+**a. Written Check-in (project overall)** 
+
+Summarize the work you’ve done, receive feedback, respond to feedback, ask for help and guidance. 
 
 - New progress since last submission (15 pts)
 - How you’ve addressed prior feedback (15 pts)
 - Poster organization (10 pts)
-- Struggles you are encountering and questions you would like advice on (10 pts)
+- Struggles and questions (10 pts)
 
-**b. Written Check-in (Poster)** - The second written check-in will focus on starting your poster using material you developed for your Round Table updates.  Posters should be 30 inches wide and we have provided a template with example two and three column formats.  You can make your own design by selecting the Blank layout.  Kickstart your poster by adding the following details:
+**b. Written Check-in (Poster-specific)** 
+
+Begin developing your poster using material from Round Table updates.  A poster template will be provided. Include:
 
 - Title and authors (10 pts)
-- Hypothesis along with diagram or figure (10 pts)
+- Hypothesis and diagram or figure (10 pts)
 - Dataset table with sample metadata including accession ID, collection method, etc. (10 pts)
-- Methods in the form of details and figure (10 pts)
+- Methods (details and figure) (10 pts)
 - Results (10 pts)
 
-**c. Peer Review** - Each person will work individually to peer review two separate projects.  Review the poster associated with each project and provide feedback in group's Check-in document on the following:
+**c. Peer Review**
+
+Each person will work individually to peer **review two other projects**. Provide written feedback **in group's check-in document**, including:
 
 - Aspects of the project that you find fascinating
-- Questions you have about the approach or results
-- Suggestions on next steps, poster organization, etc.
+- Questions yabout the approach or results
+- Suggestions for next steps, poster organization, etc.
 
-#### Advisory Meetings
+### Advisory Meetings
 
-**Advisory Meeting** - Each group will schedule a meeting with the instructors to discuss their progress.  These meetings will take place outside of class and should be scheduled before the deadline.  A link to the when2meet schedule can be found in the Group Information section.
+**Advisory Meeting** 
 
-### Sample project work doc organizer
+Each group will schedule a meeting with the instructors to discuss progress.
 
-With your instructor, during your Project Work, fill out the Project Work organizer below. 
+- Meetings take place **outlide of class**
+- Schedule using e.g. **When2Meet link** in the Group Information section
+- Be sure to meet **before the assigned deadlines**
+
+### Sample Project Work Document Organizer
+
+Use this sample organizer to track your group's documents and meetings:
 
 
-|Group | Check-in | Poster | Meeting #1 | Meeting # 2|
+|Group | Check-in (Doc) | Poster (Slides) | Meeting #1 (Date)| Meeting # 2 (Date)|
 |:--| :--| :-- | :-- | :-- | 
 |Group A| Doc | Slides | Date 1 | Date 2| 
 |Group B| Doc | Slides | Date 1 | Date 2| 
 |Group C| Doc | Slides | Date 1 | Date 2| 
 |Group D| Doc | Slides | Date 1 | Date 2| 
-
-### Project Work Sample Schedule
-
-February 25 | Session 1
-
-- Round Table Data (slidedeck)
-
-February 27 | Session 2
-
-- Round Table Troubleshooting (slidedeck)
-
-March 4 | Session 3 
-
-- Round Table Data (slidedeck)
-- `Homework: Work on Written Check-in #1 (Doc) (Due day before next class, March 5)`
-
-March 6 | Professional Development
-
-- Science Talks: Guest Lecture and Q&A
-- `Homework: Work on Written Check-in #2 (Doc) (Due day before next class, March 10)`
-
-March 11 | Session 4
-
-- Round Table Troubleshooting (slidedeck)
-- `Homework: Work on Written Check-in #3 (Poster) (Due day before next class, March 12)`
-
-
-March 13 | Session 5
-
-- Round Table Data (slidedeck)
-- `Advisory Meeting #1` (Due next day, March 14)`
-
-March 18 
-
-- Spring Break
-
-March 20 
-
-- Spring Break
-
-March 25 | Session 6
-
-- Round Table Data (slidedeck)
-
-March 27 | Sessison 7
-
-- Round Table Troubleshooting (slidedeck)
-- `Homework: Work on Written Check-in #4 (Doc) (Due day before next class, March 31)`
-
-April 1 | Session 8
-
-- Round Table Data (slidedeck)
-- `Homework: Work on Peer-review #1 (Doc) (Due day before next class, April 2)`
-
-April 3 | Session 9
- 
-- Round Table Troubleshooting (slidedeck)
-- `Advisory Meeting #1` (Due next day, April 4)`
-- `Homework: Work on Written Check-in #5 (Doc) (Due day before next class, April 7)`
-
-April 8 | Professional Development 
-
-- Round Table Poster Review (slidedeck)
-- `Homework: Work on Peer-review #2 (Doc) (Due day before next class, April 9)`
-
-April 10 | Session 10
-
-- - Round Table Poster Review (slidedeck)
- 
-April 15 | Session 11
-
-- Science Talks: Guest Lecture and Q&A
-
-April 17 | Professional Development
-
-- Round Table Poster Review (slidedeck)
-- **Finalize Poster for printing**
-- In class activity: Scientific Communication
-
-April 22 | Professional Development
-
-- **Project Work Final Poster Presentation**
-
-April 24 | Wrap-Up: Professional Development 
-
-- Last Session
-- Lecture: Next Steps
-- In class activity: Next Steps
 
 
 ### Footnotes
@@ -424,6 +353,7 @@ April 24 | Wrap-Up: Professional Development
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: June 2025
+
 
 
 
