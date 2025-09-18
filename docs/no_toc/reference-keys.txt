@@ -254,8 +254,7 @@ project-work-organizer-1
 round-table-data-troubleshooting
 written-check-ins
 advisory-meetings
-sample-project-work-doc-organizer
-project-work-sample-schedule
+sample-project-work-document-organizer
 footnotes-19
 scientific-posters
 lecture---scientific-posters
