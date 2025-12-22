@@ -26,7 +26,7 @@ Data Science is an evolving career path for individuals (data scientists) in fie
 
 C-MOOR is a project to invite students to join the data science revolution and be part of the next generation of data scientists.  
 This project provides online materials to help students and instructors incorporate authentic research experiences in lower division courses.  
-To learn more about its presence at Clovis Community College, visit https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html
+To learn more about its presence at Clovis Community College, visit [https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html](https://www.cloviscollege.edu/alumni-and-community/c-moor/c-moor.html)
 
 ### C-MOOR Learning goals
 
@@ -73,25 +73,21 @@ Fill out your username and insert a screenshot of that username in the boxes bel
 | 1. C-MOOR Academy Discussion Forum. |
 |:-|
 | <Username: insert screenshot> |
-
 <br>
 
 | 2. Google Docs.|
 |:-|
 | <Username: insert screenshot> |
-
 <br>
 
 | 3. Galaxy.|
 |:-|
 | <Username: insert screenshot> |
-
 <br>
 
 | 4. SciServer.|
 |:-|
 | <Username: insert screenshot> |
-
 <br>
 
 #### Grading Criteria
@@ -196,6 +192,7 @@ In this assignment, students will post to both a public and private Category wit
 - Stephanie Coffman, Clovis Community College
 
 Last Revised: January 2025
+
 
 
 
