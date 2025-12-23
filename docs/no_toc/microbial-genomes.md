@@ -1,6 +1,6 @@
 # Microbial Genomes
 
-Microbial genomes range in size and organization. Despite their small size and having fewer number of coding genes, bacteria are more taxonomically diverse, more abundant and more successful in colonizing neew habitats - they are present in virtually every environment on earth!. This is in part due to bacteria having very 'busy' genomes with a high proportion of protein-coding functional genes and regions (and very little noncoding DNA and introns) which provide a source of innovation, novelty and adaptation e.g. by simply altering (mutating) functional genes [(P.C. Kirchberger et al, 2020)](https://doi.org/10.1146/annurev-micro-020518-115822). In contrast, eukaryotic genomes mostly consist of noncoding DNA, and a lot of mutations are bound to occur in those abundant noncoding regions.
+Microbial genomes range in size and organization. Despite their small size and having fewer number of coding genes, bacteria are more taxonomically diverse, more abundant and more successful in colonizing new habitats - they are present in virtually every environment on earth!. This is in part due to bacteria having very 'busy' genomes with a high proportion of protein-coding functional genes and regions (and very little noncoding DNA and introns) which provide a source of innovation, novelty and adaptation e.g. by simply altering (mutating) functional genes [(P.C. Kirchberger et al, 2020)](https://doi.org/10.1146/annurev-micro-020518-115822). In contrast, eukaryotic genomes mostly consist of noncoding DNA, and a lot of mutations are bound to occur in those abundant noncoding regions.
 
 <img src="microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
@@ -16,11 +16,12 @@ In this **Microbial Genomes module**, we will learn about microbial genomes and 
 
 ### Purpose
 
-Impress all the information that is freely available about well studied (and not so well studied) bacterial species. Start with E. coli as one of the best and longest studied before going into recently discovered bacteria (with less information).
+Impress all the information that is freely available about well studied (and not so well studied) bacterial species. 
+Start with *E. coli* as one of the best and longest studied before going into recently discovered bacteria (with less information).
 
 ### Learning Objectives
 
-1. GenBank – Explore sequence database of all publicly available DNA sequences.
+1. GenBank – Explore sequence database of publicly available DNA sequences.
 2. Sequence Browser – Observe genome organization using graphical representation.
 3. Bacterial database BV-BRC - Explore bacterial genes and their function.
 4. Taxonomy Browser – Identify relationships between taxa.
@@ -30,13 +31,27 @@ Impress all the information that is freely available about well studied (and not
 
 <img src="microbial-genomes_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-#### Activity 1 - Part I
+#### Activity 1 - GenBank
 
-*Estimated time: 5 min*
+*Estimated time: 10 min*
 
 #### Instructions
 
-Navigate to **GenBank** [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.gov/genbank) and enter ‘E. coli strain K-12’ in the search bar (which should default to **Nucleotide**). This will give you a list of almost 300,000 E. coli sequences. Go down the list and click on the entry that corresponds to the complete genome of the substrain MG1655, which should be on page 1! Click on the selection and answer the following questions.
+1. Navigate to **GenBank** [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.gov/genbank) and enter ‘E. coli strain K-12’ in the search bar (which should default to **Nucleotide**). 
+
+  - E. coli strain K-12 is a laboratory strain of the E. coli commonly used in research. This will give you back a list of over 40,000 sequences. 
+
+2. A famous substrain of E. coli strain K-12 is substrain MG1655. Lets now narrow down our search and in the search bar  enter ‘Escherichia coli str. K-12 substr. MG1655’. 
+
+  - This should give you a list of over 9,000 E. coli sequences.
+
+3. Lets explore one specific version of the MG1655 substrain with NCBI accession id **NZ_CP169634**
+  
+  - In the search bar enter ‘NZ_CP169634’. 
+
+4. This should take you to this link here: [https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634](https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634). 
+
+  - Based on this page, answer the following questions.
 
 #### Questions
 
@@ -48,38 +63,21 @@ Navigate to **GenBank** [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.
 |:--|
 | <br> |
 
-| **3. What is the ACCESSION number?** |
+| **3. When you use  the NCBI ACCESSION id ‘NZ_CP169634 in your search, how many entries did it give back? Based on this, what can you conclude about NCBI Accession id? ** |
 |:--|
 | <br> |
 
-#### Activity 1 - Part II
-
-*Estimated time: 5 min*
-
-#### Instructions
-
-Back in GenBank [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.gov/genbank), under the **Nucleotide** search tab,  instead of typing ‘E. coli strain K-12’, type in the ACCESSION number you found (NZ_CP169634). 
-
-#### Questions
-
-| **1. How many records do you observe after an ACCESSION number entry?** |
-|:--|
-| <br> |
-
-| **2. What can you conclude about what is the ACCESSION number?** |
-|:--|
-| <br> |
 
 
 ### Activity 2 – Genomes, genes, and other databases
 
-#### Activity 2 - Part I
+#### Part 1 - Genomes
 
 *Estimated time: 5 min*
 
 #### Instructions
 
-After entering your accession number, the on the right of the page, under **Related Information**, click on Assembly link to explore genome assembly information.
+After entering your accession number NZ_CP169634.1, on the right of the page [https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634](https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634), under **Related Information**, click on the **Assembly** link to explore genome assembly information.
 
 #### Questions
 
@@ -96,19 +94,20 @@ After entering your accession number, the on the right of the page, under **Rela
 |:--|
 | <br> |
 
-#### Activity 2 - Part II
+#### Part 2 - Genes
 
 *Estimated time: 10 min*
 
 #### Instructions
 
-Go back and on the top of the page and click on **Graphics** to explore genome browser.
+Go back to [https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634](https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634) and near the top of the page, find and click on **Graphics** to explore the genome browser.
+
 
 a. Hover along one of many green vertical sticks.  
 
   - You can also zoom into a smaller and smaller genomic region for higher resolution.
 
-b. Hover along one of many red vertical sticks.
+b. Hover along one of many red vertical sticks (you might need to zoom in first t).
 
   - You can also zoom into a smaller and smaller genomic region for higher resolution.
 
@@ -124,6 +123,7 @@ b. Hover along one of many red vertical sticks.
 
 |**3. Record 5 genes you found present in E. coli**.|
 |:--|
+| Gene example: ampC |
 | Gene 1 |
 | Gene 2 |
 | Gene 3 |
@@ -131,7 +131,7 @@ b. Hover along one of many red vertical sticks.
 | Gene 5 |
 | <br> |
 
-#### Activity 2 - Part III
+#### Part 3 - Databases
 
 *Estimated time: 10 min*
 
@@ -139,25 +139,24 @@ b. Hover along one of many red vertical sticks.
 
 To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate <mark style="background-color: lightyellow">No results found</mark>.
 
-**For the 3 genes below, and one gene of your choice from activity above**, in the BV-BRC **Search** space. 
+1. In the BV-BRC **Search** space, for the 2 genes below, and one gene of your choice from activity above**:. 
 
-a. From a dropdown menu select **“Pathways”**. 
+  a. From a dropdown menu select **“Pathways”**. 
 
-b. Type in the gene name and **click enter**. This will result in a lot of entries for different organisms. 
+  b. Type in the gene name and **click enter**. The resulting output may contain gene entries for many different bacterial genomes, and E. Coli may be one of them. 
 
-c. To retrieve information specifically for *E. coli (Escherichia coli)*, in the **Keyword** space type “Escherichia”.
-
-d. Check one of the boxes corresponding to *E. coli* strains and enter below which E. coli strain **(Genome Name)** you selected. <mark style="background-color: lightyellow">If no E. coli entry is present, select and record another bacterial Genome Name to learn about your gene’s function</mark>.
+  c. Check one of the boxes corresponding to specific *Genome Name* to learn more about your gene, and answer the following questions.
 
 #### Questions
 
-|**1. Record Genome Name associated with the following genes**.| |
+Note, some genes of interest will not be found in the BV-BRC database. In this case, pick another gene.
+
+|**1. For genes below pick an organism (Genome Name)**.| |
 |:--|:--| 
 |**Gene ID** | **Genome Name** |
 | Gene 1: ampC| Escherichia coli 07798 | 
 | Gene 2: mgtA| |
-| Gene 3: cdd | |
-| Gene 4: Your gene| |
+| Gene 3: Your gene| |
 | <br> | |
 
 |**2. For the 3 genes from the activity above, record gene Product**.| |
@@ -176,21 +175,19 @@ d. Check one of the boxes corresponding to *E. coli* strains and enter below whi
 | Gene 3: | |
 | <br> | |
 
-**Note**, For some well characterized genes  you can additionally obtain more detailed information about the gene/protein function. 
-
-- To do so, from the ‘green’ menu on the right, select **FEATURE** option, to learn from the Special Properties section about a special property of your gene. 
-
 ### Activity 3 -  Taxonomy and tree of life
 
-*Estimated time: 30 min*
+*Estimated time: 25 min*
 
-#### Activity 3 - Part I
+#### Part 1
 
 #### Instructions
 
-a. Back in NCBI enter the *E. coli* accession number again. Under **Related Information** on the right, click on **Taxonomy** and then on the provided link for the *E. coli*. 
+1. Go back to NCBI enter the *E. coli* accession number again [https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634](https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634). 
 
-b. Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names.
+2. Under **Related Information** on the right, click on **Taxonomy** and then on the provided link for the *E. coli*. 
+
+3. Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names.
 
 #### Questions
 
@@ -205,13 +202,21 @@ b. Find Lineage information. Full Lineage information contains 7 core taxonomy r
 | Species:| |
 | <br> | |
 
-#### Activity 3 - Part II
+
+| 2. **Use any search engine to learn 2-3 facts about phylum Pseudomonadota. What did you learn?|
+|:--|
+| Fact example: “Pseudomonadota” is also known as “Proteobacteria”.|
+| Fact 1:|
+| Fact 2:|
+| Fact 3:|
+
+#### Part 2
 
 #### Instructions
 
-a. As with the BV-BRC database above, we can use another database called **Lifemap** to visually explore the *E. coli* in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr), type E. coli and click species tab.
+1. As with the BV-BRC database above, we can use another database called **Lifemap** to visually explore the *E. coli* in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr), type E. coli and click species tab.
 
-b. On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus tabs to zoom in and out and visualize E. coli relative to other organisms on the map. 
+2. On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus tabs to zoom in and out and visualize E. coli relative to other organisms on the map. 
 
 #### Questions
 
@@ -258,7 +263,7 @@ b. On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus t
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: June 2025
+Last Revised: December 2025
 
 
 ## Discussion - Microbial Genomes
@@ -594,6 +599,7 @@ Last Revised: May 2025
   - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 

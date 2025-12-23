@@ -1,6 +1,6 @@
 ---
 title: "CURE: Microbial Mysteries"
-date: "September 18, 2025"
+date: "December 23, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -20,8 +20,11 @@ output:
 # About {-}
 
 Welcome to Microbial Mysteries, a Course-based Undergraduate Research Experience (CURE) that takes you on a genomics adventure from soil to gut!
+You will be introduced to **metagenomic data analysis** - the study of the collective genomes from all the microorganisms in a sample, such as human gut, water or soil, which contain thousands of different microbes. We will use publically-available DNA sequencing data and free, open-source computational tools for our metagenomics data analysis.
 
-This CURE allows students to develop a project using genomics datasets from environments such as human gut and soil, and learn how organisms, high-throughput sequencing, and the scientific process are used in both basic and clinical research.
+In this CURE you will develop your own research project using learned skills and genomics datasets from environments such as human gut, water and soil. Because soil is considered one of the most microbially diverse environment on Earth, you are especially encouraged to explore this increadible reservoir of biodiversity through [**BioDIGS**](https://biodigs.org/#home), a soil biodiversity metagenome project that samples and analyzes soil from across the United States.
+
+Through this experience, students will learn how genomic data science is used in both basic research (to understand how nature works) and clinical research (to improve human health).
 
 
 <img src="index_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
