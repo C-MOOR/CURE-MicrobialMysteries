@@ -1,0 +1,7 @@
+# C-MOOR Overview
+ 
+{type: iframe, title:C-MOOR Overview, width:800, height:600, poster:resources/chapt_screen_images/c-moor-overview.png}
+![](http://science.c-moor.org/CURE-MicrobialMysteries/c-moor-overview.html)
+ 
+
+ 
