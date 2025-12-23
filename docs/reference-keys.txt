@@ -1,10 +1,6 @@
 project-work-grading
 project-work-organizer
 introduction
-c-moor-overview
-an-introduction-to-data-science
-what-is-c-moor
-c-moor-learning-goals
 welcome-to-your-genomics-adventure
 activity---create-accounts
 purpose
