@@ -162,22 +162,6 @@ Understanding microbial composition and diversity in different environments is c
 |:--|
 |<br>|
 
-
-**3. Figure 1 Methods and Results**
-
-| Figure | Methods |
-|:-|:-|
-| Fig. 1B | in class |
-| Fig. 1C | in class |
-|<br>|
-
-| Figure | Main Findings |
-|:-|:-|
-| Fig. 1B | in class |
-| Fig. 1C | in class |
-|<br>|
-
-
 ### Part 2 - Methods and Figure Analysis
 
 *Estimated time: 60 min*
@@ -212,6 +196,8 @@ Understanding microbial composition and diversity in different environments is c
 
 
 ### Part 3 - Conclusions
+
+*Estimated time: 30 min*
 
 1. Conclusions
 
@@ -252,7 +238,7 @@ Understanding microbial composition and diversity in different environments is c
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: December 2025
+Last Revised: January 2025
 
 ## Presentation - Scientific Literature
 
@@ -282,6 +268,7 @@ c. Update slide title to summarize your main takeaway
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: January 2025
+
 
 
 
