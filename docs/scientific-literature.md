@@ -30,8 +30,8 @@ R.D. Sleator, C. Shortall, and C. Hill.  Metagenomics.  Letters in Applied Micro
 
 ### Learning Objectives 
 
-- Read a review paper that summarizes the field of metagenomics.
-- Engage with the content by finding something interesting and new, and asking a question.  
+1. Read a review paper that summarizes the field of metagenomics.
+2. Engage with the content by finding something interesting and new, and asking a question.  
 
 ### Introduction 
 
@@ -112,26 +112,29 @@ b. Summarize -- Identify best answer and add to slidedeck
 Examine research on metagenomic diversity by reading Xue, *et al*. Metagenome sequencing and 103 microbial genomes from ballast water and sediments. Scientific Data.2023 Aug 10;10(1):536. [(pubmed.gov/37563185)](https://pubmed.ncbi.nlm.nih.gov/37563185/). The main text of the paper and the supplement can be found below, in the  'Resources' section of this assignment.
 
 ### Learning Objectives
-- Understand the purpose and experimental setup of the paper
-- Understand the presented evidence (Figures and Tables) of the paper
+
+1. Understand the scope of the paper
+2. Understand the purpose and experimental setup of the paper
+3. Understand the presented evidence (Figures and Tables) of the paper
 
 ### Introduction
 
 Understanding microbial composition and diversity in different environments is critical for assessing the benefits and threats of the bacterial community in that environment.  In the publication by [Xue, et al. 2023](https://pubmed.ncbi.nlm.nih.gov/37563185/), the authors study microbial diversity in the ballast-tank water from two ships, with the idea that such a unique and isolated water environment may select for specific microbes.  Luckily in their research they don’t find bacterium *Vibrio cholerae*, but that is exactly what they would find in the ballast water of cargo ships if they did the analysis during the cholera pandemic(s) of the 1800s.
 
-### Activity 1 - with group in class
+### Part 1 - Paper Overview
 
 *Estimated time: 30 min*
 
 #### Instructions
 
 1. Form working groups in class.
-2. Read the abstract and the introduction with your group and discuss the main objectives and purpose of the paper.
-3. Answer questions below.
+2. Read the abstract and the introduction with your group 
+3. Discuss the main objectives and purpose of the paper.
+4. Answer questions below.
 
 #### Questions  
 
-**1. Overview of the Paper** 
+**1. Overview of the paper** 
 
 |1A. What is the purpose of this study?|
 |:--|
@@ -159,6 +162,7 @@ Understanding microbial composition and diversity in different environments is c
 |:--|
 |<br>|
 
+
 **3. Figure 1 Methods and Results**
 
 | Figure | Methods |
@@ -174,56 +178,61 @@ Understanding microbial composition and diversity in different environments is c
 |<br>|
 
 
-### Activity 2 - with group homework
+### Part 2 - Methods and Figure Analysis
 
 *Estimated time: 60 min*
 
-#### Instructions
+#### Questions
 
-1. With your working group for homework answer questions below.
+1. What methods did researchers use? Describe in your own words the methods used in each figure.
 
-#### Questions  
-
-1. Methods
-
-| Figure | Methods |
+| Figure | Methods/Approach |
 |:-|:-|
+| Fig. 1A | With instructor |
+| Fig. 1B | With instructor |
+| Fig. 1C | With instructor |
 | Fig. 2 | homework |
 | Fig. 3A | homework |
 | Fig. 3B | homework |
 | Fig. 3C| homework |
+|<br>|
 
+2. What are the main findings from each figure?
 
-2. Results 
-
-| Figure | Main Findings |
+| Figure | Result/Observation |
 |:-|:-|
+| Fig. 1A | With instructor |
+| Fig. 1B | With instructor |
+| Fig. 1C | With instructor |
 | Fig. 2 | homework |
 | Fig. 3A | homework |
 | Fig. 3B | homework |
 | Fig. 3C | homework |
 |<br>|
 
-3. Conclusions
 
-|3A. Read the discussion section. What were the main conclusions the authors made in this study?|
+### Part 3 - Conclusions
+
+1. Conclusions
+
+|1A. Read the discussion section. What were the main conclusions the authors made in this study?|
 |:-|
 | |
 |<br>|
 
-|3B. Do the figures agree with their conclusion?|
+|1B. Do the figures agree with their conclusion?|
 |:-|
 | |
 |<br>|
 
-4. Future Directions
+2. Future Directions
 
-|4A. Scientific work builds on previous studies. What do you believe could be the next step to further the work these researchers did?|
+|2A. Scientific work builds on previous studies. What do you believe could be the next step to further the work these researchers did? What follow-up questions(s) do you have for the authors?|
 |:--|
 | |
 |<br>|
 
-|4B. What might be the impact of this research area in general (or this study in particular?)|
+|2B. What might be the impact of this research area in general (or this study in particular?)|
 |:--|
 | |
 |<br>|
@@ -243,7 +252,7 @@ Understanding microbial composition and diversity in different environments is c
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: August 2025
+Last Revised: December 2025
 
 ## Presentation - Scientific Literature
 
@@ -273,5 +282,6 @@ c. Update slide title to summarize your main takeaway
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: January 2025
+
 
 
