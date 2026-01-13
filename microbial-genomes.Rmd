@@ -33,13 +33,11 @@ Start with *E. coli* as one of the best and longest studied before going into re
 
 ### Activity 1 – GenBank
 
+*Estimated time: 10 min*
+
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g305048ba785_0_0#slide=id.g305048ba785_0_0")
 ```
-
-#### Activity 1 - GenBank
-
-*Estimated time: 10 min*
 
 #### Instructions
 
@@ -145,13 +143,13 @@ b. Hover along one of many red vertical sticks (you might need to zoom in first 
 
 To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate <mark style="background-color: lightyellow">No results found</mark>.
 
-1. In the BV-BRC **Search** space, for the 2 genes below, and one gene of your choice from activity above**:. 
+1. In the BV-BRC **Search** space, for the 2 genes below, and one gene of your choice from activity above**: 
 
-  a. From a dropdown menu select **“Pathways”**. 
+    a. From a dropdown menu select **“Pathways”**. 
 
-  b. Type in the gene name and **click enter**. The resulting output may contain gene entries for many different bacterial genomes, and E. Coli may be one of them. 
+    b. Type in the gene name and **click enter**. The resulting output may contain gene entries for many different bacterial genomes, and E. Coli may be one of them. 
 
-  c. Check one of the boxes corresponding to specific *Genome Name* to learn more about your gene, and answer the following questions.
+    c. Check one of the boxes corresponding to specific *Genome Name* to learn more about your gene, and answer the following questions.
 
 #### Questions
 
@@ -165,7 +163,7 @@ Note, some genes of interest will not be found in the BV-BRC database. In this c
 | Gene 3: Your gene| |
 | <br> | |
 
-|**2. For the 3 genes from the activity above, record gene Product**.| |
+|**2. For the 3 genes above, record gene Product**.| |
 |:--|:--| 
 |**Gene ID** | **Gene Product** |
 | Gene 1: ampC| Beta-lactamase | 
@@ -173,7 +171,7 @@ Note, some genes of interest will not be found in the BV-BRC database. In this c
 | Gene 3: | |
 | <br> | |
 
-|**3. For the 3 genes from the activity above, record Pathway Name (relates to function)**.| |
+|**3. For the 3 genes above, record Pathway Name (relates to function)**.| |
 |:--|:--|
 |**Gene ID** | **Pathway Name** |
 | Gene 1: ampC| beta-Lactam resistance | 
@@ -209,7 +207,7 @@ Note, some genes of interest will not be found in the BV-BRC database. In this c
 | <br> | |
 
 
-| 2. **Use any search engine to learn 2-3 facts about phylum Pseudomonadota. What did you learn?|
+| 2. **Use any search engine to learn 2-3 facts about phylum Pseudomonadota. What did you learn?**|
 |:--|
 | Fact example: “Pseudomonadota” is also known as “Proteobacteria”.|
 | Fact 1:|
@@ -269,7 +267,7 @@ Note, some genes of interest will not be found in the BV-BRC database. In this c
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: December 2025
+Last Revised: January 2026
 
 
 ## Discussion - Microbial Genomes
@@ -285,9 +283,9 @@ Last Revised: December 2025
 
 2. Pair up into groups (10 min).
 
-  a. Discuss -- Each group member briefly describes answers to prelab assignment.
+    a. Discuss -- Each group member briefly describes answers to prelab assignment.
 
-  b. Summarize -- Identify best answer and add to slidedeck [here](https://docs.google.com/presentation/d/1PxqLt-MDFCTSBWm0-j-mY268b3YUiPMRqYMtcJ5JDL4/edit?usp=sharing).
+    b. Summarize -- Identify best answer and add to slidedeck [here](https://docs.google.com/presentation/d/1PxqLt-MDFCTSBWm0-j-mY268b3YUiPMRqYMtcJ5JDL4/edit?usp=sharing).
 
 3. Share group discussion (2 min each group).
 
@@ -305,7 +303,7 @@ Last Revised: February 2025
 
 ### Purpose
 
-Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/).
+Explore information about new bacterial MAGs from Zue Z. et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/).
 
 ### Learning Objectives
 
@@ -317,15 +315,15 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 
 *Estimated time: [40] min*
 
-#### Activity 1 - Part I - Explore a MAG
+#### Part 1 - Explore a MAG
 
 #### Instructions 
 
-- In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/), 17 of 103 uncovered MAGs from ballast water or sediment were of very high quality and completeness. You will follow up on one of them!
+1. In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/), 17 of 103 uncovered MAGs from ballast water or sediment were of very high quality and completeness. You will follow up on one of them!
 
-- **Choose one of these 17 MAGs** (see 17 GenBank IDs below) to follow up in this activity.
+2. **Choose one of these high-quality 17 MAGs** (see 17 GenBank IDs below) to follow up in this activity.
 
-- Use GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/) to answer questions. 
+3. Use GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/) to answer questions. 
 
 |GenBank IDs for 17 quality MAGs| 
 |:--|
@@ -346,31 +344,31 @@ Explore information about new bacterial MAGs from Zue Z et al, Nature Scientific
 | 15. GCF_030148515.1 |
 | 16. GCF_030147875.1 |
 | 17. GCF_030149465.1 |
-| <br> |
 
 #### Questions
 
-|**1. Record the GenBank ID number for one of 17 high quality MAGs for follow up below**.| 
+|**1. Record the GenBank ID number for one of 17 MAGs you will follow up**.| 
 |:--|
 | <br> |
-
-In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab **enter** the GenBank number of your MAG (e.g. GCF_030147545.1) and click **Search**. 
-
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g305048ba785_0_77#slide=id.g305048ba785_0_77")
-```
 
 |**2. Record below the GENOME name for the MAG assembly associated with the GenBank ID you entered.**| 
 |:--|
 | <br> | 
 
-For the 1st MAG (GCF_030147545.1), the GENOME name is "Alcanivorax sp. genome ASM3014754v1":
+Hint:
+a) In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab **enter** the GenBank number of your MAG (e.g. GCF_030147545.1) and click **Search**. 
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g305048ba785_0_77#slide=id.g305048ba785_0_77")
+```
+
+b) For that MAG (e.g. 1st MAG with GenBank ID GCF_030147545.1), the GENOME name is "Alcanivorax sp. genome ASM3014754v1":
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g357b6795023_0_2#slide=id.g357b6795023_0_2")
 ```
 
-Click on the GENOME name of your MAG to **explore genome assembly summary** information.
+For the following questions, click on the GENOME name of your MAG to **explore genome assembly summary** information.
 
 |**3. What is the Taxon of your MAG?**| 
 |:--|
@@ -399,26 +397,24 @@ Click on the GENOME name of your MAG to **explore genome assembly summary** info
 |<br>|
 
 
-#### Activity 1 - Part II - Explore a Contig
+#### Part 2 - Explore a Contig
 
 #### Instructions
 
-- MAGs are made up of Contigs. To see which contigs make up your MAG, go back to GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), and search for your MAG using its GenBank ID (e.g.GCF_030147545.1). 
+1. MAGs are made up of Contigs. To see which contigs make up your MAG, go back to GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), and search for your MAG using its GenBank ID (e.g.GCF_030147545.1). 
 
-- You will see that MAG GCF_030147545.1 is composed of 42 contigs.
+    - For example, you will see that MAG GCF_030147545.1 is composed of 42 contigs.
 
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g357f32d72ad_0_0#slide=id.g357f32d72ad_0_0")
 ```
+#### Questions
 
-|**1. Each contig has its own accession number. Choose a contig of reasonably large size (> 75 kb), click on the contig, then find and record below the Contig’s ID (Accession number/GenBank ID) for further examination.**|
+|**1. Choose a contig of reasonably large size (> 75 kb), click on the contig, then find and record below the Contig’s ID (Accession number/GenBank ID) for further examination.**|
 |:--|
 |Tip: You can sort the entries by length via’ Sort by Sequence Length’ on top!|
 |<br>|
 
-a. For the contig you chose in activity above, under **Related Information** on the right, click on **Taxonomy** and **then click again on the provided link**.
-
-b. Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names. 
 
 |**2. Record 7 core taxonomy ranks for your Contig.**| |
 |:--|:--|
@@ -429,15 +425,22 @@ b. Find Lineage information. Full Lineage information contains 7 core taxonomy r
 | Family:| |
 | Genus:| |
 | Species:| |
-| <br> | |
 
-#### Activity 1 - Part III - Visualize contig in a tree of life
+Hint:
+    a. For the contig you chose above, under **Related Information** on the right, click on **Taxonomy** and **then click again on the provided link**.
 
-#### Introduction
+    b. Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names. 
+
+
+#### Part 3 - Visualize contig in a tree of life
+
+#### Instructions
 
 a. Use Lifemap to visually explore the contig taxonomy in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr) and **enter the lowest taxonomy rank observed for your contig** (most likely the species or genus level, but can also correspond to order or family).
 
 b. On the tree map, use plus and minus tabs to zoom in and out and visualize your Contig entry relative to other organisms on the map. Zoom in and find nodes corresponding to  the higher taxonomic ranks. For example, if your contig corresponds to genus level classification, you will not be able to identify species level information, but you will be able to identify the corresponding Family, Order, Class and Phylum. 
+
+#### Questions
 
 |**1. Record 7 core taxonomy ranks for your Contig.**| |
 |:--|:--|
@@ -448,7 +451,6 @@ b. On the tree map, use plus and minus tabs to zoom in and out and visualize you
 | Family:| |
 | Genus:| |
 | Species:| |
-|<br>| |
 
 |**2. What are some other members of the Genus to which your Contig belongs?**|
 |:--|
@@ -489,28 +491,30 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g357f32d72ad_0_31#slide=id.g357f32d72ad_0_31")
 ```
 
-3. For the 3 genes of choice, use the BV-BRC [bv-brc.org](https://www.bv-brc.org) to find more information on your genes.
+3. For the 3 genes of choice, use the **BV-BRC** [bv-brc.org](https://www.bv-brc.org) to find more information on your genes.
 
 #### Questions
 
-|**1. Record 5 genes of interest for your Contig**.| |
+|**1. Record 3 genes of interest for your Contig**.| |
 |:--|:--|
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
-| Gene4:| |
-| Gene5:| |
-| <br> | |
 
-For the 3 genes above, in the [bv-brc.org](https://www.bv-brc.org) **Search** space, a) from a dropdown menu select **Pathways**, b) type in the gene name and click enter. This will result in a lot of entries for different organisms. c) check one of the boxes corresponding to the gene of interest and enter below which species/strain (**Genome Name**) you selected.
-
-|**2. Record Genome Name associated with your 3 genes of interest in bv-brc database**.| |
+|**2. Record one organism (Genome Name) for which the gene of interest is available in bv-brc database**.| |
 |:--|:--|
 |**Gene**| **Genome Name**|
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
 |<br>| |
+
+Hint:
+In the [bv-brc.org](https://www.bv-brc.org) **Search** space:
+    a) from a dropdown menu select **Pathways**, 
+    b) type in the gene name and **click enter**. This may result in a lot of gene entries for different organisms, 
+    c) Note one host species/strain (**Genome Name**).
+
 
 |**3. Record gene Product associated with your genes of interest in bv-brc database**.| |
 |:--|:--|
@@ -540,25 +544,25 @@ Use any tools available at your disposal to follow up on your MAG and gene of in
 
 1. For the **taxa** you identified for your chosen MAG in activity 1, what can you learn about this organism (species or genus for example) in 15 minutes using any tools at your disposal? 
 
-|**1a. What did you learn?** |
+|**a. What did you learn?** |
 |:--|
 |   |
 | <br> |
 
 
-|**1b. What tools did you use?** |
+|**b. What tools did you use?** |
 |:--|
 |   |
 | <br> |
 
 2. For one of the **genes** you identified for your chosen contig in activity 2, what can you learn about this gene in 15 minutes using any tools at your disposal?
 
-|**2a. What did you learn?** |
+|**a. What did you learn?** |
 |:--|
 |   |
 | <br> |
 
-|**2b. What tools did you use?** |
+|**b. What tools did you use?** |
 |:--|
 |   |
 | <br> |
@@ -579,7 +583,7 @@ Use any tools available at your disposal to follow up on your MAG and gene of in
   - Gauri Paul, Clovis Community College
   - Frederick Tan, Johns Hopkins University
 
-Last Revised: May 2025
+Last Revised: January 2026
 
 
 ## Presentation - Microbial Genomes
@@ -615,6 +619,7 @@ Last Revised: May 2025
   - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 
