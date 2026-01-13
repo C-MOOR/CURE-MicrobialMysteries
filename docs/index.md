@@ -1,6 +1,6 @@
 ---
 title: "CURE: Microbial Mysteries"
-date: "December 23, 2025"
+date: "January 13, 2026"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
