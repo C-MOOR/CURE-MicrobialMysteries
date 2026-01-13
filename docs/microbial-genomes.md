@@ -315,11 +315,11 @@ Explore information about new bacterial MAGs from Zue Z. et al, Nature Scientifi
 
 1. In the research study by Zue Z et al, Nature Scientific Data 2023 [https://pubmed.ncbi.nlm.nih.gov/37563185/](https://pubmed.ncbi.nlm.nih.gov/37563185/), 17 of 103 uncovered MAGs from ballast water or sediment were of very high quality and completeness. You will follow up on one of them!
 
-2. **Choose one of these high-quality 17 MAGs** (see 17 GenBank IDs below) to follow up in this activity.
+2. Choose **one of these 17 MAGs** (see their GenBank IDs **below**) to follow up in this activity.
 
 3. Use GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/) to answer questions. 
 
-|GenBank IDs for 17 quality MAGs| 
+|GenBank IDs for 17 high-quality MAGs| 
 |:--|
 | 1. GCF_030147545.1 |
 | 2. GCF_030148435.1 |
@@ -345,16 +345,17 @@ Explore information about new bacterial MAGs from Zue Z. et al, Nature Scientifi
 |:--|
 | <br> |
 
-|**2. Record below the GENOME name for the MAG assembly associated with the GenBank ID you entered.**| 
+|**2. Record the GENOME name for the MAG assembly associated with the GenBank ID you entered.**| 
 |:--|
 | <br> | 
 
-Hint:
-a) In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab **enter** the GenBank number of your MAG (e.g. GCF_030147545.1) and click **Search**. 
+Hints:
+
+a. In the GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), under the Nucleotide search tab **enter** the GenBank number of your MAG (e.g. GCF_030147545.1) and click **Search**. 
 
 ![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g305048ba785_0_77.png){width=100%}
 
-b) For that MAG (e.g. 1st MAG with GenBank ID GCF_030147545.1), the GENOME name is "Alcanivorax sp. genome ASM3014754v1":
+b. For that MAG (e.g. 1st MAG with GenBank ID GCF_030147545.1), the GENOME name is "Alcanivorax sp. genome ASM3014754v1":
 
 ![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357b6795023_0_2.png){width=100%}
 
@@ -384,8 +385,6 @@ For the following questions, click on the GENOME name of your MAG to **explore g
 |:--|
 | MAGs:|
 | Contigs:|
-|<br>|
-
 
 #### Part 2 - Explore a Contig
 
@@ -393,9 +392,10 @@ For the following questions, click on the GENOME name of your MAG to **explore g
 
 1. MAGs are made up of Contigs. To see which contigs make up your MAG, go back to GenBank [https://www.ncbi.nlm.nih.gov/nucleotide/](https://www.ncbi.nlm.nih.gov/nucleotide/), and search for your MAG using its GenBank ID (e.g.GCF_030147545.1). 
 
-    - For example, you will see that MAG GCF_030147545.1 is composed of 42 contigs.
+- For example, you will see that MAG GCF_030147545.1 is composed of 42 contigs.
 
 ![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_0.png)
+
 #### Questions
 
 |**1. Choose a contig of reasonably large size (> 75 kb), click on the contig, then find and record below the Contig’s ID (Accession number/GenBank ID) for further examination.**|
@@ -415,9 +415,10 @@ For the following questions, click on the GENOME name of your MAG to **explore g
 | Species:| |
 
 Hint:
-    a. For the contig you chose above, under **Related Information** on the right, click on **Taxonomy** and **then click again on the provided link**.
 
-    b. Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names. 
+a. For the contig you chose above, under **Related Information** on the right, click on **Taxonomy** and **then click again on the provided link**.
+
+b. Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names. 
 
 
 #### Part 3 - Visualize contig in a tree of life
@@ -474,8 +475,8 @@ b. On the tree map, use plus and minus tabs to zoom in and out and visualize you
 2. **Select genes of interest**. A lot of genes found in the Contigs will have no ‘familiar’ short symbol and instead have a long alphabetical-and-numerical- name. Such genes are either uncharacterized, hypothetical or have functional or structural similarity to known genes/proteins, but have not been confirmed. However, some Contig genes will be annotated with a ‘familiar’ short gene symbol, matching known genes. Please use the genes with the short symbols for this activity, since the ‘other’ genes will not be found in the databases.
 
 ![](microbial-genomes_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g357f32d72ad_0_31.png){width=100%}
+3. For your genes of interest, use the **BV-BRC** [bv-brc.org](https://www.bv-brc.org) to find more information.
 
-3. For the 3 genes of choice, use the **BV-BRC** [bv-brc.org](https://www.bv-brc.org) to find more information on your genes.
 
 #### Questions
 
@@ -485,7 +486,7 @@ b. On the tree map, use plus and minus tabs to zoom in and out and visualize you
 | Gene2:| |
 | Gene3:| |
 
-|**2. Record one organism (Genome Name) for which the gene of interest is available in bv-brc database**.| |
+|**2. Record one organism (Genome Name) for which the gene of interest is available**.| |
 |:--|:--|
 |**Gene**| **Genome Name**|
 | Gene1: | |
@@ -500,7 +501,7 @@ In the [bv-brc.org](https://www.bv-brc.org) **Search** space:
     c) Note one host species/strain (**Genome Name**).
 
 
-|**3. Record gene Product associated with your genes of interest in bv-brc database**.| |
+|**3. Record gene Product associated with your genes of interest**.| |
 |:--|:--|
 |**Gene**| **Product**|
 | Gene1: | |
@@ -508,7 +509,7 @@ In the [bv-brc.org](https://www.bv-brc.org) **Search** space:
 | Gene3:| |
 |<br>| |
 
-|**4. Record Pathway Name associated with your genes of interest in bv-brc database**.| |
+|**4. Record Pathway Name associated with your genes of interest**.| |
 |:--|:--|
 |**Gene**| **Pathway Name**|
 | Gene1: | |
@@ -603,6 +604,7 @@ Last Revised: January 2026
   - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 
