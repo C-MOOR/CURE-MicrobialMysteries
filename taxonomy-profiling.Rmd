@@ -270,6 +270,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore its contents.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g3b7d7c0c092_0_70#slide=id.g3b7d7c0c092_0_70")
+```
 
 #### Questions
 
@@ -287,7 +288,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 |Line 2:| 
 |Line 3:| 
 |Line 4:| 
-|<br>|
 
 #### Part 2 - QC Data with NanoPlot
 
@@ -308,20 +308,20 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
 #### Questions
 
-**What are some features of the NanoPlot tool in Galaxy?**
+**1. What are some features of the NanoPlot tool in Galaxy?**
 
 |A. Under **Type of file(s) to work on**, check to see what input files are compatible with NanoPlot and name 2 file extension options listed.|
 |:--|
 |File extension name 1:| 
 |File extension name 2:| 
-<br>
+|<br>|
 
 |B. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.|
 |:--|
 |1.| 
 |2.| 
 |3.| 
-<br> 
+|<br>| 
 
 **2. What are some key stats from the NanoPlot HTML output report?.** 
 
@@ -361,12 +361,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 | A. Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained.| 
 |:--|
 | |
-<br>
+|<br>|
  
 | B. Scroll down to view the ‘Yield by length’ cumulative plot which shows sequencing yield based on read length. From this plot do shorter (10kb or less) or longer sequences produce more data?| 
 |:--|
 | |
-<br>
 
 
 ### Activity 2 – Taxonomy Profiling
@@ -395,7 +394,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
     e. Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, run, and complete. `While you are waiting, continue with the next section of this prelab.`
 
-- *Note, that it can take longer than 30 minutes to run the scheduled jobs in part, because Galaxy servers are public shared resources used concurrently by numerous users, so that when many users demand resources like CPU, memory, or disk space, it can create bottlenecks and delays, affecting the speed of your particular job.*
+  - *Note, that it can take longer than 30 minutes to run the scheduled jobs in part, because Galaxy servers are public shared resources used concurrently by numerous users, so that when many users demand resources like CPU, memory, or disk space, it can create bottlenecks and delays, affecting the speed of your particular job.*
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g370690c0d46_0_92#slide=id.g370690c0d46_0_92")
@@ -461,7 +460,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
     - (S)pecies. 
     
 *Note, some rank codes will have numbers associated with them; Ignore them for the moment.*
-```
 
 #### Questions
 
@@ -936,6 +934,7 @@ Last Revised: May 2025
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 
