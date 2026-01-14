@@ -229,13 +229,13 @@ To find out which microorganisms are present in the sample, the sequencing reads
 The sample used in this activity is the [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this activity.
 :::
 
-### Activity 1 – QC Reads
+### Activity 1 – Import data and QC Reads
 
-*Estimated time: 50 min*
+*Estimated time: 25 min*
 
 #### Part 1 - Import the dataset into Galaxy
 
-*Estimated time: 15 min*
+*Estimated time: 10 min*
 
 #### Instructions
 
@@ -282,6 +282,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore its contents.
   - Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete. Answer related questions below.
 
 ![](taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_66.png){width=100%}
+
 2. View and examine the NanoPlot results in Galaxy by clicking on the View (eyeball) next to the NanoPlot output.
 
 #### Questions
@@ -292,14 +293,14 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore its contents.
 |:--|
 |File extension name 1:| 
 |File extension name 2:| 
-|<br>|
+<br>
 
 |B. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.|
 |:--|
 |1.| 
 |2.| 
 |3.| 
-|<br>| 
+<br>
 
 **2. What are some key stats from the NanoPlot HTML output report?.** 
 
@@ -348,7 +349,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore its contents.
 
 ### Activity 2 – Taxonomy Profiling
 
-*Estimated time: 50 min*
+*Estimated time: 35 min*
 
 #### Part 1 - Run ‘Taxonomy Profiling’ workflow in Galaxy
 
@@ -358,17 +359,18 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore its contents.
 
 1.  Run ‘Taxonomy Profiling’ public workflow.
 
-    a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling) and click on **Run**. 
 
 ![](taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_82.png){width=100%}
 
-    b. Browse to select your fastq dataset by clicking on the ‘...’ tab.
+  a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling) and click on **Run**. 
 
-    c. Under **kraken_database** select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.
+  b. Browse to select your fastq dataset by clicking on the ‘...’ tab.
 
-    d. Click **Run Workflow**.
+  c. Under **kraken_database** select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.
 
-    e. Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, run, and complete. `While you are waiting, continue with the next section of this prelab.`
+  d. Click **Run Workflow**.
+
+  e. Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, run, and complete. `While you are waiting, continue with the next section of this prelab.`
 
   - *Note, that it can take longer than 30 minutes to run the scheduled jobs in part, because Galaxy servers are public shared resources used concurrently by numerous users, so that when many users demand resources like CPU, memory, or disk space, it can create bottlenecks and delays, affecting the speed of your particular job.*
 
@@ -400,7 +402,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore its contents.
 
 #### Part 2 - Examine Kraken 2 results
 
-*Estimated time: 15 min*
+*Estimated time: 10 min*
 
 #### Instructions
 
@@ -414,14 +416,15 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore its contents.
   - Click on the Display icon (eyeball) next to the output file with **kraken2_with_pluspf_database_output_report**.
   - This output report is an extended version of the converted_kraken_report. 
   - The output contains 6 columns. See info for **select column headers** below:
+
       - Column 1: Percentage (%) of reads that map to a given taxon and its descendants
       - Column 2: # of reads assigned to a given taxon and its descendants
       - Column 3: # of reads assigned directly to a given taxon (not its descendants)
       - Column 4: A rank code (see explanation below)
       - Column 6: Identified taxa/scientific name
 
-
-**Rank code:**
+```
+Rank code:
     - (U)nclassified, 
     - (R)oot, 
     - (D)omain, 
@@ -430,9 +433,9 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore its contents.
     - (C)lass, 
     - (O)rder, 
     - (F)amily, 
-    - (G)enus, or 
+    - (G)enus, 
     - (S)pecies. 
-    
+```    
 *Note, some rank codes will have numbers associated with them; Ignore them for the moment.*
 
 #### Questions
@@ -486,7 +489,7 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore its contents.
 
 #### Part 3 - Examine Krona pie chart
 
-*Estimated time: 15 min*
+*Estimated time: 10 min*
 
 #### Instructions
 
@@ -904,6 +907,7 @@ Last Revised: May 2025
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 
