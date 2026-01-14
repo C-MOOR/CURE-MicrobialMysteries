@@ -154,11 +154,11 @@ project---taxonomy-profiling
 purpose-8
 learning-objectives-7
 introduction-6
-activity-1-qc
-activity-1---part-i---import-data-and-run-nanoplot
+activity-1-data-import-and-qc
+part-1---import-data-and-run-nanoplot
 instructions-28
 questions-22
-activity-1---part-ii---quality-filtering-with-fastp
+part-2---quality-filtering-with-fastp
 instructions-29
 questions-23
 activity-2-taxonomy-profiling-1
