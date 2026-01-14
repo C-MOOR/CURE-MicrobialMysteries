@@ -3,11 +3,18 @@
 
 # Taxonomy Profiling
 
-**Taxonomic profiling** refers to the annotation and classification of metagenomics sequencing reads with taxonomic information. Due to the high complexity of metagenomics data, long-read shotgun sequencing offers many advantages over short-read sequencing for taxonomic classification. In this module, we will get a taste of long-read metagenomics sequencing data, and learn to classify and visualize taxonomy in Galaxy platform using tools like Kraken 2 to annotate and Krona plot to visualize taxonomy.
+**Taxonomic profiling** is the process of assigning metagenomics sequencing reads to taxa (e.g., genus, species) and estimating the relative abundance of organisms in a sample. Due to the high complexity of metagenomics data, long-read shotgun sequencing offers many advantages over short-read sequencing for taxonomic classification. 
+
+In this module, we will work with long-read metagenomic data and learn to classify and visualize taxonomy on the Galaxy platform. We will use **Kraken 2** to assign taxonomy to sequencing reads and **Krona** to visualize results interactively.
 
 <img src="taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_319.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-This **Taxonomy Profiling module** offers hands-on experience with real data. We will use **lecture** material to learn about taxa and related concepts like taxonomic classification and species abundance. In the **Activity** portion of the module we will explore taxonomy of **gut microbiome standard** from Zymo Research using output of Kraken 2. This standard is a sample of known microbes with expected relative abundances. Through this activity we will become familiar with the structure of our taxonomy data and do some basic analyses. In **Prelab** activity, we will have a chance to perform taxonomy profiling ourselves using raw sequences from the gut microbiome standard on Galaxy platform to reproduce the results we analyzed in the previous activity, using the tools Kraken 2 (for assignment of taxonomy to sequencing reads) and Krona pie charts (for visualization). Subsequently, we will do a **Project** activity, where we will taxonomically classify a **soil** metagenome sample which serves as an example of an uncurated novel data. We will compare our results with the gut microbiome standard over a variety of metrics to learn what to expect when handling real data.
+This **Taxonomy Profiling module** offers hands-on experience with real data. We will 
+
+- **Learn core concepts** through lecture material including taxa, taxonomic classification, and species abundance. 
+- **Activity**: Explore taxonomic profiles from the **Zymo Research gut microbiome standard** using output of Kraken 2. This standard contains a known mixture of microbes with expected relative abundances. You will examine the structure of the taxonomy output and perform some basic analyses. 
+- **Prelab**: Run taxonomy profiling ourselves in Galaxy using raw sequences from the gut microbiome standard to reproduce and interpret the results using Kraken 2 for classification and Krona pie charts for visualization. 
+- **Project**: Taxonomically classify a **soil metagenome** sample (collected by the [BioDIGS](https://biodigs.org/#home) initiative) which serves as an example of an uncurated, potentially novel data. We will compare the soil results with the gut standard to learn what to expect when working with real-world samples.
 
 <img src="taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_331.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
@@ -15,7 +22,9 @@ This **Taxonomy Profiling module** offers hands-on experience with real data. We
 
 ### Purpose
 
-Here we will have a hands-on experience with real taxonomy profiling data!  We will explore the Kraken2 output for [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF) and optionally compare to the [Zymo Human Fecal Reference](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf) profile. We will introduce concepts of taxa and their relationships, begin familiarizing ourselves with data analysis goals to quantify the proportion of classified and unclassified species, identify the most abundant species, etc. 
+1. Gain hands-on experience with real taxonomy profiling data!  We will explore the Kraken2 output for [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?) and familiarizi ourselves with data analysis. 
+srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF) 
+2. Optionally compare Zymo Gut Microbiome Standard to [Zymo Human Fecal Reference](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf). 
 
 <img src="taxonomy-profiling_files/figure-html//16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
@@ -38,23 +47,22 @@ The sample used in this activity is the [Zymo Gut Microbiome Standard](https://w
 :::
 
 
-
 *Estimated time: 25 min*
 
 #### Instructions
 
-1. Access tax-data-gut.tsv and open it with Google Sheets [here](http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-).
+1. **Access** tax-data-gut.tsv and open it with Google Sheets [here](http://drive.google.com/file/d/1vL6adVIrqxpONbae8rUsneK3tbdCpmR-).
 
 
 <img src="taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_60.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-2. Identify what information is provided in columns of the tax-data-gut taxonomy file.
+2. **Identify** what information is provided in columns of the tax-data-gut taxonomy file.
 
   - Col A = Counts
   - Cols B-H = Taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
   - Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
 
-3. Create a header row and enter the above column information.
+3. **Create** a header row and enter the above column information.
 
 #### Questions
 
@@ -181,7 +189,7 @@ In this activity, repeat the steps of the Activity 1 above, but now using the [t
 
 - Google Doc
 - [D6331 Zymo Gut Microbiome Standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)
-- [D6323 Zymo Fecal Microbiome References documentation](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf?_gl=1*cych1b*_gcl_au*MzEzNzgzNjc0LjE3MzQ5NTk3NzY)
+- [D6323 Zymo Fecal Microbiome References documentation](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf?_gl=1*cych1b*_gcl_au*MzEzNzgzNjc0LjE3MzQ5NTk3NzY), page 4.
 
 **Contributions and Affiliations**
 
@@ -189,7 +197,7 @@ In this activity, repeat the steps of the Activity 1 above, but now using the [t
 - Gauri Paul, Clovis Community College
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: July 2025
+Last Revised: January 2026
 
 ## Lecture - Taxonomy Profiling
 
@@ -208,25 +216,30 @@ To use a variety of tools on Galaxy to perform Quality Control (QC), taxonomy pr
 
 Use tools on the Galaxy platform to:
 
-1. Perform Quality Control (QC) on raw data by checking the quality of your raw reads with tool NanoPlot.
-2. Assign taxonomy labels to your reads with tool Kraken 2.
-3. Visualize your metagenomic profiling using tool Krona to generate pie chart.
+1. Import data - by copying from another Galaxy history.
+2. Perform Quality Control (QC) on raw data - by checking the quality of your raw reads with tool NanoPlot.
+2. Taxonomically classify data - Run taxonomy workflow (using Kraken 2).
+3. Visualize taxonomic composition - use tool Krona to generate pie chart.
 
 ### Introduction
 
-To find out which microorganisms are present in the sample, it is important to have high-quality DNA sequences. To ensure high-quality sequence input, QC (and in many cases also read trimming and filtering) are routinely performed on raw sequences. The reads can then be used for taxonomic classification. To assign taxonomy, we can compare the reads of the sample to a reference database, i.e. sequences of known microorganisms stored in a database, using Kraken 2, which is a k-mer based taxonomic assignment tool. We can then use a visualization tool Krona to interactively visualize and explore the composition of a metagenome.  
+To find out which microorganisms are present in the sample, the sequencing reads are used for taxonomic classification so it is important to have high-quality DNA sequences. To ensure high-quality sequence input, QC (and in many cases also read trimming and filtering) are routinely performed on raw sequences. The reads can then be used for taxonomic classification. To assign taxonomy, we can compare the reads of the sample to a reference database, i.e. sequences of known microorganisms stored in a database, using Kraken 2, which is a k-mer based taxonomic assignment tool. We can then use a visualization tool Krona to interactively visualize and explore the composition of a metagenome.  In this activity, however, we will not use these tools individually, but instead, we will run a **Galaxy workflow** which will chain together and sequentially run multiple tools (Kraken2, Krakentools and Krona pie chart) as a reproducible pipeline.
+
+::: {.notice} 
+The sample used in this activity is the [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this activity.
+:::
 
 ### Activity 1 – QC Reads
 
 *Estimated time: 50 min*
 
-#### Activity 1 - Part I - Import the dataset into Galaxy
+#### Part 1 - Import the dataset into Galaxy
 
 *Estimated time: 15 min*
 
 #### Instructions
 
-1. Import the dataset into Galaxy. 
+1. Import the data into Galaxy. 
 
 a. Open the zymo-gut-standard public history [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset-1) 
 
@@ -234,8 +247,10 @@ b. Click on **Import this history**, select copy only the active, non-deleted da
 
 c. Confirm `Zymo_Gut_Standard_D6331_subset` exists in your history by clicking on the Home button "Galaxy" on top left ().
 
+<img src="taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g3b7d7c0c092_0_152.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 d. Click on Zymo_Gut_Standard_D6331_subset to explore its contents.
 
+<img src="taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g3b7d7c0c092_0_70.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 #### Questions
 
@@ -253,97 +268,89 @@ d. Click on Zymo_Gut_Standard_D6331_subset to explore its contents.
 |Line 2:| 
 |Line 3:| 
 |Line 4:| 
-|<br>|
 
-#### Activity 1 - Part II - Run Nanoplot in Galaxy to assess sequence quality
+#### Part 2 - QC Data with NanoPlot
 
 *Estimated time: 15 min*
 
 #### Instructions
 
-1. Run Nanoplot in Galaxy. 
-
-a. Explore the NanoPlot tool parameters - click on the Tools icon on the left of the page. Then, in the search bar enter ‘NanoPlot’ and select the **NanoPlot** tool. Explore NanoPlot functionality by examining **Tool Parameters**. Answer related questions below.
-
-b. Run NanoPlot using default settings. Under Tool Parameters, **check the following settings**:
+1. Run Nanoplot tool in Galaxy using default settings. Under Tool Parameters, check the following settings. 
 
   - Under **files** there are 4 options to select a fastq dataset: Single dataset, Multiple datasets, Dataset collection or option '...' which is Browse or Upload Datasets. 
   - Browse to select your fastq dataset. **Note**: Galaxy tool may pre-select the correct dataset already for you so just make sure that the file is correct. 
   - Click on Run Tool and wait ~5-10 minutes as the NanoPlot job is scheduled, run, and complete. Answer related questions below.
 
 <img src="taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_66.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+2. View and examine the NanoPlot results in Galaxy by clicking on the View (eyeball) next to the NanoPlot output.
 
 #### Questions
 
-|1. Under **Type of file(s) to work on**, check to see what input files are compatible with NanoPlot and name 2 file extension options listed.|
+**1. What are some features of the NanoPlot tool in Galaxy?**
+
+|A. Under **Type of file(s) to work on**, check to see what input files are compatible with NanoPlot and name 2 file extension options listed.|
 |:--|
 |File extension name 1:| 
 |File extension name 2:| 
-<br>
+|<br>|
 
-|2. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.|
+|B. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.|
 |:--|
 |1.| 
 |2.| 
 |3.| 
-<br> 
+|<br>| 
 
-| 3. **Run Nanoplot** using the default tool settings and record how many output files you obtained after running NanoPlot and list their names.| 
-|:--|
-| # of output files|
-| Names of output files|
-<br>  
+**2. What are some key stats from the NanoPlot HTML output report?.** 
 
-
-#### Activity 1 - Part III - View the NanoPlot Results in Galaxy
-
-*Estimated time: 15 min*
-
-#### Instructions 
-
-1. View and examine the NanoPlot Results in Galaxy by clicking on the Display icon (eyeball) next to the NanoPlot output.
-
-#### Questions
-
-1. Examine the NanoPlot output results.
-
-  - Click on the Display icon (eyeball) next to the NanoPlot output files to view results.
-
-| A. How many bases were sequenced?| 
+| A. How many reads were sequenced?| 
 |:--|
 | |
 <br>
 
-| B. Why is the mean read length longer than the median read length? - Hint: think skewness https://wikipedia.org/wiki/Skewness|
+| B. What is the mean read length?|
 |:--|
 | |
 <br>
 
-| C. Record Reads >Q20 metric value. Given that Q20 quality (Phred) score corresponds to a read accuracy of 99% (or 1 in 100 errors), do you think this dataset is of a good sequence quality?|
+
+| C. Why is the mean read length longer than the median read length? - Hint: think skewness https://wikipedia.org/wiki/Skewness|
 |:--|
 | |
 <br>
 
-2. Examine the NanoPlot output HTML report.
+**3. What is the accuracy of sequencing data based on the NanoPlot HTML output report?.** 
 
-  - Click on the Display icon (eyeball) next to the NanoPlot output HTML report. 
+- The accuracy of sequencing is defined by the Phred quality score, which is a numerical representation of the accuracy of base calls, and ranges from 0 to 99. For example, a Phred score of 20 (Q20) corresponds to a predicted error rate of 1%, indicating 99% accuracy. 
+- In the NanoPlot output, the ‘mean_qual’ value represents an average Phred score
+
+| A. What is the mean read quality (mean_gual)?|
+|:--|
+| |
+<br>
+
+| B. Given that Q20 quality (Phred) score corresponds to a read accuracy of 99% (or 1 in 100 errors), do you think this dataset is of a good sequence quality?|
+|:--|
+| |
+<br>
+
+**4. What is some information provided by the plots in the NanoPlot HTML output report?**   
 
 | A. Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained.| 
 |:--|
 | |
-<br>
+|<br>|
  
 | B. Scroll down to view the ‘Yield by length’ cumulative plot which shows sequencing yield based on read length. From this plot do shorter (10kb or less) or longer sequences produce more data?| 
 |:--|
 | |
-<br>
 
 
-### Activity 2 – Taxonomy Profiling in Galaxy
+### Activity 2 – Taxonomy Profiling
 
 *Estimated time: 50 min*
 
-#### Activity 2 - Part I - Run ‘Taxonomy Profiling’ workflow in Galaxy
+#### Part 1 - Run ‘Taxonomy Profiling’ workflow in Galaxy
 
 *Estimated time: 15 min*
 
@@ -351,47 +358,47 @@ b. Run NanoPlot using default settings. Under Tool Parameters, **check the follo
 
 1.  Run ‘Taxonomy Profiling’ public workflow.
 
-a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling) and click on **Run**. 
+    a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling) and click on **Run**. 
 
 <img src="taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_82.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
-b. Browse to select your fastq dataset by clicking on the ‘...’ tab.
+    b. Browse to select your fastq dataset by clicking on the ‘...’ tab.
 
-c. Under **kraken_database** select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.
+    c. Under **kraken_database** select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.
 
-d. Click **Run Workflow**.
+    d. Click **Run Workflow**.
 
-e. Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, run, and complete. `While you are waiting, continue with the next section of this prelab.`
+    e. Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, run, and complete. `While you are waiting, continue with the next section of this prelab.`
 
-- *Note, that it can take longer than 30 minutes to run the scheduled jobs in part, because Galaxy servers are public shared resources used concurrently by numerous users, so that when many users demand resources like CPU, memory, or disk space, it can create bottlenecks and delays, affecting the speed of your particular job.*
+  - *Note, that it can take longer than 30 minutes to run the scheduled jobs in part, because Galaxy servers are public shared resources used concurrently by numerous users, so that when many users demand resources like CPU, memory, or disk space, it can create bottlenecks and delays, affecting the speed of your particular job.*
 
 <img src="taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g370690c0d46_0_92.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
 
 2. Examine select aspects of Kraken 2 tool. 
 
-a. While the Taxonomy Workflow is running, click on the Tools icon on the left of the page. 
+    a. While the Taxonomy Workflow is running, click on the Tools icon on the left of the page. 
 
-b. Then, in the search bar enter ‘Kraken 2’’ and select the **Kraken2** tool. 
+    b. Then, in the search bar enter ‘Kraken 2’’ and select the **Kraken2** tool. 
 
 #### Questions
 
-| A. How  does Galaxy describe the Kraken 2 tool in its descriptor on top of the page?| 
+| 1. How  does Galaxy describe the Kraken 2 tool in its descriptor on top of the page?| 
 |:--|
 | |
 <br>
 
-| B. Scroll down to the **Help/What it does** section, and in your own words paraphrase the paragraph describing how Kraken 2 works.| 
+| 2. Scroll down to the **Help/What it does** section, and in your own words paraphrase the paragraph describing how Kraken 2 works.| 
 |:--|
 | |
 <br>
 
-| C. Record how many output files you obtained from the Taxonomy Workflow and list their names.| 
+| 3. Record how many output files you obtained from the Taxonomy Workflow and list their names.| 
 |:--|
 | |
 <br>
 
 
-#### Activity 2 - Part II - View Kraken 2 results
+#### Part 2 - Examine Kraken 2 results
 
 *Estimated time: 15 min*
 
@@ -407,14 +414,13 @@ b. Then, in the search bar enter ‘Kraken 2’’ and select the **Kraken2** to
   - Click on the Display icon (eyeball) next to the output file with **kraken2_with_pluspf_database_output_report**.
   - This output report is an extended version of the converted_kraken_report. 
   - The output contains 6 columns. See info for **select column headers** below:
+      - Column 1: Percentage (%) of reads that map to a given taxon and its descendants
+      - Column 2: # of reads assigned to a given taxon and its descendants
+      - Column 3: # of reads assigned directly to a given taxon (not its descendants)
+      - Column 4: A rank code (see explanation below)
+      - Column 6: Identified taxa/scientific name
 
-```
-    Column 1: Percentage (%) of reads that map to a given taxon and its descendants
-    Column 2: # of reads assigned to a given taxon and its descendants
-    Column 3: # of reads assigned directly to a given taxon (not its descendants)
-    Column 4: A rank code (see explanation below)
-    Column 6: Identified taxa/scientific name
- 
+
 **Rank code:**
     - (U)nclassified, 
     - (R)oot, 
@@ -428,88 +434,108 @@ b. Then, in the search bar enter ‘Kraken 2’’ and select the **Kraken2** to
     - (S)pecies. 
     
 *Note, some rank codes will have numbers associated with them; Ignore them for the moment.*
-```
 
 #### Questions
 
 1. Answer the following questions about the **converted_kraken_report**.
 
-| 1A. How many Unclassified reads are there?| 
+| A. How many Unclassified reads are there?| 
 |:--|
 | |
 <br>
 
-| 1B. How many Kingdoms are there and what are they?| 
+| B. How many Kingdoms are there and what are they?| 
 |:--|
 | |
 <br>
 
-| 1C. How many Phyla are there and what are they?| 
+| C. How many Phyla are there and what are they?| 
 |:--|
 | |
 <br>
 
-| 1D. Using the total *number_of_reads* you obtained from the **NanoStats** (NanoPlot) metrics, and the value of *Unclassified* reads from the *converted_kraken_report*, calculate the % unclassified and % classified taxa.| 
+| D. Using the total *number_of_reads* you obtained from the **NanoStats** (NanoPlot) metrics, and the value of *Unclassified* reads from the *converted_kraken_report*, calculate the % unclassified and % classified taxa.| 
 |:--|
 | |
 <br>
 
-| 1E. Click on the *converted_kraken_report* entry and look just below the ‘Add Tags’ to see the number of lines and columns in the file. The number of lines corresponds to the number of taxa detected. Excluding the Unclassified taxa, how many taxa were identified?| 
+| E. Click on the *converted_kraken_report* entry and look just below the ‘Add Tags’ to see the number of lines and columns in the file. The number of lines corresponds to the number of taxa detected. Excluding the Unclassified taxa, how many taxa were identified?| 
 |:--|
 | |
 <br>
 
 2. Answer the following questions about the **kraken2_with_pluspf_database_output_report**.
 
-| 2A. What is the percentage of Unclassified taxa listed? Does it match what you calculated in section 2-2.1?| 
+| A. What is the percentage of Unclassified taxa listed?|
+|:--|
+| - Note, percent will be found in column 1 of the report|
+| |
+<br>
+
+| B. What is the percentage of Classified taxa?|
+|:--|
+| - Note, the document lists (U)nclassified taxa only, so you'll need to calculate the percentage of Classified taxa.
+| |
+<br>
+
+| C. Find and record the 3 most abundant bacterial Phyla (p_) by percentages. As rows are not sorted by abundance, you may find it helpful to search using for “P” using <CTRL>-F to highlight rows corresponding to phyla.| 
 |:--|
 | |
 <br>
 
-| 2B. What is the percentage of Classified taxa? Does it match what you calculated in section 2-2.1?| 
+
+#### Part 3 - Examine Krona pie chart
+
+*Estimated time: 15 min*
+
+#### Instructions
+
+1. View Krona pie chart output
+
+- Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes. 
+- Click on Display icon (eyeball) next to the **Krona_pie_chart** dataset to explore the results as a Krona pie chart. 
+
+<img src="taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g3b7d7c0c092_0_308.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+For example, in Krona pie chart you can visualize:
+
+- **Percent Unclassified**
+- **Different taxa** such as phyla, where prefix “p_” corresponds to Phyla, or order, where prefix “o_” corresponds to Order, etc..
+- **Proportions of different taxa** (number of reads and percentages). If you click on different phyla, which phylum chunk appears largest? For example, if you click on  ”p_Bacteroidetes” you will see, at the top right corner,  that it’s 41534 reads,  make up 23% of kingdom Bacteria (or 21% of all reads (Root)).
+
+<img src="taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g3b7d7c0c092_0_234.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+#### Questions
+
+1. View Krona Results and answer the following questions.
+
+
+| A. What are the 2 main phyla you observe?| 
 |:--|
 | |
 <br>
 
-- Note, the document lists (U)nclassified taxa only, so you'll need to get the percentage of Classified taxa based on that.
-
-| 2C. Find and record the 3 most abundant Phyla (p_) by percentages. As rows are not sorted by abundance, you may find it helpful to search using for “P” using <CTRL>-F to highlight rows corresponding to phyla.| 
+| 2. What appears to be the more diverse phyla of the two and why?| 
 |:--|
 | |
 <br>
 
-3. View Krona Results and answer the following questions.
-
-Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an interactive visualization tool for exploring the composition of metagenomes. Click on Display icon (eyeball) next to the **Krona_pie_chart** dataset to explore the results as a Krona pie chart. 
-
-<img src="taxonomy-profiling_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g336203e918d_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
-
-| 3A. What are the 2 main phyla you observe?| 
+| 3. How many reads and what percent of bacterial reads were classified as phylum Firmicutes.| 
 |:--|
 | |
 <br>
 
-| 3B. What appears to be the more diverse phyla of the two and why?| 
+| 4. What is one of the most abundant Orders in the phylum Firmicutes based on number and % of reads?| 
 |:--|
 | |
 <br>
 
-| 3C. Examine how many reads and percent of reads were classified as phylum Firmicutes.| 
+| 5. Within the most abundant Order from your answer above, record one Family member, one genus member and one species member; also include their percent abundances.| 
 |:--|
 | |
 <br>
 
-| 3D. What is one of the most abundant Orders in phylum FIrmicutes based on number and % of reads?| 
-|:--|
-| |
-<br>
-
-| 3E. Within the most abundant Order from your answer above, record one Family member, one genus member and one species member; also include their percent abundances.| 
-|:--|
-| |
-<br>
-
-| 3F. Some potentially pathogenic bacterial species are often present in a healthy gut, but in relatively low amounts. What % of bacteria is represented by *C. difficile* (*Clostridiodes difficile*) in this gut standard sample? How does it compare to the expected proportion in the [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..)?| 
+| 6. Some potentially pathogenic bacterial species are often present in a healthy gut, but in relatively low amounts. What % of bacteria is represented by *C. difficile* (*Clostridiodes difficile*) in this gut standard sample? How does it compare to the expected proportion in the [ZymoBIOMICS® Gut Microbiome Standard](https://files.zymoresearch.com/datasheets/ds1712_zymobiomics_gut_microbiome_standard_data_sheet.pdf?_gl=1*1njkhlx*_gcl_au*MzE1NTQwNzEuMTczODI1OTA5OA..)?| 
 |:--|
 | |
 <br>
@@ -531,7 +557,7 @@ Krona pie chart is one of the outputs of the Taxonomy workflow, and it is an int
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: May 2025
+Last Revised: January 2026
 
 
 ## Discussion - Taxonomy Profiling
@@ -566,7 +592,6 @@ b. Summarize -- Identify the best answer and add it to the slidedeck
 Last Revised: February 2025
 
 
-
 ## Project - Taxonomy Profiling
 
 ### Purpose
@@ -575,10 +600,10 @@ To use a variety of Galaxy tools to perform Quality Control (QC), sequence quali
 
 ### Learning Objectives
 
-In this exercise, using tools on Galaxy you will be:
+In this exercise, using tools on Galaxy you will:
 
-1. Performing QC and quality filtering of your soil metagenomics data with the NanoPlot and fastp tools.
-2. Running a workflow to perform taxonomy profiling and visualization of a soil metagenome.
+1. Perform QC and quality filtering of your soil metagenomics data with the NanoPlot and fastp tools.
+2. Run a workflow to perform taxonomy profiling and visualization of a soil metagenome.
 
 Throughout these objectives you will be comparing soil and gut metagenomes.
 
@@ -879,6 +904,8 @@ Last Revised: May 2025
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
+
 
 
 

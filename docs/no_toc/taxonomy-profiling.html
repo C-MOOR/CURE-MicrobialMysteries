@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2026-01-13" />
+<meta name="date" content="2026-01-14" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -198,7 +198,7 @@
 <li class="chapter" data-level="4.3.2" data-path="prelab---taxonomy-profiling.html"><a href="prelab---taxonomy-profiling.html#learning-objectives-6"><i class="fa fa-check"></i><b>4.3.2</b> Learning Objectives</a></li>
 <li class="chapter" data-level="4.3.3" data-path="prelab---taxonomy-profiling.html"><a href="prelab---taxonomy-profiling.html#introduction-5"><i class="fa fa-check"></i><b>4.3.3</b> Introduction</a></li>
 <li class="chapter" data-level="4.3.4" data-path="prelab---taxonomy-profiling.html"><a href="prelab---taxonomy-profiling.html#activity-1-qc-reads"><i class="fa fa-check"></i><b>4.3.4</b> Activity 1 – QC Reads</a></li>
-<li class="chapter" data-level="4.3.5" data-path="prelab---taxonomy-profiling.html"><a href="prelab---taxonomy-profiling.html#activity-2-taxonomy-profiling-in-galaxy"><i class="fa fa-check"></i><b>4.3.5</b> Activity 2 – Taxonomy Profiling in Galaxy</a></li>
+<li class="chapter" data-level="4.3.5" data-path="prelab---taxonomy-profiling.html"><a href="prelab---taxonomy-profiling.html#activity-2-taxonomy-profiling"><i class="fa fa-check"></i><b>4.3.5</b> Activity 2 – Taxonomy Profiling</a></li>
 <li class="chapter" data-level="4.3.6" data-path="prelab---taxonomy-profiling.html"><a href="prelab---taxonomy-profiling.html#grading-criteria-7"><i class="fa fa-check"></i><b>4.3.6</b> Grading Criteria</a></li>
 <li class="chapter" data-level="4.3.7" data-path="prelab---taxonomy-profiling.html"><a href="prelab---taxonomy-profiling.html#footnotes-10"><i class="fa fa-check"></i><b>4.3.7</b> Footnotes</a></li>
 </ul></li>
@@ -213,7 +213,7 @@
 <li class="chapter" data-level="4.5.2" data-path="project---taxonomy-profiling.html"><a href="project---taxonomy-profiling.html#learning-objectives-7"><i class="fa fa-check"></i><b>4.5.2</b> Learning Objectives</a></li>
 <li class="chapter" data-level="4.5.3" data-path="project---taxonomy-profiling.html"><a href="project---taxonomy-profiling.html#introduction-6"><i class="fa fa-check"></i><b>4.5.3</b> Introduction</a></li>
 <li class="chapter" data-level="4.5.4" data-path="project---taxonomy-profiling.html"><a href="project---taxonomy-profiling.html#activity-1-qc"><i class="fa fa-check"></i><b>4.5.4</b> Activity 1 – QC</a></li>
-<li class="chapter" data-level="4.5.5" data-path="project---taxonomy-profiling.html"><a href="project---taxonomy-profiling.html#activity-2-taxonomy-profiling"><i class="fa fa-check"></i><b>4.5.5</b> Activity 2 – Taxonomy Profiling</a></li>
+<li class="chapter" data-level="4.5.5" data-path="project---taxonomy-profiling.html"><a href="project---taxonomy-profiling.html#activity-2-taxonomy-profiling-1"><i class="fa fa-check"></i><b>4.5.5</b> Activity 2 – Taxonomy Profiling</a></li>
 <li class="chapter" data-level="4.5.6" data-path="project---taxonomy-profiling.html"><a href="project---taxonomy-profiling.html#grading-criteria-8"><i class="fa fa-check"></i><b>4.5.6</b> Grading Criteria</a></li>
 <li class="chapter" data-level="4.5.7" data-path="project---taxonomy-profiling.html"><a href="project---taxonomy-profiling.html#footnotes-12"><i class="fa fa-check"></i><b>4.5.7</b> Footnotes</a></li>
 </ul></li>
@@ -459,9 +459,16 @@
 </div>
 <div id="taxonomy-profiling" class="section level1 hasAnchor" number="4">
 <h1><span class="header-section-number">Chapter 4</span> Taxonomy Profiling<a href="taxonomy-profiling.html#taxonomy-profiling" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p><strong>Taxonomic profiling</strong> refers to the annotation and classification of metagenomics sequencing reads with taxonomic information. Due to the high complexity of metagenomics data, long-read shotgun sequencing offers many advantages over short-read sequencing for taxonomic classification. In this module, we will get a taste of long-read metagenomics sequencing data, and learn to classify and visualize taxonomy in Galaxy platform using tools like Kraken 2 to annotate and Krona plot to visualize taxonomy.</p>
+<p><strong>Taxonomic profiling</strong> is the process of assigning metagenomics sequencing reads to taxa (e.g., genus, species) and estimating the relative abundance of organisms in a sample. Due to the high complexity of metagenomics data, long-read shotgun sequencing offers many advantages over short-read sequencing for taxonomic classification.</p>
+<p>In this module, we will work with long-read metagenomic data and learn to classify and visualize taxonomy on the Galaxy platform. We will use <strong>Kraken 2</strong> to assign taxonomy to sequencing reads and <strong>Krona</strong> to visualize results interactively.</p>
 <p><img src="taxonomy-profiling_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_319.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
-<p>This <strong>Taxonomy Profiling module</strong> offers hands-on experience with real data. We will use <strong>lecture</strong> material to learn about taxa and related concepts like taxonomic classification and species abundance. In the <strong>Activity</strong> portion of the module we will explore taxonomy of <strong>gut microbiome standard</strong> from Zymo Research using output of Kraken 2. This standard is a sample of known microbes with expected relative abundances. Through this activity we will become familiar with the structure of our taxonomy data and do some basic analyses. In <strong>Prelab</strong> activity, we will have a chance to perform taxonomy profiling ourselves using raw sequences from the gut microbiome standard on Galaxy platform to reproduce the results we analyzed in the previous activity, using the tools Kraken 2 (for assignment of taxonomy to sequencing reads) and Krona pie charts (for visualization). Subsequently, we will do a <strong>Project</strong> activity, where we will taxonomically classify a <strong>soil</strong> metagenome sample which serves as an example of an uncurated novel data. We will compare our results with the gut microbiome standard over a variety of metrics to learn what to expect when handling real data.</p>
+<p>This <strong>Taxonomy Profiling module</strong> offers hands-on experience with real data. We will</p>
+<ul>
+<li><strong>Learn core concepts</strong> through lecture material including taxa, taxonomic classification, and species abundance.</li>
+<li><strong>Activity</strong>: Explore taxonomic profiles from the <strong>Zymo Research gut microbiome standard</strong> using output of Kraken 2. This standard contains a known mixture of microbes with expected relative abundances. You will examine the structure of the taxonomy output and perform some basic analyses.</li>
+<li><strong>Prelab</strong>: Run taxonomy profiling ourselves in Galaxy using raw sequences from the gut microbiome standard to reproduce and interpret the results using Kraken 2 for classification and Krona pie charts for visualization.</li>
+<li><strong>Project</strong>: Taxonomically classify a <strong>soil metagenome</strong> sample (collected by the <a href="https://biodigs.org/#home">BioDIGS</a> initiative) which serves as an example of an uncurated, potentially novel data. We will compare the soil results with the gut standard to learn what to expect when working with real-world samples.</li>
+</ul>
 <p><img src="taxonomy-profiling_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_331.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <hr>
