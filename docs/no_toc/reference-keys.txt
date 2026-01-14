@@ -127,7 +127,7 @@ prelab---taxonomy-profiling
 purpose-7
 learning-objectives-6
 introduction-5
-activity-1-qc-reads
+activity-1-import-data-and-qc-reads
 part-1---import-the-dataset-into-galaxy
 instructions-22
 questions-17
