@@ -162,13 +162,13 @@ part-2---quality-filtering-with-fastp
 instructions-29
 questions-23
 activity-2-taxonomy-profiling-1
-activity-2---part-i---run-taxonomy-profiling-workflow
+part-1---run-taxonomy-profiling-workflow
 instructions-30
 questions-24
-activity-2---part-ii---analyze-kraken-2-results
+part-2---analyze-kraken-2-results
 instructions-31
 questions-25
-activity-2---part-iii---krona-pie-chart
+part-3---krona-pie-chart
 instructions-32
 questions-26
 grading-criteria-8
