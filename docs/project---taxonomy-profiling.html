@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2026-01-14" />
+<meta name="date" content="2026-01-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -460,23 +460,25 @@
 <h2><span class="header-section-number">4.5</span> Project - Taxonomy Profiling<a href="project---taxonomy-profiling.html#project---taxonomy-profiling" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="purpose-8" class="section level3 hasAnchor" number="4.5.1">
 <h3><span class="header-section-number">4.5.1</span> Purpose<a href="project---taxonomy-profiling.html#purpose-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Using a variety of Galaxy tools we will analyze soil metagenome from the <a href="https://biodigs.org/#home">BioDIGS Project!</a>. We will perform Quality Control (QC), sequence quality filtering, taxonomy profiling, and visualization of a metagenomics soil sample sequenced with long-read Nanopore technology.</p>
-<div class="notice">
-<p>The sample used in this activity is from the <a href="https://biodigs.org/#about">BioDIGS Project</a>, sequenced with long-read sequencing Oxford Nanopore Technology <a href="https://nanoporetech.com/products/sequence/promethion">PromethION Instrument</a>. A 6.1 GB subset - <a href="https://usegalaxy.org/u/valerie-g/h/biodigs-promethion-mo1-1-subset">BioDIGS_PromethION-Mo1_1_subset</a> - of the full dataset is used in this activity.</p>
-</div>
+<p>The goal of this activity is to analyze a soil metagenome from the <a href="https://biodigs.org/#home">BioDIGS Project!</a>, a nationwide initiative that aims to <a href="https://www.nature.com/articles/s41588-025-02442-5">unearth soil biodiversity through collaborative genomic research and education</a>. Using Galaxy platform, we will perform Quality Control (QC), sequence quality filtering, taxonomy profiling, and visualization of a metagenomics soil sample sequenced with long-read Nanopore technology.</p>
+<p><img src="taxonomy-profiling_files/figure-html/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g3b82b075be2_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="learning-objectives-7" class="section level3 hasAnchor" number="4.5.2">
 <h3><span class="header-section-number">4.5.2</span> Learning Objectives<a href="project---taxonomy-profiling.html#learning-objectives-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Use tools on the Galaxy platform to:</p>
 <ol style="list-style-type: decimal">
-<li>Import Dataset</li>
-<li>Perform QC and quality filtering of your soil metagenome with the <strong>NanoPlot</strong> and <strong>fastp</strong> tools.</li>
+<li>Dig into real metagenomic sample from the field.</li>
+<li>Import data and perform QC and quality filtering of your soil metagenome with the <strong>NanoPlot</strong> and <strong>fastp</strong> tools.</li>
 <li>Run <strong>taxonomy profiling workflow</strong> to classify and visualizate taxonomy of a soil sample.</li>
 </ol>
 <p>Throughout these objectives you will also be comparing soil and gut metagenomes.</p>
 </div>
 <div id="introduction-6" class="section level3 hasAnchor" number="4.5.3">
 <h3><span class="header-section-number">4.5.3</span> Introduction<a href="project---taxonomy-profiling.html#introduction-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The BioDIGS (BioDiversity and Informatics for Genomics Scholars) Project is a nationwide initiative involving students, researchers and educators across more than 40 research and teaching institutions. Participants lead sample collection, computational analysis and results interpretation to understand the relationships between the soil microbiome, environment and health.</p>
+<div class="notice">
+<p>The sample used in this activity is from the <a href="https://biodigs.org/#about">BioDIGS Project</a>, sequenced with long-read sequencing Oxford Nanopore Technology <a href="https://nanoporetech.com/products/sequence/promethion">PromethION Instrument</a>. A 6.1 GB subset - <a href="https://usegalaxy.org/u/valerie-g/h/biodigs-promethion-mo1-1-subset">BioDIGS_PromethION-Mo1_1_subset</a> - of the full dataset is used in this activity.</p>
+</div>
 <p><strong>Note</strong>, the total time for a Galaxy step to complete depends on and will increase based on multiple factors such the input file size, a long queue when many other people are analyzing data, the complexity of the job itself and errors. See the table below for the <em>minimum</em> time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete.
 <br></p>
 <p>Note, that you can save time by:</p>
@@ -513,20 +515,18 @@
 <div id="instructions-28" class="section level4 hasAnchor" number="4.5.4.2">
 <h4><span class="header-section-number">4.5.4.2</span> Instructions<a href="project---taxonomy-profiling.html#instructions-28" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Import the dataset into Galaxy.</li>
-</ol>
+<li><p>Import the dataset into Galaxy.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Open the nanopore soil subset from a public history <a href="https://usegalaxy.org/u/valerie-g/h/biodigs-promethion-mo1-1-subset">BioDIGS_PromethION-M01_1_subset</a></p></li>
 <li><p>Click on <code>Import this history</code>, select Copy only the active, non-deleted datasets and then Copy History.</p></li>
-<li><p>Confirm <mark style="background color: green">Nanopore-soil-pilot-subset</mark> exists in your history by clicking on the Home button on top left.</p></li>
-</ol>
-<ol start="2" style="list-style-type: decimal">
-<li>Run the <strong>NanoPlot</strong> tool in Galaxy to assess sequence quality using the <strong>default settings</strong>.</li>
-</ol>
+<li><p>Confirm <mark style="background color: green">BioDIGS_PromethION-MO1_1_subset</mark> exists in your history by clicking on the Home button on top left.</p></li>
+</ol></li>
+<li><p>Run the <strong>NanoPlot</strong> tool in Galaxy to assess sequence quality using the <strong>default settings</strong>.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Click on the Tools icon. Then, in the search bar enter ‘NanoPlot’ and select the NanoPlot tool.</p></li>
-<li><p>Under <strong>files</strong> browse to select your Nanopore-soil-pilot-subset fastq dataset.</p></li>
+<li><p>Under <strong>files</strong> browse to select your BioDIGS_PromethION-MO1_1_subset fastq dataset.</p></li>
 <li><p>Click on <strong>Run Tool</strong> and wait ~10 minutes as the NanoPlot job is scheduled, run, and completed.</p></li>
+</ol></li>
 </ol>
 </div>
 <div id="questions-22" class="section level4 hasAnchor" number="4.5.4.3">
@@ -544,12 +544,29 @@
 </tbody>
 </table>
 <p><br></p>
-<p>|2. What are the following quality characteristics of your dataset?| |
-|:–| |
-|Read mean length (mean read length):| |
-|Read Mean quality (mean_qual):| |
-|Proportion of reads with quality &gt; Q20 (Reads &gt; Q20):| |
-<br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2. What are the following quality characteristics of your dataset?</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Read mean length (mean read length):</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Read Mean quality (mean_qual):</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Proportion of reads with quality &gt; Q20 (Reads &gt; Q20):</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
 <p><strong>3. Compare soil NanoPlot results with the gut NanoPlot results.</strong></p>
 <table>
 <colgroup>
@@ -667,14 +684,13 @@
 <div id="activity-2-taxonomy-profiling-1" class="section level3 hasAnchor" number="4.5.5">
 <h3><span class="header-section-number">4.5.5</span> Activity 2 – Taxonomy Profiling<a href="project---taxonomy-profiling.html#activity-2-taxonomy-profiling-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Estimated time: 50 min (~35 min computing)</em></p>
-<div id="activity-2---part-i---run-taxonomy-profiling-workflow" class="section level4 hasAnchor" number="4.5.5.1">
-<h4><span class="header-section-number">4.5.5.1</span> Activity 2 - Part I - Run Taxonomy Profiling Workflow<a href="project---taxonomy-profiling.html#activity-2---part-i---run-taxonomy-profiling-workflow" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="part-1---run-taxonomy-profiling-workflow" class="section level4 hasAnchor" number="4.5.5.1">
+<h4><span class="header-section-number">4.5.5.1</span> Part 1 - Run Taxonomy Profiling Workflow<a href="project---taxonomy-profiling.html#part-1---run-taxonomy-profiling-workflow" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 </div>
 <div id="instructions-30" class="section level4 hasAnchor" number="4.5.5.2">
 <h4><span class="header-section-number">4.5.5.2</span> Instructions<a href="project---taxonomy-profiling.html#instructions-30" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Run the ‘Taxonomy Profiling’ workflow on your fastp-filtered data from Activity 1 and view the results.</li>
-</ol>
+<li><p>Run the ‘Taxonomy Profiling’ workflow on your fastp-filtered data from Activity 1 and view the results.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Open the taxonomy-profiling public workflow <a href="https://usegalaxy.org/u/cutsort/w/taxonomy-profiling">https://usegalaxy.org/u/cutsort/w/taxonomy-profiling</a>.</p></li>
 <li><p>Click on Run.</p></li>
@@ -682,10 +698,8 @@
 <li><p>Under <strong>kraken_database</strong> select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.</p></li>
 <li><p>Click <strong>Run Workflow</strong>.</p></li>
 <li><p>Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, run, and completed.</p></li>
-</ol>
-<ol start="2" style="list-style-type: decimal">
-<li>Click on the Display icon (eyeball) next to the output file with converted_kraken_report. Explore the metagenomic diversity of the soil sample by performing the taxonomy profiling spreadsheet activity you did during week 1.</li>
-</ol>
+</ol></li>
+<li><p>Click on the Display icon (eyeball) next to the output file with converted_kraken_report. Explore the metagenomic diversity of the soil sample by performing the taxonomy profiling spreadsheet activity you did during week 1.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Click on <strong>converted_kraken_report</strong>, find the download button and <strong>download</strong> the report.</p></li>
 <li><p><mark style="background color: yellow">Change the extension of your taxonomy file from .tabular to .tsv</mark>.</p></li>
@@ -696,7 +710,8 @@
 <li>Col A = Counts.</li>
 <li>Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species).</li>
 <li>Each row corresponds to a different taxa.</li>
-</ul>
+</ul></li>
+</ol>
 <ol start="5" style="list-style-type: lower-alpha">
 <li>Evaluate what proportion of data was taxonomically classified.</li>
 </ol>
@@ -745,12 +760,13 @@
 </table>
 <p><strong>4. Identify the most abundant taxa (those at &gt;0.1%).</strong></p>
 <p>Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Select columns B through I.</p></li>
-<li><p>In the Data menu, select “Sort range by column B (Z to A)”.</p></li>
-<li><p>Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.</p></li>
-<li><p>In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.</p></li>
-</ol>
+<pre><code>a. Select columns B through I.
+
+b. In the Data menu, select “Sort range by column B (Z to A)”.
+
+c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
+
+d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.</code></pre>
 <table>
 <thead>
 <tr class="header">
@@ -812,8 +828,8 @@
 </tbody>
 </table>
 </div>
-<div id="activity-2---part-ii---analyze-kraken-2-results" class="section level4 hasAnchor" number="4.5.5.4">
-<h4><span class="header-section-number">4.5.5.4</span> Activity 2 - Part II - Analyze Kraken 2 results<a href="project---taxonomy-profiling.html#activity-2---part-ii---analyze-kraken-2-results" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="part-2---analyze-kraken-2-results" class="section level4 hasAnchor" number="4.5.5.4">
+<h4><span class="header-section-number">4.5.5.4</span> Part 2 - Analyze Kraken 2 results<a href="project---taxonomy-profiling.html#part-2---analyze-kraken-2-results" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 </div>
 <div id="instructions-31" class="section level4 hasAnchor" number="4.5.5.5">
 <h4><span class="header-section-number">4.5.5.5</span> Instructions<a href="project---taxonomy-profiling.html#instructions-31" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -874,8 +890,8 @@
 </tbody>
 </table>
 </div>
-<div id="activity-2---part-iii---krona-pie-chart" class="section level4 hasAnchor" number="4.5.5.7">
-<h4><span class="header-section-number">4.5.5.7</span> Activity 2 - Part III - Krona Pie Chart<a href="project---taxonomy-profiling.html#activity-2---part-iii---krona-pie-chart" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="part-3---krona-pie-chart" class="section level4 hasAnchor" number="4.5.5.7">
+<h4><span class="header-section-number">4.5.5.7</span> Part 3 - Krona Pie Chart<a href="project---taxonomy-profiling.html#part-3---krona-pie-chart" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 </div>
 <div id="instructions-32" class="section level4 hasAnchor" number="4.5.5.8">
 <h4><span class="header-section-number">4.5.5.8</span> Instructions<a href="project---taxonomy-profiling.html#instructions-32" class="anchor-section" aria-label="Anchor link to header"></a></h4>

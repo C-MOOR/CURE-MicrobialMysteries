@@ -595,28 +595,31 @@ b. Summarize -- Identify the best answer and add it to the slidedeck
 Last Revised: February 2025
 
 
-
 ## Project - Taxonomy Profiling
 
 ### Purpose
 
-Using a variety of Galaxy tools we will analyze soil metagenome from the [BioDIGS Project!](https://biodigs.org/#home). We will perform Quality Control (QC), sequence quality filtering, taxonomy profiling, and visualization of a metagenomics soil sample sequenced with long-read Nanopore technology.
+The goal of this activity is to analyze a soil metagenome from the [BioDIGS Project!](https://biodigs.org/#home), a nationwide initiative that aims to [unearth soil biodiversity through collaborative genomic research and education](https://www.nature.com/articles/s41588-025-02442-5). Using Galaxy platform, we will perform Quality Control (QC), sequence quality filtering, taxonomy profiling, and visualization of a metagenomics soil sample sequenced with long-read Nanopore technology. 
 
-::: {.notice} 
-The sample used in this activity is from the [BioDIGS Project](https://biodigs.org/#about), sequenced with long-read sequencing Oxford Nanopore Technology [PromethION Instrument](https://nanoporetech.com/products/sequence/promethion). A 6.1 GB subset - [BioDIGS_PromethION-Mo1_1_subset](https://usegalaxy.org/u/valerie-g/h/biodigs-promethion-mo1-1-subset) - of the full dataset is used in this activity.
-:::
+![](taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g3b82b075be2_0_0.png){width=100%}
 
 ### Learning Objectives
 
 Use tools on the Galaxy platform to:
 
-1. Import Dataset
-2. Perform QC and quality filtering of your soil metagenome with the **NanoPlot** and **fastp** tools.
+1. Dig into real metagenomic sample from the field.
+2. Import data and perform QC and quality filtering of your soil metagenome with the **NanoPlot** and **fastp** tools.
 3. Run **taxonomy profiling workflow** to classify and visualizate taxonomy of a soil sample.
 
 Throughout these objectives you will also be comparing soil and gut metagenomes.
 
 ### Introduction 
+
+The BioDIGS (BioDiversity and Informatics for Genomics Scholars) Project is a nationwide initiative involving students, researchers and educators across more than 40 research and teaching institutions. Participants lead sample collection, computational analysis and results interpretation to understand the relationships between the soil microbiome, environment and health.
+
+::: {.notice} 
+The sample used in this activity is from the [BioDIGS Project](https://biodigs.org/#about), sequenced with long-read sequencing Oxford Nanopore Technology [PromethION Instrument](https://nanoporetech.com/products/sequence/promethion). A 6.1 GB subset - [BioDIGS_PromethION-Mo1_1_subset](https://usegalaxy.org/u/valerie-g/h/biodigs-promethion-mo1-1-subset) - of the full dataset is used in this activity.
+:::
 
 **Note**, the total time for a Galaxy step to complete depends on and will increase based on multiple factors such the input file size, a long queue when many other people are analyzing data, the complexity of the job itself and errors. See the table below for the *minimum* time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete. 
 <br>
@@ -642,19 +645,19 @@ Note, that you can save time by:
 
 1. Import the dataset into Galaxy. 
 
-  a. Open the nanopore soil subset from a public history [BioDIGS_PromethION-M01_1_subset](https://usegalaxy.org/u/valerie-g/h/biodigs-promethion-mo1-1-subset)
+    a. Open the nanopore soil subset from a public history [BioDIGS_PromethION-M01_1_subset](https://usegalaxy.org/u/valerie-g/h/biodigs-promethion-mo1-1-subset)
 
-  b. Click on `Import this history`, select Copy only the active, non-deleted datasets and then Copy History. 
+    b. Click on `Import this history`, select Copy only the active, non-deleted datasets and then Copy History. 
 
-  c. Confirm <mark style="background color: green">Nanopore-soil-pilot-subset</mark> exists in your history by clicking on the Home button on top left.
+    c. Confirm <mark style="background color: green">BioDIGS_PromethION-MO1_1_subset</mark> exists in your history by clicking on the Home button on top left.
 
 2. Run the **NanoPlot** tool in Galaxy to assess sequence quality using the **default settings**.
 
-  a. Click on the Tools icon. Then, in the search bar enter ‘NanoPlot’ and select the NanoPlot tool. 
+    a. Click on the Tools icon. Then, in the search bar enter ‘NanoPlot’ and select the NanoPlot tool. 
 
-  b. Under **files** browse to select your Nanopore-soil-pilot-subset fastq dataset.
+    b. Under **files** browse to select your BioDIGS_PromethION-MO1_1_subset fastq dataset.
 
-  c. Click on **Run Tool** and wait ~10 minutes as the NanoPlot job is scheduled, run, and completed.
+    c. Click on **Run Tool** and wait ~10 minutes as the NanoPlot job is scheduled, run, and completed.
 
 #### Questions
 
@@ -664,7 +667,7 @@ Note, that you can save time by:
 <br>
 
 |2. What are the following quality characteristics of your dataset?| |
-|:--| |
+|:--| :-- |
 |Read mean length (mean read length):| |
 |Read Mean quality (mean_qual):| |
 |Proportion of reads with quality > Q20 (Reads > Q20):| |
@@ -718,37 +721,37 @@ Given this, we will apply a stricter quality filter using a Phred thresholf of Q
 
 *Estimated time: 50 min (~35 min computing)*
 
-#### Activity 2 - Part I - Run Taxonomy Profiling Workflow
+#### Part 1 - Run Taxonomy Profiling Workflow
 
 #### Instructions
 
 1. Run the ‘Taxonomy Profiling’ workflow on your fastp-filtered data from Activity 1 and view the results.
 
-a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling).
+    a. Open the taxonomy-profiling public workflow [https://usegalaxy.org/u/cutsort/w/taxonomy-profiling](https://usegalaxy.org/u/cutsort/w/taxonomy-profiling).
 
-b. Click on Run.
+    b. Click on Run.
 
-c. Browse to select your fastp-filtered fastq dataset <mark style="background color: green">“fastp on data1:Read 1 output”</mark> dataset by clicking on the `‘...’` tab.
+    c. Browse to select your fastp-filtered fastq dataset <mark style="background color: green">“fastp on data1:Read 1 output”</mark> dataset by clicking on the `‘...’` tab.
 
-d. Under **kraken_database** select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.
+    d. Under **kraken_database** select <mark style="background color: green">Prebuilt Refseq indexes: PlusPF(Standard plus protozoa and fungi)(Version:2022-06-07 - Downloaded: 2022-09-04T165121Z)</mark>.
 
-e. Click **Run Workflow**.
+    e. Click **Run Workflow**.
 
-f. Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, run, and completed.
+    f. Wait ~30 minutes as the Kraken 2, KrakenTools, and Krona jobs are scheduled, run, and completed.
 
 2. Click on the Display icon (eyeball) next to the output file with converted_kraken_report. Explore the metagenomic diversity of the soil sample by performing the taxonomy profiling spreadsheet activity you did during week 1. 
 
-a. Click on **converted_kraken_report**, find the download button and **download** the report.
+    a. Click on **converted_kraken_report**, find the download button and **download** the report.
 
-b. <mark style="background color: yellow">Change the extension of your taxonomy file from .tabular to .tsv</mark>.
+    b. <mark style="background color: yellow">Change the extension of your taxonomy file from .tabular to .tsv</mark>.
 
-c. Upload your taxonomy .tsv file to Google Drive and open it with Google Sheets.
+    c. Upload your taxonomy .tsv file to Google Drive and open it with Google Sheets.
 
-d. Create a header row and enter the following column information.
+    d. Create a header row and enter the following column information.
 
-  - Col A = Counts.
-  - Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species).
-  - Each row corresponds to a different taxa. 
+    - Col A = Counts.
+    - Cols B-H correspond to taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species).
+    - Each row corresponds to a different taxa. 
 
 e. Evaluate what proportion of data was taxonomically classified.
 
@@ -774,13 +777,13 @@ e. Evaluate what proportion of data was taxonomically classified.
 
 Remember, soil is one of the most diverse microbial environments with many more microbial species than in the gut. Therefore, abundant species can still be quite low abundance.
 
-a. Select columns B through I.
+    a. Select columns B through I.
 
-b. In the Data menu, select “Sort range by column B (Z to A)”.
+    b. In the Data menu, select “Sort range by column B (Z to A)”.
 
-c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
+    c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
 
-d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
+    d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
 
 |4A. How many ‘abundant' taxa (at > 0.1%) do you observe?|
 |:---|
@@ -804,7 +807,7 @@ d. In new column C, calculate % abundance for each row by dividing each count va
 |<br>|
 
 
-#### Activity 2 - Part II - Analyze Kraken 2 results
+#### Part 2 - Analyze Kraken 2 results
 
 #### Instructions
 
@@ -832,7 +835,7 @@ d. In new column C, calculate % abundance for each row by dividing each count va
 |:---|
 |<br>|
 
-#### Activity 2 - Part III - Krona Pie Chart
+#### Part 3 - Krona Pie Chart
 
 #### Instructions
 
@@ -922,6 +925,7 @@ Last Revised: May 2025
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 
