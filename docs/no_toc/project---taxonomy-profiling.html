@@ -482,11 +482,6 @@
 </div>
 <p><strong>Note</strong>, the total time for a Galaxy step to complete depends on and will increase based on multiple factors such the input file size, a long queue when many other people are analyzing data, the complexity of the job itself and errors. See the table below for the <em>minimum</em> time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete.
 <br></p>
-<p>Note, that you can save time by:</p>
-<ol style="list-style-type: decimal">
-<li>Submitting multiple jobs that use the same input (NanoPlot and fastp)</li>
-<li>Submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job is complete.</li>
-</ol>
 <p><strong>Table of approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
 <table>
 <thead>
@@ -506,6 +501,11 @@
 </tr>
 </tbody>
 </table>
+<p><strong>Note, that you can save time by:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Submitting multiple jobs that use the same input (NanoPlot and fastp)</li>
+<li>Submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job is complete.</li>
+</ol>
 </div>
 <div id="activity-1-data-import-and-qc" class="section level3 hasAnchor" number="4.5.4">
 <h3><span class="header-section-number">4.5.4</span> Activity 1 – Data import and QC<a href="project---taxonomy-profiling.html#activity-1-data-import-and-qc" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -765,9 +765,14 @@
 
 b. In the Data menu, select “Sort range by column B (Z to A)”.
 
-c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
+c. Insert a new column C.
 
-d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.</code></pre>
+  - we will use this temporary column for calculations; 
+  - you can name this column “% abundance”.
+
+d. In new column C, calculate % abundance for each row. 
+
+  - by dividing each count value by the total number of reads and multiplying by 100.</code></pre>
 <table>
 <thead>
 <tr class="header">
@@ -1011,7 +1016,7 @@ d. In new column C, calculate % abundance for each row by dividing each count va
 <li>Valeriya Gaysinskaya, Johns Hopkins University</li>
 <li>Frederick Tan, Johns Hopkins University</li>
 </ul>
-<p>Last Revised: May 2025</p>
+<p>Last Revised: January 2025</p>
 </div>
 </div>
 <hr>
