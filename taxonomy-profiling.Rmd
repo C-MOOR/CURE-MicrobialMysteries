@@ -311,13 +311,13 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
 **1. What are some features of the NanoPlot tool in Galaxy?**
 
-|A. Under **Type of file(s) to work on**, check to see what input files are compatible with NanoPlot and name 2 file extension options listed.|
+|1A. Under **Type of file(s) to work on**, check to see what input files are compatible with NanoPlot and name 2 file extension options listed.|
 |:--|
 |File extension name 1:| 
 |File extension name 2:| 
 <br>
 
-|B. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.|
+|1B. Click to expand *Options for filtering or transforming input prior to plotting* and name 3 options you could use to filter your sequencing data.|
 |:--|
 |1.| 
 |2.| 
@@ -326,18 +326,18 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
 **2. What are some key stats from the NanoPlot HTML output report?.** 
 
-| A. How many reads were sequenced?| 
+|2A. How many reads were sequenced?| 
 |:--|
 | |
 <br>
 
-| B. What is the mean read length?|
+|2B. What is the mean read length?|
 |:--|
 | |
 <br>
 
 
-| C. Why is the mean read length longer than the median read length? - Hint: think skewness https://wikipedia.org/wiki/Skewness|
+|2C. Why is the mean read length longer than the median read length? - Hint: think skewness https://wikipedia.org/wiki/Skewness|
 |:--|
 | |
 <br>
@@ -347,24 +347,24 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 - The accuracy of sequencing is defined by the Phred quality score, which is a numerical representation of the accuracy of base calls, and ranges from 0 to 99. For example, a Phred score of 20 (Q20) corresponds to a predicted error rate of 1%, indicating 99% accuracy. 
 - In the NanoPlot output, the ‘mean_qual’ value represents an average Phred score
 
-| A. What is the mean read quality (mean_gual)?|
+|3A. What is the mean read quality (mean_gual)?|
 |:--|
 | |
 <br>
 
-| B. Given that Q20 quality (Phred) score corresponds to a read accuracy of 99% (or 1 in 100 errors), do you think this dataset is of a good sequence quality?|
+|3B. Given that Q20 quality (Phred) score corresponds to a read accuracy of 99% (or 1 in 100 errors), do you think this dataset is of a good sequence quality?|
 |:--|
 | |
 <br>
 
 **4. What is some information provided by the plots in the NanoPlot HTML output report?**   
 
-| A. Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained.| 
+|4A. Scroll down to view the ‘Weighted histogram of read lengths’ histogram. From this plot estimate the range of read lengths obtained.| 
 |:--|
 | |
 |<br>|
  
-| B. Scroll down to view the ‘Yield by length’ cumulative plot which shows sequencing yield based on read length. From this plot do shorter (10kb or less) or longer sequences produce more data?| 
+|4B. Scroll down to view the ‘Yield by length’ cumulative plot which shows sequencing yield based on read length. From this plot do shorter (10kb or less) or longer sequences produce more data?| 
 |:--|
 | |
 
@@ -468,46 +468,46 @@ Rank code:
 
 1. Answer the following questions about the **converted_kraken_report**.
 
-| A. How many Unclassified reads are there?| 
+|1A. How many Unclassified reads are there?| 
 |:--|
 | |
 <br>
 
-| B. How many Kingdoms are there and what are they?| 
+|1B. How many Kingdoms are there and what are they?| 
 |:--|
 | |
 <br>
 
-| C. How many Phyla are there and what are they?| 
+|1C. How many Phyla are there and what are they?| 
 |:--|
 | |
 <br>
 
-| D. Using the total *number_of_reads* you obtained from the **NanoStats** (NanoPlot) metrics, and the value of *Unclassified* reads from the *converted_kraken_report*, calculate the % unclassified and % classified taxa.| 
+|1D. Using the total *number_of_reads* you obtained from the **NanoStats** (NanoPlot) metrics, and the value of *Unclassified* reads from the *converted_kraken_report*, calculate the % unclassified and % classified taxa.| 
 |:--|
 | |
 <br>
 
-| E. Click on the *converted_kraken_report* entry and look just below the ‘Add Tags’ to see the number of lines and columns in the file. The number of lines corresponds to the number of taxa detected. Excluding the Unclassified taxa, how many taxa were identified?| 
+|1E. Click on the *converted_kraken_report* entry and look just below the ‘Add Tags’ to see the number of lines and columns in the file. The number of lines corresponds to the number of taxa detected. Excluding the Unclassified taxa, how many taxa were identified?| 
 |:--|
 | |
 <br>
 
 2. Answer the following questions about the **kraken2_with_pluspf_database_output_report**.
 
-| A. What is the percentage of Unclassified taxa listed?|
+|2A. What is the percentage of Unclassified taxa listed?|
 |:--|
 | - Note, percent will be found in column 1 of the report|
 | |
 <br>
 
-| B. What is the percentage of Classified taxa?|
+|2B. What is the percentage of Classified taxa?|
 |:--|
 | - Note, the document lists (U)nclassified taxa only, so you'll need to calculate the percentage of Classified taxa.
 | |
 <br>
 
-| C. Find and record the 3 most abundant bacterial Phyla (p_) by percentages. As rows are not sorted by abundance, you may find it helpful to search using for “P” using <CTRL>-F to highlight rows corresponding to phyla.| 
+|2C. Find and record the 3 most abundant bacterial Phyla (p_) by percentages. As rows are not sorted by abundance, you may find it helpful to search using for “P” using <CTRL>-F to highlight rows corresponding to phyla.| 
 |:--|
 | |
 <br>
@@ -538,12 +538,11 @@ For example, in Krona pie chart you can visualize:
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g3b7d7c0c092_0_234#slide=id.g3b7d7c0c092_0_234")
 ```
 
+2. Answer the following questions based on Krona pie chart results
+
 #### Questions
 
-1. View Krona Results and answer the following questions.
-
-
-| A. What are the 2 main phyla you observe?| 
+| 1. What are the 2 main phyla you observe?| 
 |:--|
 | |
 <br>
@@ -607,9 +606,9 @@ Last Revised: January 2026
 
 2. Gather into groups (10 min)
 
-a. Discuss -- Each group member briefly describes their answers to prelab assignment
+    a. Discuss -- Each group member briefly describes their answers to prelab assignment
 
-b. Summarize -- Identify the best answer and add it to the slidedeck
+    b. Summarize -- Identify the best answer and add it to the slidedeck
 
 - [https://docs.google.com/presentation/d/16cRBFzezun6MGXcJEm5uP2KercIccO-dFvVx58_ClNo/edit?usp=sharing](https://docs.google.com/presentation/d/16cRBFzezun6MGXcJEm5uP2KercIccO-dFvVx58_ClNo/edit?usp=sharing)
 
@@ -656,16 +655,16 @@ The sample used in this activity is from the [BioDIGS Project](https://biodigs.o
 **Note**, the total time for a Galaxy step to complete depends on and will increase based on multiple factors such the input file size, a long queue when many other people are analyzing data, the complexity of the job itself and errors. See the table below for the *minimum* time a step will take for this assignment – be sure to start early as when Galaxy is busy each step can take 2-to-10 times longer to complete. 
 <br>
 
-Note, that you can save time by:
-
-1. Submitting multiple jobs that use the same input (NanoPlot and fastp)
-2. Submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job is complete.
-
 **Table of approximate minimum times for a job to be completed on Galaxy using specified tools.**
 
 |Import Data| Nanoplot | fastp | Taxonomy workflow |
 |:--|:--|:--|:-|
 |10 min|10 min| 15 min | 30 min | 
+
+**Note, that you can save time by:**
+
+1. Submitting multiple jobs that use the same input (NanoPlot and fastp)
+2. Submitting a job like the taxonomy workflow that uses the fastp output as input as soon as the output appears in your history even before the fastp job is complete.
 
 ### Activity 1 – Data import and QC 
 
@@ -813,9 +812,14 @@ Remember, soil is one of the most diverse microbial environments with many more 
 
     b. In the Data menu, select “Sort range by column B (Z to A)”.
 
-    c. Insert a new column C; we will use this temporary column for calculations; you can name this column “% abundance”.
+    c. Insert a new column C.
 
-    d. In new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
+      - we will use this temporary column for calculations; 
+      - you can name this column “% abundance”.
+
+    d. In new column C, calculate % abundance for each row. 
+
+      - by dividing each count value by the total number of reads and multiplying by 100.
 
 |4A. How many ‘abundant' taxa (at > 0.1%) do you observe?|
 |:---|
@@ -922,7 +926,7 @@ c. Answer questions below
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: May 2025
+Last Revised: January 2025
 
 
 ## Presentation - Taxonomy Profiling
@@ -957,6 +961,7 @@ Last Revised: May 2025
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
+
 
 
 
