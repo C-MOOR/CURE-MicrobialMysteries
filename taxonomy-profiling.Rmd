@@ -28,7 +28,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
 ```
 
-## Activity - Taxonomy Profiling Spreadsheet
+## Activity: Taxonomy Profiling Spreadsheet
 
 ### Purpose
 
@@ -201,7 +201,7 @@ In this activity, repeat the steps of the Activity 1 above, but now using the [t
 
 **Resources**
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/1sZKW4q3jsIzbTPHpNm6p7bLC0lyC3RCm)
 - [D6331 Zymo Gut Microbiome Standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)
 - [D6323 Zymo Fecal Microbiome References documentation](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf?_gl=1*cych1b*_gcl_au*MzEzNzgzNjc0LjE3MzQ5NTk3NzY), page 4.
 
@@ -213,7 +213,7 @@ In this activity, repeat the steps of the Activity 1 above, but now using the [t
 
 Last Revised: January 2026
 
-## Lecture - Taxonomy Profiling
+## Lecture: Taxonomy Profiling
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY/edit?slide=id.g35f391192_00#slide=id.g35f391192_00")
@@ -222,7 +222,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/10P4ktKWSrRpM1YAW
 [Slides: Taxonomy Profiling](https://docs.google.com/presentation/d/10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY/edit?usp=sharing)
 
 
-## Prelab - Taxonomy Profiling
+## Prelab: Taxonomy Profiling
 
 ### Purpose
 
@@ -592,7 +592,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 Last Revised: January 2026
 
 
-## Discussion - Taxonomy Profiling
+## Discussion: Taxonomy Profiling
 
 ### Activity
 
@@ -624,7 +624,7 @@ Last Revised: January 2026
 Last Revised: February 2025
 
 
-## Project - Taxonomy Profiling
+## Project: Taxonomy Profiling
 
 ### Purpose
 
@@ -929,7 +929,7 @@ c. Answer questions below
 Last Revised: January 2025
 
 
-## Presentation - Taxonomy Profiling
+## Presentation: Taxonomy Profiling
 
 ### Activity
 

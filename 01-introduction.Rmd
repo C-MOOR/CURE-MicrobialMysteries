@@ -4,7 +4,7 @@ ottrpal::set_knitr_image_path()
 
 # Introduction
 
-### C-MOOR  Overview {-}
+### C-MOOR Overview {-}
 
 The [C-MOOR](https://www.c-moor.org){target="_blank"} project works to create early research experiences through curricula like our [miniCUREs](https://science.c-moor.org/miniCURE-RNA-seq/) that help integrate data science and hands-on research into lower level coursework. 
 
@@ -38,7 +38,7 @@ Data Science is an evolving career path for individuals (data scientists) in fie
 
 [Slides: Welcome to Your Genomics Adventure!](https://docs.google.com/presentation/d/18hYo8xrYkyq3rG7RUy3n3-jWFK_JPs5NNW3HmM9HUeQ/edit?usp=sharing)
 
-## Activity - Create Accounts
+## Activity: Create Accounts
 
 ### Purpose
 
@@ -95,7 +95,7 @@ Fill out your username and insert a screenshot of that username in the boxes bel
 
 **Resources**
 
-- Google doc
+- [Google Doc](https://docs.google.com/document/d/1ONujIxBJS1IlXZ7yjiKqAzjoc1IgBRpg)
 
 **Contributions and Affiliations**
 
@@ -108,7 +108,7 @@ Last Revised: January 2025
 
 [Slides: The Scientic Process](https://docs.google.com/presentation/d/1VQE-rXASXIdf8rWLP5UTcrAhM_DcznARVigPTHTfw8M/edit?usp=sharing)
 
-## Homework - Post Introductions
+## Homework: Post Introductions
 
 ### Purpose
 

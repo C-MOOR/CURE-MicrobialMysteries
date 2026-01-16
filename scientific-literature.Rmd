@@ -20,7 +20,7 @@ In this module, we will learn about microbial diversity, the field of genomics a
 ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g344ad28629a_0_360#slide=id.g344ad28629a_0_360")
 ```
 
-## Lecture - What’s in Your XYZ
+## Lecture: What’s in Your XYZ
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws/edit?slide=id.g35f391192_00#slide=id.g35f391192_00")
@@ -29,7 +29,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJX
 [Slides: What's in Your XYZ?](https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws/edit?usp=sharing)
 
 
-## Prelab - Scientific Literature
+## Prelab: Scientific Literature
 
 ### Purpose 
 
@@ -77,7 +77,7 @@ Read the review paper “Metagenomics” by Sleator, Shortall, and Hill, 2008 Le
 
 **Resources**
 
-- [Google Doc]
+- [Google Doc](https://docs.google.com/document/d/1puNZAzFJt4PawK0EwVYX6Y9npM0RryOj)
 
 **Contributions and Affiliations**
 
@@ -85,7 +85,7 @@ Read the review paper “Metagenomics” by Sleator, Shortall, and Hill, 2008 Le
 - Frederick Tan, Johns Hopkins University
 
 
-## Discussion - Scientific Literature
+## Discussion: Scientific Literature
 
 ### Activity
 
@@ -107,7 +107,7 @@ b. Summarize -- Identify best answer and add to slidedeck
 3. Share group discussion (2 min each group)
 
 
-## Lecture - Scientific Literature
+## Lecture: Scientific Literature
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM/edit?slide=id.g35f391192_00#slide=id.g35f391192_00")
@@ -115,7 +115,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1zbjroITjBYmu-oxF
 
 [Slides: Scientific Literature](https://docs.google.com/presentation/d/1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM/edit?usp=sharing)
 
-## Project - Scientific Literature
+## Project: Scientific Literature
 
 ### Purpose
 
@@ -250,7 +250,7 @@ Understanding microbial composition and diversity in different environments is c
 
 Last Revised: January 2025
 
-## Presentation - Scientific Literature
+## Presentation: Scientific Literature
 
 ### Activity
 
