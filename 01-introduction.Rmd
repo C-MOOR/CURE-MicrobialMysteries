@@ -92,11 +92,11 @@ Fill out your username and insert a screenshot of that username in the boxes bel
 | <Screenshot: insert screenshot> |
 <br>
 
-#### Grading Criteria
+### Grading Criteria
 
 - Download as Microsoft Word (.docx) and upload on Canvas
 
-#### Footnotes
+### Footnotes
 
 **Resources**
 
@@ -106,7 +106,7 @@ Fill out your username and insert a screenshot of that username in the boxes bel
 
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: January 2025
+Last Revised: January 2026
 
 
 ## The Scientic Process 
@@ -166,7 +166,7 @@ In this assignment, students will post to both a public and private Category wit
 
 1. Navigate back to the C-MOOR Academy Discussion Forum front page. 
 1. Click on the “<mark style="background-color: yellow">Breakroom</mark>” Category. This is an informal category where we can chat about non-science related topics.
-1. Look for a topic called “<mark style="background-color: yellow">Enduring a Snow Storm</mark>” Click on the topic.
+1. Look for a topic called “<mark style="background-color: yellow">Quirky or Silly Talents</mark>” Click on the topic.
 1. Read the topic and then click “Reply”.
 1. The same box will pop up as you used to to post a topic earlier.
 1. Write a reply to the topic.
@@ -177,11 +177,15 @@ In this assignment, students will post to both a public and private Category wit
 - [C-MOOR Academy Discussion Forum](https://help.c-moor.org)
 - [Discourse New User Guide](https://meta.discourse.org/t/discourse-new-user-guide/96331)
    
-#### Grading Criteria
+### Grading Criteria
 
 - Submit URL to your Private Category Topic on Canvas
 
-#### Footnotes
+### Footnotes
+
+**Resources**
+
+- [Google Doc](https://docs.google.com/document/d/1dibSiZYghss_ZNhCwu6ZOyttVvqx5lCV)
 
 **Contributions and Affiliations**
 
@@ -190,7 +194,7 @@ In this assignment, students will post to both a public and private Category wit
 - Frederick Tan, Johns Hopkins University
 - Stephanie Coffman, Clovis Community College
 
-Last Revised: January 2025
+Last Revised: January 2026
 
 
 

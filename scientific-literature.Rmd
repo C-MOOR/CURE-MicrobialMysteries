@@ -34,7 +34,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJX
 ### Purpose 
 
 Obtain a high level overview of metagenomics by reading
-R.D. Sleator, C. Shortall, and C. Hill.  Metagenomics.  Letters in Applied Microbiology. 2008 Nov;47(5):361-6. [(pubmed.gov/19146522)](http://pubmed.gov/19146522)
+R.D. Sleator, C. Shortall, and C. Hill.  Metagenomics.  Letters in Applied Microbiology. 2008 Nov;47(5):361-6. ([pubmed.gov/19146522](https://pubmed.gov/19146522))
 
 ### Learning Objectives 
 
@@ -44,7 +44,6 @@ R.D. Sleator, C. Shortall, and C. Hill.  Metagenomics.  Letters in Applied Micro
 ### Introduction 
 
 The vast majority of all micro-organisms on Earch remain uncultured [(K.G. Lloyd et al, 2019)](https://journals.asm.org/doi/10.1128/msystems.00055-18). Additionally, in complex environments like soil and water, most micro-organisms remain unidentified [(M. Delgado-Baquerizo, 2019)](https://doi.org/10.1038/s41396-019-0405-0). The field of metagenomics is a culture-independend approach which aims to remedy these gaps in knowledge [(J. Handelsman, 2004)](https://pubmed.ncbi.nlm.nih.gov/15590779/). Metagenomics is the study of genomic (sequencing) data obtained directly from environmental (and other, e.g. clinical) samples and provides new meaningful information on the diversity and function of microorganisms.
-
 
 ### Activity
 
@@ -70,8 +69,7 @@ Read the review paper “Metagenomics” by Sleator, Shortall, and Hill, 2008 Le
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
-
+- Download as Microsoft Word (.docx) and upload on Canvas
 
 ### Footnotes
 
@@ -84,6 +82,7 @@ Read the review paper “Metagenomics” by Sleator, Shortall, and Hill, 2008 Le
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
+Last Revised: January 2026
 
 ## Discussion: Scientific Literature
 
