@@ -1,6 +1,6 @@
 ---
 title: "CURE: Microbial Mysteries"
-date: "January 15, 2026"
+date: "January 22, 2026"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -38,8 +38,8 @@ _Genetics_
 _Programming skills_  
 **Novice**: No programming experience needed
 
-_Research skills_ 
-**Novice**: No scientific researdch experience needed
+_Research skills_  
+**Novice**: No scientific research experience needed
 :::
 
 

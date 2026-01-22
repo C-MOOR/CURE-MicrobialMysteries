@@ -2,7 +2,7 @@ project-work-grading
 project-work-organizer
 introduction
 welcome-to-your-genomics-adventure
-activity---create-accounts
+activity-create-accounts
 purpose
 activity
 instructions
@@ -10,7 +10,7 @@ questions
 grading-criteria
 footnotes
 the-scientic-process
-homework---post-introductions
+homework-post-introductions
 purpose-1
 learning-objectives
 introduction-1
@@ -23,8 +23,8 @@ resources-1
 grading-criteria-1
 footnotes-1
 scientific-literature
-lecture---whats-in-your-xyz
-prelab---scientific-literature
+lecture-whats-in-your-xyz
+prelab-scientific-literature
 purpose-2
 learning-objectives-1
 introduction-2
@@ -33,11 +33,11 @@ instructions-3
 questions-1
 grading-criteria-2
 footnotes-2
-discussion---scientific-literature
+discussion-scientific-literature
 activity-2
 instructions-4
-lecture---scientific-literature
-project---scientific-literature
+lecture-scientific-literature
+project-scientific-literature
 purpose-3
 learning-objectives-2
 introduction-3
@@ -49,7 +49,7 @@ questions-3
 part-3---conclusions
 grading-criteria-3
 footnotes-3
-presentation---scientific-literature
+presentation-scientific-literature
 activity-3
 instructions-6
 footnotes-4
@@ -110,7 +110,7 @@ activity-5
 instructions-19
 footnotes-8
 taxonomy-profiling
-activity---taxonomy-profiling-spreadsheet
+activity-taxonomy-profiling-spreadsheet
 purpose-6
 learning-objectives-5
 introduction-4
@@ -122,8 +122,8 @@ instructions-21
 questions-16
 grading-criteria-6
 footnotes-9
-lecture---taxonomy-profiling
-prelab---taxonomy-profiling
+lecture-taxonomy-profiling
+prelab-taxonomy-profiling
 purpose-7
 learning-objectives-6
 introduction-5
@@ -146,11 +146,11 @@ instructions-26
 questions-21
 grading-criteria-7
 footnotes-10
-discussion---taxonomy-profiling
+discussion-taxonomy-profiling
 activity-6
 instructions-27
 footnotes-11
-project---taxonomy-profiling
+project-taxonomy-profiling
 purpose-8
 learning-objectives-7
 introduction-6
@@ -173,7 +173,7 @@ instructions-32
 questions-26
 grading-criteria-8
 footnotes-12
-presentation---taxonomy-profiling
+presentation-taxonomy-profiling
 activity-7
 instructions-33
 footnotes-13

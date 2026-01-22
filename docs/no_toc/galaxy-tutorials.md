@@ -8,7 +8,7 @@
 
 ### Introduction
 
-Galaxy [galaxyproject.org](galaxyproject.org) is a free, open-source system for analyzing data, authoring workflows, training and education, publishing tools, managing infrastructure, and more.  Among the notable features:
+Galaxy ([galaxyproject.org](https://galaxyproject.org)) is a free, open-source system for analyzing data, authoring workflows, training and education, publishing tools, managing infrastructure, and more.  Among the notable features:
 
 - [Graphical user interface](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html) (GUI) for interactively running tools
 - [Toolshed](https://toolshed.g2.bx.psu.edu/) with 10,000 tools ready to run
@@ -24,9 +24,9 @@ Galaxy [galaxyproject.org](galaxyproject.org) is a free, open-source system for 
 #### Instructions
 
 1. Review slides for “A short introduction to Galaxy”
-- [training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html](training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html)
+    - [training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html)
 2. Complete the hands-on tutorial
-- [training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html](training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html)
+    - [training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html)
 
 ### Grading Criteria
 
@@ -36,7 +36,8 @@ Galaxy [galaxyproject.org](galaxyproject.org) is a free, open-source system for 
 
 **Resources**
 
-- Introduction to Galaxy Analyses [topic](https://training.galaxyproject.org/training-material/topics/introduction/)
+- [Google Doc](https://docs.google.com/document/d/1oaInda1rAAR1oY09murtgFQWSJJ4tw4_)
+- Introduction to Galaxy Analyses [[topic](https://training.galaxyproject.org/training-material/topics/introduction/)]
 
 **Contributions and Affiliations**
 
