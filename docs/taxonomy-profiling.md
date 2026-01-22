@@ -18,12 +18,11 @@ This **Taxonomy Profiling module** offers hands-on experience with real data. We
 
 ![](taxonomy-profiling_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_331.png){width=100%}
 
-## Activity - Taxonomy Profiling Spreadsheet
+## Activity: Taxonomy Profiling Spreadsheet
 
 ### Purpose
 
-1. Gain hands-on experience with real taxonomy profiling data!  We will explore the Kraken2 output for [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?) and familiarizi ourselves with data analysis. 
-srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF) 
+1. Gain hands-on experience with real taxonomy profiling data!  We will explore the Kraken2 output for [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard) and familiarize ourselves with data analysis.
 2. Optionally compare Zymo Gut Microbiome Standard to [Zymo Human Fecal Reference](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf). 
 
 ![](taxonomy-profiling_files/figure-docx//16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk_g35f391192_00.png){width=100%}
@@ -43,7 +42,7 @@ Metagenomics is the direct analysis of the genomes attained through genome seque
 
 
 ::: {.notice} 
-The sample used in this activity is the [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this Activity.
+The sample used in this activity is the [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this Activity.
 :::
 
 
@@ -58,91 +57,79 @@ The sample used in this activity is the [Zymo Gut Microbiome Standard](https://w
 
 2. **Identify** what information is provided in columns of the tax-data-gut taxonomy file.
 
-  - Col A = Counts
-  - Cols B-H = Taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
-  - Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
+    - Col A = Counts
+    - Cols B-H = Taxonomic ranks k(Kingdom), p(Phylum), c(Class), o(Order), f(Family), g(Genus) and s(Species)
+    - Each row corresponds to a different taxa. There are 153 taxa that were classified for this sample.
 
 3. **Create** a header row and enter the above column information.
 
 #### Questions
 
-**1. Evaluate what proportion of data was taxonomically classified.**
+1. Evaluate what proportion of data was taxonomically classified.
 
-```
-  - Insert a new column A, name it "Calculations", and temporarily use it for calculations.  
-```
+    - Insert a new column A, name it "Calculations", and temporarily use it for calculations.
+    - In cell A2, calculate the sum of all reads observed in the sample.
 
-|1A. How many total counts are there?|
-|:--|
-| <br> |
+    |1A. How many total counts are there?|
+    |:--|
+    | <br> |
+    
+    - In cell A3, determine the percentage of unclassified reads.
 
-```
-  - In e.g. In cell A2, calculate the sum of all reads observed in the sample.
-```
+    |1B.  What percentage of reads are unclassified?|
+    |:--|
+    | <br> |
 
-|1B.  What percentage of reads are unclassified?|
-|:--|
-| <br> |
+    - In cell A4, determine the percentage of classified reads.
 
+    |1C. What percentage of reads are classified?|
+    |:--|
+    |<br>|
 
-```
-  - In e.g. In cell A3, determine the percentage of unclassified reads.
-```
+2. Identify abundant taxa (those at >1%).
 
-|1C. What percentage of reads are classified?|
-|:--|
-|<br>|
+    - Select columns B through I.
+    - In the Data menu, select “Sort range by column B (Z to A)”.
+    - Insert a new column C, name it “% abundance”, and use it for temporary calculations.
+    - In the new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
+    - Quantify abundant taxa.
 
-```
-- In e.g. cell A4, determine the percentage of classified reads.
-```
+    |2A. How many abundant taxa (at >1%) do you observe?|
+    |:--|
+    |<br>|
 
-**2. Identify abundant taxa (those at >1%).**
+3. List the abundant taxa you identified in a table below.
 
-```
-a. Select columns B through I.
-b. In the Data menu, select “Sort range by column B (Z to A)”.
-c. Insert a new column C, name it “% abundance”, and use it for temporary calculations.
-d. In the new column C, calculate % abundance for each row by dividing each count value by the total number of reads and multiplying by 100.
-e. Quantify abundant taxa.
-```
+    - To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at >1%) taxa.
+    - Then, enter the results into a table below.
+    
+    | **% abundance** | **Taxonomy** |
+    |:--|:--| 
+    | 20.1 | s_Faecalibacterium_prausnitzii |
+    | | |
+    | | |
+    | | |
+    | | |
+    | | |
+    | | |
+    | | |
+    | | |
+    | | |
+    | | |
+    | | |
+    | | |
+    | | |
+    | | |
+    |<br>| |
 
-|2A. How many abundant taxa (at >1%) do you observe?|
-|:--|
-|<br>|
-
-**3. List the abundant taxa you identified in a table below.**
-
-```
-- To consolidate the different abundant taxa, in e.g. new column D, copy the lower taxonomic rank identified for the abundant (at >1%) taxa. 
-- Then, enter the results into a table below.
-```
-
-| **% abundance** | **Taxonomy** |
-|:--|:--| 
-| 20.1 | s_Faecalibacterium_prausnitzii |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-|<br>| |
+<br>
 
 |4. How do your results overall compare with the expected taxa and % abundance from the Zymo gut standard?|
 |:--|
 |<br>|
 
-- Compare your results with the expected taxa and abundance for the [Zymo gut standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)?**
- - Note, the Kraken 2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!
+- Compare your results with the expected taxa and abundance for the [Zymo gut standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard)?
+- Note, the Kraken 2 output does not distinguish different *E. coli* strains, so just combine them all into a single *E. coli group*!
 
 |5. Calculate ‘Low abundance’ for < 1% abundant taxa by adding together the taxa at <1%. What percentage of reads are classified as low abundance taxa?|
 |:--|
@@ -161,8 +148,8 @@ e. Quantify abundant taxa.
 
 In this activity, repeat the steps of the Activity 1 above, but now using the [tax_data_fecal.tsv](http://drive.google.com/file/d/1CLQw9yqoqWl5caLm-ZmiHpLNtUo_Zo4s) dataset corresponding to the Zymo fecal reference. The tax_data_fecal.tsv dataset comes from a real human fecal sample, in contrast to the tax_data_gut.tsv sample you explored in the Activity 1, which corresponds to cultured and pooled known species combined at specific proportions to make up a predictable standard population.
 
-  - Perform the excercises from Activity 1 using the tax_data_fecal data, then, use questions below to compare the two datasets.
-  - See D6323 Zymo Fecal Microbiome References documentation (pg. 4) in the Resources section below.
+- Perform the exercises from Activity 1 using the tax_data_fecal data, then, use questions below to compare the two datasets.
+- See D6323 Zymo Fecal Microbiome References documentation (pg. 4) in the Resources section below.
 
 #### Questions
 
@@ -180,14 +167,14 @@ In this activity, repeat the steps of the Activity 1 above, but now using the [t
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Download this assignment as Microsoft Word (.docx) and upload on Canvas</mark>.
-- <mark style="background color: yellow">Download your Google Sheet as Microsoft Excel (.xlsx) and upload on Canvas</mark>.
+- Download this assignment as Microsoft Word (.docx) and upload on Canvas
+- Download your Google Sheet as Microsoft Excel (.xlsx) and upload on Canvas
 
 ### Footnotes
 
 **Resources**
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/1sZKW4q3jsIzbTPHpNm6p7bLC0lyC3RCm)
 - [D6331 Zymo Gut Microbiome Standard documentation](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOor0X27Jf1gfXVmyGu5nZq3M6fx6OJXdEc0t6rqSRBPww2qeY-Yd)
 - [D6323 Zymo Fecal Microbiome References documentation](https://files.zymoresearch.com/protocols/d6323-zymobiomics_fecal_reference_protocol.pdf?_gl=1*cych1b*_gcl_au*MzEzNzgzNjc0LjE3MzQ5NTk3NzY), page 4.
 
@@ -199,14 +186,14 @@ In this activity, repeat the steps of the Activity 1 above, but now using the [t
 
 Last Revised: January 2026
 
-## Lecture - Taxonomy Profiling
+## Lecture: Taxonomy Profiling
 
 ![](taxonomy-profiling_files/figure-docx//10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY_g35f391192_00.png){width=100%}
 
 [Slides: Taxonomy Profiling](https://docs.google.com/presentation/d/10P4ktKWSrRpM1YAWYW31tLly_jf1rcfgCMbzZ9Tx9xY/edit?usp=sharing)
 
 
-## Prelab - Taxonomy Profiling
+## Prelab: Taxonomy Profiling
 
 ### Purpose
 
@@ -562,7 +549,7 @@ For example, in Krona pie chart you can visualize:
 Last Revised: January 2026
 
 
-## Discussion - Taxonomy Profiling
+## Discussion: Taxonomy Profiling
 
 ### Activity
 
@@ -594,7 +581,7 @@ Last Revised: January 2026
 Last Revised: February 2025
 
 
-## Project - Taxonomy Profiling
+## Project: Taxonomy Profiling
 
 ### Purpose
 
@@ -897,7 +884,7 @@ c. Answer questions below
 Last Revised: January 2025
 
 
-## Presentation - Taxonomy Profiling
+## Presentation: Taxonomy Profiling
 
 ### Activity
 

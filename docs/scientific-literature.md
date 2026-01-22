@@ -14,19 +14,19 @@ In this module, we will learn about microbial diversity, the field of genomics a
 
 ![](scientific-literature_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_360.png){width=100%}
 
-## Lecture - What’s in Your XYZ
+## Lecture: What’s in Your XYZ
 
 ![](scientific-literature_files/figure-docx//1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws_g35f391192_00.png){width=100%}
 
 [Slides: What's in Your XYZ?](https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws/edit?usp=sharing)
 
 
-## Prelab - Scientific Literature
+## Prelab: Scientific Literature
 
 ### Purpose 
 
 Obtain a high level overview of metagenomics by reading
-R.D. Sleator, C. Shortall, and C. Hill.  Metagenomics.  Letters in Applied Microbiology. 2008 Nov;47(5):361-6. [(pubmed.gov/19146522)](http://pubmed.gov/19146522)
+R.D. Sleator, C. Shortall, and C. Hill.  Metagenomics.  Letters in Applied Microbiology. 2008 Nov;47(5):361-6. ([pubmed.gov/19146522](https://pubmed.gov/19146522))
 
 ### Learning Objectives 
 
@@ -36,7 +36,6 @@ R.D. Sleator, C. Shortall, and C. Hill.  Metagenomics.  Letters in Applied Micro
 ### Introduction 
 
 The vast majority of all micro-organisms on Earch remain uncultured [(K.G. Lloyd et al, 2019)](https://journals.asm.org/doi/10.1128/msystems.00055-18). Additionally, in complex environments like soil and water, most micro-organisms remain unidentified [(M. Delgado-Baquerizo, 2019)](https://doi.org/10.1038/s41396-019-0405-0). The field of metagenomics is a culture-independend approach which aims to remedy these gaps in knowledge [(J. Handelsman, 2004)](https://pubmed.ncbi.nlm.nih.gov/15590779/). Metagenomics is the study of genomic (sequencing) data obtained directly from environmental (and other, e.g. clinical) samples and provides new meaningful information on the diversity and function of microorganisms.
-
 
 ### Activity
 
@@ -62,22 +61,22 @@ Read the review paper “Metagenomics” by Sleator, Shortall, and Hill, 2008 Le
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
-
+- Download as Microsoft Word (.docx) and upload on Canvas
 
 ### Footnotes
 
 **Resources**
 
-- [Google Doc]
+- [Google Doc](https://docs.google.com/document/d/1puNZAzFJt4PawK0EwVYX6Y9npM0RryOj)
 
 **Contributions and Affiliations**
 
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
+Last Revised: January 2026
 
-## Discussion - Scientific Literature
+## Discussion: Scientific Literature
 
 ### Activity
 
@@ -99,13 +98,13 @@ b. Summarize -- Identify best answer and add to slidedeck
 3. Share group discussion (2 min each group)
 
 
-## Lecture - Scientific Literature
+## Lecture: Scientific Literature
 
 ![](scientific-literature_files/figure-docx//1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM_g35f391192_00.png){width=100%}
 
 [Slides: Scientific Literature](https://docs.google.com/presentation/d/1zbjroITjBYmu-oxFT0qmOCx9LeEcSoaYrp_sWuy1OLM/edit?usp=sharing)
 
-## Project - Scientific Literature
+## Project: Scientific Literature
 
 ### Purpose
 
@@ -240,7 +239,7 @@ Understanding microbial composition and diversity in different environments is c
 
 Last Revised: January 2025
 
-## Presentation - Scientific Literature
+## Presentation: Scientific Literature
 
 ### Activity
 
