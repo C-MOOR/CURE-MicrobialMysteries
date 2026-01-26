@@ -36,7 +36,7 @@ Data Science is an evolving career path for individuals (data scientists) in fie
 
 ## Welcome to Your Genomics Adventure
 
-[Slides: Welcome to Your Genomics Adventure!](https://docs.google.com/presentation/d/18hYo8xrYkyq3rG7RUy3n3-jWFK_JPs5NNW3HmM9HUeQ/edit?usp=sharing)
+[Slides: Welcome to Your Genomics Adventure!](https://docs.google.com/presentation/d/1-D7nd_QGZ9dlKgxSaOUO89yO4du4la9xbPrQh0fkE8s)
 
 ## Activity: Create Accounts
 
@@ -111,7 +111,7 @@ Last Revised: January 2026
 
 ## The Scientic Process 
 
-[Slides: The Scientic Process](https://docs.google.com/presentation/d/1VQE-rXASXIdf8rWLP5UTcrAhM_DcznARVigPTHTfw8M/edit?usp=sharing)
+[Slides: The Scientic Process](https://docs.google.com/presentation/d/1PraeATNael3C01yU3tgk4W1Uqy0O3reb1AGivt3ib9M)
 
 ## Homework: Post Introductions
 

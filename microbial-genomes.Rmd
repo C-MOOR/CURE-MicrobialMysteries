@@ -29,7 +29,7 @@ Start with *E. coli* as one of the best and longest studied before going into re
 2. Sequence Browser – Observe genome organization using graphical representation.
 3. Bacterial database BV-BRC - Explore bacterial genes and their function.
 4. Taxonomy Browser – Identify relationships between taxa.
-5. Lifemap - Tree of Live viewer to visualize relationships between taxa.
+5. Lifemap - Tree of Life viewer to visualize relationships between taxa.
 
 ### Activity 1 – GenBank
 
@@ -42,38 +42,29 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 #### Instructions
 
 1. Navigate to **GenBank** [https://www.ncbi.nlm.nih.gov/genbank](https://www.ncbi.nlm.nih.gov/genbank) and enter ‘E. coli strain K-12’ in the search bar (which should default to **Nucleotide**). 
-
-  - E. coli strain K-12 is a laboratory strain of the E. coli commonly used in research. This will give you back a list of over 40,000 sequences. 
-
-2. A famous substrain of E. coli strain K-12 is substrain MG1655. Lets now narrow down our search and in the search bar  enter ‘Escherichia coli str. K-12 substr. MG1655’. 
-
-  - This should give you a list of over 9,000 E. coli sequences.
-
-3. Lets explore one specific version of the MG1655 substrain with NCBI accession id **NZ_CP169634**
-  
-  - In the search bar enter ‘NZ_CP169634’. 
-
+    - *E. coli* strain K-12 is a laboratory strain commonly used in research. This will give you back a list of over 40,000 sequences. 
+2. A famous substrain of *E. coli* strain K-12 is substrain MG1655. Let's narrow down our search and in the search bar  enter ‘Escherichia coli str. K-12 substr. MG1655’. 
+    - This should give you a list of over 9,000 *E. coli* sequences.
+3. Let's explore one specific version of the MG1655 substrain with NCBI Accession ID **NZ_CP169634**
+    - In the search bar enter ‘NZ_CP169634’. 
 4. This should take you to this link here: [https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634](https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634). 
-
-  - Based on this page, answer the following questions.
+    - Based on this page, answer the following questions.
 
 #### Questions
 
-| **1. What is the size of this *E. coli* genome in bp and Kbp**? |
+|1. What is the size of this *E. coli* genome in bp and Kbp?|
 |:--|
 | <br> |
 
-| **2. Is the *E. coli* genome linear or circular**? |
+|2. Is the *E. coli* genome linear or circular?|
 |:--|
 | <br> |
 
-| **3. When you use  the NCBI ACCESSION id ‘NZ_CP169634 in your search, how many entries did it give back? Based on this, what can you conclude about NCBI Accession id? ** |
+|3. When you use  the NCBI Accession ID ‘NZ_CP169634’ in your search, how many entries did it give back? Based on this, how useful are NCBI Accession IDs?|
 |:--|
 | <br> |
 
-
-
-### Activity 2 – Genomes, genes, and other databases
+### Activity 2 – Genomes, Genes, and Other Databases
 
 #### Part 1 - Genomes
 
@@ -81,20 +72,19 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
 #### Instructions
 
-After entering your accession number NZ_CP169634.1, on the right of the page [https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634](https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634), under **Related Information**, click on the **Assembly** link to explore genome assembly information.
+After entering Accession ID NZ_CP169634, on the right of the page under **Related Information**, click on the **Assembly** link to explore genome assembly information.
 
 #### Questions
 
-| **1. How many chromosomes does E. coli have?** |
+|1. How many chromosomes does *E. coli* have?|
 |:--|
 | <br> |
 
-
-| **2. What is the genome coverage of this sequenced genome?** |
+|2. What is the genome coverage of this sequenced genome?|
 |:--|
 | <br> |
 
-| **3. How many genes were annotated for this genome?** |
+|3. How many genes were annotated for this genome?|
 |:--|
 | <br> |
 
@@ -106,26 +96,22 @@ After entering your accession number NZ_CP169634.1, on the right of the page [ht
 
 Go back to [https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634](https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634) and near the top of the page, find and click on **Graphics** to explore the genome browser.
 
-
-a. Hover along one of many green vertical sticks.  
-
-  - You can also zoom into a smaller and smaller genomic region for higher resolution.
-
-b. Hover along one of many red vertical sticks (you might need to zoom in first t).
-
-  - You can also zoom into a smaller and smaller genomic region for higher resolution.
+a. Hover along one of many green vertical sticks
+    - Click the `+` icon a few times to "Zoom In" to a genomic region for higher. resolution
+b. Hover along one of many red vertical sticks
+    - Zoom in until you see a difference between the green and red sticks.
 
 #### Questions
 
-|**1. What do the ‘green sticks’ represent?**|
+|1. What do the ‘green sticks’ represent?|
 |:--|
 | <br> |
 
-|**2. What do the ‘red sticks’ represent?**|
+|2. What do the ‘red sticks’ represent?|
 |:--|
 | <br> |
 
-|**3. Record 5 genes you found present in E. coli**.|
+|3. Record 5 genes you found present in *E. coli*.|
 |:--|
 | Gene example: ampC |
 | Gene 1 |
@@ -133,7 +119,6 @@ b. Hover along one of many red vertical sticks (you might need to zoom in first 
 | Gene 3 |
 | Gene 4 |
 | Gene 5 |
-| <br> |
 
 #### Part 3 - Databases
 
@@ -141,45 +126,40 @@ b. Hover along one of many red vertical sticks (you might need to zoom in first 
 
 #### Instructions
 
-To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the E. coli genes. If there are 0 results then indicate <mark style="background-color: lightyellow">No results found</mark>.
+To learn more about the genes of interest and their function scientists often use specialized databases. One such bacterial database is BV-BRC [https://www.bv-brc.org](https://www.bv-brc.org). Use BV-BRC to find information about some of the *E. coli* genes.
 
-1. In the BV-BRC **Search** space, for the 2 genes below, and one gene of your choice from activity above**: 
+For the 2 genes below and one gene of your choice from the activity above:
 
-    a. From a dropdown menu select **“Pathways”**. 
-
-    b. Type in the gene name and **click enter**. The resulting output may contain gene entries for many different bacterial genomes, and E. Coli may be one of them. 
-
-    c. Check one of the boxes corresponding to specific *Genome Name* to learn more about your gene, and answer the following questions.
+a. Expand **"Searches"** in the top menu bar and select **“Pathways”**. 
+b. Type the gene name into **"Keyword"** and press `<ENTER>`. The resulting output may contain gene entries for many different bacterial genomes, and *E. coli* may be one of them. 
+c. Check one of the boxes corresponding to a specific **Genome Name** to learn more about your gene, and answer the following questions.
 
 #### Questions
 
-Note, some genes of interest will not be found in the BV-BRC database. In this case, pick another gene.
+Note that some genes of interest will not be found in the BV-BRC database.  Rather than reporting "No results found", pick another gene.
 
-|**1. For genes below pick an organism (Genome Name)**.| |
+|1. For genes below pick an organism (Genome Name).|
 |:--|:--| 
 |**Gene ID** | **Genome Name** |
 | Gene 1: ampC| Escherichia coli 07798 | 
 | Gene 2: mgtA| |
 | Gene 3: Your gene| |
-| <br> | |
 
-|**2. For the 3 genes above, record gene Product**.| |
+|2. For the 3 genes above, record gene Product / Description.|
 |:--|:--| 
-|**Gene ID** | **Gene Product** |
+|**Gene ID** | **Product / Description** |
 | Gene 1: ampC| Beta-lactamase | 
 | Gene 2: | |
 | Gene 3: | |
-| <br> | |
 
-|**3. For the 3 genes above, record Pathway Name (relates to function)**.| |
+|3. For the 3 genes above, record Pathway Name (relates to function).|
 |:--|:--|
 |**Gene ID** | **Pathway Name** |
 | Gene 1: ampC| beta-Lactam resistance | 
 | Gene 2: | |
 | Gene 3: | |
-| <br> | |
 
-### Activity 3 -  Taxonomy and tree of life
+### Activity 3 -  Taxonomy and Tree of Life
 
 *Estimated time: 25 min*
 
@@ -188,14 +168,12 @@ Note, some genes of interest will not be found in the BV-BRC database. In this c
 #### Instructions
 
 1. Go back to NCBI enter the *E. coli* accession number again [https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634](https://www.ncbi.nlm.nih.gov/nuccore/NZ_CP169634). 
-
 2. Under **Related Information** on the right, click on **Taxonomy** and then on the provided link for the *E. coli*. 
-
-3. Find Lineage information. Full Lineage information contains 7 core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To just get the 7 core lineage names, click on Lineage link for the abbreviated Lineage, or, simply hover over lineage names.
+3. Find taxonomic lineage information labeled as **"Lineage(full)"**. Full lineage information contains seven core taxonomy ranks: Kingdom, Phylum, Class, Order, Family, Genus and Species, plus any additional classification ranks. To see which taxonomic rank a name refers to you can simply hover over the lineage name.
 
 #### Questions
 
-|1. **Record 7 core taxonomy ranks below**.| |
+|1. Record the seven core taxonomy ranks below.|
 |:--|:--|
 | Kingdom: | |
 | Phylum:| |
@@ -204,10 +182,8 @@ Note, some genes of interest will not be found in the BV-BRC database. In this c
 | Family:| |
 | Genus:| |
 | Species:| |
-| <br> | |
 
-
-| 2. **Use any search engine to learn 2-3 facts about phylum Pseudomonadota. What did you learn?**|
+|2. Use any search engine to learn 2-3 facts about phylum Pseudomonadota. What did you learn?|
 |:--|
 | Fact example: “Pseudomonadota” is also known as “Proteobacteria”.|
 | Fact 1:|
@@ -218,49 +194,48 @@ Note, some genes of interest will not be found in the BV-BRC database. In this c
 
 #### Instructions
 
-1. As with the BV-BRC database above, we can use another database called **Lifemap** to visually explore the *E. coli* in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr), type E. coli and click species tab.
-
-2. On the tree map, the yellow tag will indicate *E. coli*. Use plus and minus tabs to zoom in and out and visualize E. coli relative to other organisms on the map. 
+1. As with the BV-BRC database above, we can use another database called **Lifemap** to visually explore *E. coli* in the context of the tree of life. Go to [https://lifemap-ncbi.univ-lyon1.fr](https://lifemap-ncbi.univ-lyon1.fr), click "Start Exploring", click "Search a taxa" (magnifying glass icon) in the left hand menu, type "E. coli", and click the "Species" results.
+2. On the tree map, the green dot and circle will indicate *E. coli*. Use plus and minus tabs to zoom in and out and visualize *E. coli* relative to other organisms on the map. 
 
 #### Questions
 
-|**1. How many Domains of life are there?**.| 
+|1. How many Domains of life are there?|
 |:--|
 | <br> |
 
-|**2. Zoom into and find nodes for the E. coli Genus, Family, Order, Class and Phylum. Do they match what you found in the NCBI Taxonomy Browser for Lineage?**.| 
+|2. Zoom into and find nodes for the *E. coli* Genus, Family, Order, Class and Phylum. Do they match what you found in the NCBI Taxonomy Browser for Lineage?|
 |:--|
 | <br> |
 
-|**3. What are some other members of the Genus (Escherichia) to which E. coli belongs?**.| 
+|3. What are some other members of the Genus (Escherichia) to which *E. coli* belongs?|
 |:--|
 | <br> |
 
-|**4. What are some other members of the Family (Enterobacteriaceae) to which E. coli belongs?**.| 
+|4. What are some other members of the Family (Enterobacteriaceae) to which *E. coli* belongs?|
 |:--|
 | <br> |
 
-|**5. What are some other members of the Order (Enterobacterales) to which E. coli belongs?**.| 
+|5. What are some other members of the Order (Enterobacterales) to which *E. coli* belongs?|
 |:--|
 | <br> |
 
-|**6. What are some other members of the Class (Gammaproteobacteria) to which E. coli belongs?**.| 
+|6. What are some other members of the Class (Gammaproteobacteria) to which *E. coli* belongs?|
 |:--|
 | <br> |
 
-|**7. What are some other members of the Phylum (Pseudomonadota) to which E. coli belongs?**.| 
+|7. What are some other members of the Phylum (Pseudomonadota) to which *E. coli* belongs?|
 |:--|
 | <br> |
 
 ### Grading Criteria
 
-  - <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
+- Download as Microsoft Word (.docx) and upload on Canvas
 
 ### Footnotes
 
 **Resources**
 
-  - Google Doc
+- [Google Doc](https://docs.google.com/document/d/1M10YdzSMXZJv80_p0diK9rco3-N8yU4C)
 
 **Contributions and Affiliations**
 
