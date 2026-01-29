@@ -27,7 +27,7 @@ This **Taxonomy Profiling module** offers hands-on experience with real data. We
 
 ![](taxonomy-profiling_files/figure-docx//16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk_g35f391192_00.png){width=100%}
 
-See accompanying [slides](http://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk).
+See accompanying [slides](https://docs.google.com/presentation/d/1rX_ostdjFXce5CMo-b6q4xy8H9BwsoQ_ftJL_7EmguU).
 
 ### Learning Objectives
 
