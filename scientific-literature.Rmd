@@ -93,18 +93,26 @@ Last Revised: January 2026
 #### Instructions
 
 1. Form groups of four.
-
-- Add names to the "Microbial Mysteries Groups" sheet [https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing)
-
+    - Add names to the "Microbial Mysteries Groups" sheet
+        - [docs.google.com/spreadsheets/d/1yDkZQCPRKdorJeL7uqHe7zD33Yab34chfNV4Bk6_QLo](https://docs.google.com/spreadsheets/d/1yDkZQCPRKdorJeL7uqHe7zD33Yab34chfNV4Bk6_QLo)
 2. Pair up into groups (10 min).
-
-a. Discuss -- Each group member briefly describes answers to prelab assignment
-
-b. Summarize -- Identify best answer and add to slidedeck
-[https://docs.google.com/presentation/d/1nuA_gnL09_BPZVNJy5seL-HWejhMFLqILsmgmQztYKo/edit?usp=sharing](https://docs.google.com/presentation/d/1nuA_gnL09_BPZVNJy5seL-HWejhMFLqILsmgmQztYKo/edit?usp=sharing)
-
+    - Discuss -- Each group member briefly describes answers to prelab assignment
+    - Summarize -- Identify best answer and add to slidedeck
+        - [docs.google.com/presentation/d/1ytUqB4I9_iQhdG75pCyZaUXyj9pHdgqjomuNEayOGBs](https://docs.google.com/presentation/d/1ytUqB4I9_iQhdG75pCyZaUXyj9pHdgqjomuNEayOGBs)
 3. Share group discussion (2 min each group)
 
+### Footnotes
+
+**Resources**
+
+- [Google Doc](https://docs.google.com/document/d/1lzHWQIbthCued5YAnx2Z7HnsaR1muRfK)
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: January 2026
 
 ## Lecture: Scientific Literature
 
@@ -253,26 +261,26 @@ Last Revised: January 2026
 
 #### Instructions
 
-1. Open the “Scientific Literature Presentation” slidedeck [here](https://docs.google.com/presentation/d/1wwfiTSgm0ialrYlBFnA21zdZsw7mVA58YPMiTnDGCrc/edit?usp=sharing)
-
-2. For your assigned figure from Xue, et al., 2023, create two slides to present methods and results
-
-a. Add bullet points on key details you understand (Notice) and questions you have (Wonder)
-
-b. Search for and insert at least one additional image that relates to your figure
-
-c. Update slide title to summarize your main takeaway
-
-3. Present at next class (5 min each group)
+1. Open the “Scientific Literature Presentation” slidedeck
+    a. [docs.google.com/presentation/d/1L8-xLh5Zl2oJaeJOJeC43KQVje23MIsvTGpmNaXLpG4](https://docs.google.com/presentation/d/1L8-xLh5Zl2oJaeJOJeC43KQVje23MIsvTGpmNaXLpG4)
+2. For your assigned figure from *Xue, et al., 2023*, create a slide and
+    a. Add bullet points on key details you understand (Notice) and questions you have (Wonder)
+    b. Update slide title to summarize your main takeaway
+    c. Search for and insert at least one additional image that relates to your figure
+3. Present to the class (2 min each group)
 
 ### Footnotes
+
+**Resources**
+
+- [Google Doc](https://docs.google.com/document/d/1u_NI0Y-K4S8H7t9JOWhKJqFCzv5IsLt2)
 
 **Contributions and Affiliations**
 
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: January 2025
+Last Revised: January 2026
 
 
 
