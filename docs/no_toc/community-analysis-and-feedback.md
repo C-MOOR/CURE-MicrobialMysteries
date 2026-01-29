@@ -705,19 +705,3 @@ Below is a sampling of some discussion forums that you may find useful:
 <img src="community-analysis-and-feedback_files/figure-html//1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_22.png" width="480" />
 
 <img src="community-analysis-and-feedback_files/figure-html//1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_12.png" width="480" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
