@@ -48,7 +48,7 @@ Galaxy ([galaxyproject.org](https://galaxyproject.org)) is a free, open-source s
 Last Revised: January 2025
 
 
-## QC and Galaxy Workflows
+## Quality Control and Galaxy Workflows
 
 ### Introduction
 
@@ -60,9 +60,11 @@ In the “A short introduction to Galaxy” activity you learned how to upload a
 
 #### Instructions
 
-1. Complete the “Quality Control” hands-on tutorial: [training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html)
+1. Complete the “Quality Control” hands-on tutorial
 
-- **NOTE**: Do all hands-on steps in a single Galaxy history
+    - NOTE: Do all hands-on steps <mark style="background color: yellow">in a **single** Galaxy history</mark>
+    - [training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html)
+
 
 ### Activity 2 – Creating, Editing and Importing Galaxy Workflows
 
@@ -70,18 +72,21 @@ In the “A short introduction to Galaxy” activity you learned how to upload a
 
 #### Instructions
 
-1. Complete the “Creating, Editing and Importing Galaxy Workflows” hands-on tutorial: [training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html)
+1. Complete the “Creating, Editing and Importing Galaxy Workflows” hands-on tutorial
+
+    - [training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html)
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Submit URL to your shared Galaxy “Quality Control” history on Canvas
+- Submit URL to your shared Galaxy “Quality Control” history on Canvas
 
 ### Footnotes
 
 **Resources**
 
-- Using Galaxy and Managing your Data [topic](https://training.galaxyproject.org/training-material/topics/galaxy-interface/)
-- Introduction to Galaxy and Sequence analysis [pathway](https://training.galaxyproject.org/training-material/learning-pathways/intro-to-galaxy-and-genomics.html)
+- [Google Doc](https://docs.google.com/document/d/1giVXhiVl4f-E0e9AALAuyJDdFApo6t9b)
+- Using Galaxy and Managing your Data [[topic](https://training.galaxyproject.org/training-material/topics/galaxy-interface/)]
+- Introduction to Galaxy and Sequence analysis [[pathway](https://training.galaxyproject.org/training-material/learning-pathways/intro-to-galaxy-and-genomics.html)]
 
 **Contributions and Affiliations**
 

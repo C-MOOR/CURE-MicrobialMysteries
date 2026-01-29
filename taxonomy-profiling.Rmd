@@ -39,7 +39,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 ottrpal::include_slide("https://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk/edit#slide=id.g35f391192_00")
 ```
 
-See accompanying [slides](http://docs.google.com/presentation/d/16lpgWFU6jzh-e7HuwXLHmUFpsnE8NreMzL-nTn8cJVk).
+See accompanying [slides](https://docs.google.com/presentation/d/1rX_ostdjFXce5CMo-b6q4xy8H9BwsoQ_ftJL_7EmguU).
 
 ### Learning Objectives
 

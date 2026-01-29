@@ -777,19 +777,3 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1fH9s5OLcRF5meZtF
 ```{r, echo=FALSE, fig.alt=''}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA/edit#slide=id.g302b08c5e6e_0_12")
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
