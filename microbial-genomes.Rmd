@@ -247,31 +247,32 @@ Last Revised: January 2026
 
 ## Discussion: Microbial Genomes
 
-
 ### Activity 
 
 *Estimated time: 25 min*
 
 #### Instructions
 
-1. Form new groups of four [here](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing).
-
+1. Form new groups of four.
+    - [docs.google.com/spreadsheets/d/1yDkZQCPRKdorJeL7uqHe7zD33Yab34chfNV4Bk6_QLo](https://docs.google.com/spreadsheets/d/1yDkZQCPRKdorJeL7uqHe7zD33Yab34chfNV4Bk6_QLo)
 2. Pair up into groups (10 min).
-
-    a. Discuss -- Each group member briefly describes answers to prelab assignment.
-
-    b. Summarize -- Identify best answer and add to slidedeck [here](https://docs.google.com/presentation/d/1PxqLt-MDFCTSBWm0-j-mY268b3YUiPMRqYMtcJ5JDL4/edit?usp=sharing).
-
+    - Discuss -- Each group member briefly describes answers to prelab assignment
+    - Summarize -- Identify best answer and add to slidedeck
+        - [docs.google.com/presentation/d/1PRJPnOWbV6SMH3ph3uenEY0gJE6LeOA-EEbhd_lPde8](https://docs.google.com/presentation/d/1PRJPnOWbV6SMH3ph3uenEY0gJE6LeOA-EEbhd_lPde8)
 3. Share group discussion (2 min each group).
 
 ### Footnotes
+
+**Resources**
+
+- [Google Doc](https://docs.google.com/document/d/1oRrYkD3q8nWTUtrs6w0ZgMYYfyMTDoWJ)
 
 **Contributions and Affiliations**
 
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: February 2025
+Last Revised: January 2026
 
 
 ## Project: Microbial Genomes

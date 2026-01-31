@@ -98,7 +98,7 @@ Prompt #3 Example: Modify the above graphical abstract image by emphasizing that
     - ChatGPT via [chatgpt.com](https://chatgpt.com)
     - Microsoft Copilot via [copilot.microsoft.com](https://copilot.microsoft.com)
         - Institutions like JHU [offer enterprise access](https://ctei.jhu.edu/teaching-and-ai) by signing in using "Continue with Microsoft" (e.g. username@jh.edu)
-1. Generate one more graphical abstract using Prompt #3 from Activity 1.
+1. Generate one final graphical abstract using your **original** Prompt #1 from Activity 1.
 
 #### Questions
 

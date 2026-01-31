@@ -587,28 +587,26 @@ Last Revised: January 2026
 
 #### Instructions
 
-1. Form new groups of four
-
-  - [https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing)
-
-2. Gather into groups (10 min)
-
-    a. Discuss -- Each group member briefly describes their answers to prelab assignment
-
-    b. Summarize -- Identify the best answer and add it to the slidedeck
-
-- [https://docs.google.com/presentation/d/16cRBFzezun6MGXcJEm5uP2KercIccO-dFvVx58_ClNo/edit?usp=sharing](https://docs.google.com/presentation/d/16cRBFzezun6MGXcJEm5uP2KercIccO-dFvVx58_ClNo/edit?usp=sharing)
-
-3. Share your group discussion (2 min each group)
+1. Form new groups of four.
+    - [docs.google.com/spreadsheets/d/1yDkZQCPRKdorJeL7uqHe7zD33Yab34chfNV4Bk6_QLo](https://docs.google.com/spreadsheets/d/1yDkZQCPRKdorJeL7uqHe7zD33Yab34chfNV4Bk6_QLo)
+2. Pair up into groups (10 min).
+    - Discuss -- Each group member briefly describes answers to prelab assignment
+    - Summarize -- Identify best answer and add to slidedeck
+        - [docs.google.com/presentation/d/1EeSypPQTNn8aMdrEGnVnCoboB0zCgTPw_GuDDJI_He4](https://docs.google.com/presentation/d/1EeSypPQTNn8aMdrEGnVnCoboB0zCgTPw_GuDDJI_He4)
+3. Share group discussion (2 min each group).
 
 ### Footnotes
+
+**Resources**
+
+- [Google Doc](https://docs.google.com/document/d/19P7RALah7PrE5iWXJewjF4to7S_vF8u-)
 
 **Contributions and Affiliations**
 
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: February 2025
+Last Revised: January 2026
 
 
 ## Project: Taxonomy Profiling
