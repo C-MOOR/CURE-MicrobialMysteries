@@ -244,7 +244,6 @@ Note that some genes of interest will not be found in the BV-BRC database.  Rath
 
 Last Revised: January 2026
 
-
 ## Discussion: Microbial Genomes
 
 ### Activity 
@@ -273,7 +272,6 @@ Last Revised: January 2026
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: January 2026
-
 
 ## Project: Microbial Genomes
 
@@ -468,7 +466,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
-|<br>| |
 
 Hint:
 
@@ -484,7 +481,6 @@ a. Note one host species/strain (**Genome Name**).
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
-|<br>| |
 
 |4. Record Pathway Name associated with your genes of interest.| |
 |:--|:--|
@@ -492,7 +488,6 @@ a. Note one host species/strain (**Genome Name**).
 | Gene1: | |
 | Gene2:| |
 | Gene3:| |
-|<br>| |
 
 ### Activity 3 – Go Deeper
 
@@ -509,25 +504,21 @@ Use any tools available at your disposal to follow up on your MAG and gene of in
 |a. What did you learn?|
 |:--|
 |   |
-| <br> |
 
 
 |b. What tools did you use?|
 |:--|
 |   |
-| <br> |
 
 2. For one of the **genes** you identified for your chosen contig in activity 2, what can you learn about this gene in 15 minutes using any tools at your disposal?
 
 |a. What did you learn?|
 |:--|
 |   |
-| <br> |
 
 |b. What tools did you use?|
 |:--|
 |   |
-| <br> |
 
 ### Grading Criteria
 
@@ -555,40 +546,26 @@ Last Revised: January 2026
 
 #### Instructions
 
-1. Open the “Microbial Genomes Presentation” [slidedeck](https://docs.google.com/presentation/d/17hFixGrtYtM0EzEOcU1aAi0CVRu36OqtNIXtbuiu0Os/edit?usp=sharing)
-
-2. Create at least two slides (feel free to make more!) to present your findings. E.g.
-
-  - Describe the MAG you explored (Activity 1) and some of its genes (Activity 2).
-  - What did you discover about your organism and gene (Activity 3)?
-
-3. Iterate your slides being sure to:
-
-  - Add bullet points on key details you understand (Notice) and questions you have (Wonder).
-  - Include one or more plots or images that support your points.
-  - Create slide titles that summarize your main takeaway.
-
-4. Present at next class (5 min each group).
-
+1. Open the “Microbial Genomes Presentation” slidedeck
+    - [docs.google.com/presentation/d/1rp5AYFGnzs2z8r2nSWf_JMDsLqLcCc0qigZ5mMe84Qs](https://docs.google.com/presentation/d/1rp5AYFGnzs2z8r2nSWf_JMDsLqLcCc0qigZ5mMe84Qs)
+1. Create two slides to present your findings
+    - Describe the MAG you explored (Activity 1 and 3)
+    - Describe some of its genes (Activity 2 and 3)
+1. Iterate your slides being sure to:
+    - Add bullet points on key details you understand (Notice) and questions you have (Wonder)
+    - Create slide titles that summarize your main takeaway
+    - Include one or more plots or images that support your points
+1. Present to the class (2 min each group)
 
 ### Footnotes
 
+**Resources**
+
+- [Google Doc](https://docs.google.com/document/d/1blRIoHFfEtwuwpj_T6UPXkCT4-jzRJur)
+
 **Contributions and Affiliations**
 
-  - Valeriya Gaysinskaya, Johns Hopkins University
-  - Frederick Tan, Johns Hopkins University
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
 
-Last Revised: February 2025
-
-
-
-
-
-
-
-
-
-
-
-
-
+Last Revised: February 2026

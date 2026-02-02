@@ -601,34 +601,26 @@ Last Revised: June 2025
 #### Instructions
 
 1. Open the “Finding AMRs Presentation” slidedeck
-
-- [https://docs.google.com/presentation/d/1AXZkQ0CyIasnkwyz0uvPsFic9eFrnPDQX_DbyffNmxQ/edit?usp=sharing](https://docs.google.com/presentation/d/1AXZkQ0CyIasnkwyz0uvPsFic9eFrnPDQX_DbyffNmxQ/edit?usp=sharing)
-
-2. Create slides covering at least two of these topics
-
-    a. Summarize the metagenome assembly statistics for the BioDIGS soil sample (Results).
-
-    b. Report on one of the AMR genes you found (Discussion).
-
-    c. Describe GTDB and the associated GTDB-Tk software toolkit (Methods).
-
-
+    - [docs.google.com/presentation/d/1cR-TaRfXbax1PEl-wX-JYD9eOJBekfkXsasjdnmxzWg](https://docs.google.com/presentation/d/1cR-TaRfXbax1PEl-wX-JYD9eOJBekfkXsasjdnmxzWg)
+2. Create two slides to present your findings
+    - Summarize the metagenome assembly statistics for the BioDIGS soil sample (Results)
+    - Report on one of the AMR genes you found (Discussion)
+    - Describe GTDB and the associated GTDB-Tk software toolkit (Methods)
 3. Iterate your slides being sure to:
-
-    a. Add bullet points on key details you understand (Notice) and questions you have (Wonder).
-
-    b. Include one or more plots or images that support your points.
-
-    c. Create slide titles that summarize your main takeaway.
-
-4. Present at next class (5 min each group).
-
+    - Add bullet points on key details you understand (Notice) and questions you have (Wonder)
+    - Create slide titles that summarize your main takeaway
+    - Include one or more plots or images that support your points
+4. Present to the class (2 min each group)
 
 #### Footnotes
+
+**Resources**
+
+- [Google Doc]()
 
 **Contributions and Affiliations**
 
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: February 2025
+Last Revised: February 2026
