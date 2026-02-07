@@ -272,9 +272,6 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 Last Revised: May 2025
 
-
-
-
 ## Discussion - Finding AMRs
 
 ### Activity
@@ -283,20 +280,26 @@ Last Revised: May 2025
 
 #### Instructions
 
-1. Form new groups of four
+1. Form new groups of four.
+    - [docs.google.com/spreadsheets/d/1yDkZQCPRKdorJeL7uqHe7zD33Yab34chfNV4Bk6_QLo](https://docs.google.com/spreadsheets/d/1yDkZQCPRKdorJeL7uqHe7zD33Yab34chfNV4Bk6_QLo)
+2. Pair up into groups (10 min).
+    - Discuss -- Each group member briefly describes answers to prelab assignment
+    - Summarize -- Identify best answer and add to slidedeck
+        - [docs.google.com/presentation/d/1cxc5olCzLtWCbAxoVaMqNXlp_aE4rU5rSnP-jCDaFg0](https://docs.google.com/presentation/d/1cxc5olCzLtWCbAxoVaMqNXlp_aE4rU5rSnP-jCDaFg0)
+3. Share group discussion (2 min each group).
 
-- [https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11eoJgm9mehxGWWzh8IZYDCDmnCmSyshopPYHewvpC8c/edit?usp=sharing)
+### Footnotes
 
-2. Gather into groups (10 min)
+**Resources**
 
-    a. Discuss -- Each group member briefly describes their answers to prelab assignment
+- [Google Doc](https://docs.google.com/document/d/1JqQPF1eFbri2cg89S3tdgEB4sp0dnJWZ)
 
-    b. Summarize -- Identify best answer and add it to slidedeck
+**Contributions and Affiliations**
 
-- [https://docs.google.com/presentation/d/1ZC8yjuk8V5pt3yh1p4_jkhTw0Pu4mHViAmNF-UPWAHs/edit?usp=sharing](https://docs.google.com/presentation/d/1ZC8yjuk8V5pt3yh1p4_jkhTw0Pu4mHViAmNF-UPWAHs/edit?usp=sharing)
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
 
-3. Share your group discussion (2 min each group)
-
+Last Revised: January 2026
 
 ## Project - Finding AMRs
 
@@ -598,34 +601,26 @@ Last Revised: June 2025
 #### Instructions
 
 1. Open the “Finding AMRs Presentation” slidedeck
-
-- [https://docs.google.com/presentation/d/1AXZkQ0CyIasnkwyz0uvPsFic9eFrnPDQX_DbyffNmxQ/edit?usp=sharing](https://docs.google.com/presentation/d/1AXZkQ0CyIasnkwyz0uvPsFic9eFrnPDQX_DbyffNmxQ/edit?usp=sharing)
-
-2. Create slides covering at least two of these topics
-
-    a. Summarize the metagenome assembly statistics for the BioDIGS soil sample (Results).
-
-    b. Report on one of the AMR genes you found (Discussion).
-
-    c. Describe GTDB and the associated GTDB-Tk software toolkit (Methods).
-
-
+    - [docs.google.com/presentation/d/1cR-TaRfXbax1PEl-wX-JYD9eOJBekfkXsasjdnmxzWg](https://docs.google.com/presentation/d/1cR-TaRfXbax1PEl-wX-JYD9eOJBekfkXsasjdnmxzWg)
+2. Create two slides to present your findings
+    - Summarize the metagenome assembly statistics for the BioDIGS soil sample (Results)
+    - Report on one of the AMR genes you found (Discussion)
+    - Describe GTDB and the associated GTDB-Tk software toolkit (Methods)
 3. Iterate your slides being sure to:
-
-    a. Add bullet points on key details you understand (Notice) and questions you have (Wonder).
-
-    b. Include one or more plots or images that support your points.
-
-    c. Create slide titles that summarize your main takeaway.
-
-4. Present at next class (5 min each group).
-
+    - Add bullet points on key details you understand (Notice) and questions you have (Wonder)
+    - Create slide titles that summarize your main takeaway
+    - Include one or more plots or images that support your points
+4. Present to the class (2 min each group)
 
 #### Footnotes
+
+**Resources**
+
+- [Google Doc]()
 
 **Contributions and Affiliations**
 
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: February 2025
+Last Revised: February 2026

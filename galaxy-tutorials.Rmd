@@ -47,7 +47,6 @@ Galaxy ([galaxyproject.org](https://galaxyproject.org)) is a free, open-source s
 
 Last Revised: January 2025
 
-
 ## Quality Control and Galaxy Workflows
 
 ### Introduction
@@ -61,10 +60,8 @@ In the “A short introduction to Galaxy” activity you learned how to upload a
 #### Instructions
 
 1. Complete the “Quality Control” hands-on tutorial
-
     - NOTE: Do all hands-on steps <mark style="background color: yellow">in a **single** Galaxy history</mark>
     - [training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html)
-
 
 ### Activity 2 – Creating, Editing and Importing Galaxy Workflows
 
@@ -73,7 +70,6 @@ In the “A short introduction to Galaxy” activity you learned how to upload a
 #### Instructions
 
 1. Complete the “Creating, Editing and Importing Galaxy Workflows” hands-on tutorial
-
     - [training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html)
 
 ### Grading Criteria
@@ -94,8 +90,7 @@ In the “A short introduction to Galaxy” activity you learned how to upload a
 
 Last Revised: February 2025
 
-
-## Galaxy data collections
+## Galaxy dataset collections
 
 ### Introduction
 
@@ -108,22 +103,20 @@ Collections in Galaxy can be useful when you have to deal with large numbers of 
 #### Instructions
 
 1. Review the “Datasets versus collections” FAQ
-
-- [training.galaxyproject.org/training-material/faqs/galaxy/histories_datasets_vs_collections.html](http://training.galaxyproject.org/training-material/faqs/galaxy/histories_datasets_vs_collections.html)
-
+    - [training.galaxyproject.org/training-material/faqs/galaxy/histories_datasets_vs_collections.html](http://training.galaxyproject.org/training-material/faqs/galaxy/histories_datasets_vs_collections.html)
 2. Complete the “Using dataset collections” hands-on tutorial
-
-- [training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html](http://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html)
+    - [training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html](http://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html)
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Submit URL to your shared Galaxy history on Canvas
+- Submit URL to your shared Galaxy history on Canvas
 
 ### Footnotes
 
 **Resources**
 
-- Using Galaxy and Managing your Data [topic]
+- [Google Doc](https://docs.google.com/document/d/1kt75euf5ie6-AF4Vk3uoDujKhcvtjmuP)
+- Using Galaxy and Managing your Data [[topic](https://training.galaxyproject.org/training-material/topics/galaxy-interface)]
 
 **Contributions and Affiliations**
 
