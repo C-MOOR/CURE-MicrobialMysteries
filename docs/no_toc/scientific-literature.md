@@ -20,7 +20,6 @@ In this module, we will learn about microbial diversity, the field of genomics a
 
 [Slides: What's in Your XYZ?](https://docs.google.com/presentation/d/1ph3LFw6i_mtv6ZJXssTf0-im7PhgV4FRJslDG0ICCws/edit?usp=sharing)
 
-
 ## Prelab: Scientific Literature
 
 ### Purpose 
@@ -91,7 +90,7 @@ Last Revised: January 2026
     - Discuss -- Each group member briefly describes answers to prelab assignment
     - Summarize -- Identify best answer and add to slidedeck
         - [docs.google.com/presentation/d/1ytUqB4I9_iQhdG75pCyZaUXyj9pHdgqjomuNEayOGBs](https://docs.google.com/presentation/d/1ytUqB4I9_iQhdG75pCyZaUXyj9pHdgqjomuNEayOGBs)
-3. Share group discussion (2 min each group)
+3. Share group discussion (2 min each group).
 
 ### Footnotes
 
@@ -201,7 +200,6 @@ Understanding microbial composition and diversity in different environments is c
     | Fig. 3B | Homework |
     | Fig. 3C | Homework |
 
-
 ### Part 3 - Conclusions
 
 *Estimated time: 30 min*
@@ -252,12 +250,12 @@ Last Revised: January 2026
 #### Instructions
 
 1. Open the “Scientific Literature Presentation” slidedeck
-    a. [docs.google.com/presentation/d/1L8-xLh5Zl2oJaeJOJeC43KQVje23MIsvTGpmNaXLpG4](https://docs.google.com/presentation/d/1L8-xLh5Zl2oJaeJOJeC43KQVje23MIsvTGpmNaXLpG4)
-2. For your assigned figure from *Xue, et al., 2023*, create a slide and
-    a. Add bullet points on key details you understand (Notice) and questions you have (Wonder)
-    b. Update slide title to summarize your main takeaway
-    c. Search for and insert at least one additional image that relates to your figure
-3. Present to the class (2 min each group)
+    - [docs.google.com/presentation/d/1L8-xLh5Zl2oJaeJOJeC43KQVje23MIsvTGpmNaXLpG4](https://docs.google.com/presentation/d/1L8-xLh5Zl2oJaeJOJeC43KQVje23MIsvTGpmNaXLpG4)
+1. For your assigned figure from *Xue, et al., 2023*, create a slide and
+    - Add bullet points on key details you understand (Notice) and questions you have (Wonder)
+    - Update slide title to summarize your main takeaway
+    - Search for and insert at least one additional image that relates to your figure
+1. Present to the class (2 min each group)
 
 ### Footnotes
 
@@ -271,7 +269,3 @@ Last Revised: January 2026
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: January 2026
-
-
-
-
