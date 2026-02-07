@@ -168,10 +168,9 @@ Last Revised: June, 2025
 
 [Slides: Possible Datasets](https://docs.google.com/presentation/d/1VxwSmAY8BUs3EfVcxPm3I8kNYJWjVqoHJrGOX3X3sog/edit?usp=sharing)
 
-
 ## Activity - Possible Datasets
 
-A few ideas to get you started with the Project Work can be found in the **Possible Datasets** Lecture and Acvitivity below. **Your project work will culminate in Poster making, poster sharing and poster presentation.** a. Each group will present their capstone project during an in-class poster presentation. 
+A few ideas to get you started with the Project Work can be found in the Possible Datasets Lecture and Activity below. Your project work will culminate in poster making, poster sharing, and poster presentation.  Each group will present their capstone project during an in-class poster presentation. 
 
 ### Activity
 
@@ -180,40 +179,38 @@ A few ideas to get you started with the Project Work can be found in the **Possi
 #### Instructions
 
 1. Skim three abstracts
-
-2. Pick one and answer the following questions
-
- a. Notice – What about this abstract most interests you?
-
- b. Dataset – Summarize at a high level where the samples came from, how many there are, and what technology was used for sequencing.
-
- c. Wonder – Two or three questions you would like to ask using this (and any other) datasets.
-
-3. Post your answers by replying to the “Project Work: Possible Datasets” topic in the Discussion Forum
+1. Pick one and answer the following questions
+    - Notice – What about this abstract most interests you?
+    - Dataset – Summarize at a high level where the samples came from, how many there are, and what technology was used for sequencing.
+    - Wonder – Two or three questions you would like to ask using this (and any other) datasets.
+1. Post your answers by replying to the “Project Work: Possible Datasets” topic in the Discussion Forum
 
 |Possible Datasets (Long-read PacBio)| | | |
 |:--|:--|:--|:--|
 |**Soil**| | | |
-| |Antarctic |PRJNA1126331 | https://pubmed.gov/39300163/| 
-| |Biocrust |PRJNA691698 | https://pubmed.gov/34795375/| 
+| |Antarctic        |PRJNA1126331 | [pubmed.gov/39300163](https://pubmed.gov/39300163) |
+| |Biocrust         |PRJNA691698  | [pubmed.gov/34795375](https://pubmed.gov/34795375) | 
 |**Water**| | | |
-| |Fresh Water |PRJNA924152 | https://pubmed.gov/36823661/|
-| |Ocean Water |PRJNA853328 | https://pubmed.gov/36448813/|
+| |Fresh Water      |PRJNA924152  | [pubmed.gov/36823661](https://pubmed.gov/36823661) |
+| |Ocean Water      |PRJNA853328  | [pubmed.gov/36448813](https://pubmed.gov/36448813) |
 |**Human Gut**| | | |
-| |Vegan/Omnivore |PRJNA750084 | http://pubmed.gov/36289209|
-| |Infant Nutrition |PRJNA1139951 | http://pubmed.gov/31022095|
+| |Vegan/Omnivore   |PRJNA750084  | [pubmed.gov/36289209](https://pubmed.gov/36289209) |
+| |Infant Nutrition |PRJNA1139951 | [pubmed.gov/31022095](https://pubmed.gov/31022095) |
 |**and More!**| | | |
-| |Lamb Gut |PRJNA595610 |http://pubmed.gov/34980911|
-| |Deadwood |PRJNA603240 | http://pubmed.gov/39627869|
-| |Cheese |PRJNA778418 | http://pubmed.gov/9948695|
-| |Whey |PRJNA454439, PRJNA477604 | http://pubmed.gov/6593500 |
-<br>
+| |Lamb Gut         |PRJNA595610  | [pubmed.gov/34980911](https://pubmed.gov/34980911) |
+| |Deadwood         |PRJNA603240  | [pubmed.gov/39627869](https://pubmed.gov/39627869) |
+| |Cheese           |PRJNA778418  | [pubmed.gov/36622155](https://pubmed.gov/36622155) |
+| |Whey             |PRJNA454439, PRJNA477604 | [pubmed.gov/31238873](https://pubmed.gov/31238873) |
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Submit URL to your reply on Canvas</mark>.
+- Submit URL to your reply on Canvas
 
 ### Footnotes
+
+**Resources**
+
+- [Google Doc](https://docs.google.com/document/d/1WY16fnRl_ypFOdIi5BWOXmigeyKzguwy)
 
 **Contributions and Affiliations**
 
