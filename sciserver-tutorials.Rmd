@@ -8,7 +8,7 @@ ottrpal::set_knitr_image_path()
 
 ### Introduction
 
-SciServer [sciserver.org](https://www.sciserver.org) is an online platform for doing scientific data analysis. It is used by scientists studying astronomy, biology, oceanography, and more, and is free as long as you are using it for scientific research. Using SciServer means you do not need a fancy computer or need to install any special programs on your computer, you can just log in with your internet browser to start doing research. For this course, we have set up SciServer with customized collections of programs as well as the data that we’ll be analyzing. Once you sign up for SciServer and are added to the group for this course, you will be able to access these tools and begin your data analysis journey!
+SciServer ([sciserver.org](https://www.sciserver.org)) is an online platform for doing scientific data analysis. It is used by scientists studying astronomy, biology, oceanography, and more, and is free as long as you are using it for scientific research. Using SciServer means you do not need a fancy computer or need to install any special programs on your computer, you can just log in with your internet browser to start doing research. For this course, we have set up SciServer with customized collections of programs as well as the data that we’ll be analyzing. Once you sign up for SciServer and are added to the group for this course, you will be able to access these tools and begin your data analysis journey!
 
 ### Activity
 
@@ -17,40 +17,26 @@ SciServer [sciserver.org](https://www.sciserver.org) is an online platform for d
 #### Instructions
 
 1. Accept invitation to join class SciServer Group
-
-a. Navigate to [https://apps.sciserver.org/dashboard/groups](https://apps.sciserver.org/dashboard/groups)
-
-b. Click “Accept Invitation”
-
-2. Start up a “C-MOOR LearnR” compute container
-
-a. Navigate to [https://apps.sciserver.org/compute](https://apps.sciserver.org/compute)
-
-b. Click “Create container”
-
-c. Give your container a name (eg. my LearnR)
-
-d. In the “Compute Image” drop-down menu, select “C-MOOR LearnR”
-
-e. Under “Data Volumes”, check the box next to “C-MOOR Data”
-
-```{r, echo=FALSE, fig.alt=''}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g35ea50429a3_0_9#slide=id.g35ea50429a3_0_9")
-```
-f. Scroll down and click “Create”. This may take a moment.
-
-g. Start your C-MOOR LearnR container by clicking on its name
-
-- NOTE: If you see “Error: C-MOOR data volume not mounted!” you most likely forgot to check the box next to “C-MOOR Data” when you created the container.
-
-3. Complete your first LearnR tutorial
-
-a. Click on “test-driveR”. The tutorial will open in a new tab.
-
-```{r, echo=FALSE, fig.alt=''}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g35ea50429a3_0_27#slide=id.g35ea50429a3_0_27")
-```
-Complete the tutorial and answer the questions below.
+    a. Navigate to [https://apps.sciserver.org/dashboard/groups](https://apps.sciserver.org/dashboard/groups)
+    a. Click “Accept Invitation”
+1. Start up a “C-MOOR LearnR” compute container
+    a. Navigate to [https://apps.sciserver.org/compute](https://apps.sciserver.org/compute)
+    a. Click “Create container”
+    a. Give your container a name (eg. my LearnR)
+    a. In the “Compute Image” drop-down menu, select “C-MOOR LearnR”
+    a. Under “Data Volumes”, check the box next to “C-MOOR Data”
+    ```{r, echo=FALSE, fig.alt=''}
+    ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g35ea50429a3_0_9#slide=id.g35ea50429a3_0_9")
+    ```
+    a. Scroll down and click “Create”. This may take a moment.
+    a. Start your C-MOOR LearnR container by clicking on its name
+        - NOTE: If you see “Error: C-MOOR data volume not mounted!” you most likely forgot to check the box next to “C-MOOR Data” when you created the container.
+1. Complete your first LearnR tutorial
+    a. Click on “test-driveR”. The tutorial will open in a new tab.
+    ```{r, echo=FALSE, fig.alt=''}
+    ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc/edit?slide=id.g35ea50429a3_0_27#slide=id.g35ea50429a3_0_27")
+    ```
+    a. Complete the tutorial and answer the questions below.
 
 #### Questions
 
@@ -58,28 +44,25 @@ Use the blocks provided at the end of the tutorial to create variations of the c
 
 |1. Code – Copy and paste your actual code as text.|
 |:--|
-||
-<br>
+|<br>|
 
 |2. Output – Copy and paste as text if simple, otherwise use a screenshot.|
 |:--|
-||
-<br>
+|<br>|
 
 |3. Description.|
 |:--|
-||
-<br>
+|<br>|
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+- Download as Microsoft Word (.docx) and upload on Canvas
 
 ### Footnotes
 
 **Resources**
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/149QwUo4nhyb-2_JOYjAb5iOd4xBxW5Vo)
 - [R cheat sheet](https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md)
 
 **Contributions and Affiliations**
