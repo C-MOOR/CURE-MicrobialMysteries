@@ -44,43 +44,38 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-
 
 ### Activity
 
-*Estimated time: ---*
+*Estimated time: 50*
 
 #### Instructions
 
-1. Review **[Presentations Guidelines for Posters](https://ur.umbc.edu/urcad/resources/posters-guidelines)**
-
-2. Skim three posters from among the following (must be Biology if from UMBC Posters)
-
-- **[Look at This! Category on the Academy Discussion Forum](https://help.c-moor.org/c/look-at-this/8)**
-
-- **[UMBC Biology Posters](https://ur.umbc.edu/poster-presentation-examples)**
-
-- **[The example PacBio Poster](https://www.pacb.com/wp-content/uploads/PAG-Portik.pdf)**
-
-3. Pick one poster and address the following points.
-
-- **Notice** – What about this poster most interests you?
-
-- **Wonder** – Two or three questions you would ask the authors.
-
-- **Support** – Two or three suggestions on how the poster could be improved.
-
-4. Post your answers by replying to the “Project Work: Scientific Posters” topic in the Discussion Forum
+1. Review "Presentations Guidelines for Posters"
+    - <https://ur.umbc.edu/urcad/resources/posters-guidelines>
+1. Skim three posters from among the following
+    - C-MOOR Posters -- <https://help.c-moor.org/c/look-at-this/8>
+    - UW-Madison Posters -- <https://introbio.integrativebiology.wisc.edu/i-p-posters>
+    - Example PacBio Poster -- <https://www.pacb.com/wp-content/uploads/PAG-Portik.pdf>
+1. Pick one poster and address the following points.
+    - Notice – What about this poster most interests you?
+    - Wonder – Two or three questions you would ask the authors.
+    - Support – Two or three suggestions on how the poster could be improved.
+1. Post your answers by replying to the “Project Work: Scientific Posters” topic in the Discussion Forum
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Submit URL to your reply on Canvas</mark>.
+- Submit URL to your reply on Canvas
 
 ### Footnotes
+
+**Resources**
+
+- [Google Doc](https://docs.google.com/document/d/1JxcGUh8yX8Kr186_akCe1X7nZXNqu9Ei)
 
 **Contributions and Affiliations**
 
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: February 2025
-
+Last Revised: February 2026
 
 ## Making Group Poster 
 

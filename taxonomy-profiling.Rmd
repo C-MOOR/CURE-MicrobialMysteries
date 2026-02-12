@@ -836,8 +836,8 @@ Last Revised: January 2025
 1. Open the “Taxonomy Profiling Presentation” slidedeck
     - [docs.google.com/presentation/d/16Mca4Bn5PIWpQmePMjTk1Ges_Tav88t2UMYDCtIVdyA](https://docs.google.com/presentation/d/16Mca4Bn5PIWpQmePMjTk1Ges_Tav88t2UMYDCtIVdyA)
 1. Create two slides to present your findings
-    - Describe the sample, drawing inspiration from Fig 2 (taxonomic distribution) and Fig 3a (read abundance) in the Xue et al 2023 ballast water study
-    - Propose several steps for a follow-up analysis to compare this soil sample with one of the studies described in the Possible Dataset Activity, drawing inspiration from your submissions as well as those of your classmates in the Discussion Forum
+    - Notice -- Describe the sample, drawing inspiration from Fig 2 (taxonomic distribution) and Fig 3a (read abundance) in the Xue et al 2023 ballast water study
+    - Wonder -- Propose several steps for a follow-up analysis to compare this soil sample with one of the studies described in the Possible Dataset Activity, drawing inspiration from your submissions as well as those of your classmates in the Discussion Forum
 1. Iterate your slides being sure to:
     - Add bullet points on key details you understand (Notice) and questions you have (Wonder)
     - Create slide titles that summarize your main takeaway
@@ -848,7 +848,7 @@ Last Revised: January 2025
 
 **Resources**
 
-- [Google Doc]()
+- [Google Doc](https://docs.google.com/document/d/1z00nQpmgltYNZEguXtjNagBgSKXE4H2X)
 
 **Contributions and Affiliations**
 
