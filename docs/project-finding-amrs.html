@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>9.1 Lecture - Scientific Posters | CURE: Microbial Mysteries</title>
+  <title>5.4 Project: Finding AMRs | CURE: Microbial Mysteries</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="9.1 Lecture - Scientific Posters | CURE: Microbial Mysteries" />
+  <meta property="og:title" content="5.4 Project: Finding AMRs | CURE: Microbial Mysteries" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="9.1 Lecture - Scientific Posters | CURE: Microbial Mysteries" />
+  <meta name="twitter:title" content="5.4 Project: Finding AMRs | CURE: Microbial Mysteries" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="scientific-posters.html"/>
-<link rel="next" href="activity---scientific-posters.html"/>
+<link rel="prev" href="discussion-finding-amrs.html"/>
+<link rel="next" href="presentation-finding-amrs.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -476,11 +476,645 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="lecture---scientific-posters" class="section level2 hasAnchor" number="9.1">
-<h2><span class="header-section-number">9.1</span> Lecture - Scientific Posters<a href="lecture---scientific-posters.html#lecture---scientific-posters" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p><em>Estimated time: —</em></p>
-<p><img src="community-analysis-and-feedback_files/figure-html/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U_g35f391192_00.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
-<p><a href="https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing">Scientific Posters</a></p>
+<div id="project-finding-amrs" class="section level2 hasAnchor" number="5.4">
+<h2><span class="header-section-number">5.4</span> Project: Finding AMRs<a href="project-finding-amrs.html#project-finding-amrs" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="purpose-10" class="section level3 hasAnchor" number="5.4.1">
+<h3><span class="header-section-number">5.4.1</span> Purpose<a href="project-finding-amrs.html#purpose-10" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>To explore soil metagenomics using Galaxy tools for de novo genome assembly (Flye), assembled contig visualization (Bandage), finding antimicrobial resistance (AMR) genes (ABRicate) and binning contigs into larger groups/bins (MetaBAT2). You will also explore information about the taxonomic classifier GTDB-Tk. This will allow you to compare genomic assemblies and AMRs between soil and Zymo gut standard.</p>
+</div>
+<div id="learning-objectives-9" class="section level3 hasAnchor" number="5.4.2">
+<h3><span class="header-section-number">5.4.2</span> Learning Objectives<a href="project-finding-amrs.html#learning-objectives-9" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Use <strong>Galaxy</strong> tools to</p>
+<ol style="list-style-type: decimal">
+<li>Perform de novo genome assembly of long reads into ‘contigs’ useing <strong>Flye</strong> tool</li>
+<li>Visualize the contigs with <strong>Bandage</strong> tool</li>
+<li>Find AMRs in contig assemblies using <strong>ABRicate</strong> tool</li>
+<li>Bin contings into larger MAGS using <strong>MetaBAT2</strong> tool</li>
+<li>Learn about <strong>GTDB-Tk</strong> taxonomy classifier tool</li>
+</ol>
+</div>
+<div id="introduction-8" class="section level3 hasAnchor" number="5.4.3">
+<h3><span class="header-section-number">5.4.3</span> Introduction<a href="project-finding-amrs.html#introduction-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In this activity we will practice <em>de novo</em> metagenome assembly with the tool <code>Flye</code>, using a <strong>soil</strong> sample from the <a href="https://biodigs.org/#about">BioDIGS project</a> sequenced with long-read Nanopore sequencing technology. We will have an opportunity to compare and contrast assembled contigs and antimicrobial resistance profiles of soil and gut and think about the differences and similarities in microbial diversity of the two environments.</p>
+<p>In this activity we will also learn about MetaBAT2 and GTDB-Tk. The most up to date long read metagenomics workflow includes contig assembly (e.g. using Flye tool), followed by contig binning into larger metagenome-assembled genomes (MAGs) (with e.g. MetaBAT2 tool) and finally MAG classification (e.g. with GTDB-Tk). MetaBAT2 is an algorithm that bins (or groups) sequence fragments (contigs) into larger MAGs or draft genomes. Subsequently, MAGs can be taxonomically classified by GTDB-Tk.</p>
+<p><code>You will not be executing GTDB-Tk in this activity to stay within a reasonable activity time frame.</code> However, for your project work, you will have a chance to test GTDB-Tk on your genome assemblies and bins. A note to your future self working on a project - as a rule, after genome assembly, if your contigs are 500 kb or above, they will be considered large enough to be passed on to GTDB-Tk without the need for binning. Contigs of &lt; 500 kb will be binned and passed on to GTDB-Tk for taxonomy classification as bins.</p>
+<p><strong>Overview of the approximate minimum times for a job to be completed on Galaxy using specified tools.</strong></p>
+<ul>
+<li>Note, these times apply only to the specific input file we will be using in this activity, the nanopore-soil-subset that is 5.4 GB.</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Flye</th>
+<th align="left">Bandage</th>
+<th align="left">ABRicate</th>
+<th align="left">MetaBAT2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">5 hours</td>
+<td align="left">&lt; 5 min</td>
+<td align="left">&lt; 10 min</td>
+<td align="left">&lt; 10 min</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="activity-1-genome-assembly-with-flye" class="section level3 hasAnchor" number="5.4.4">
+<h3><span class="header-section-number">5.4.4</span> Activity 1 – Genome assembly with Flye<a href="project-finding-amrs.html#activity-1-genome-assembly-with-flye" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 30 min (activity time DOES NOT include the Flye run time on Galaxy)</em></p>
+<div class="notice">
+<p>The sample used in this activity is from the <a href="https://biodigs.org/#about">BioDIGS Project</a>, sequenced using Oxford Nanopore Technologies’ <a href="https://nanoporetech.com/products/sequence/promethion">PromethION Instrument</a>. A subset of this data was adapter-trimmed and filtered and is used in this activity.</p>
+</div>
+<div id="instructions-38" class="section level4 hasAnchor" number="5.4.4.1">
+<h4><span class="header-section-number">5.4.4.1</span> Instructions<a href="project-finding-amrs.html#instructions-38" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li><p>Run Flye in Galaxy on adapter-trimmed (with Porechop tool) and quality filtered (with fastp tool) nanopore soil subset <a href="https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered-2">nanopore-soil-subset-filtered</a> to de novo assemble soil microbial genomes.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Obtain .fastq file from a subset of Nanopore-sequencing soil study: <a href="https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered-2">https://usegalaxy.org/u/valerie-g/h/nanopore-soil-subset-filtered-2</a>.</p></li>
+<li><p>Name your new history <strong>Finding soil AMRs</strong>.</p></li>
+<li><p>Run <strong>Flye</strong> tool to assess sequence quality using the following <strong>Tool Parameters</strong>.</p>
+<ul>
+<li>Under <strong>Input Reads</strong>: select your nano <code>pore-soil-subset-filtered</code> <strong>.fastq</strong> dataset.</li>
+<li>Under <strong>Mode</strong>: select <code>--nano-raw</code> option, since the sequences were obtained using Nanopore sequencing technology.</li>
+<li>Under <strong>Perform metagenomic assembly</strong>: select <code>Yes</code>.</li>
+<li>Under <strong>Generate a log file</strong>: select <code>Yes</code>.</li>
+</ul></li>
+</ol></li>
+<li><p>Explore Flye output <strong>assembly info</strong> file which is sorted by length (in base pairs, bp) of the contig (high to low).</p></li>
+</ol>
+</div>
+<div id="questions-30" class="section level4 hasAnchor" number="5.4.4.2">
+<h4><span class="header-section-number">5.4.4.2</span> Questions<a href="project-finding-amrs.html#questions-30" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1. How many contigs were assembled?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><code>Hint:</code> Note: Since each contig is represented by a separate row (or line) in the assembly info file, simply clicking on the assembly info file and recording the number of lines listed in the file will correspond to the number of contigs.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2. What is the longest contig size?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3. What percent of input was assembled into contigs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><code>Hint 1:</code> In the log file, find the input number of bases going into flye assembly - this info corresponds to the “Total read length” value on top of the log file.
+<code>Hint 2:</code> In the log file, find the output number of bases after flye assembly - this info corresponds to the “Total length” value on the bottom of the log file.
+<code>Hint 3:</code> calculate percent of input assembled into contigs using the 2 input and output values you obtained above.</p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">4. Why do you think only a small fraction of reads was assembled into contigs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><strong>5. Compare soil assembly to the Zymo gut standard assembly provided the following observations:</strong></p>
+<ul>
+<li>For this activity you can consult back to your Prelab: Finding AMRs.</li>
+<li>The number of contigs assembled from <strong>342.5 MB</strong> of sequencing data from the Zymo gut standard D6331 subset was <strong>289</strong>, much smaller than for the filtered soil sample of 5.5 GB! Yet, the largest contig size for the Zymo gut standard was over 2 million bases (almost 10 times larger) and circular (while the largest contig for the soil sample was smaller and linear).</li>
+</ul>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">5A. Why do you think the number of contigs in the soil sample was so much higher than the number of contigs in the Zymo gut standard?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><code>Hint 1:</code> it is NOT because of the difference in the size of the sequencing file.
+<code>Hint 2:</code> Think about possible differences in the microbial diversity of the two samples.</p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">5B. Why do you think it was possible to assemble a much larger and circular contig with the Zymo gut standard sample compared to the soil sample?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-2-contig-visualization-with-bandage" class="section level3 hasAnchor" number="5.4.5">
+<h3><span class="header-section-number">5.4.5</span> Activity 2 – Contig visualization with Bandage<a href="project-finding-amrs.html#activity-2-contig-visualization-with-bandage" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 15 min </em></p>
+<div id="instructions-39" class="section level4 hasAnchor" number="5.4.5.1">
+<h4><span class="header-section-number">5.4.5.1</span> Instructions<a href="project-finding-amrs.html#instructions-39" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Run <strong>Bandage</strong> Image tool in Galaxy to visualize contigs.</li>
+</ol>
+<ul>
+<li>Run <strong>Bandage Image</strong> tool in Galaxy using your <strong>Flye: graphical fragment assembly file</strong> (in gfa1 format) as input, using default parameters.</li>
+</ul>
+</div>
+<div id="questions-31" class="section level4 hasAnchor" number="5.4.5.2">
+<h4><span class="header-section-number">5.4.5.2</span> Questions<a href="project-finding-amrs.html#questions-31" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1. Paste the resulting image below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2. Describe contig profile based on the Bandage Image result.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-3-finding-amrs-1" class="section level3 hasAnchor" number="5.4.6">
+<h3><span class="header-section-number">5.4.6</span> Activity 3 – Finding AMRs<a href="project-finding-amrs.html#activity-3-finding-amrs-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 30 min</em></p>
+<div id="instructions-40" class="section level4 hasAnchor" number="5.4.6.1">
+<h4><span class="header-section-number">5.4.6.1</span> Instructions<a href="project-finding-amrs.html#instructions-40" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Run <strong>ABRicate</strong> tool in Galaxy using Flye consensus as input using the following <strong>Tool Parameters</strong>:</li>
+</ol>
+<ul>
+<li>Under <strong>Input Reads</strong>: select your <code>Flye: consensus</code> output in FASTA format.</li>
+<li>IMPORTANT: Under <strong>Advanced Options</strong>: select <code>NCBI Bacterial Antimicrobial Resistance Reference Gene Database</code> as your database option; the default ‘resfinder’ may not work well.</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Explore <strong>ABRicate report</strong> file.</li>
+</ol>
+<ul>
+<li>Note, Abricate output report has the following information.</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Column</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">FILE</td>
+<td align="left">The filename this hit came from</td>
+</tr>
+<tr class="even">
+<td align="left">SEQUENCE</td>
+<td align="left">The sequence in the filename</td>
+</tr>
+<tr class="odd">
+<td align="left">START</td>
+<td align="left">Start coordinate in the sequence</td>
+</tr>
+<tr class="even">
+<td align="left">END</td>
+<td align="left">End coordinate in the sequence</td>
+</tr>
+<tr class="odd">
+<td align="left">GENE</td>
+<td align="left">ABR gene name</td>
+</tr>
+<tr class="even">
+<td align="left">COVERAGE</td>
+<td align="left">What proportion of the gene is in our sequence</td>
+</tr>
+<tr class="odd">
+<td align="left">COVERAGE_MAP</td>
+<td align="left">A visual of coverage map (gaps or no gaps)</td>
+</tr>
+<tr class="even">
+<td align="left">GAPS</td>
+<td align="left">Was there any gaps in the alignment - possible pseudogene?</td>
+</tr>
+<tr class="odd">
+<td align="left">%COVERAGE</td>
+<td align="left">Proportion of gene covered</td>
+</tr>
+<tr class="even">
+<td align="left">%IDENTITY</td>
+<td align="left">Proportion of exact nucleotide matches</td>
+</tr>
+<tr class="odd">
+<td align="left">DATABASE</td>
+<td align="left">The database this sequence comes from</td>
+</tr>
+<tr class="even">
+<td align="left">ACCESSION</td>
+<td align="left">The genomic source of the sequence</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="questions-32" class="section level4 hasAnchor" number="5.4.6.2">
+<h4><span class="header-section-number">5.4.6.2</span> Questions<a href="project-finding-amrs.html#questions-32" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">1. How many AMR genes were detected? This is the number of rows in your file.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2. How many DIFFERENT AMR genes were detected and what are their GENE names?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">3. What are the different AMR genes resistant to? What is their RESISTANCE?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">4. How many DIFFERENT contigs had AMRs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><strong>5. Research and write a small paragraph report on one of the AMR genes you found.</strong></p>
+<ul>
+<li><p>Use any search tools for your research, but we encourage you to use PubMed <a href="https://pubmed.ncbi.nlm.nih.gov/">https://pubmed.ncbi.nlm.nih.gov/</a> where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input.</p></li>
+<li><p>Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.</p></li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="left">5A. Report on one of the AMR genes you found.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">5B. Why do you think the AMRs you found in soil differ from the AMRs you found in the gut (from your pre-lab)?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-4-bin-contigs-with-metabat2" class="section level3 hasAnchor" number="5.4.7">
+<h3><span class="header-section-number">5.4.7</span> Activity 4 – Bin contigs with MetaBAT2<a href="project-finding-amrs.html#activity-4-bin-contigs-with-metabat2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 20 min</em></p>
+<div id="instructions-41" class="section level4 hasAnchor" number="5.4.7.1">
+<h4><span class="header-section-number">5.4.7.1</span> Instructions<a href="project-finding-amrs.html#instructions-41" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>In Galaxy, find and click on <strong>MetaBAT2</strong> tool and explore tool parameters.</li>
+<li>Run <strong>MetaBAT2</strong> tool in Galaxy using <code>Flye consensus</code> as input using the <strong>following Tool Parameters</strong>:</li>
+</ol>
+<ul>
+<li>Under <strong>Fasta file containing contigs</strong>: select your Flye: consensus output in FASTA format.</li>
+<li>Under <strong>Output options</strong>: from the <strong>Extra outputs</strong> dropdown menu select: <code>Process log file</code>.</li>
+</ul>
+</div>
+<div id="questions-33" class="section level4 hasAnchor" number="5.4.7.2">
+<h4><span class="header-section-number">5.4.7.2</span> Questions<a href="project-finding-amrs.html#questions-33" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><strong>1. Explore MetaBAT2 tool and parameters.</strong></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">1A. What is the function of MetaBAT2 tool based on Galaxy tool description on top?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">1B. Under Tool Parameters for MetaBAT2, find and record below the Minimum size of a contig for binning (a value given in basepairs, bp).</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">1C. Under Tool Parameters and Output options for MetaBAT2, find and record below the Minimum size of a bin as the output.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><strong>2. Explore MetaBAT2 tool output.</strong></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2A. Open MetaBAT2 Process log output file and record how many bins were formed from contigs.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2B. Open MetaBAT2 Process log output file and record how many bases in total were used to form bins.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2C. What percent of contig bases formed bins (given that 154,251,885 bases were in Flye output)?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2D. Based on percent of contigs that formed bins (from activity 4-2.1 above) did metaBAT2 do a good job of binning the contigs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><strong>3. Examine MetaBAT2 Bin sequences output, which is a <code>DATASET COLLECTION</code>, where each collection is a separate bin.</strong></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">3A. Click on the MetaBAT2 Bin sequences output. How many bins (or Galaxy ‘folders’) are there?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">3B. Click on the MetaBAT2 Bin sequences output and then on bin 1. Without ‘eyeballing’ the fasta file, note how many sequences (contigs) were included in bin 1.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">3C. Click on the MetaBAT2 Bin sequences output and then on bin 2. Without ‘eyeballing’ the fasta file, note how many sequences (contigs) were included in bin 2?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-5-read-about-gtdbtk-tool-in-galaxy" class="section level3 hasAnchor" number="5.4.8">
+<h3><span class="header-section-number">5.4.8</span> Activity 5 – Read about GTDBtk tool in Galaxy<a href="project-finding-amrs.html#activity-5-read-about-gtdbtk-tool-in-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 15 min</em></p>
+<div id="instructions-42" class="section level4 hasAnchor" number="5.4.8.1">
+<h4><span class="header-section-number">5.4.8.1</span> Instructions<a href="project-finding-amrs.html#instructions-42" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>In Galaxy, find and click on <strong>GTDB-Tk Classify genomes.</strong></li>
+</ol>
+</div>
+<div id="questions-34" class="section level4 hasAnchor" number="5.4.8.2">
+<h4><span class="header-section-number">5.4.8.2</span> Questions<a href="project-finding-amrs.html#questions-34" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">1. Read the GTDB-Tk Classify genomes tool’s “What it does” part and summarize what GTDB-Tk does.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2. What is the ideal input sequence for GTDB-Tk classification: 1) raw sequences, 2) contigs or 3) large contigs(&gt;500kb) and MAGs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<p><strong>3. Visit <a href="https://gtdb.ecogenomic.org/stats/r220">https://gtdb.ecogenomic.org/stats/r220</a> to explore the database and database statistics.</strong></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">3A. How many bacterial species are present in GTDB database Release 220?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">3B. Scroll through website . Although it has a lot of complex information, what is one thing you found interesting about GTDB-Tk content?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="grading-criteria-10" class="section level3 hasAnchor" number="5.4.9">
+<h3><span class="header-section-number">5.4.9</span> Grading Criteria<a href="project-finding-amrs.html#grading-criteria-10" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.</li>
+</ul>
+</div>
+<div id="footnotes-17" class="section level3 hasAnchor" number="5.4.10">
+<h3><span class="header-section-number">5.4.10</span> Footnotes<a href="project-finding-amrs.html#footnotes-17" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>Resources</strong></p>
+<ul>
+<li>Google Doc</li>
+</ul>
+<p><strong>Contributions and Affiliations</strong></p>
+<ul>
+<li>Valeriya Gaysinskaya, Johns Hopkins University</li>
+<li>Frederick Tan, Johns Hopkins University</li>
+</ul>
+<p>Last Revised: June 2025</p>
+</div>
 </div>
 <hr>
 <center> 
@@ -493,8 +1127,8 @@
           </div>
         </div>
       </div>
-<a href="scientific-posters.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="activity---scientific-posters.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="discussion-finding-amrs.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="presentation-finding-amrs.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

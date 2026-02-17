@@ -12,61 +12,57 @@ A similar strategy can be used to screen for virulence factors using databases s
 
 ![](finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_345.png){width=100%}
 
-## Lecture - Finding AMRs
+## Lecture: Finding AMRs
 
 ![](finding-AMRs_files/figure-docx//165OHha9IYOctuyzg1CG0LwGxNnbC85JyJfMZT6xnYHw_g35f391192_00.png){width=100%}
 
 [Slides: Finding AMRs](https://docs.google.com/presentation/d/165OHha9IYOctuyzg1CG0LwGxNnbC85JyJfMZT6xnYHw/edit?usp=sharing)
 
-## Prelab - Finding AMRs
+## Prelab: Finding AMRs
 
 ### Purpose
 
-To use a Galaxy tools to perform *de novo* genome assembly of sequencing reads into contigs, visualize the contigs and find antimicrobial resistance (AMR) genes.
+To use Galaxy tools to perform *de novo* genome assembly of sequencing reads into contigs, visualize the contigs, and find antimicrobial resistance (AMR) genes.
 
 ### Learning Objectives
 
 Use Galaxy platform to:
 
-1. Perform *de novo* genome assembly of long reads into ‘contigs’, using the `Flye` tool.
-2. Visualize contigs with the `Bandage Image` tool.
-3. Identify AMRs in the contig assemblies using the `ABRicate` tool.
+1. Perform *de novo* genome assembly of long reads into **contigs**, using the **Flye** tool.
+1. Visualize contigs with the **Bandage Image** tool.
+1. Identify AMRs in the contig assemblies using the **ABRicate** tool.
 
 ### Introduction
 
-Genome assembly is the process of reconstructing genomes from the DNA sequencing reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. `Flye`, is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using `Flye` we will aim to reconstruct bacterial genomes and plasmids and enable detection of important genes implicated in anbibiotic resistance. Ideally, after assembly we want to get back circular contigs as that would typically indicate the identification of entire microbial genome(s) or plasmid(s)!
+Genome assembly is the process of reconstructing genomes from DNA sequencing reads. Accurate and continuous genome assembly from sequenced fragments, even very long fragments, is challenging. **Flye**, is a long-read assembly algorithm that aims to produce highly contiguous genome assemblies and overcome some of the assembly challenges, like repetitive DNA sequences. Using Flye we will reconstruct bacterial genomes and plasmids and enable detection of important genes implicated in antibiotic resistance. Ideally, after assembly we want to get back circular contigs as that would typically indicate the identification of entire microbial genome(s) or plasmid(s)!
 
 ![](finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_459.png){width=100%}
 
-Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, leading to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMRs. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: [10.1038/nrmicro2312](https://doi.org/10.1038/nrmicro2312) and [10.3390/antibiotics13121112](https://doi.org/10.3390/antibiotics13121112).
+Antimicrobial resistance is the ability of microbes to evade one or more antibiotics, and can lead to multidrug resistance and ability to survive and even thrive in the presence of antibiotics. Detecting and studying antibiotic-resistant pathogens is therefore extremely important to human health. However, the environmental reservoirs of resistance determinants are poorly understood. Certainly the indiscriminate and sometimes inappropriate use of antibiotics by humans (e.g. in the hospitals, in food production) has contributed to the emergence of resistant bacterial strains, but there are many other ways microbes can acquire AMRs. For example, the environment like soil is emerging as a key reservoir of these antibiotic resistance genes. For more information on AMRs see the following review articles: [10.1038/nrmicro2312](https://doi.org/10.1038/nrmicro2312) and [10.3390/antibiotics13121112](https://doi.org/10.3390/antibiotics13121112).
 
 **Overview of the approximate minimum times for a job to be completed on Galaxy using specified tools.**
 
-- Note, these times apply only to the specific input file we will be using in this activity, the `Zymo_Gut_Standard_D6331_subset` that is ~342.5MB, and will take longer (or much longer) for larger (or much larger) input files.
+- Note, these times apply only to the specific input file we will be using in this activity, the `Zymo_Gut_Standard_D6331_subset` that is ~342.5MB, and will take longer (or much longer) for larger input files.
 
 | Flye | Bandage Image | ABRicate |
 | :--| :--| :--|
 | 5 min | < 5 min | < 5 min |
-
 
 ### Activity 1 – Flye assembly
 
 *Estimated time: 45 min*
 
 ::: {.notice} 
-The sample used in this activity is the [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard?srsltid=AfmBOoqP_zq131c2GTidPCM0j6yA3JFcGQ0haUNu1jAJI9RQ9qsXLYSF), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this activity.
+The sample used in this activity is the [Zymo Gut Microbiome Standard](https://www.zymoresearch.com/products/zymobiomics-gut-microbiome-standard), sequenced by Pacific Biosciences using PacBio Sequel II Instrument, and corresponds to sequencing read file SRR13128014. A subset of this data is used in this activity.
 :::
 
 #### Instructions
 
 1. Run Flye assembly tool in Galaxy using <mark style="background-color: yellow">Zymo Gut Standard D6331 subset2</mark> to assemble gut microbial genomes.
-
-    a. Obtain **.fastq** file from `Zymo_Gut_Standard_D6331_subset2`: [https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2](https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2).
-
-    b. Name your new history **“Finding gut AMRs”**.
-
-    c. Run **Flye** tool to assess sequence quality using the following Tool Parameters:
-
+    a. Obtain **.fastq** file from `Zymo_Gut_Standard_D6331_subset2`
+        - <https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2>
+    a. Name your new history **“Finding gut AMRs”**.
+    a. Run **Flye** tool to assess sequence quality using the following Tool Parameters:
         - Under **Input Reads**: select your `aymo_gut_standard_D6331_subset2` **.fastq** dataset.
         - Under **Mode**: select `PacBio HiFi (--pacbio-hifi)` option, since the sequences were obtained using PacBio HiFi sequencing technology.
         - Under **Perform metagenomic assembly**: select `Yes`.
@@ -76,75 +72,73 @@ The sample used in this activity is the [Zymo Gut Microbiome Standard](https://w
 
 ![](finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_10.png){width=100%}
 
-**2. View Flye results** - Explore Flye output files and answer questions below.
+2. View Flye results - Explore Flye output files and answer questions below.
 
 ![](finding-AMRs_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g33689793048_0_21.png){width=100%}
 
 #### Questions
 
-**1. Explore Flye tool purpose and output.**
+1. Explore Flye tool purpose and output.
 
-|1A. In your own words describe the purpose of Flye based on the Introduction section, and from the 'Purpose' section of Flye tool description.|
-|:--|
-| <br> |
+    |1A. In your own words describe the purpose of Flye based on the Introduction section, and from the 'Purpose' section of Flye tool description.|
+    |:--|
+    | <br> |
+    
+    |1B. How many Flye output files did you get back, and what are they?|
+    |:--|
+    | <br> |
+    
+    |1C. What are the file extensions (formats) for the following Flye output files?|
+    |:--|
+    | consensus: |
+    | graphical fragment assembly: | 
 
+2. Explore Flye log report file.
 
-|1B. How many Flye output files did you get back, and what are they?|
-|:--|
-| <br> |
+    |2A. Based on your Flye output `log report file`: At the very bottom of the very long file find how many bases were assembled. What is the `Total length`?|
+    |:--|
+    |<br> |
+    
+    |2B. Based on your Flye output `log report file`: At the very bottom of the file find the length of the longest assembled fragment? Look for `Largest frg`.|
+    |:--|
+    |<br> |
+    
+    |2C. What proportion of input was assembled into contigs?|
+    |:--|
+    | *At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above. |
+    |<br> |
 
-|1C. What are the file extensions (formats) for the following Flye output files?|
-|:--|
-| consensus |
-| graphical fragment assembly | 
-|<br>| 
+3. Explore Flye assembly info file.
 
-**2. Explore Flye log report file.**
+    |3A. Based on your Flye output `assembly info file` sorted by contig length (high to low, in base pairs, bp) - What is the longest contig size?|
+    |:--|
+    |<br> |
+    
+    |3B. Based on your Flye output `assembly info file` sorted by contig length (high to low, in base pairs, bp) - What is the shortest contig size?|
+    |:--|
+    |<br> |
 
-|2A. Based on your Flye output `log report file`: At the very bottom of the very long file find how many bases were assembled. What is the `Total length`?|
-|:--|
-|<br> |
+4. Explore Flye output consensus file (in FASTA format).
 
-|2B. Based on your Flye output `log report file`: At the very bottom of the file find the length of the longest assembled fragment? Look for `Largest frg`.|
-|:--|
-|<br> |
+    |4A. What is the beginning line of the FASTA format?|
+    |:--|
+    | <br>|
+    
+    |4B. How does FASTA sequence format differ from FASTQ sequence format?|
+    |:--|
+    |*See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)*|
+    |<br> |
 
-|2C. What proportion of input was assembled into contigs?|
-|:--|
-| *At the very top of the log file you will find that the input number of bases was 177,760,975 (Look for Total read length). Compare to the total length after assembly from your answer to question 2A above. |
-|<br> |
+5. Test your general understanding of genome assembly.
 
-**3. Explore Flye assembly info file.**
-
-|3A. Based on your Flye output `assembly info file` sorted by contig length (high to low, in base pairs, bp) - What is the longest contig size?|
-|:--|
-|<br> |
-
-|3B. Based on your Flye output `assembly info file` sorted by contig length (high to low, in base pairs, bp) - What is the shortest contig size?|
-|:--|
-|<br> |
-
-**4. Explore Flye output consensus file (in FASTA format).**
-
-|4A. What is the beginning line of the FASTA format?|
-|:--|
-| <br>|
-
-|4B. How does FASTA sequence format differ from FASTQ sequence format?|
-|:--|
-|*See this link for a quick summary comparison of the 2 formats [https://compgenomr.github.io/book/fasta-and-fastq-formats.html](https://compgenomr.github.io/book/fasta-and-fastq-formats.html)*|
-|<br> |
-
-**5. Test your general understanding of genome assembly.**
-
-|5A. Summarize your experience with assembling a genome with Flye.|
-|:--|
-| *E.g., were you surprised at the percentage of assembled input, at the length of the largest contig, at the abundance of linear contigs, or anything else?*|
-|<br> |
-
-|5B.  What would you want the ideal genome assembly tool to do?|
-|:--|
-| <br>|
+    |5A. Summarize your experience with assembling a genome with Flye.|
+    |:--|
+    | *E.g., were you surprised at the percentage of assembled input, at the length of the largest contig, at the abundance of linear contigs, or anything else?*|
+    |<br> |
+    
+    |5B.  What would you want the ideal genome assembly tool to do?|
+    |:--|
+    | <br>|
 
 ### Activity 2 – Visualizing contigs
 
@@ -164,7 +158,7 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 |:--|
 |<br> |
 
-|3. Do you expect to obtain more contigs, larger or circular contigs with more sequencing reads? why?|
+|3. Do you expect to obtain more contigs, including larger and circular contigs, with more sequencing reads? Why?|
 |:--|
 |<br> |
 
@@ -174,16 +168,14 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 #### Instructions
 
-1. Run **ABRicate** tool in Galaxy using Flye **consensus** as input using the following `Tool Parameters`:
-
-- Under **Input Reads**: select your Flye: consensus output in FASTA format
-- IMPORTANT: Under **Advanced Option**s: select `NCBI Bacterial Antimicrobial Resistance Reference Gene Database` as your database option; the default‘resfinder’ may not work well.
-
+1. Run **ABRicate** tool in Galaxy using Flye **consensus** as input using the following Tool Parameters:
+    - Under Input Reads: select your Flye: consensus output in **FASTA** format
+    - IMPORTANT: Under Advanced Options: select **NCBI Bacterial Antimicrobial Resistance Reference Gene Database** as your database option; the default `resfinder’ may not work well.
 2. Explore **ABRicate report file**.
 
-**Abricate output report** has the following information:
+**ABRicate output report** has the following information:
 
-|Column |Description |
+|**Column** |**Description** |
 |:--| :--|
 |FILE | The filename this hit came from |
 | SEQUENCE | The sequence in the filename |
@@ -197,53 +189,50 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 | %IDENTITY | Proportion of exact nucleotide matches |
 | DATABASE | The database this sequence comes from |
 | ACCESSION | The genomic source of the sequence |
-|<br>| |
 
 3. Answer questions below.
 
 #### Questions
 
-**1. Explore Abricate output report.**
+1. Explore Abricate output report.
+    
+    |1A. How  many AMR genes were detected? This is the number of rows in your file.|
+    |:--|
+    |<br>|
+    
+    |1B. How many DIFFERENT AMR genes were detected and what are their GENE names?|
+    |:--|
+    |<br>|
+    
+    |1C. What are the different AMR genes resistant to? What is their RESISTANCE? |
+    |:--|
+    |<br>|
+    
+    |1D. How many DIFFERENT contigs had AMRs? |
+    |:--|
+    |<br>|
 
-|1A. How  many AMR genes were detected? This is the number of rows in your file.|
-|:--|
-|<br>|
+2. Research an AMR gene.
+    - Use any search tools for your research, but we encourage you to use PubMed <https://pubmed.ncbi.nlm.nih.gov> where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input. 
+    - Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.
 
-|1B. How many DIFFERENT AMR genes were detected and what are their GENE names?|
-|:--|
-|<br>|
-
-|1C. What are the different AMR genes resistant to? What is their RESISTANCE? |
-|:--|
-|<br>|
-
-|1D. How many DIFFERENT contigs had AMRs? |
-|:--|
-|<br>|
-
-**2. Research an AMR gene.**
-
-- Use any search tools for your research, but we encourage you to use PubMed [https://pubmed.ncbi.nlm.nih.gov/](https://pubmed.ncbi.nlm.nih.gov/) where you can find many scientific articles on the topic if you search for e.g. your AMR gene name, or resistance name or using a sentence as input. 
-
-- Talk about anything of interest, e.g., which microbes have the AMR of interest, what is the substance to which the gene shows resistance to, where could the resistance to this substance come from, what are possible health implications, etc.
-
-|2A. Research and write a small paragraph report on one of the AMR genes.| 
-|:---|
-| <br>|
-
-|2B. Ask one question you want to know about AMRs?| 
-|:---|
-|<br> |
+    |2A. Research and write a small paragraph report on one of the AMR genes.| 
+    |:---|
+    | <br>|
+    
+    |2B. Ask one question you want to know about AMRs?| 
+    |:---|
+    |<br> |
 
 ### Grading Criteria
 
-- <mark style="background-color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
+- Download as Microsoft Word (.docx) and upload on Canvas
 
 ### Footnotes
 
 **Resources**
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/1tylF-57im41OxPz7bTZLMPRGwXa-NhoS)
 
 **Contributions and Affiliations**
 
@@ -252,7 +241,7 @@ Run **Bandage Image** tool in Galaxy on your Flye: **graphical fragment assembly
 
 Last Revised: May 2025
 
-## Discussion - Finding AMRs
+## Discussion: Finding AMRs
 
 ### Activity
 
@@ -281,7 +270,7 @@ Last Revised: May 2025
 
 Last Revised: January 2026
 
-## Project - Finding AMRs
+## Project: Finding AMRs
 
 ### Purpose
 
@@ -572,7 +561,7 @@ The sample used in this activity is from the [BioDIGS Project](https://biodigs.o
 Last Revised: June 2025
 
 
-## Presentation - Finding AMRs
+## Presentation: Finding AMRs
 
 ### Activity
 
