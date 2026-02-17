@@ -300,10 +300,10 @@ To explore soil metagenomics using Galaxy tools for de novo genome assembly (Fly
 
 Use **Galaxy** tools to
 
-1. Perform de novo genome assembly of long reads into ‘contigs’ useing **Flye** tool
+1. Perform de novo genome assembly of long reads into ‘contigs’ using **Flye** tool
 1. Visualize the contigs with **Bandage** tool
 1. Find AMRs in contig assemblies using **ABRicate** tool
-1. Bin contings into larger MAGS using **MetaBAT2** tool 
+1. Bin contigs into larger MAGS using **MetaBAT2** tool 
 1. Learn about **GTDB-Tk** taxonomy classifier tool
 
 ### Introduction
@@ -520,7 +520,7 @@ The sample used in this activity is from the [BioDIGS Project](https://biodigs.o
     |:-----|
     | <br>| 
 
-### Activity 5 – Read about GTDBtk tool in Galaxy 
+### Activity 5 – Read about GTDB-Tk tool in Galaxy 
 
 *Estimated time: 15 min*
 
@@ -544,7 +544,7 @@ The sample used in this activity is from the [BioDIGS Project](https://biodigs.o
 |:-----|
 |<br> | 
 
-| 3B. Scroll through the website . Although it has a lot of complex information, what is one thing you found interesting about GTDB-Tk content? |
+| 3B. Scroll through the website.  Although it has a lot of complex information, what is one thing you found interesting about GTDB-Tk content? |
 |:-----|
 |<br> | 
 
