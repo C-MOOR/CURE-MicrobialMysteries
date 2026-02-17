@@ -2,11 +2,11 @@
 
 # SciServer Tutorials
 
-## Meet R
+## test-driveR
 
 ### Introduction
 
-R is a popular programming language for statistical computing and data visualization [wikipedia](https://wikipedia.org/wiki/R_(programming_language).  Notable features include the [RStudio IDE](https://posit.co/products/open-source/rstudio) built to help you be more productive with R (and Python); the [tidyverse](https://tidyverse.org/packages) collection of packages that aims to make data science faster, easier, and more fun; and importantly the [Bioconductor](https://bioconductor.org) project with its active support community and robust genomics tooling.  Now that you completed “test-driveR” and got a taste of analyzing a real world genomics dataset using R it’s time to learn more about how R stores and operates on data using concepts such as variables, vectors, and data.frames.
+SciServer ([sciserver.org](https://www.sciserver.org)) is an online platform for doing scientific data analysis. It is used by scientists studying astronomy, biology, oceanography, and more, and is free as long as you are using it for scientific research. Using SciServer means you do not need a fancy computer or need to install any special programs on your computer, you can just log in with your internet browser to start doing research. For this course, we have set up SciServer with customized collections of programs as well as the data that we’ll be analyzing. Once you sign up for SciServer and are added to the group for this course, you will be able to access these tools and begin your data analysis journey!
 
 ### Activity
 
@@ -14,52 +14,49 @@ R is a popular programming language for statistical computing and data visualiza
 
 #### Instructions
 
-1. Resume your C-MOOR LearnR container
-
-  a. Open sciserver.org in a web browser and log in to your account.
-
-  b. Click “Home” in the top menu to return to the home page.
-
-  c. Scroll down to the second set of boxes and click “Compute”.
-
-  d. Resume your C-MOOR LearnR container by clicking on its name.
-
-2. Complete your next LearnR tutorial
-
-  a. Click on “Meet R!”. The tutorial will open in a new tab.
-
-  b. Complete the tutorial and answer the questions below.
+1. Accept invitation to join class SciServer Group
+    a. Navigate to [https://apps.sciserver.org/dashboard/groups](https://apps.sciserver.org/dashboard/groups)
+    a. Click “Accept Invitation”
+1. Start up a “C-MOOR LearnR” compute container
+    a. Navigate to [https://apps.sciserver.org/compute](https://apps.sciserver.org/compute)
+    a. Click “Create container”
+    a. Give your container a name (eg. my LearnR)
+    a. In the “Compute Image” drop-down menu, select “C-MOOR LearnR”
+    a. Under “Data Volumes”, check the box next to “C-MOOR Data”
+    <img src="sciserver-tutorials_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_9.png" width="480" />
+    a. Scroll down and click “Create”. This may take a moment.
+    a. Start your C-MOOR LearnR container by clicking on its name
+        - NOTE: If you see “Error: C-MOOR data volume not mounted!” you most likely forgot to check the box next to “C-MOOR Data” when you created the container.
+1. Complete your first LearnR tutorial
+    a. Click on “test-driveR”. The tutorial will open in a new tab.
+    <img src="sciserver-tutorials_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_27.png" width="480" />
+    a. Complete the tutorial and answer the questions below.
 
 #### Questions
 
-|1. Variables – Define what is a variable, give a line of R code that stores information in a variable, and explain how one would view the data stored in a variable.|
-|:--|
-| Define variable:|
-| Code:|
-| Explain:|
-<br>
+Use the blocks provided at the end of the tutorial to create variations of the code provided in the first three exercises (Sort Data, Extract Data, and Plot Data). When you are done, submit the code and resulting output that you found most interesting. Briefly describe why you found it most interesting.
 
-|2. Vectors – Provide two lines of R code, one which stores a vector of numbers in a variable, and one which performs a mathematical operation on each element of that variable (e.g. multiplication). |
+|1. Code – Copy and paste your actual code as text.|
 |:--|
-|Code 1:|
-|Code 2:|
-<br>
+|<br>|
 
-|3. Plotting – Copy and paste as text your code from the final code block in the tutorial.  Also insert a screenshot of your resulting plot.|
+|2. Output – Copy and paste as text if simple, otherwise use a screenshot.|
 |:--|
-|Code text:|
-|Plot screenshot:|
-<br>
+|<br>|
+
+|3. Description.|
+|:--|
+|<br>|
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+- Download as Microsoft Word (.docx) and upload on Canvas
 
 ### Footnotes
 
 **Resources**
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/149QwUo4nhyb-2_JOYjAb5iOd4xBxW5Vo)
 - [R cheat sheet](https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md)
 
 **Contributions and Affiliations**
@@ -69,6 +66,62 @@ R is a popular programming language for statistical computing and data visualiza
 
 Last Revised: February 2025
 
+## Meet R!
+
+### Introduction
+
+R is a popular programming language for statistical computing and data visualization [[wikipedia](https://wikipedia.org/wiki/R_(programming_language))].  Notable features include the [RStudio IDE](https://posit.co/products/open-source/rstudio) built to help you be more productive with R (and Python); the [tidyverse](https://tidyverse.org/packages) collection of packages that aims to make data science faster, easier, and more fun; and importantly the [Bioconductor](https://bioconductor.org) project with its active support community and robust genomics tooling.  Now that you completed “test-driveR” and got a taste of analyzing a real world genomics dataset using R it’s time to learn more about how R stores and operates on data using concepts such as variables, vectors, and data.frames.
+
+### Activity
+
+*Estimated time: 25 min*
+
+#### Instructions
+
+1. Resume your C-MOOR LearnR container
+    a. Open [sciserver.org](https://sciserver.org) in a web browser and log in to your account.
+    a. Click “Home” in the top menu to return to the home page.
+    a. Scroll down to the second set of boxes and click “Compute”.
+    a. Resume your C-MOOR LearnR container by clicking on its name.
+1. Complete your next LearnR tutorial
+    a. Click on “Meet R!”. The tutorial will open in a new tab.
+    a. Complete the tutorial and answer the questions below.
+
+#### Questions
+
+|1. Variables – Define what is a variable, give a line of R code that stores information in a variable, and explain how one would view the data stored in a variable.|
+|:--|
+| Define variable:|
+| Code:|
+| Explain:|
+
+|2. Vectors – Provide two lines of R code, one which stores a vector of numbers in a variable, and one which performs a mathematical operation on each element of that variable (e.g. multiplication). |
+|:--|
+|Code 1:|
+|Code 2:|
+
+|3. Plotting – Copy and paste as text your code from the final code block in the tutorial.  Also insert a screenshot of your resulting plot.|
+|:--|
+|Code text:|
+|Plot screenshot:|
+
+### Grading Criteria
+
+- Download as Microsoft Word (.docx) and upload on Canvas
+
+### Footnotes
+
+**Resources**
+
+- [Google Doc](https://docs.google.com/document/d/18c2BR8eKCoAMFSlkD0yG9HWauXrRXJ8y)
+- [R cheat sheet](https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md)
+
+**Contributions and Affiliations**
+
+- Katherine Cox, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: February 2025
 
 ## R for Data Science 1 
 
@@ -128,90 +181,6 @@ Last Revised: February 2025
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
-
-
-## test-driveR
-
-### Introduction
-
-SciServer [sciserver.org](https://www.sciserver.org) is an online platform for doing scientific data analysis. It is used by scientists studying astronomy, biology, oceanography, and more, and is free as long as you are using it for scientific research. Using SciServer means you do not need a fancy computer or need to install any special programs on your computer, you can just log in with your internet browser to start doing research. For this course, we have set up SciServer with customized collections of programs as well as the data that we’ll be analyzing. Once you sign up for SciServer and are added to the group for this course, you will be able to access these tools and begin your data analysis journey!
-
-### Activity
-
-*Estimated time: 25 min*
-
-#### Instructions
-
-1. Accept invitation to join class SciServer Group
-
-a. Navigate to [https://apps.sciserver.org/dashboard/groups](https://apps.sciserver.org/dashboard/groups)
-
-b. Click “Accept Invitation”
-
-2. Start up a “C-MOOR LearnR” compute container
-
-a. Navigate to [https://apps.sciserver.org/compute](https://apps.sciserver.org/compute)
-
-b. Click “Create container”
-
-c. Give your container a name (eg. my LearnR)
-
-d. In the “Compute Image” drop-down menu, select “C-MOOR LearnR”
-
-e. Under “Data Volumes”, check the box next to “C-MOOR Data”
-
-<img src="sciserver-tutorials_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_9.png" width="480" />
-f. Scroll down and click “Create”. This may take a moment.
-
-g. Start your C-MOOR LearnR container by clicking on its name
-
-- NOTE: If you see “Error: C-MOOR data volume not mounted!” you most likely forgot to check the box next to “C-MOOR Data” when you created the container.
-
-3. Complete your first LearnR tutorial
-
-a. Click on “test-driveR”. The tutorial will open in a new tab.
-
-<img src="sciserver-tutorials_files/figure-html//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g35ea50429a3_0_27.png" width="480" />
-Complete the tutorial and answer the questions below.
-
-#### Questions
-
-Use the blocks provided at the end of the tutorial to create variations of the code provided in the first three exercises (Sort Data, Extract Data, and Plot Data). When you are done, submit the code and resulting output that you found most interesting. Briefly describe why you found it most interesting.
-
-|1. Code – Copy and paste your actual code as text.|
-|:--|
-||
-<br>
-
-|2. Output – Copy and paste as text if simple, otherwise use a screenshot.|
-|:--|
-||
-<br>
-
-|3. Description.|
-|:--|
-||
-<br>
-
-### Grading Criteria
-
-- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
-
-### Footnotes
-
-**Resources**
-
-- Google Doc
-- [R cheat sheet](https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md)
-
-**Contributions and Affiliations**
-
-- Katherine Cox, Johns Hopkins University
-- Frederick Tan, Johns Hopkins University
-
-Last Revised: February 2025
-
-
 
 ## R for Data Science 2
 
@@ -274,6 +243,3 @@ There are seven examples of broken ggplot code at the end of “4. Structure of 
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2025
-
-
-
