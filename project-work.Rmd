@@ -24,7 +24,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 1. Obtain data and run analysis
 
 
-## Lecture - Kickstart Project Work
+## Lecture: Kickstart Project Work
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1j1u4frdYt18nVmjMs6ZPRoP1KfXxognVUYG-2itH6kE/edit?slide=id.g35f391192_00#slide=id.g35f391192_00")
@@ -32,16 +32,14 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1j1u4frdYt18nVmjM
 
 [Slides: Possible Datasets](https://docs.google.com/presentation/d/1j1u4frdYt18nVmjMs6ZPRoP1KfXxognVUYG-2itH6kE/edit?usp=sharing)
 
-
-## Activity - Kickstart Project Work
+## Activity: Kickstart Project Work
 
 ### Learning Objectives
 
 1. Import an example SRA sequencing data file by accession id (e.g. SRR) 
 2. Perform classification of nanopore-sequenced soil MAGs with GTDB-Tk
-3. Import an SRA dataset you would like to analyze for your research project
+3. Import a **long-read** SRA dataset you would like to analyze for your research project
 4. Use a new Galaxy tool that we have not worked through in class
-
 
 ### Activity 1 - Import an SRA file into Galaxy
 
@@ -52,11 +50,9 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1j1u4frdYt18nVmjM
 
 #### Questions
 
-|1. Share your Galaxy history with SRR29980924fastq data you downloaded with Faster Download and Extract Reads in FASTQ tool.|
+|1. Share your Galaxy history with the SRR29980924.fastq data you downloaded with Faster Download and Extract Reads in FASTQ tool.|
 |:--------|
 | Galaxy history Link: |
-|<br>|
-
 
 |2. Find and record the following features of your downloaded dataset below.|
 |:--------|
@@ -64,7 +60,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1j1u4frdYt18nVmjM
 |File format:|
 |Job Runtime (Wall Clock):|
 |First line of the sequencing file:|
-|<br>|
 
 |3. Inspect SRR29980924 entry in NCBI https://www.ncbi.nlm.nih.gov/sra. Obtain the following sequencing information.|
 |:--------|
@@ -72,36 +67,41 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1j1u4frdYt18nVmjM
 |Instrument:|
 |Strategy:|
 |Run:|
-|<br>|
 
 ### Activity 2 – Taxonomically classify nanopore-soil-subset MAGs with GTDB-Tk in Galaxy
 
 #### Instructions
 
-Using **GTDB-Tk Classify genomes** tool, classify the nanopore-soil MAGs you obtained  from **MetaBAT2** binning of contigs during Project: Finding AMRs, Activity 4. Note, `MetaBAT2 bins are a collection`, so try using **Dataset collection** (instead of multiple individual files) as input. 
+Using **GTDB-Tk Classify genomes** tool, classify the nanopore-soil MAGs you obtained  from **MetaBAT2** binning of contigs during Project: Finding AMRs, Activity 4. 
+
+1. Go to your Galaxy history for Project: Finding AMRs, Activity 4
+1. In your history, use the output of MetaBAT2 binning, as input for classification with GTDB-Tk.
+    - Note, `MetaBAT2 bins are a collection`, so try using **Dataset collection** (instead of multiple individual files) as input. 
 
 #### Questions
 
 |1. Record summary of MAG classification of Bacteria below.|
 |:--------|
-||
 |<br>|
 
 |2. Record summary of MAG classification of Archaea below.|
 |:--------|
-||
 |<br>|
 
 |3. Share your Galaxy history to GTDBtk classification below.|
 |:--------|
-||
 |<br>|
 
-### Activity 3 – Import an SRA dataset of interest for your research project
+### Activity 3 – Import a long-read SRA dataset of interest for your research project
 
 #### Instructions
 
 Upload sequencing reads from a dataset of interest using the **Faster Download and Extract Reads in FASTQ** tool.  Refer back to the table in the **Activity Possible Datasets** for BioProjects with known long read metagenomics datasets.
+
+Note: You **must** start with a long-read SRA dataset.  Check that the Instrument is one from PacBio or Oxford Nanopore e.g.
+
+- RS II, Sequel II, Revio
+- MinION, GridION, PromethION
 
 #### Questions
 
@@ -110,16 +110,13 @@ Upload sequencing reads from a dataset of interest using the **Faster Download a
 |Accession ID:  |
 |File size: |
 |Job Runtime (Wall Clock): |
-|<br>|
 
 |2. Inspect your SRA entry in NCBI https://www.ncbi.nlm.nih.gov/sra. Obtain the following sequencing information.|
 |:--------|
 |Organism:   |
-| Instrument:  |
+| Instrument: <must be long-read, see note above> |
 |Strategy: |
 | Run: |
-|<br>|
-
 
 ### Activity 4 – Use a new Galaxy tool that may be useful for your project
 
@@ -129,7 +126,7 @@ Find one new Galaxy tool that you think may be useful for your research project.
 
 - Prokka [Galaxy tutorial](http://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html)
 - Bakta [Galaxy Tutorial](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/bacterial-genome-annotation/tutorial.html)
-- antiSMASH [Galaxy tutorial](http://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/secondary-metabolite-discovery/tutorial.html 
+- antiSMASH [Galaxy tutorial](http://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/secondary-metabolite-discovery/tutorial.html)
 - CheckM2 [Galaxy tutorial](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/bacterial-genome-quality-control/tutorial.html)
 - Tools mentioned in tutorials like [GTN: Bacterial Genome Annotation](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/bacterial-genome-annotation/tutorial.html)
 - Tools used in workflows like [https://nf-co.re/mag](https://nf-co.re/mag) (not all tools will be available on Galaxy)
@@ -138,39 +135,36 @@ Find one new Galaxy tool that you think may be useful for your research project.
 
 |1. Briefly describe the tool e.g. how it works, what it takes as input, and what it produces as output.|
 |:--------|
-||
 |<br>|
 
 |2. Describe briefly any problems you had running the tool and troubleshooting steps you tried.|
 |:--------|
-||
 |<br>|
 
 |3.  If you were able to get the tool to run, describe the results and whether they provide additional information for your project.|
 |:--------|
-||
 |<br>|
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas</mark>.
+- Download as Microsoft Word (.docx) and upload on Canvas
 
 ### Footnotes
 
 **Resources**
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/15YJnP2dW0YQDIi-NBARGRjzLG621sMMM)
 
 **Contributions and Affiliations**
 
 - Valeriya Gaysinskaya, Johns Hopkins University
 - Frederick Tan, Johns Hopkins University
 
-Last Revised: June, 2025
+Last Revised: February 2026
 
 # Identifying Datasets
 
-## Lecture - Possible Datasets
+## Lecture: Possible Datasets
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 
@@ -180,7 +174,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1VxwSmAY8BUs3EfVc
 
 [Slides: Possible Datasets](https://docs.google.com/presentation/d/1VxwSmAY8BUs3EfVcxPm3I8kNYJWjVqoHJrGOX3X3sog/edit?usp=sharing)
 
-## Activity - Possible Datasets
+## Activity: Possible Datasets
 
 A few ideas to get you started with the Project Work can be found in the Possible Datasets Lecture and Activity below. Your project work will culminate in poster making, poster sharing, and poster presentation.  Each group will present their capstone project during an in-class poster presentation. 
 

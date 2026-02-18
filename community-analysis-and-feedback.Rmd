@@ -30,7 +30,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1dI8-_iVqbkzNMf11
 - **Posters can be used to measure student achievement and understanding**: We have previously used these posters to evaluate student learning, even years after students have left the classroom. Check out our [poster on posters!](https://drive.google.com/file/d/1kK6FBBLbHiAAsTUgxwzHRlK1qCo__eCy/view?usp=sharing)
 
 
-## Lecture - Scientific Posters
+## Lecture: Scientific Posters
 
 *Estimated time: ---*
 
@@ -40,7 +40,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-
 
 [Scientific Posters](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
 
-## Activity - Scientific Posters
+## Activity: Scientific Posters
 
 ### Activity
 
@@ -430,7 +430,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1hYKF7Ss3vJ8rrUIH
 
 ```
 
-## Lecture - Next Steps
+## Lecture: Next Steps
 
 *Estimated time: ---*
 
@@ -443,7 +443,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1PMvZ19kSTK2ghdgL
 [Slides: Next Steps](https://docs.google.com/presentation/d/1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns/edit?usp=sharing)
 
 
-## Activity - Next Steps
+## Activity: Next Steps
 
 ### Introduction
 
