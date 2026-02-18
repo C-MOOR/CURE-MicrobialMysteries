@@ -576,9 +576,8 @@ Last Revised: June 2025
 1. Open the “Finding AMRs Presentation” slidedeck
     - [docs.google.com/presentation/d/1cR-TaRfXbax1PEl-wX-JYD9eOJBekfkXsasjdnmxzWg](https://docs.google.com/presentation/d/1cR-TaRfXbax1PEl-wX-JYD9eOJBekfkXsasjdnmxzWg)
 2. Create two slides to present your findings
-    - Summarize the metagenome assembly statistics for the BioDIGS soil sample (Results)
-    - Report on one of the AMR genes you found (Discussion)
-    - Describe GTDB and the associated GTDB-Tk software toolkit (Methods)
+    - Summarize the metagenome assembly statistics for the BioDIGS soil sample 
+    - Report on one of the AMR genes you found
 3. Iterate your slides being sure to:
     - Add bullet points on key details you understand (Notice) and questions you have (Wonder)
     - Create slide titles that summarize your main takeaway
@@ -589,7 +588,7 @@ Last Revised: June 2025
 
 **Resources**
 
-- [Google Doc]()
+- [Google Doc](https://docs.google.com/document/d/1RYX5wfC3srK8w9p10y_ny_a8zrGZzwGK)
 
 **Contributions and Affiliations**
 
