@@ -187,7 +187,6 @@ Last Revised: February 2025
 
 [R for Data Science (2e)](https://r4ds.hadley.nz) describes the importance of data visualization by saying that “a good visualization will show you things you did not expect or raise new questions about the data”.  Here you will learn more about the [ggplot2](https://ggplot2.tidyverse.org) system for making graphs which is an elegant and versatile complement to what is available through software like Google Sheets.  Increasingly more software packages use the ggplot2 system such as the Bioconductor [phyloseq](https://bioconductor.org/packages/phyloseq) package used for 16S rDNA analysis.
 
-
 ### Activity
 
 *Estimated time: 25 min*
@@ -195,15 +194,10 @@ Last Revised: February 2025
 #### Instructions
 
 1. Start the “r4ds2” LearnR tutorial.
-
-- Focus on the first half of the tutorial, up to and including “4. Structure of a ggplot() command”
-
-2. Bug fixes
-
-a. For the Chapter 3, Quiz 2 on geom_bar() aesthetics, you must check “size”
-
-b. For the Chapter 4 exercises, you will need to add this code to the top of each code block
-
+    - Focus on the first half of the tutorial, up to and including “4. Structure of a ggplot() command”
+1. Bug fixes
+    a. For the Chapter 3, Quiz 2 on geom_bar() aesthetics, you must check “size”
+    b. For the Chapter 4 exercises, you will need to add this code to the top of each code block
 
 `measles <- filter(us_contagious_diseases, disease=="Measles")
 measles_MD <- filter(measles, state=="Maryland")
@@ -215,24 +209,21 @@ There are seven examples of broken ggplot code at the end of “4. Structure of 
 
 |1. What was the error?|
 |:--|:--|
-| |
-<br>
+|<br> |
 
 |2. How did you figure it out?|
 |:--|:--|
-| |
-<br>
-
+|<br> |
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+- Download as Microsoft Word (.docx) and upload on Canvas
 
 ### Footnotes
 
 **Resources**
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/1qKpd5poCarmXM6FENrxfJJbdeSMWR7qr)
 - [R cheat sheet](https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md)
 - [ggplot2 cheat sheet](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
 
