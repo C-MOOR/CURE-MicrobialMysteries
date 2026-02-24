@@ -215,7 +215,7 @@ questions-32
 activity-4-bin-contigs-with-metabat2
 instructions-41
 questions-33
-activity-5-read-about-gtdbtk-tool-in-galaxy
+activity-5-read-about-gtdb-tk-tool-in-galaxy
 instructions-42
 questions-34
 grading-criteria-10
@@ -225,8 +225,8 @@ activity-9
 instructions-43
 footnotes-18
 kickstart-project-work
-lecture---kickstart-project-work
-activity---kickstart-project-work
+lecture-kickstart-project-work
+activity-kickstart-project-work
 learning-objectives-10
 activity-1---import-an-sra-file-into-galaxy
 instructions-44
@@ -234,7 +234,7 @@ questions-35
 activity-2-taxonomically-classify-nanopore-soil-subset-mags-with-gtdb-tk-in-galaxy
 instructions-45
 questions-36
-activity-3-import-an-sra-dataset-of-interest-for-your-research-project
+activity-3-import-a-long-read-sra-dataset-of-interest-for-your-research-project
 instructions-46
 questions-37
 activity-4-use-a-new-galaxy-tool-that-may-be-useful-for-your-project
@@ -243,8 +243,8 @@ questions-38
 grading-criteria-11
 footnotes-19
 identifying-datasets
-lecture---possible-datasets
-activity---possible-datasets
+lecture-possible-datasets
+activity-possible-datasets
 activity-10
 instructions-48
 grading-criteria-12
@@ -257,8 +257,8 @@ advisory-meetings
 sample-project-work-document-organizer
 footnotes-21
 scientific-posters
-lecture---scientific-posters
-activity---scientific-posters
+lecture-scientific-posters
+activity-scientific-posters
 activity-11
 instructions-49
 grading-criteria-13
@@ -292,8 +292,8 @@ questions-40
 grading-criteria-15
 footnotes-24
 professional-development-1
-lecture---next-steps
-activity---next-steps
+lecture-next-steps
+activity-next-steps
 introduction-11
 activity-1-complete-feedback
 instructions-52
