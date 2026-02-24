@@ -133,7 +133,7 @@ Last Revised: February 2025
 
 ### Introduction
 
-[R for Data Science (2e)](https://r4ds.hadley.nz) covers how to do data science with R using the tidyverse collection of packages.  There are many possible reasons for the continued popularity of tidyverse, but one stand out principle the package authors embrace is that programs should be “easy to use by humans.  Computer efficiency is a secondary concern” (see this and more at the [tidy tools manifesto](https://tidyverse.tidyverse.org/articles/manifesto.html#design-for-humans0).  Here you will learn more about what kind of data can be organized into data.frames and possible ways to summarize, explore, and visualize datasets.
+[R for Data Science (2e)](https://r4ds.hadley.nz) covers how to do data science with R using the tidyverse collection of packages.  There are many possible reasons for the continued popularity of tidyverse, but one stand out principle the package authors embrace is that programs should be “easy to use by humans.  Computer efficiency is a secondary concern” (see this and more at the [tidy tools manifesto](https://tidyverse.tidyverse.org/articles/manifesto.html#design-for-humans0)).  Here you will learn more about what kind of data can be organized into data.frames and possible ways to summarize, explore, and visualize datasets.
 
 ### Activity
 
@@ -142,33 +142,26 @@ Last Revised: February 2025
 #### Instructions
 
 1. Complete the “r4ds” LearnR tutorial.
-
-- In addition to the “OCS – Global Diets” section being optional, you similarly do not need to complete all of the Exercises in 3.3.1.
-
+    - In addition to the “OCS – Global Diets” section being optional, you similarly do not need to complete all of the Exercises in 3.3.1.
 2. Answer the questions below.
 
 #### Questions
 
 |1. data.frames – Data frames organize data into a 2-dimensional table of rows and columns like a spreadsheet with some special restrictions.  For the mpg data.frame, what do rows represent?  What do columns represent?|
 |:--|
-||
-<br>
+|<br>|
 
-
-|2. Functions – Most R commands are functions (e.g. `mean()`) which take some input (a number, a vector, a dataframe...) and produce some output (a summary, a plot, a new vector...).  Describe one function you learned about that you anticipate being useful in the future.|
+|2. Functions – Most R commands are **functions** (e.g. `mean()`) which take some input (a number, a vector, a dataframe...) and produce some output (a summary, a plot, a new vector...).  Describe one function you learned about that you anticipate being useful in the future.|
 |:--|
-||
-<br>
+|<br>|
 
 |3. Common Problems – What are some common problems you ran into?  Refer to Part 2. Troubleshooting if you'd like some inspiration for how to put your experience into words.|
 |:--|
-||
-<br>
+|<br>|
 
 |4. [*optional*] OCS - Global Diets Plotting – Which foods show a difference based on sex?|
 |:--|
-||
-<br>
+|<br>|
 
 ### Grading Criteria
 
@@ -178,7 +171,7 @@ Last Revised: February 2025
 
 **Resources**
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/1zLNMizKly3tKW_fWZ2gIrEb2E1vyqYz5)
 - [R cheat sheet](https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md)
 
 **Contributions and Affiliations**
@@ -194,7 +187,6 @@ Last Revised: February 2025
 
 [R for Data Science (2e)](https://r4ds.hadley.nz) describes the importance of data visualization by saying that “a good visualization will show you things you did not expect or raise new questions about the data”.  Here you will learn more about the [ggplot2](https://ggplot2.tidyverse.org) system for making graphs which is an elegant and versatile complement to what is available through software like Google Sheets.  Increasingly more software packages use the ggplot2 system such as the Bioconductor [phyloseq](https://bioconductor.org/packages/phyloseq) package used for 16S rDNA analysis.
 
-
 ### Activity
 
 *Estimated time: 25 min*
@@ -202,15 +194,10 @@ Last Revised: February 2025
 #### Instructions
 
 1. Start the “r4ds2” LearnR tutorial.
-
-- Focus on the first half of the tutorial, up to and including “4. Structure of a ggplot() command”
-
-2. Bug fixes
-
-a. For the Chapter 3, Quiz 2 on geom_bar() aesthetics, you must check “size”
-
-b. For the Chapter 4 exercises, you will need to add this code to the top of each code block
-
+    - Focus on the first half of the tutorial, up to and including “4. Structure of a ggplot() command”
+1. Bug fixes
+    a. For the Chapter 3, Quiz 2 on geom_bar() aesthetics, you must check “size”
+    b. For the Chapter 4 exercises, you will need to add this code to the top of each code block
 
 `measles <- filter(us_contagious_diseases, disease=="Measles")
 measles_MD <- filter(measles, state=="Maryland")
@@ -222,24 +209,21 @@ There are seven examples of broken ggplot code at the end of “4. Structure of 
 
 |1. What was the error?|
 |:--|:--|
-| |
-<br>
+|<br> |
 
 |2. How did you figure it out?|
 |:--|:--|
-| |
-<br>
-
+|<br> |
 
 ### Grading Criteria
 
-- <mark style="background color: yellow">Download as Microsoft Word (.docx) and upload on Canvas
+- Download as Microsoft Word (.docx) and upload on Canvas
 
 ### Footnotes
 
 **Resources**
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/1qKpd5poCarmXM6FENrxfJJbdeSMWR7qr)
 - [R cheat sheet](https://github.com/C-MOOR/cure-rnaseq/blob/master/tutorials/Rcheatsheet.md)
 - [ggplot2 cheat sheet](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
 
