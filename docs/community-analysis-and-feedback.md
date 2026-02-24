@@ -24,7 +24,7 @@ In this section we will go over how to create a scientific poster. We chose a po
 - **Posters can be used to measure student achievement and understanding**: We have previously used these posters to evaluate student learning, even years after students have left the classroom. Check out our [poster on posters!](https://drive.google.com/file/d/1kK6FBBLbHiAAsTUgxwzHRlK1qCo__eCy/view?usp=sharing)
 
 
-## Lecture - Scientific Posters
+## Lecture: Scientific Posters
 
 *Estimated time: ---*
 
@@ -32,7 +32,7 @@ In this section we will go over how to create a scientific poster. We chose a po
 
 [Scientific Posters](https://docs.google.com/presentation/d/1-orSi8DpN22hMt9-6p_rHZnte1YXXLe-a132HDSyd0U/edit?usp=sharing)
 
-## Activity - Scientific Posters
+## Activity: Scientific Posters
 
 ### Activity
 
@@ -386,7 +386,7 @@ Now that you've finished your C-MOOR project, how do you close out your research
 
 ![](community-analysis-and-feedback_files/figure-docx//1hYKF7Ss3vJ8rrUIH7ByNh1BUlRa2fhsJhq8MXzEowCc_g344ad28629a_0_229.png){width=100%}
 
-## Lecture - Next Steps
+## Lecture: Next Steps
 
 *Estimated time: ---*
 
@@ -395,7 +395,7 @@ Now that you've finished your C-MOOR project, how do you close out your research
 [Slides: Next Steps](https://docs.google.com/presentation/d/1PMvZ19kSTK2ghdgLNFRS_t5p8R_GKFNbExPRxMsE1Ns/edit?usp=sharing)
 
 
-## Activity - Next Steps
+## Activity: Next Steps
 
 ### Introduction
 
