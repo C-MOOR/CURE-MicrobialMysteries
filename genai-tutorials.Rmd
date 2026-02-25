@@ -133,6 +133,163 @@ Last Revised: January 2026
 
 ## Project: GenAI for Graphical Abstracts
 
+### Purpose
+
+In this project, you will create the first panel of a Graphical Abstract (GA) for your research project work.
+This GA building activity is meant to parallel your research project progress and to reflect your evolving ideas around the **key question** you want to address in your research, **datasets** you will use to answer your questions, and **methods** you will employ to do so.
+
+See [Xue et al. 2023 Ballast Water Case Study](https://docs.google.com/document/d/15CMlsANhhU9Ck2_M069fg38GiKISR-aaUDcyHBN6Do8) example
+
+### Learning Objectives
+
+1. Create the first panel (Context) for a graphical abstract (Context/Methods/Findings)
+1. Practice planning and critically evaluating GenAI
+
+### Introduction
+
+One framework for graphical abstracts is comprised of three panels
+
+- **Context** – Summarize your question, datasets, samples, metadata
+- **Method** – Snapshot of the Galaxy workflow you used to analyze data
+- **Findings** - Conclusions
+
+Once you get to the end of the course, you will have all pieces together to put together a GA, and should use all tools available to you to do so - GenAI, manual figures, snapshots, etc. For the next five weeks of your project work phase, you will focus on **using GenAI for only the first panel** to convey the Context by integrating questions, datasets, samples, and metadata. 
+
+A second goal is to practice prompt engineering - a fundamental AI literacy skill - to help develop stronger scientific communication skills. Prompting is a natural language skill and involves creating clear, contextual instructions (prompts) to guide AI models to perform tasks effectively.
+By iteratively using GenAI to develop your GA, you have the opportunity to hone your scientific communication skills through improved prompts based on increased sophistication of your subject matter expertise (you are doing the research, you are the expert!), scientific thinking and communication skills.
+
+### Activity 1 - Plan your prompt
+
+*Estimated time: 5 min*
+
+#### Instructions
+
+1. Describe the topic you have proposed for your capstone project.
+    a. Pick a research theme you want to explore (e.g. antibiotic resistance, pathogen detection, microbial diversity, microbes and disease, microbes of a specific environment, etc)
+1. Describe the long-read datasets that you have identified for your topic.
+    a. Identify a publicly available dataset you can analyze for your question. Aim for a dataset with clear metadata and a linked publication when possible.
+1. Structure your prompts around the pillars of prompting which include:
+    a. Task - a sentence that starts with an action e.g. create, remake from scratch, modify, adjust, clarify, etc); e.g. ‘Create a graphical abstract”
+    a. Format - structure of output, e.g. style of image; e.g. ‘Create a graphical abstract…with a simple style…’
+    a. Context - topic of interest, background info e.g. datasets and sample metadata
+
+**Note**: It is fine to change your mind later and pursue a different dataset and/or a different topic; If you change your mind later, you can revise your approach in later GenAI project iterations 
+
+#### Questions
+
+|1. Write a draft research question. In 1-2 sentences, describe what you want to find out and why the dataset is a good fit.|
+|:--------|
+|<br>|
+
+2. Identify key prompt 1 features.
+
+| Prompt Feature | Your info (bullet points) |
+|:--------|:-----|
+| Task | |
+| Context (Details) | |
+| Format | |
+
+### Activity 2 - Prepare Graphical Abstract
+
+*Estimated time: 15 min*
+
+#### Instructions
+
+1. Using prompt text, generate GA using GenAI tool of your choice
+1. Do as many attempts as can do in 15 min, logging each attempt’s prompt/output/evaluation
+
+#### Questions
+
+**Prompt #1, Graphical Abstract #1**
+
+|1. Enter prompt text |
+|:--------|
+|<br>|
+
+|2. Paste the resulting GA image below|
+|:--------|
+|<br>|
+
+3. Evaluate GA output
+
+| Evaluation | Your Answer |
+| :--- | :--- |
+| Provide overall description/critique of the GA output | |
+| Name 2 specific things you would modify in the output GA | |
+
+**Prompt #2, Graphical Abstract #2**
+
+|1. Enter modified prompt text |
+|:--------|
+|<br>|
+
+|2. Paste the resulting GA image below|
+|:--------|
+|<br>|
+
+3. Evaluate GA output
+
+| Evaluation | Your Answer |
+| :--- | :--- |
+| Provide overall description/critique of the GA output | |
+| Name 2 specific things you would modify in the output GA | |
+
+**Prompt #3, Graphical Abstract #3**
+
+|1. Enter modified prompt text |
+|:--------|
+|<br>|
+
+|2. Paste the resulting GA image below|
+|:--------|
+|<br>|
+
+3. Evaluate GA output
+
+| Evaluation | Your Answer |
+| :--- | :--- |
+| Provide overall description/critique of the GA output | |
+| Name 2 specific things you would modify in the output GA | |
+
+**Prompt #4, Graphical Abstract #**
+
+|1. Enter modified prompt text |
+|:--------|
+|<br>|
+
+|2. Paste the resulting GA image below|
+|:--------|
+|<br>|
+
+3. Evaluate GA output
+
+| Evaluation | Your Answer |
+| :--- | :--- |
+| Provide overall description/critique of the GA output | |
+| Name 2 specific things you would modify in the output GA | |
+
+### Activity 3 - Reflect on your GenAI experience
+
+*Estimated time: 5 min*
+
+#### Instructions
+
+1. Discuss your experience and outcomes in this Activity by answering questions below.
+
+#### Questions
+
+|1. What aspects of the graphical abstract were done well by GenAI?  Where did GenAI do poorly?|
+|:--------|
+|<br>|
+
+|2. Was GenAI a helpful assistant for this activity?|
+|:--------|
+|<br>|
+
+|3. Do you have concerns about using GenAI for this assignment?|
+|:--------|
+|<br>|
+
 ### Grading Criteria
 
 - Download as Microsoft Word (.docx) and upload on Canvas
@@ -141,7 +298,7 @@ Last Revised: January 2026
 
 **Resources**
 
-- [Google Doc]()
+- [Google Doc](https://docs.google.com/document/d/1BEQFZmkWbIj-SXNb4BBT6gtuclL0dvCR)
 
 **Contributions and Affiliations**
 
@@ -149,5 +306,3 @@ Last Revised: January 2026
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: February 2026
-
-
