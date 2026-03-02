@@ -1,1 +1,78 @@
+# Galaxy Workflows 
 
+### Purpose
+
+A Workflow is a reusable pipeline that chains tools and dataset actions so you can repeat the analysis consistently. Galaxy Workflows let you:
+
+- Automate a sequence of analysis steps (tools + settings) so you don’t rebuild it each time.
+- Ensure reproducibility by keeping the same order of steps and parameters when rerunning on new data.
+- Scale and save time by running the same process across many samples consistently.
+- Share and collaborate by exporting or sharing workflows so others can run the same analysis.
+
+### Learning Objectives
+
+1. Build a Galaxy workflow from scratch
+1. Run a workflow
+1. Edit a workflow
+1. Share a workflow
+
+
+## Activity: Build a Workflow
+
+### Activity 1 - Create a galaxy workflow from scratch
+
+*Estimated time: 10 min (excluding tool run time)*
+
+#### Instructions
+
+Follow steps below to:
+
+  1. Plan a workflow - 3-tool workflow using Flye, MetaBAT2 and GTDB-Tk tools
+  1. Create a workflow - start a new workflow
+  1. Build a workflow - configure tool parameters, connect inputs/outputs.
+
+#### Step 1: Plan a workflow
+
+  a. Use a high-quality, PacBio-sequenced Zymo gut standard D6331 subset (1.7 GB) here:
+
+|Tool| Goal | Specify Parameters | Required input type |
+| :--------- | :---------- |  :---------- |  :---------- |
+| Flye| De novo genome assembly | Mode: PacBio HiFi (--pacbio-hifi) | fastq |
+| MetaBAT2| Metagenomic binning | Default | fasta |
+| GTDB-tk| Classify genomes | Change versions to: Galaxy Version 2.5.2+galaxy1 | fasta (bins)|
+
+#### Step 2: Start a new wofkrlos
+
+  a. In Galaxy’s menu on the Left, click **Workflows**
+  b. Click **Create new workflow**.
+  c. Give it a name (e.g. assemble-bin-classify-workflow)
+  d. Click **Save** Workflow
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+
+ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_0#slide=id.g3cb621b08cb_0_0")
+
+```
+
+#### Questions
+
+
+### Activity 2 - Run Workflow
+
+#### Instructions
+
+#### Questions
+
+
+### Activity 3 - Modify Workflow
+
+#### Instructions
+
+#### Questions
+
+
+### Activity 4 - Share Workflow
+
+#### Instructions
+
+#### Questions
