@@ -1,5 +1,7 @@
 # Galaxy Workflows 
 
+## Galaxy Workflows: Build a Workflow
+
 ### Purpose
 
 A Workflow is a reusable pipeline that chains tools and dataset actions so you can repeat the analysis consistently. Galaxy Workflows let you:
@@ -16,9 +18,6 @@ A Workflow is a reusable pipeline that chains tools and dataset actions so you c
 1. Edit a workflow
 1. Share a workflow
 
-
-## Activity: Build a Workflow
-
 ### Activity 1 - Create a galaxy workflow from scratch
 
 *Estimated time: 10 min (excluding tool run time)*
@@ -27,13 +26,13 @@ A Workflow is a reusable pipeline that chains tools and dataset actions so you c
 
 Follow steps below to:
 
-  1. Plan a workflow - 3-tool workflow using Flye, MetaBAT2 and GTDB-Tk tools
-  1. Create a workflow - start a new workflow
-  1. Build a workflow - configure tool parameters, connect inputs/outputs.
+1. Plan a workflow - 3-tool workflow using Flye, MetaBAT2 and GTDB-Tk tools
+1. Create a workflow - start a new workflow
+1. Build a workflow - configure tool parameters, connect inputs/outputs.
 
 #### Step 1 - Plan a workflow
 
-  a. Use a high-quality, PacBio-sequenced Zymo gut standard D6331 subset (1.7 GB) here:
+a. Use a high-quality, PacBio-sequenced Zymo gut standard D6331 subset (1.7 GB) here:
 
 |Tool| Goal | Specify Parameters | Required input type |
 | :--------- | :---------- |  :---------- |  :---------- |
@@ -43,10 +42,10 @@ Follow steps below to:
 
 #### Step 2 - Start a new workflow
 
-  a. In Galaxy’s menu on the Left, click **Workflows**
-  b. Click **Create new workflow**.
-  c. Give it a name (e.g. assemble-bin-classify-workflow)
-  d. Click **Save** Workflow
+a. In Galaxy’s menu on the Left, click **Workflows**
+b. Click **Create new workflow**.
+c. Give it a name (e.g. assemble-bin-classify-workflow)
+d. Click **Save** Workflow
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_0#slide=id.g3cb621b08cb_0_0")
@@ -59,54 +58,34 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 In the Workflow Editor layout , on the canvas:
 
 1. Add Input Dataset (this is the workflow’s required input).
-
-  a. For this activity, we are adding Single Dataset input as required input.
-    
-    - For future workflows that you may run using more than one input file, you can specify Input Dataset Collection instead.
-
-  b. Exit out of Input Dataset box to move on to another action.
-
-
-2. Add tool #1 - Flye
-
-  a. Specify parameters appropriate for your input
-
-    - Specify Mode: PacBio HiFi (--pacbio-hifi)
-    - Leave rest as default
-    - Exit out of the Flye tool box 
-
-  b. Connect input/output
-
-    - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
-    - Connect Input Dataset to Flye by dragging connector from Input Dataset to Flye. 
-
-
-3. Add tool #2 - MetaBAT2
-
-  a. Specify parameters appropriate for your input
-
-    - Leave as default
-    - Exit out of the MetaBAT2 tool box 
-  
-  b. Connect input/output
-
-    - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
-    - Connect relevant output of Flye (consensus (fasta)), to MetaBAT2 by dragging connector from consensus (fasta) to MetaBAT2. 
-
-4. Add tool #3 - GTDBtk
-
-  a. Specify parameters appropriate for your input
-
-    - Click on Versions button (next to the star) and **Switch to 2.5.2+galaxy1** to be able to select an older GTDB-Tk database version
-    - Under GTDB-Tk database, select **Full database - release 220 (2024-10-19)**
-  - Leave rest as default
-  - Exit out of the GTDBtk tool box 
-
-  b. Connect input/output
-
-    - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
-  - Connect relevant output of MetaBAT2(Bin sequences, fasta), to GTDBtk by dragging connector from bins to GTDB-Tk. 
-  - Click Save
+    a. For this activity, we are adding Single Dataset input as required input.
+        - For future workflows that you may run using more than one input file, you can specify Input Dataset Collection instead.
+    a. Exit out of Input Dataset box to move on to another action.
+1. Add tool #1 - Flye
+    a. Specify parameters appropriate for your input
+        - Specify Mode: PacBio HiFi (--pacbio-hifi)
+        - Leave rest as default
+        - Exit out of the Flye tool box 
+    a. Connect input/output
+        - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
+        - Connect Input Dataset to Flye by dragging connector from Input Dataset to Flye. 
+1. Add tool #2 - MetaBAT2
+    a. Specify parameters appropriate for your input
+        - Leave as default
+        - Exit out of the MetaBAT2 tool box 
+    a. Connect input/output
+        - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
+        - Connect relevant output of Flye (consensus (fasta)), to MetaBAT2 by dragging connector from consensus (fasta) to MetaBAT2. 
+1. Add tool #3 - GTDBtk
+    a. Specify parameters appropriate for your input
+        - Click on Versions button (next to the star) and **Switch to 2.5.2+galaxy1** to be able to select an older GTDB-Tk database version
+        - Under GTDB-Tk database, select **Full database - release 220 (2024-10-19)**
+        - Leave rest as default
+        - Exit out of the GTDBtk tool box 
+    a. Connect input/output
+        - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
+        - Connect relevant output of MetaBAT2(Bin sequences, fasta), to GTDBtk by dragging connector from bins to GTDB-Tk. 
+        - Click Save
 
 #### Questions
 
@@ -114,20 +93,17 @@ In the Workflow Editor layout , on the canvas:
 | :--------- | 
 |             |
 
-
 ### Activity 2 - Run Workflow
 
 #### Instructions
 
 #### Questions
 
-
 ### Activity 3 - Modify Workflow
 
 #### Instructions
 
 #### Questions
-
 
 ### Activity 4 - Share Workflow
 
