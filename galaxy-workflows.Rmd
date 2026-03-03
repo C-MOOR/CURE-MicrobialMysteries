@@ -31,7 +31,7 @@ Follow steps below to:
   1. Create a workflow - start a new workflow
   1. Build a workflow - configure tool parameters, connect inputs/outputs.
 
-#### Step 1: Plan a workflow
+#### Step 1 - Plan a workflow
 
   a. Use a high-quality, PacBio-sequenced Zymo gut standard D6331 subset (1.7 GB) here:
 
@@ -41,7 +41,7 @@ Follow steps below to:
 | MetaBAT2| Metagenomic binning | Default | fasta |
 | GTDB-tk| Classify genomes | Change versions to: Galaxy Version 2.5.2+galaxy1 | fasta (bins)|
 
-#### Step 2: Start a new wofkrlos
+#### Step 2 - Start a new workflow
 
   a. In Galaxy’s menu on the Left, click **Workflows**
   b. Click **Create new workflow**.
@@ -54,7 +54,67 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 
 ```
 
+#### Step 3 - Build a workflow
+
+**Note**: While building your workflow you can save it at any point, but after saving, will need to click on Edit to go back and add. 
+
+In the Workflow Editor layout , on the canvas:
+
+1. Add Input Dataset (this is the workflow’s required input).
+
+  a. For this activity, we are adding Single Dataset input as required input.
+    
+    - For future workflows that you may run using more than one input file, you can specify Input Dataset Collection instead.
+
+  b. Exit out of Input Dataset box to move on to another action.
+
+
+2. Add tool #1 - Flye
+
+  a. Specify parameters appropriate for your input
+
+    - Specify Mode: PacBio HiFi (--pacbio-hifi)
+    - Leave rest as default
+    - Exit out of the Flye tool box 
+
+  b. Connect input/output
+
+    - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
+    - Connect Input Dataset to Flye by dragging connector from Input Dataset to Flye. 
+
+
+3. Add tool #2 - MetaBAT2
+
+  a. Specify parameters appropriate for your input
+
+    - Leave as default
+    - Exit out of the MetaBAT2 tool box 
+  
+  b. Connect input/output
+
+    - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
+    - Connect relevant output of Flye (consensus (fasta)), to MetaBAT2 by dragging connector from consensus (fasta) to MetaBAT2. 
+
+4. Add tool #3 - GTDBtk
+
+  a. Specify parameters appropriate for your input
+
+    - Click on Versions button (next to the star) and **Switch to 2.5.2+galaxy1** to be able to select an older GTDB-Tk database version
+    - Under GTDB-Tk database, select **Full database - release 220 (2024-10-19)**
+  - Leave rest as default
+  - Exit out of the GTDBtk tool box 
+
+  b. Connect input/output
+
+    - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
+  - Connect relevant output of MetaBAT2(Bin sequences, fasta), to GTDBtk by dragging connector from bins to GTDB-Tk. 
+  - Click Save
+
 #### Questions
+
+|1. Take a snapshot of your workflow and paste below:|
+| :--------- | 
+|             |
 
 
 ### Activity 2 - Run Workflow
