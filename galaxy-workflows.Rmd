@@ -4,66 +4,64 @@
 
 ### Purpose
 
-A Workflow is a reusable pipeline that chains tools and dataset actions so you can repeat the analysis consistently. Galaxy Workflows let you:
+A workflow is a reusable pipeline that chains tools and dataset actions so you can repeat the analysis consistently. Galaxy Workflows let you:
 
-- **Automate** a sequence of analysis steps (tools + settings) so you don’t rebuild it each time.
+- **Automate** a series of analysis steps (tools + settings) so you don’t rebuild it each time.
 - Ensure **reproducibility** by keeping the same order of steps and parameters when rerunning on new data.
 - **Scale and save time** by running the same process across many samples consistently.
 - **Share and collaborate** by exporting or sharing workflows so others can run the same analysis.
 
 ### Learning Objectives
 
-1. Build a Galaxy workflow from scratch
-1. Run a workflow
-1. Edit a workflow
-1. Share a workflow
+1. Build a Galaxy Workflow from Scratch
+1. Run a Workflow
+1. Edit a Workflow
+1. Share a Workflow
 
-### Activity 1 - Create a galaxy workflow from scratch
+### Activity 1 - Create a Galaxy Workflow from scratch
 
-*Estimated time: 10 min (excluding tool run time)*
+*Estimated time: 10 min*
 
 #### Instructions
 
 Follow steps below to:
 
-1. Plan a workflow - 3-tool workflow using Flye, MetaBAT2 and GTDB-Tk tools
-1. Create a workflow - start a new workflow
-1. Build a workflow - configure tool parameters, connect inputs/outputs.
+1. Plan a Workflow - 3-tool workflow using Flye, MetaBAT2 and GTDB-Tk tools
+1. Create a Workflow - Start a new workflow
+1. Build a Workflow - Configure tool parameters, connect inputs/outputs
 
-#### Step 1 - Plan a workflow
+#### Step 1 - Plan a Workflow
 
-a. Use a high-quality, <mark style="background-color: yellow">Zymo Gut Standard D6331 subset2</mark>:
-
+a. Use a high-quality, Zymo Gut Standard D6331 subset2:
     - <https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2>
 
-|Tool| Goal | Specify Parameters | Required input type |
+|**Tool**| **Goal** | **Specify Parameters** | **Required input type** |
 | :--------- | :---------- |  :---------- |  :---------- |
-| Flye| De novo genome assembly | Mode: PacBio HiFi & metagenomic assembly | fastq |
+| Flye| *De novo* genome assembly | Mode: PacBio HiFi & metagenomic assembly | fastq |
 | MetaBAT2| Metagenomic binning | Default | fasta |
 | GTDB-tk| Classify genomes | Change versions to: Galaxy Version 2.5.2+galaxy1 | fasta (bins)|
 
-#### Step 2 - Start a new workflow
+#### Step 2 - Create a Workflow
 
 a. In Galaxy’s menu on the Left, click **Workflows**
-b. Click **Create new workflow**.
-c. Give it a name (e.g. assemble-bin-classify-workflow)
-d. Click **Save** Workflow
+a. Click **Create** new workflow
+a. Give it a name (e.g. pacbio-assemble-bin-classify)
+a. Click **Save**
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_0#slide=id.g3cb621b08cb_0_0")
 ```
 
-#### Step 3 - Build a workflow
+#### Step 3 - Build a Workflow
 
 **Note**: While building your workflow you can save it at any point, but after saving, will need to click on Edit to go back and add. 
 
-In the Workflow Editor layout , on the canvas:
+In the Workflow Editor layout, on the canvas:
 
 1. Add Input Dataset (this is the workflow’s required input).
     a. For this activity, we are adding Single Dataset input as required input.
         - For future workflows that you may run using more than one input file, you can specify Input Dataset Collection instead.
     a. Exit out of Input Dataset box to move on to another action.
-
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_26#slide=id.g3cb621b08cb_0_26")
@@ -73,7 +71,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_18#slide=id.g3cb621b08cb_0_18")
 ```
 
-1. Add tool #1 - Flye
+2. Add tool #1 - Flye
     a. Specify parameters appropriate for your input
         - Specify Mode: PacBio HiFi (--pacbio-hifi)
         - Under **Perform metagenomic assembly**: select `Yes`.
@@ -81,7 +79,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
         - Leave rest as default
         - Exit out of the Flye tool box 
     a. Connect input/output
-        - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
+        - On Workflow Canvas, reposition Input Dataset box and Tool box so it's nice and comfortable for you to connect inputs and outputs
         - Connect Input Dataset to Flye by dragging connector from Input Dataset to Flye. 
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
@@ -92,23 +90,23 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_51#slide=id.g3cb621b08cb_0_51")
 ```
 
-2. Add tool #2 - MetaBAT2
+3. Add tool #2 - MetaBAT2
     a. Specify parameters appropriate for your input
         - Leave as default
         - Exit out of the MetaBAT2 tool box 
     a. Connect input/output
-        - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
+        - On Workflow Canvas, reposition Input Dataset box and Tool box so it's nice and comfortable for you to connect inputs and outputs
         - Connect relevant output of Flye (consensus (fasta)), to MetaBAT2 by dragging connector from consensus (fasta) to MetaBAT2. 
 
-3. Add tool #3 - GTDBtk
+4. Add tool #3 - GTDB-Tk
     a. Specify parameters appropriate for your input
         - Click on Versions button (next to the star) and **Switch to 2.5.2+galaxy1** to be able to select an older GTDB-Tk database version
         - Under GTDB-Tk database, select **Full database - release 220 (2024-10-19)**
         - Leave rest as default
-        - Exit out of the GTDBtk tool box 
+        - Exit out of the GTDB-Tk tool box 
     a. Connect input/output
-        - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
-        - Connect relevant output of MetaBAT2(Bin sequences, fasta), to GTDBtk by dragging connector from bins to GTDB-Tk
+        - On Workflow Canvas, reposition Input Dataset box and Tool box so it's nice and comfortable for you to connect inputs and outputs
+        - Connect relevant output of MetaBAT2(Bin sequences, fasta), to GTDB-Tk by dragging connector from bins to GTDB-Tk
         - Click Save
 
 #### Questions
@@ -121,70 +119,53 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 
 #### Instructions
 
-1. Import the dataset (PacBio-sequenced Zymo gut standard D6331 subset:
-
+1. Import the dataset PacBio-sequenced Zymo gut standard D6331 subset:
     - <https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2>
-
-2. Go to Workflows, click to select your workflow and click Run
-
+1. Go to Workflows, click to select your workflow and click Run
     - Always double-check/select to ensure you are using the correct input file(s)
     - USEFUL: check ‘Attempt to re-use jobs with identical parameters’. This option will allow you to re-run select steps of workflow if a step fails, without effectively re-running successful steps.
 
-**Note**: it may take a few minutes to get the Workflow running -e.g.  time for loading and queuing steps.
+**Note**: It may take a few minutes to get the Workflow running e.g. time for loading and queuing steps.
 
 #### Questions
 
-|1. How many contigs you obtained after Flye?|
+|1. How many contigs did you obtain after Flye?|
 | :--------- | 
-|            |
-<br>
+| <br>       |
 
-|2. How many Bins you obtained after MetaBAT2?|
+|2. How many bins did you obtain after MetaBAT2?|
 | :--------- | 
-|             |
-<br>
+| <br>       |
 
-|3. How many classified genomes have you obtained after GTDB-Tk?|
+|3. How many classified genomes do you have after GTDB-Tk?|
 | :--------- | 
-|             |
-<br>
-
+| <br>       |
 
 ### Activity 3 - Modify Workflow
 
 #### Instructions
 
 1. Add another tool (tool #4) to your workflow - add **fastp**!
-
     a. Think about where this tool fits in - why do we use it, and what would you do with fastp output?
-
-    b. Think of a fastp parameter you might want to change to improve sequence quality.
-
-    c. Think about input/output connections, and possible re-connections!
-
-2. When running the workflow, ensure you check ‘Re-use jobs with identical parameters’ to avoid re-running your other tools.
+    a. Think of a fastp parameter you might want to change to improve sequence quality.
+    a. Think about input/output connections, and possible re-connections!
+1. When running the workflow, ensure you check ‘Re-use jobs with identical parameters’ to avoid re-running your other tools.
 
 #### Questions
 
 |1. Take a snapshot of your workflow and paste below:|
 | :--------- | 
-|             |
-<br>
+| <br>       |
 
-|2. Did you ‘Re-use jobs with identical parameters’ and avoided effective re-running of jobs you already ran before? (Flye, MetaBAT2, GTDBtk)? Yes or No?|
+|2. Did you ‘Re-use jobs with identical parameters’ and avoided effective re-running of jobs you already ran before? (Flye, MetaBAT2, GTDB-Tk)? Yes or No?|
 | :--------- | 
-|             |
-<br>
-
+| <br>       |
 
 ### Activity 4 - Share Workflow
 
-1. To share your workflow, obtain shearable URL
-
+1. To share your workflow, obtain a sharable URL
     a. Go to Workflows and click on Share
-
     b. Click to make Workflow accessible
-
     c. Copy URL
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
