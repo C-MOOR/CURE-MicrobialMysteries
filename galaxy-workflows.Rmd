@@ -73,7 +73,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_18#slide=id.g3cb621b08cb_0_18")
 ```
 
-**1. Add tool #1 - Flye**
+1. Add tool #1 - Flye
     a. Specify parameters appropriate for your input
         - Specify Mode: PacBio HiFi (--pacbio-hifi)
         - Under **Perform metagenomic assembly**: select `Yes`.
@@ -92,7 +92,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_51#slide=id.g3cb621b08cb_0_51")
 ```
 
-**2. Add tool #2 - MetaBAT2**
+2. Add tool #2 - MetaBAT2
     a. Specify parameters appropriate for your input
         - Leave as default
         - Exit out of the MetaBAT2 tool box 
@@ -100,7 +100,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
         - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
         - Connect relevant output of Flye (consensus (fasta)), to MetaBAT2 by dragging connector from consensus (fasta) to MetaBAT2. 
 
-**3. Add tool #3 - GTDBtk**
+3. Add tool #3 - GTDBtk
     a. Specify parameters appropriate for your input
         - Click on Versions button (next to the star) and **Switch to 2.5.2+galaxy1** to be able to select an older GTDB-Tk database version
         - Under GTDB-Tk database, select **Full database - release 220 (2024-10-19)**
@@ -108,7 +108,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
         - Exit out of the GTDBtk tool box 
     a. Connect input/output
         - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
-        - Connect relevant output of MetaBAT2(Bin sequences, fasta), to GTDBtk by dragging connector from bins to GTDB-Tk. 
+        - Connect relevant output of MetaBAT2(Bin sequences, fasta), to GTDBtk by dragging connector from bins to GTDB-Tk
         - Click Save
 
 #### Questions
