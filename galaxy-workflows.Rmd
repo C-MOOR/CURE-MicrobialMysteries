@@ -49,9 +49,7 @@ Follow steps below to:
   d. Click **Save** Workflow
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
-
 ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_0#slide=id.g3cb621b08cb_0_0")
-
 ```
 
 #### Step 3 - Build a workflow
