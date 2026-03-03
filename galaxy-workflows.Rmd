@@ -73,9 +73,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_18#slide=id.g3cb621b08cb_0_18")
 ```
 
-1. Add tool #1 - Flye
+**1. Add tool #1 - Flye**
     a. Specify parameters appropriate for your input
         - Specify Mode: PacBio HiFi (--pacbio-hifi)
+        - Under **Perform metagenomic assembly**: select `Yes`.
+         - Under **Generate a log file**: select `Yes`.
         - Leave rest as default
         - Exit out of the Flye tool box 
     a. Connect input/output
@@ -90,14 +92,15 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_51#slide=id.g3cb621b08cb_0_51")
 ```
 
-1. Add tool #2 - MetaBAT2
+**2. Add tool #2 - MetaBAT2**
     a. Specify parameters appropriate for your input
         - Leave as default
         - Exit out of the MetaBAT2 tool box 
     a. Connect input/output
         - On Workflow Canvas, reposition Input Dataset box and Tool box so its nice and comfortable for you to connect inputs and outputs
         - Connect relevant output of Flye (consensus (fasta)), to MetaBAT2 by dragging connector from consensus (fasta) to MetaBAT2. 
-1. Add tool #3 - GTDBtk
+
+**3. Add tool #3 - GTDBtk**
     a. Specify parameters appropriate for your input
         - Click on Versions button (next to the star) and **Switch to 2.5.2+galaxy1** to be able to select an older GTDB-Tk database version
         - Under GTDB-Tk database, select **Full database - release 220 (2024-10-19)**
@@ -118,13 +121,16 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 
 #### Instructions
 
-1. Import the dataset (PacBio-sequenced Zymo gut standard D6331 subset (1.7 GB)
-1. Go to Workflows, click to select your workflow and click Run
+1. Import the dataset (PacBio-sequenced Zymo gut standard D6331 subset:
+
+    - <https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2>
+
+2. Go to Workflows, click to select your workflow and click Run
 
     - Always double-check/select to ensure you are using the correct input file(s)
     - USEFUL: check ‘Attempt to re-use jobs with identical parameters’. This option will allow you to re-run select steps of workflow if a step fails, without effectively re-running successful steps.
 
-**Note** - it may take a few minutes to get the Workflow running -e.g.  time for loading and queuing steps.
+**Note**: it may take a few minutes to get the Workflow running -e.g.  time for loading and queuing steps.
 
 #### Questions
 
@@ -165,7 +171,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 |             |
 <br>
 
-|1. Did you ‘Re-use jobs with identical parameters’ and avoided effective re-running of jobs you already ran before? (Flye, MetaBAT2, GTDBtk)? Yes or No?|
+|2. Did you ‘Re-use jobs with identical parameters’ and avoided effective re-running of jobs you already ran before? (Flye, MetaBAT2, GTDBtk)? Yes or No?|
 | :--------- | 
 |             |
 <br>
@@ -201,7 +207,3 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: March 2026
-
-#### Instructions
-
-#### Questions
