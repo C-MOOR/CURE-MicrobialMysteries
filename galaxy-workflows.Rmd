@@ -39,7 +39,7 @@ a. Use a high-quality, Zymo Gut Standard D6331 subset2:
 | :--------- | :---------- |  :---------- |  :---------- |
 | Flye| *De novo* genome assembly | Mode: PacBio HiFi & metagenomic assembly | fastq |
 | MetaBAT2| Metagenomic binning | Default | fasta |
-| GTDB-tk| Classify genomes | Change versions to: Galaxy Version 2.5.2+galaxy1 | fasta (bins)|
+| GTDB-Tk| Classify genomes | Change versions to: Galaxy Version 2.5.2+galaxy1 | fasta (bins)|
 
 #### Step 2 - Create a Workflow
 
@@ -163,6 +163,8 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 
 ### Activity 4 - Share Workflow
 
+#### Instructions
+
 1. To share your workflow, obtain a sharable URL
     a. Go to Workflows and click on Share
     b. Click to make Workflow accessible
@@ -171,6 +173,12 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_N
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E/edit?slide=id.g3cb621b08cb_0_128#slide=id.g3cb621b08cb_0_128")
 ```
+
+#### Questions
+
+|1. Copy and paste your workflow URL below:|
+| :--------- | 
+| <br>       |
 
 ### Grading Criteria
 
