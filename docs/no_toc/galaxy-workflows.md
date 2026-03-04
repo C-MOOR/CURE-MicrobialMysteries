@@ -1,0 +1,186 @@
+# Galaxy Workflows 
+
+## Galaxy Workflows: Build a Workflow
+
+### Purpose
+
+A workflow is a reusable pipeline that chains tools and dataset actions so you can repeat the analysis consistently. Galaxy Workflows let you:
+
+- **Automate** a series of analysis steps (tools + settings) so you don’t rebuild it each time.
+- Ensure **reproducibility** by keeping the same order of steps and parameters when rerunning on new data.
+- **Scale and save time** by running the same process across many samples consistently.
+- **Share and collaborate** by exporting or sharing workflows so others can run the same analysis.
+
+### Learning Objectives
+
+1. Build a Galaxy Workflow from Scratch
+1. Run a Workflow
+1. Edit a Workflow
+1. Share a Workflow
+
+### Activity 1 - Create a Galaxy Workflow from scratch
+
+*Estimated time: 10 min*
+
+#### Instructions
+
+Follow steps below to:
+
+1. Plan a Workflow - 3-tool workflow using Flye, MetaBAT2 and GTDB-Tk tools
+1. Create a Workflow - Start a new workflow
+1. Build a Workflow - Configure tool parameters, connect inputs/outputs
+
+#### Step 1 - Plan a Workflow
+
+a. Use a high-quality, Zymo Gut Standard D6331 subset2:
+    - <https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2>
+
+|**Tool**| **Goal** | **Specify Parameters** | **Required input type** |
+| :--------- | :---------- |  :---------- |  :---------- |
+| Flye| *De novo* genome assembly | Mode: PacBio HiFi & metagenomic assembly | fastq |
+| MetaBAT2| Metagenomic binning | Default | fasta |
+| GTDB-Tk| Classify genomes | Change versions to: Galaxy Version 2.5.2+galaxy1 | fasta (bins)|
+
+#### Step 2 - Create a Workflow
+
+a. In Galaxy’s menu on the Left, click **Workflows**
+a. Click **Create** new workflow
+a. Give it a name (e.g. pacbio-assemble-bin-classify)
+a. Click **Save**
+
+<img src="galaxy-workflows_files/figure-html//144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E_g3cb621b08cb_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+#### Step 3 - Build a Workflow
+
+**Note**: While building your workflow you can save it at any point, but after saving, will need to click on Edit to go back and add. 
+
+In the Workflow Editor layout, on the canvas:
+
+1. Add Input Dataset (this is the workflow’s required input).
+    a. For this activity, we are adding Single Dataset input as required input.
+        - For future workflows that you may run using more than one input file, you can specify Input Dataset Collection instead.
+    a. Exit out of Input Dataset box to move on to another action.
+
+<img src="galaxy-workflows_files/figure-html//144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E_g3cb621b08cb_0_26.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+<img src="galaxy-workflows_files/figure-html//144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E_g3cb621b08cb_0_18.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+2. Add tool #1 - Flye
+    a. Specify parameters appropriate for your input
+        - Specify Mode: PacBio HiFi (--pacbio-hifi)
+        - Under **Perform metagenomic assembly**: select `Yes`.
+         - Under **Generate a log file**: select `Yes`.
+        - Leave rest as default
+        - Exit out of the Flye tool box 
+    a. Connect input/output
+        - On Workflow Canvas, reposition Input Dataset box and Tool box so it's nice and comfortable for you to connect inputs and outputs
+        - Connect Input Dataset to Flye by dragging connector from Input Dataset to Flye. 
+
+<img src="galaxy-workflows_files/figure-html//144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E_g3cb621b08cb_0_39.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+<img src="galaxy-workflows_files/figure-html//144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E_g3cb621b08cb_0_51.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+3. Add tool #2 - MetaBAT2
+    a. Specify parameters appropriate for your input
+        - Leave as default
+        - Exit out of the MetaBAT2 tool box 
+    a. Connect input/output
+        - On Workflow Canvas, reposition Input Dataset box and Tool box so it's nice and comfortable for you to connect inputs and outputs
+        - Connect relevant output of Flye (consensus (fasta)), to MetaBAT2 by dragging connector from consensus (fasta) to MetaBAT2. 
+
+4. Add tool #3 - GTDB-Tk
+    a. Specify parameters appropriate for your input
+        - Click on Versions button (next to the star) and **Switch to 2.5.2+galaxy1** to be able to select an older GTDB-Tk database version
+        - Under GTDB-Tk database, select **Full database - release 220 (2024-10-19)**
+        - Leave rest as default
+        - Exit out of the GTDB-Tk tool box 
+    a. Connect input/output
+        - On Workflow Canvas, reposition Input Dataset box and Tool box so it's nice and comfortable for you to connect inputs and outputs
+        - Connect relevant output of MetaBAT2(Bin sequences, fasta), to GTDB-Tk by dragging connector from bins to GTDB-Tk
+        - Click Save
+
+#### Questions
+
+|1. Take a snapshot of your workflow and paste below:|
+| :--------- | 
+|             |
+
+### Activity 2 - Run Workflow
+
+#### Instructions
+
+1. Import the dataset PacBio-sequenced Zymo gut standard D6331 subset:
+    - <https://usegalaxy.org/u/valerie-g/h/zymo-gut-standard-d6331-subset2>
+1. Go to Workflows, click to select your workflow and click Run
+    - Always double-check/select to ensure you are using the correct input file(s)
+    - USEFUL: check ‘Attempt to re-use jobs with identical parameters’. This option will allow you to re-run select steps of workflow if a step fails, without effectively re-running successful steps.
+
+**Note**: It may take a few minutes to get the Workflow running e.g. time for loading and queuing steps.
+
+#### Questions
+
+|1. How many contigs did you obtain after Flye?|
+| :--------- | 
+| <br>       |
+
+|2. How many bins did you obtain after MetaBAT2?|
+| :--------- | 
+| <br>       |
+
+|3. How many classified genomes do you have after GTDB-Tk?|
+| :--------- | 
+| <br>       |
+
+### Activity 3 - Modify Workflow
+
+#### Instructions
+
+1. Add another tool (tool #4) to your workflow - add **fastp**!
+    a. Think about where this tool fits in - why do we use it, and what would you do with fastp output?
+    a. Think of a fastp parameter you might want to change to improve sequence quality.
+    a. Think about input/output connections, and possible re-connections!
+1. When running the workflow, ensure you check ‘Re-use jobs with identical parameters’ to avoid re-running your other tools.
+
+#### Questions
+
+|1. Take a snapshot of your workflow and paste below:|
+| :--------- | 
+| <br>       |
+
+|2. Did you ‘Re-use jobs with identical parameters’ and avoided effective re-running of jobs you already ran before? (Flye, MetaBAT2, GTDB-Tk)? Yes or No?|
+| :--------- | 
+| <br>       |
+
+### Activity 4 - Share Workflow
+
+#### Instructions
+
+1. To share your workflow, obtain a sharable URL
+    a. Go to Workflows and click on Share
+    b. Click to make Workflow accessible
+    c. Copy URL
+
+<img src="galaxy-workflows_files/figure-html//144SgjpcgTn8z0v_NvciIBykSzafeFI6l8JbfZ7tko-E_g3cb621b08cb_0_128.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+#### Questions
+
+|1. Copy and paste your workflow URL below:|
+| :--------- | 
+| <br>       |
+
+### Grading Criteria
+
+- Download as Microsoft Word (.docx) and upload on Canvas
+
+### Footnotes
+
+**Resources**
+
+- [Google Doc](https://docs.google.com/document/d/1rHIEN0o3tuPTKQB_D2dVAmISVnzME39L)
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: March 2026
