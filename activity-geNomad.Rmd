@@ -1,0 +1,49 @@
+## Activity: geNomad
+
+### Purpose
+
+Identify sequences of plasmids and viruses with [geNomad](https://doi.org/10.1038/s41587-023-01953-y). 
+geNomad is one of the most modern plasmid and virus classification and annotation tools. 
+geNomad uses a dataset of over 200,000 gene markers specific to chromosomes, plasmids or viruses to classify sequences as plasmids or viruses. 
+Concurrently, geNomad uses a gene-independent and reference alignment-independent deep neural network approach that classifies sequences  as plasmids of viruses. 
+With geNomad, using contigs as input you can:
+
+- Identify sequences of plasmids and viruses 
+- Functionally annotate plasmid and viral genes
+- Taxonomically classify viral sequences
+
+### Learning Objectives
+
+1. Run a geNomad tool in Galaxy
+1. Examine geNomad output (plasmids and virus)
+1. Plot geNomad output (plasmid length and number of genes) in  RStudio on Galaxy
+
+### Activity 1 – Run geNomad
+
+*Estimated time: 10 min*
+
+#### Instructions
+
+1. Import the dataset corresponding to assembled contigs from PacBio-sequenced Zymo gut standard D6331 - a 3.4 Gb data subset assembled with Flye tool .
+  - <https://usegalaxy.org/u/valerie-g/h/flye-assembly-zymo-gut-standard-d6331-subset>
+1. Go to Tools and find geNomad
+  a. Agree with geNomad licence
+  b. Use assembled contigs (from Flye assembly) as input
+  c. Under **filtering presets**, select **Manual settings** which correspond to geNomad's default setting.
+  d. Click **Run Tool**
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfupKOzOjqRP6XeBVSJH-r1uVNaaKk/edit?slide=id.g3cd65ceba65_0_14#slide=id.g3cd65ceba65_0_14")
+```
+
+#### Questions
+
+|1. Provide your Galaxy history with geNomad output:|
+| :--------- | 
+|             |
+
+|2. Based on geNomad output file names, what information does geNomad provide?|
+| :--------- | 
+|             |
+
+### Activity 2 – Run geNomad
