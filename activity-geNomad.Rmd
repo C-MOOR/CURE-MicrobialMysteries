@@ -2,11 +2,10 @@
 
 ### Purpose
 
-Identify sequences of plasmids and viruses with [geNomad](https://doi.org/10.1038/s41587-023-01953-y). 
-geNomad is one of the most modern plasmid and virus classification and annotation tools. 
-geNomad uses a dataset of over 200,000 gene markers specific to chromosomes, plasmids or viruses to classify sequences as plasmids or viruses. 
-Concurrently, geNomad uses a gene-independent and reference alignment-independent deep neural network approach that classifies sequences  as plasmids of viruses. 
-With geNomad, using contigs as input you can:
+The goal of this activity is to identify plasmid and virus sequences with [geNomad](https://pubmed.gov/37735266). 
+geNomad is a modern classification tool that uses a dataset of over 200,000 gene markers specific to chromosomes, plasmids, or viruses to quickly find plasmids and viruses in metagenomic sequences. 
+Additionally, geNomad uses a deep neural network approach that is gene-independent and reference alignment-independent to classify sequences as plasmids of viruses. 
+Starting with **contigs** as your input, geNomad can:
 
 - Identify sequences of plasmids and viruses 
 - Functionally annotate plasmid and viral genes
@@ -14,9 +13,9 @@ With geNomad, using contigs as input you can:
 
 ### Learning Objectives
 
-1. Run a geNomad tool in Galaxy
+1. Run the geNomad tool in Galaxy
 1. Examine geNomad output (plasmids and virus)
-1. Plot geNomad output (plasmid length and number of genes) in  RStudio on Galaxy
+1. Plot geNomad output (plasmid length and number of genes) in RStudio on Galaxy
 
 ### Activity 1 – Run geNomad
 
@@ -27,10 +26,10 @@ With geNomad, using contigs as input you can:
 1. Import the dataset corresponding to assembled contigs from PacBio-sequenced Zymo gut standard D6331 - a 3.4 Gb data subset assembled with Flye tool.
     - <https://usegalaxy.org/u/valerie-g/h/flye-assembly-zymo-gut-standard-d6331-subset>
 1. Go to Tools and find geNomad
-  a. Agree with geNomad licence
-  b. Use assembled contigs (from Flye assembly) as input
-  c. Under **filtering presets**, select **Manual settings** which correspond to geNomad's default setting.
-  d. Click **Run Tool**
+    a. Agree with geNomad license
+    a. Use assembled contigs (from Flye assembly) as input
+    a. Under **filtering presets**, select **Manual settings** which correspond to the default geNomad settings
+    a. Click **Run Tool**
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfupKOzOjqRP6XeBVSJH-r1uVNaaKk/edit?slide=id.g3cd65ceba65_0_14#slide=id.g3cd65ceba65_0_14")
@@ -40,11 +39,11 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfu
 
 |1. Provide your Galaxy history with geNomad output:|
 | :--------- | 
-|             |
+| <br>       |
 
 |2. Based on geNomad output file names, what information does geNomad provide?|
 | :--------- | 
-|             |
+| <br>       |
 
 ### Activity 2 – Explore geNomad output in Galaxy
 
@@ -58,39 +57,33 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfu
 
 #### Questions
 
-**1. Click on geNomad-plasmid-summary file** and answer the questions below:
+1. Click on geNomad-plasmid-summary file and answer the questions below:
 
 |A. How many contigs were classified as plasmid-derived contigs?|
 | :--------- | 
-|             |
-<br>
+| <br>       |
 
 |B. Does every plasmid contig have a conjugation gene?|
 | :--------- | 
-|             |
-<br>
+| <br>       |
 
 |C. Does every plasmid contig have an amr_gene (anti-microbial resistance gene)?|
 | :--------- | 
-|             |
-<br>
+| <br>       |
 
-**2. Click on geNomad-virus-summary file** and answer the questions below:
+2. Click on geNomad-virus-summary file and answer the questions below:
 
 |A. How many contigs were classified as virus-derived contigs?|
 | :--------- | 
-|             |
-<br>
+| <br>       |
 
 |B. Google search full taxonomy of the first viral contig in the file and record below 1 thing you learned about this virus.|
 | :--------- | 
-|             |
-<br>
+| <br>       |
 
 |C. What is the most common genomic context (topology) in which virus was identified in this data subset?|
 | :--------- | 
-|             |
-<br>
+| <br>       |
 
 ### Activity 3 – Examine geNomad plasmids in RStudio
 
@@ -99,49 +92,48 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfu
 #### Instructions
 
 1. Launch RStudio tool in Galaxy
-  - You don’t need to include input datasets with you RStudio launch - we will import data once RStudio is launched.
+    - You don’t need to include input datasets with your RStudio launch - we will import data once RStudio is launched.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfupKOzOjqRP6XeBVSJH-r1uVNaaKk/edit?slide=id.g3cd91cb0fd0_0_4#slide=id.g3cd91cb0fd0_0_4")
 ```
 
 2. Import data into RStudio
-    a. **In your Galaxy history**, identify which Galaxy history number (folder) corresponds to the plasmid summary output file. 
-      -  Lets assume dataset 41 in your Galaxy history is a plasmid summary file from geNomad and you want to read it into your RStudio.
-
-    b. In your **RStudio console**, use function **gx_get()** to import (copy) a dataset of interest from Galaxy history, to RStudio session.
-
-```
-# Get Galaxy history #41|
-(gx_get(41))
-```
-
-    c. In addition, you have to use a proper R function to read the file. To read tabular files, use function **read_tsv()**. To do so, you will first need to load an R package called **tidyverse**. Use the following pieces of code:
-
-```
-#Load tidyverse
-library(tidyverse)
-
-# Read a .tsv file
-read_tsv(gx_get(41))
-```
-
-  d. Now that you have all pieces of code, import your tsv file as an object called, e.g. “plasmids” (or give it another convenient name of your choice).
-
-```
-#Final import command
-plasmids <- read_tsv(gx_get(41))
-```
-
-  e. Once code is ready, type the 2 commands (to load tidyverse, and to import plasmid_summary tabular file) into your RStudio console:
+    a. In your Galaxy history, identify which Galaxy history number (dataset) corresponds to the plasmid summary output file. 
+        -  Let's assume dataset 41 in your Galaxy history is a plasmid summary file from geNomad and you want to read it into your RStudio.
+    a. In your **RStudio Console**, use the function `gx_get()` to import (copy) a dataset of interest from Galaxy history to your RStudio session.
+    
+        ```
+        # Get Galaxy history dataset #41
+        gx_get(41)
+        ```
+        
+    a. In addition, you have to use a proper R function to read the file. To read tabular files formatted as tab-separated values (tsv), use function `read_tsv()`. To do so, you will first need to load an R package called `tidyverse`. Use the following pieces of code:
+    
+        ```
+        # Load tidyverse
+        library(tidyverse)
+        
+        # Read a .tsv file
+        read_tsv(gx_get(41))
+        ```
+        
+    a. Now that you have all pieces of code, save your tsv file as an object called, e.g. `plasmids` (or give it another convenient name of your choice).
+    
+        ```
+        # Final import command
+        plasmids <- read_tsv(gx_get(41))
+        ```
+        
+    a. Once code is ready, type the 2 commands (to load tidyverse, and to import plasmid_summary tabular file) into your RStudio console
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfupKOzOjqRP6XeBVSJH-r1uVNaaKk/edit?slide=id.g3cd91cb0fd0_0_53#slide=id.g3cd91cb0fd0_0_53")
 ```
 
-3. Create an R script of the commands from step 2: 
-  - Just like the best practice for wet-lab experiments is keeping a lab notebook, the best practice for computational experiments is keeping a notebook with all your code (commands) - e.g. having a record of your R script.
-  - For best practice, you should annotate each block of code
+3. Create an R script of the commands from Step 2: 
+    - Just like the best practice for wet-lab experiments is keeping a lab notebook, the best practice for computational experiments is keeping a notebook with all your code (commands) - e.g. having a record of your R script.
+    - For best practice, you should annotate each block of code
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfupKOzOjqRP6XeBVSJH-r1uVNaaKk/edit?slide=id.g3cd91cb0fd0_0_20#slide=id.g3cd91cb0fd0_0_20")
@@ -155,65 +147,56 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfu
 
 #### Part 1 - Explore data in RStudio
 
-1. Preview first rows of a file using function **head()**.
+1. Preview first rows of a file using function `head()`.
 
 |Command: head(plasmids)|
 | :--------- | 
 |  Question:  Copy and paste output of command below: |
 |  Answer:            |
-<br>
 
-2. View column names using function **colnames()**.
+2. View column names using function `colnames()`.
 
 |Command: colnames(plasmids)|
 | :--------- | 
 |  Question:  Copy and paste output of command below: |
 |  Answer:            |
-<br>
 
-3. Summarize each variable using funciton **summary()**.
+3. Summarize each variable using funciton `summary()`.
 
 |Command: summary(plasmids)|
 | :--------- | 
 |  Question:  Copy and paste output of command below: |
 |  Answer:            |
-<br>
 
-4. Check the number of rows and columns - dimensions - of the file using function **dim()**.
+4. Check the number of rows and columns - dimensions - of the file using function `dim()`.
 
 |Command: dim(plasmids)|
 | :--------- | 
 |  Question:  Copy and paste output of command below: |
 |  Answer:            |
-<br>
-
 
 #### Part 2 - Plot histogram of plasmid lengths
 
-1. Plot histogram of plasmid lengths using function **hist()**.
-  - Note, a dollar sign ($) in the command below indicates column
+1. Plot histogram of plasmid lengths using function `hist()`.
+    - Note, a dollar sign ($) in the command below indicates column
 
 |Command: hist(plasmids$length)|
 | :--------- | 
 |  Question:  Copy and paste output of command below: |
 |  Answer:            |
-<br>
 
 #### Part 3 - Plot histogram of plasmid gene density
 
-1. Plot histogram of plasmid lengths using function **hist()**.
-  - Note, a dollar sign ($) in the command below indicates column
-
+1. Plot histogram of plasmid lengths using function `hist()`.
+    - Note, a dollar sign ($) in the command below indicates column
 
 |A. Type your command below:|
 | :--------- | 
-|  |
-<br>
+| <br>       |
 
 |B. Paste your output histogram below::|
 | :--------- | 
-|  |
-<br>
+| <br>       |
 
 ### Grading Criteria
 
@@ -223,7 +206,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfu
 
 **Resources**
 
-- Google Doc
+- [Google Doc](https://docs.google.com/document/d/1cVR34TtQGApsOQnTSRzpQMm83TWBqtKD)
 
 **Contributions and Affiliations**
 
@@ -231,4 +214,3 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfu
 - Frederick Tan, Johns Hopkins University
 
 Last Revised: March 2026
-
