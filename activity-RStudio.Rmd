@@ -46,11 +46,26 @@ By the end of this activity, students will be able to:
     g. Click on the ‘RStudio’ Name to open RStudio window.
 3. Upload files to RStudio on SciServer.
     a. Navigate to the `Files` pane located in the lower-right panel of the RStudio.
-    b. Click the ‘Upload’ button in the toolbar of the Files pane.
-    c. Click ‘Choose File’ to upload the two geNomad output files (you previously downloaded in Step 1 - uploading one at a time.
+    b. Click the **'Upload'** button in the toolbar of the Files pane.
+    c. Click **'Choose File'** to upload the two geNomad output files (you previously downloaded in Step 1 - uploading one at a time.
     d. You should now see two downloaded files in your ‘Files’ pane.
 4. Import files into RStudio.
+    a. Use the top left window of RStudio - a blank R Script editor - to enter your R commands for importing files.  
+    b. Enter a command to load R Package called ‘tidyverse’ by using **library()**:
 
+```
+library(tidyverse)
+```
+
+    c. Use the function **read_tsv()** in R to import files of interest.
+        - See sample command below to import file called “Galaxy1-[geNomad-plasmid-summary].tabular” as a new object (variable) called e.g. ‘plasmids’.
+        - After Typing your command, click **‘Run’**.
+
+```
+plasmids <- plasmids <- read_tsv("Galaxy1-[geNomad-plasmid-summary].tabular")
+```
+
+#### Questions
 
 
 
