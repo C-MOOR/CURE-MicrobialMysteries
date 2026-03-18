@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 18 Troubleshooting | CURE: Microbial Mysteries</title>
+  <title>8.2 Activity: geNomad | CURE: Microbial Mysteries</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 18 Troubleshooting | CURE: Microbial Mysteries" />
+  <meta property="og:title" content="8.2 Activity: geNomad | CURE: Microbial Mysteries" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 18 Troubleshooting | CURE: Microbial Mysteries" />
+  <meta name="twitter:title" content="8.2 Activity: geNomad | CURE: Microbial Mysteries" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="example-cure-projects.html"/>
-<link rel="next" href="core-competencies.html"/>
+<link rel="prev" href="project-work-organizer-1.html"/>
+<link rel="next" href="scientific-posters.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -507,31 +507,390 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="troubleshooting" class="section level1 hasAnchor" number="18">
-<h1><span class="header-section-number">Chapter 18</span> Troubleshooting<a href="troubleshooting.html#troubleshooting" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Science is hard, and getting computers to do what you want sometimes feels impossible.
-While we can’t address every problem, below are some suggestions that may help you move forward.
-If you need more help, perhaps you might give an <a href="online-community.html#online-community">Online Community</a> a chance?</p>
-<div id="share-galaxy-history" class="section level3 unnumbered hasAnchor">
-<h3>Share Galaxy History<a href="troubleshooting.html#share-galaxy-history" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Many times people are more able and willing to help troubleshoot a problem when provided a <a href="https://stackoverflow.com/help/minimal-reproducible-example" target="_blank">minimal, reproducible example</a>.
-One great feature of Galaxy is the ability to share your exact history through a custom URL.
-See how to do this in Step 1 “Share via link” in the FAQ <a href="https://training.galaxyproject.org/training-material/faqs/galaxy/histories_sharing.html" target="_blank">Sharing your History</a></p>
-<p><img src="Appendix_files/figure-html/1fH9s5OLcRF5meZtFWTJe89RFvJSh125kdjhdqp5smqA_g302b08c5e6e_0_51.png" width="480" /></p>
-</div>
-<div id="galaxy-fundamentals" class="section level3 unnumbered hasAnchor">
-<h3>Galaxy Fundamentals<a href="troubleshooting.html#galaxy-fundamentals" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Galaxy has many advanced features to help you scale an analysis from a single dataset to production level settings.
-Learning more about these features can give you insight into what is going on under the hood and may help when troubleshooting problems.</p>
+<div id="activity-genomad" class="section level2 hasAnchor" number="8.2">
+<h2><span class="header-section-number">8.2</span> Activity: geNomad<a href="activity-genomad.html#activity-genomad" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="purpose-11" class="section level3 hasAnchor" number="8.2.1">
+<h3><span class="header-section-number">8.2.1</span> Purpose<a href="activity-genomad.html#purpose-11" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The goal of this activity is to identify plasmid and virus sequences with <a href="https://pubmed.gov/37735266">geNomad</a>.
+geNomad is a modern classification tool that uses a dataset of over 200,000 gene markers specific to chromosomes, plasmids, or viruses to quickly find plasmids and viruses in metagenomic sequences.
+Additionally, geNomad uses a deep neural network approach that is gene-independent and reference alignment-independent to classify sequences as plasmids of viruses.
+Starting with <strong>contigs</strong> as your input, geNomad can:</p>
 <ul>
-<li><p>Lost among your histories? – <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history/tutorial.html" target="_blank">Understanding Galaxy history system</a></p></li>
-<li><p>Datatset or cellection? – <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/collections/tutorial.html" target="_blank">Using dataset collections</a></p></li>
-<li><p>Trouble with workflows? – <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html" target="_blank">Creating, Editing and Importing Galaxy Workflows</a></p></li>
-<li><p>More on how to create a workflow? – <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-fairification/tutorial.html">Annotate, prepare tests and publish Galaxy workflows in workflow registries</a></p></li>
-<li><p>Out of storage space? – <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/download-delete-data/tutorial.html" target="_blank">Downloading and Deleting Data in Galaxy</a></p></li>
+<li>Identify sequences of plasmids and viruses</li>
+<li>Functionally annotate plasmid and viral genes</li>
+<li>Taxonomically classify viral sequences</li>
 </ul>
+</div>
+<div id="learning-objectives-11" class="section level3 hasAnchor" number="8.2.2">
+<h3><span class="header-section-number">8.2.2</span> Learning Objectives<a href="activity-genomad.html#learning-objectives-11" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Run the geNomad tool in Galaxy</li>
+<li>Examine geNomad output (plasmids and virus)</li>
+<li>Plot geNomad output (plasmid length and number of genes) in RStudio on Galaxy</li>
+</ol>
+</div>
+<div id="activity-1-run-genomad" class="section level3 hasAnchor" number="8.2.3">
+<h3><span class="header-section-number">8.2.3</span> Activity 1 – Run geNomad<a href="activity-genomad.html#activity-1-run-genomad" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 10 min</em></p>
+<div id="instructions-49" class="section level4 hasAnchor" number="8.2.3.1">
+<h4><span class="header-section-number">8.2.3.1</span> Instructions<a href="activity-genomad.html#instructions-49" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Import the dataset corresponding to assembled contigs from PacBio-sequenced Zymo gut standard D6331 - a 3.4 Gb data subset assembled with Flye tool.
+<ul>
+<li><a href="https://usegalaxy.org/u/valerie-g/h/flye-assembly-zymo-gut-standard-d6331-subset" class="uri">https://usegalaxy.org/u/valerie-g/h/flye-assembly-zymo-gut-standard-d6331-subset</a></li>
+</ul></li>
+<li>Go to Tools and find geNomad
+<ol style="list-style-type: lower-alpha">
+<li>Agree with geNomad license</li>
+<li>Use assembled contigs (from Flye assembly) as input</li>
+<li>Under <strong>filtering presets</strong>, select <strong>Manual settings</strong> which correspond to the default geNomad settings</li>
+<li>Click <strong>Run Tool</strong></li>
+</ol></li>
+</ol>
+<p><img src="activity-geNomad_files/figure-html/1qSW-UU25kX9SPjfupKOzOjqRP6XeBVSJH-r1uVNaaKk_g3cd65ceba65_0_14.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="questions-39" class="section level4 hasAnchor" number="8.2.3.2">
+<h4><span class="header-section-number">8.2.3.2</span> Questions<a href="activity-genomad.html#questions-39" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1. Provide your Galaxy history with geNomad output:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2. Based on geNomad output file names, what information does geNomad provide?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-2-explore-genomad-output-in-galaxy" class="section level3 hasAnchor" number="8.2.4">
+<h3><span class="header-section-number">8.2.4</span> Activity 2 – Explore geNomad output in Galaxy<a href="activity-genomad.html#activity-2-explore-genomad-output-in-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 10 min</em></p>
+<div id="instructions-50" class="section level4 hasAnchor" number="8.2.4.1">
+<h4><span class="header-section-number">8.2.4.1</span> Instructions<a href="activity-genomad.html#instructions-50" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Import two of eight geNomad output files for Zymo gut standard D6331 (Activity 1 output):
+<ul>
+<li><a href="https://usegalaxy.org/u/valerie-g/h/genomad-plasmid-virus-summary-zymo-gut-standard-d6331-subset" class="uri">https://usegalaxy.org/u/valerie-g/h/genomad-plasmid-virus-summary-zymo-gut-standard-d6331-subset</a></li>
+</ul></li>
+<li>View geNomad output files to explore.</li>
+</ol>
+</div>
+<div id="questions-40" class="section level4 hasAnchor" number="8.2.4.2">
+<h4><span class="header-section-number">8.2.4.2</span> Questions<a href="activity-genomad.html#questions-40" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Click on geNomad-plasmid-summary file and answer the questions below:</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">A. How many contigs were classified as plasmid-derived contigs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">B. Does every plasmid contig have a conjugation gene?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">C. Does every plasmid contig have an amr_gene (anti-microbial resistance gene)?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="2" style="list-style-type: decimal">
+<li>Click on geNomad-virus-summary file and answer the questions below:</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">A. How many contigs were classified as virus-derived contigs?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">B. Google search full taxonomy of the first viral contig in the file and record below 1 thing you learned about this virus.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">C. What is the most common genomic context (topology) in which virus was identified in this data subset?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-3-examine-genomad-plasmids-in-rstudio" class="section level3 hasAnchor" number="8.2.5">
+<h3><span class="header-section-number">8.2.5</span> Activity 3 – Examine geNomad plasmids in RStudio<a href="activity-genomad.html#activity-3-examine-genomad-plasmids-in-rstudio" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 15 min</em></p>
+<div id="instructions-51" class="section level4 hasAnchor" number="8.2.5.1">
+<h4><span class="header-section-number">8.2.5.1</span> Instructions<a href="activity-genomad.html#instructions-51" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Launch RStudio tool in Galaxy
+<ul>
+<li>Click on “Interactive Tools” in the left hand Activity Bar and launch RStudio</li>
+<li>You don’t need to include input datasets with your RStudio launch - we will import data once RStudio is launched.</li>
+</ul></li>
+</ol>
+<p><img src="activity-geNomad_files/figure-html/1qSW-UU25kX9SPjfupKOzOjqRP6XeBVSJH-r1uVNaaKk_g3cd91cb0fd0_0_4.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Import data into RStudio
+<ol style="list-style-type: lower-alpha">
+<li><p>In your Galaxy history, identify which Galaxy history number (dataset) corresponds to the plasmid summary output file.</p>
+<ul>
+<li>Let’s assume dataset 41 in your Galaxy history is a plasmid summary file from geNomad and you want to read it into your RStudio.</li>
+</ul></li>
+<li><p>In your <strong>RStudio Console</strong>, use the function <code>gx_get()</code> to import (copy) a dataset of interest from Galaxy history to your RStudio session.</p>
+<pre><code># Get Galaxy history dataset #41
+gx_get(41)</code></pre></li>
+<li><p>In addition, you have to use a proper R function to read the file. To read tabular files formatted as tab-separated values (tsv), use function <code>read_tsv()</code>. To do so, you will first need to load an R package called <code>tidyverse</code>. Use the following pieces of code:</p>
+<pre><code># Load tidyverse
+library(tidyverse)
+
+# Read a .tsv file
+read_tsv(gx_get(41))</code></pre></li>
+<li><p>Now that you have all pieces of code, save your tsv file as an object called, e.g. <code>plasmids</code> (or give it another convenient name of your choice).</p>
+<pre><code># Final import command
+plasmids &lt;- read_tsv(gx_get(41))</code></pre></li>
+<li><p>Once code is ready, type the 2 commands (to load tidyverse, and to import plasmid_summary tabular file) into your RStudio console</p></li>
+</ol></li>
+</ol>
+<p><img src="activity-geNomad_files/figure-html/1qSW-UU25kX9SPjfupKOzOjqRP6XeBVSJH-r1uVNaaKk_g3cd91cb0fd0_0_53.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Create an R script of the commands from Step 2:
+<ul>
+<li>Just like the best practice for wet-lab experiments is keeping a lab notebook, the best practice for computational experiments is keeping a notebook with all your code (commands) - e.g. having a record of your R script.</li>
+<li>For best practice, you should annotate each block of code</li>
+</ul></li>
+</ol>
+<p><img src="activity-geNomad_files/figure-html/1qSW-UU25kX9SPjfupKOzOjqRP6XeBVSJH-r1uVNaaKk_g3cd91cb0fd0_0_20.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="activity-geNomad_files/figure-html/1qSW-UU25kX9SPjfupKOzOjqRP6XeBVSJH-r1uVNaaKk_g3cd91cb0fd0_0_75.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="questions-41" class="section level4 hasAnchor" number="8.2.5.2">
+<h4><span class="header-section-number">8.2.5.2</span> Questions<a href="activity-genomad.html#questions-41" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="part-1---explore-data-in-rstudio" class="section level4 hasAnchor" number="8.2.5.3">
+<h4><span class="header-section-number">8.2.5.3</span> Part 1 - Explore data in RStudio<a href="activity-genomad.html#part-1---explore-data-in-rstudio" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Preview first rows of a file using function <code>head()</code>.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Command: head(plasmids)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Question: Copy and paste output of command below:</td>
+</tr>
+<tr class="even">
+<td align="left">Answer:</td>
+</tr>
+</tbody>
+</table>
+<ol start="2" style="list-style-type: decimal">
+<li>View column names using function <code>colnames()</code>.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Command: colnames(plasmids)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Question: Copy and paste output of command below:</td>
+</tr>
+<tr class="even">
+<td align="left">Answer:</td>
+</tr>
+</tbody>
+</table>
+<ol start="3" style="list-style-type: decimal">
+<li>Summarize each variable using funciton <code>summary()</code>.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Command: summary(plasmids)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Question: Copy and paste output of command below:</td>
+</tr>
+<tr class="even">
+<td align="left">Answer:</td>
+</tr>
+</tbody>
+</table>
+<ol start="4" style="list-style-type: decimal">
+<li>Check the number of rows and columns - dimensions - of the file using function <code>dim()</code>.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Command: dim(plasmids)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Question: Copy and paste output of command below:</td>
+</tr>
+<tr class="even">
+<td align="left">Answer:</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="part-2---plot-histogram-of-plasmid-lengths" class="section level4 hasAnchor" number="8.2.5.4">
+<h4><span class="header-section-number">8.2.5.4</span> Part 2 - Plot histogram of plasmid lengths<a href="activity-genomad.html#part-2---plot-histogram-of-plasmid-lengths" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Plot histogram of plasmid lengths using function <code>hist()</code>.
+<ul>
+<li>Note, a dollar sign ($) in the command below indicates column</li>
+</ul></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Command: hist(plasmids$length)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Question: Copy and paste output of command below:</td>
+</tr>
+<tr class="even">
+<td align="left">Answer:</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="part-3---plot-histogram-of-plasmid-gene-density" class="section level4 hasAnchor" number="8.2.5.5">
+<h4><span class="header-section-number">8.2.5.5</span> Part 3 - Plot histogram of plasmid gene density<a href="activity-genomad.html#part-3---plot-histogram-of-plasmid-gene-density" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Plot histogram of plasmid gene density (<code>n_genes</code>) using function <code>hist()</code>.
+<ul>
+<li>Note, a dollar sign ($) in the command below indicates column</li>
+</ul></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">A. Type your command below:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">B. Paste your output histogram below::</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="grading-criteria-13" class="section level3 hasAnchor" number="8.2.6">
+<h3><span class="header-section-number">8.2.6</span> Grading Criteria<a href="activity-genomad.html#grading-criteria-13" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Download as Microsoft Word (.docx) and upload on Canvas</li>
+</ul>
+</div>
+<div id="footnotes-22" class="section level3 hasAnchor" number="8.2.7">
+<h3><span class="header-section-number">8.2.7</span> Footnotes<a href="activity-genomad.html#footnotes-22" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>Resources</strong></p>
+<ul>
+<li><a href="https://docs.google.com/document/d/1cVR34TtQGApsOQnTSRzpQMm83TWBqtKD">Google Doc</a></li>
+</ul>
+<p><strong>Contributions and Affiliations</strong></p>
+<ul>
+<li>Valeriya Gaysinskaya, Johns Hopkins University</li>
+<li>Frederick Tan, Johns Hopkins University</li>
+</ul>
+<p>Last Revised: March 2026</p>
 
 </div>
+</div>
+<!-- </div> -->
+
+
+
 </div>
 <hr>
 <center> 
@@ -544,8 +903,8 @@ Learning more about these features can give you insight into what is going on un
           </div>
         </div>
       </div>
-<a href="example-cure-projects.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="core-competencies.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="project-work-organizer-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="scientific-posters.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
