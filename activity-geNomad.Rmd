@@ -92,6 +92,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfu
 #### Instructions
 
 1. Launch RStudio tool in Galaxy
+    - Click on “Interactive Tools” in the left hand Activity Bar and launch RStudio
     - You don’t need to include input datasets with your RStudio launch - we will import data once RStudio is launched.
 
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
@@ -187,7 +188,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1qSW-UU25kX9SPjfu
 
 #### Part 3 - Plot histogram of plasmid gene density
 
-1. Plot histogram of plasmid lengths using function `hist()`.
+1. Plot histogram of plasmid gene density (`n_genes`) using function `hist()`.
     - Note, a dollar sign ($) in the command below indicates column
 
 |A. Type your command below:|
