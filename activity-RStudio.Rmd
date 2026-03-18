@@ -1,0 +1,71 @@
+## Activity: RStudio
+
+### Purpose
+
+The purpose of this activity is to introduce the RStudio environment on SciServer for importing, exploring, filtering, and visualizing genomic data. 
+Students will gain hands-on experience working with real bioinformatics output files (geNomad plasmid and virus summaries) and get a taste or foundational data analysis skills using R.
+
+### Learning Objectives
+
+By the end of this activity, students will be able to:
+
+1. Data import and environment setup
+
+- Import tabular data files into RStudio using functions such as read_tsv()
+- Navigate and use the SciServer RStudio interface, including file upload and script execution
+
+2. Data exploration and manipulation
+
+- Explore datasets using basic R commands (e.g., viewing objects, inspecting column names)
+- Sort and filter data using base R and tidyverse functions (e.g., sort(), filter(), %>%)
+- Identify and subset biologically relevant data (e.g., contigs with AMR genes, non-provirus viral contigs)
+
+3. Data Visualization and reproducibility
+
+- Create and customize basic data visualizations using histogram plots in R (e.g., modifying titles and colors)
+- Write, annotate, and organize reproducible R scripts for data analysis workflows
+
+### Activity 1 – Import files to RStudio on SciServer
+
+*Estimated time: 10 min*
+
+#### Instructions
+
+1. Download files.
+    - Download locally two geNomad output files - plasmid summary and virus summary - from Galaxy history below, to your desktop. 
+    - The files correspond to geNomad output for Zymo gut standard D6331 subset:
+      - <https://usegalaxy.org/u/valerie-g/h/genomad-plasmid-virus-summary-zymo-gut-standard-d6331-subset>
+1. Launch RStudio on SciServer.
+    a. Login to SciServer.
+      - <https://apps.sciserver.org/dashboard/>
+    b. Navigate to SciServer ‘Compute’ (one of the cards on the bottom of the page).
+    c. Click “Create container”.
+    d. Give your container a name (eg. RStudio)
+    e. In the “Compute Image” drop-down menu, select `Bioconductor 3.17 (RStudio)`
+    f. Hit the green ‘Create’ button on the bottom.
+    g. Click on the ‘RStudio’ Name to open RStudio window.
+3. Upload files to RStudio on SciServer.
+    a. Navigate to the `Files` pane located in the lower-right panel of the RStudio.
+    b. Click the ‘Upload’ button in the toolbar of the Files pane.
+    c. Click ‘Choose File’ to upload the two geNomad output files (you previously downloaded in Step 1 - uploading one at a time.
+    d. You should now see two downloaded files in your ‘Files’ pane.
+4. Import files into RStudio.
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
