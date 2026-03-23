@@ -49,6 +49,11 @@ By the end of this activity, students will be able to:
     b. Click the **'Upload'** button in the toolbar of the Files pane.
     c. Click **'Choose File'** to upload the two geNomad output files (you previously downloaded in Step 1 - uploading one at a time.
     d. You should now see two downloaded files in your ‘Files’ pane.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1e6d6Z51TJfpo6qrikIqnRwcJe6NTsxOj0tpJj7Fst8Y/edit?slide=id.p#slide=id.p")
+```
+
 4. Import files into RStudio.
     a. Use the top left window of RStudio - a blank R Script editor - to enter your R commands for importing files.  
     b. Enter a command to load R Package called ‘tidyverse’ by using **library()**:
@@ -67,19 +72,327 @@ plasmids <- plasmids <- read_tsv("Galaxy1-[geNomad-plasmid-summary].tabular")
 
 #### Questions
 
-
+|1. Provide the command you used to import your **geNomad-plasmid-summary** file:|
+| :--------- | 
+| <br>       |
 
     
+|2. Provide command you used to import your **geNomad-virus-summary** file:|
+| :--------- | 
+| <br>       |
+
+
+### Activity 2 – Explore files in RStudio on SciServer
+
+*Estimated time: 10 min*
+
+#### Instructions
+
+1. Use basic R commands to explore imported files in RStudio.
+1. Use the top left window of RStudio - a blank R Script editor - to type and run your R commands - **you will be asked to provide your R Script code**.
+    - Include all commands you used
+    - Annotate all commands you used
+    - See sample R Code below:
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "Image test"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1e6d6Z51TJfpo6qrikIqnRwcJe6NTsxOj0tpJj7Fst8Y/edit?slide=id.g3cf989fcd7c_0_11#slide=id.g3cf989fcd7c_0_11")
+```
+
+Your R Script for Activity 2 should include:
+
+```
+# Part 1: Plasmids
+
+
+### Explore object
+
+### Explore column names
+
+### Sort file based on plasmid length, from high to low
+
+### Filter file to only include contigs with detected antibiotic resistance genes (amr_genes)
 
 
 
+# Part 2: Virus
+
+### Explore object
+
+### Explore column names
+
+### Sort file based on plasmid length, from high to low
+
+### Filter file to exclude Provirus
+```
+
+#### Questions
+
+#### Part 1 - Explore geNomad plasmid summary file in RStudio
+
+**1. View your imported plasmid file by typing in the name of your object - **plasmids**.
+
+```Command: plasmids```
+
+|Question: How many plasmid contigs (rows) are in your file?|
+| :--------- | 
+| Answer: |
+| <br>       |
+
+
+**2. View column names using function **colnames()**.
+
+```Command: colnames(plasmids)```
+
+|Question: Copy and paste column names below.|
+| :--------- | 
+| Answer: |
+| <br>       |
+
+
+**3. Sort plasmid contigs based on decreasing length, using function **sort()**.
+    - Store as a new object called **“sorted”**; 
+    - After sorting, to view the ‘sorted’ object, type ‘sorted’.
+
+`Note: the **sort()** command in the example below is a function from the **R base package**. It is available in R without installing any special libraries.`
+
+```
+Your command will be the composite of following operations:
+    - sorted <-: assigns the result of the operation to a new variable
+    - sort (): the function used to do the sorting
+    - plasmid$length: selects the “length” column from the plasmids object
+    - Decreasing = TRUE: specifies that the sorting order should be descending rather than the default ascending.
+```
+
+Use these commands:
+
+```
+Command 1: sorted <- sort(plasmids$length, decreasing = TRUE)
+Command 2: sorted
+```
+
+|Question: What is the largest contig length in a file? This should be the 1st number?|
+| :--------- | 
+| Answer: |
+| <br>       |
+
+4. Filter plasmid contigs using **filter()** function to retain only those that contain antimicrobial resistance (AMR) genes (amr_genes column); For this, you will need to remove the missing values (NA). Once filtered, view filtered contigs by calling on ‘filtered’ object.
+    - **Store as a new object called “filtered”**; 
+    - After filtering, to view the ‘filtered’ object, type **‘filtered’**.
+
+`Note: the **filter()** function, used with the **%>%** pipe operator in the example below, is part of the **‘dplyr’ package - a component of package ‘tidyverse’** - which is a popular extension package in R, and is not a base R function. 
+
+So, you can mix and match functions from different packages!`
+
+```
+Your command includes the following operations:
+    - %>%: is the operator that sends the data into the next function
+    - filter(): this function selects rows based on a condition
+    - !=: is the “Not equal to” operator
+```
+
+Use these commands:
+
+```
+Command 1: filtered <- plasmids %>% filter (amr_genes != "NA")
+Command 2: filtered
+```
+
+|Question: How many plasmids contigs had an AMR gene?|
+| :--------- | 
+| Answer: |
+| <br>       |
+
+#### Part 2 - Explore geNomad virus summary file in RStudio 
+
+- Use commands you learned in Part 1 above, as a guide to explore virus summary file.
+
+1. View your imported plasmid file by typing in the name of your object.
+
+|1A: Type your command below.|
+| :--------- | 
+| |
+| <br>       |
+
+|1B: How many virus contigs (rows) are in your file?.|
+| :--------- | 
+| |
+| <br>       |
+
+2. View column names using function colnames().
+
+|2A: Type your command below.|
+| :--------- | 
+| |
+| <br>       |
+
+|2B: Copy and paste column names below.|
+| :--------- | 
+| |
+| <br>       |
+
+3. Sort virus contigs based on decreasing length, using function **sort()**. Provide your commands and answer the question below.
+    - Store as a new object called **“sortedV”**; 
+    - After sorting, to view the ‘sorted’ object, type **‘sortedV’**.
+
+|3A: Type your commands below:|
+| :--------- | 
+| Command 1:|
+| Command 2: |
+| <br>       |
+
+|3B: What is the largest contig length in a file?|
+| :--------- | 
+| |
+| <br>       |
+
+
+4. Filter viral contigs using **filter()** function to all viral contigs EXCEPT those identified as “Provirus” (topology column); For this, you will need to eliminate the “Provirus”. 
+    - Store as a new object called **“filteredV”**; 
+    - After filtering, to view the ‘filtered’ object, type **‘filteredV’**.
+
+|4A: Type your commands below:|
+| :--------- | 
+| Command 1:|
+| Command 2: |
+| <br>       |
+
+
+|4B: How many viral contigs were NOT classified as Provirus?|
+| :--------- | 
+| |
+| <br>       |
+
+
+### Activity 3 – Plot and modify histogram of plasmid lengths
+
+*Estimated time: 10 min*
+
+#### Instructions
+
+1. Use basic R commands to plot and modify histogram in RStudio
+2. Continue to add this code to your R Script. 
+
+#### Questions
+
+#### Part 1 - Plot histogram of plasmid lengths
+
+1. Plot histogram of plasmid contig lengths using function **hist()** and specifying the length column.
+    - Your histogram will appear in the Plots tap (bottom right)
+
+Use this command: 
+```hist(plasmids$length)```
+
+|1A: Paste resulting plot below. |
+| :--------- | 
+| |
+| <br>       |
+
+2. Modify your histogram by changing the title to “Plasmid Length Distribution” 
+
+Use this command: 
+```hist (plasmids$length, main = "Plasmid Length Distribution")```
+
+|2A: Paste resulting plot below. |
+| :--------- | 
+| |
+| <br>       |
+
+3. Modify your histogram by changing histogram color to lightblue.
+
+Use this command: 
+```hist (plasmids$length, main = "Plasmid Length Distribution", col = "lightblue")```
+
+|3A: Paste resulting plot below. |
+| :--------- | 
+| |
+| <br>       |
+
+#### Part 2 - Plot histogram of virus lengths
+
+1. Plot histogram of viral contig lengths using function hist() and specifying the length column
+    - Your histogram will appear in the Plots tap (bottom right)
+
+|1A: Type your command below: |
+| :--------- | 
+| |
+| <br>       |
+
+
+|1B: Paste resulting plot below. |
+| :--------- | 
+| |
+| <br>       |
+
+
+2. Modify your histogram by changing the title to “Virus Length Distribution” 
+
+
+|2A: Type your command below: |
+| :--------- | 
+| |
+| <br>       |
+
+
+|2B: Paste resulting plot below. |
+| :--------- | 
+| |
+| <br>       |
+
+3. Modify your histogram by changing histogram color to 'lightgreen'.
+
+|3A: Type your command below: |
+| :--------- | 
+| |
+| <br>       |
+
+
+|3B: Paste resulting plot below. |
+| :--------- | 
+| |
+| <br>       |
+
+#### Part 3 - Copy and paste your R Script below, including:
+
+```
+# Import files into R Studio
+
+### Plasmids
+
+### Virus
+
+
+# Explore imported files
+
+### Plasmids
+
+### Virus
 
 
 
+# Plot histogram of lengths
+
+### Plasmids
+
+### Virus
+```
 
 
+### Grading Criteria
 
+- Download as Microsoft Word (.docx) and upload on Canvas
 
+### Footnotes
+
+**Resources**
+
+- Google Doc
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: March 2026
 
 
 
