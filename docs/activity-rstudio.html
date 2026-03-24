@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>13.1 A short introduction to Galaxy | CURE: Microbial Mysteries</title>
+  <title>8.3 Activity: RStudio | CURE: Microbial Mysteries</title>
   <meta name="description" content="Description about Course/Book." />
   <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="13.1 A short introduction to Galaxy | CURE: Microbial Mysteries" />
+  <meta property="og:title" content="8.3 Activity: RStudio | CURE: Microbial Mysteries" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="13.1 A short introduction to Galaxy | CURE: Microbial Mysteries" />
+  <meta name="twitter:title" content="8.3 Activity: RStudio | CURE: Microbial Mysteries" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="galaxy-tutorials.html"/>
-<link rel="next" href="quality-control-and-galaxy-workflows.html"/>
+<link rel="prev" href="activity-genomad.html"/>
+<link rel="next" href="scientific-posters.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -516,56 +516,631 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="assets/C-MOOR_Template/dasl_thin_main_image.png">
 </div>
-<div id="a-short-introduction-to-galaxy" class="section level2 hasAnchor" number="13.1">
-<h2><span class="header-section-number">13.1</span> A short introduction to Galaxy<a href="a-short-introduction-to-galaxy.html#a-short-introduction-to-galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="introduction-12" class="section level3 hasAnchor" number="13.1.1">
-<h3><span class="header-section-number">13.1.1</span> Introduction<a href="a-short-introduction-to-galaxy.html#introduction-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Galaxy (<a href="https://galaxyproject.org">galaxyproject.org</a>) is a free, open-source system for analyzing data, authoring workflows, training and education, publishing tools, managing infrastructure, and more. Among the notable features:</p>
-<ul>
-<li><a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html">Graphical user interface</a> (GUI) for interactively running tools</li>
-<li><a href="https://toolshed.g2.bx.psu.edu/">Toolshed</a> with 10,000 tools ready to run</li>
-<li>Full featured <a href="https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html">workflow</a> functionality</li>
-<li>Terabytes of the latest, curated <a href="https://galaxyproject.org/admin/reference-data-repo">reference data</a></li>
-<li>Extensive training <a href="https://training.galaxyproject.org/">tutorials</a> and infrastructure</li>
-<li>Large international <a href="https://galaxyproject.org/community">community</a> of users and developers</li>
-</ul>
+<div id="activity-rstudio" class="section level2 hasAnchor" number="8.3">
+<h2><span class="header-section-number">8.3</span> Activity: RStudio<a href="activity-rstudio.html#activity-rstudio" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="purpose-12" class="section level3 hasAnchor" number="8.3.1">
+<h3><span class="header-section-number">8.3.1</span> Purpose<a href="activity-rstudio.html#purpose-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The purpose of this activity is to introduce the RStudio environment on SciServer for importing, exploring, filtering, and visualizing genomic data.
+Students will gain hands-on experience working with real bioinformatics output files (geNomad plasmid and virus summaries) and get a taste or foundational data analysis skills using R.</p>
 </div>
-<div id="activity-12" class="section level3 hasAnchor" number="13.1.2">
-<h3><span class="header-section-number">13.1.2</span> Activity<a href="a-short-introduction-to-galaxy.html#activity-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Estimated time: 40 min</em></p>
-<div id="instructions-61" class="section level4 hasAnchor" number="13.1.2.1">
-<h4><span class="header-section-number">13.1.2.1</span> Instructions<a href="a-short-introduction-to-galaxy.html#instructions-61" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="learning-objectives-12" class="section level3 hasAnchor" number="8.3.2">
+<h3><span class="header-section-number">8.3.2</span> Learning Objectives<a href="activity-rstudio.html#learning-objectives-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>By the end of this activity, students will be able to:</p>
 <ol style="list-style-type: decimal">
-<li>Review slides for “A short introduction to Galaxy”
+<li>Data import and environment setup
 <ul>
-<li><a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html">training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/slides.html</a></li>
+<li>Load tabular data files into R/RStudio using functions such as read_tsv()</li>
+<li>Navigate and use the RStudio interface, including file upload and script execution</li>
 </ul></li>
-<li>Complete the hands-on tutorial
+<li>Data exploration and manipulation
 <ul>
-<li><a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html">training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html</a></li>
+<li>Explore datasets using basic R commands (e.g., viewing objects, inspecting column names)</li>
+<li>Sort and filter data using base R and tidyverse functions (e.g., sort(), filter(), %&gt;%)</li>
+<li>Identify and subset biologically relevant data (e.g., contigs with AMR genes, non-provirus viral contigs)</li>
+</ul></li>
+<li>Data visualization and reproducibility
+<ul>
+<li>Create and customize basic data visualizations using histogram plots in R (e.g., modifying titles and colors)</li>
+<li>Write, annotate, and organize reproducible R scripts for data analysis workflows</li>
 </ul></li>
 </ol>
 </div>
-</div>
-<div id="grading-criteria-19" class="section level3 hasAnchor" number="13.1.3">
-<h3><span class="header-section-number">13.1.3</span> Grading Criteria<a href="a-short-introduction-to-galaxy.html#grading-criteria-19" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-1-import-files-to-rstudio-on-sciserver" class="section level3 hasAnchor" number="8.3.3">
+<h3><span class="header-section-number">8.3.3</span> Activity 1 – Import files to RStudio on SciServer<a href="activity-rstudio.html#activity-1-import-files-to-rstudio-on-sciserver" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 10 min</em></p>
+<div id="instructions-52" class="section level4 hasAnchor" number="8.3.3.1">
+<h4><span class="header-section-number">8.3.3.1</span> Instructions<a href="activity-rstudio.html#instructions-52" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Download files.
 <ul>
-<li>Submit URL to your shared Galaxy history on Canvas</li>
+<li>Download two geNomad output files from Galaxy history below - plasmid summary and virus summary.</li>
+<li>The files correspond to geNomad output for Zymo gut standard D6331 subset:
+<ul>
+<li><a href="https://usegalaxy.org/u/valerie-g/h/genomad-plasmid-virus-summary-zymo-gut-standard-d6331-subset" class="uri">https://usegalaxy.org/u/valerie-g/h/genomad-plasmid-virus-summary-zymo-gut-standard-d6331-subset</a></li>
+</ul></li>
+</ul></li>
+<li>Launch RStudio on SciServer.
+<ol style="list-style-type: lower-alpha">
+<li>Log into <a href="https://sciserver.org" class="uri">https://sciserver.org</a>.</li>
+<li>Navigate to SciServer ‘Compute’ (one of the cards on the bottom of the page).</li>
+<li>Click “Create container”.</li>
+<li>Give your container a name (eg. RStudio)</li>
+<li>In the “Compute Image” drop-down menu, select <code>Bioconductor 3.17 (RStudio)</code></li>
+<li>Hit the green ‘Create’ button on the bottom.</li>
+<li>Click on the ‘RStudio’ Name to open RStudio window.</li>
+</ol></li>
+<li>Upload files to RStudio on SciServer.
+<ol style="list-style-type: lower-alpha">
+<li>Navigate to the <code>Files</code> pane located in the lower-right panel of the RStudio.</li>
+<li>Click the <strong>‘Upload’</strong> button in the toolbar of the Files pane.</li>
+<li>Click <strong>‘Choose File’</strong> to upload the two geNomad output files (you previously downloaded in Step 1 - uploading one at a time.</li>
+<li>You should now see two downloaded files in your ‘Files’ pane.</li>
+</ol></li>
+</ol>
+<p><img src="activity-RStudio_files/figure-html/1e6d6Z51TJfpo6qrikIqnRwcJe6NTsxOj0tpJj7Fst8Y_p.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+<ol start="4" style="list-style-type: decimal">
+<li>Load files into R/RStudio.
+<ol style="list-style-type: lower-alpha">
+<li>Create a new file to store your R code by opening the File menu, selecting New File, and then R Script</li>
+<li>Enter the following two R commands into the new top left window of RStudio
+<ol style="list-style-type: lower-alpha">
+<li>Load the R package called ‘tidyverse’ by entering the command <strong>library()</strong>.</li>
+<li>Import a file of interest by using the function <strong>read_tsv()</strong>.
+<ul>
+<li>See code block below to load the file “Galaxy1-[geNomad-plasmid-summary].tabular” and store it as a new object (variable) called e.g. ‘plasmids’.</li>
+</ul></li>
+</ol>
+<pre><code>library(tidyverse)
+plasmids &lt;- read_tsv(&quot;Galaxy1-[geNomad-plasmid-summary].tabular&quot;)</code></pre></li>
+<li>Highlight <strong>both</strong> commands and then click <strong>‘Run’</strong>.</li>
+</ol></li>
+</ol>
+</div>
+<div id="questions-42" class="section level4 hasAnchor" number="8.3.3.2">
+<h4><span class="header-section-number">8.3.3.2</span> Questions<a href="activity-rstudio.html#questions-42" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">1. Provide the command you used to import your <strong>geNomad-plasmid-summary</strong> file:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">2. Provide command you used to import your <strong>geNomad-virus-summary</strong> file:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-2-explore-files-in-rstudio-on-sciserver" class="section level3 hasAnchor" number="8.3.4">
+<h3><span class="header-section-number">8.3.4</span> Activity 2 – Explore files in RStudio on SciServer<a href="activity-rstudio.html#activity-2-explore-files-in-rstudio-on-sciserver" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 10 min</em></p>
+<div id="instructions-53" class="section level4 hasAnchor" number="8.3.4.1">
+<h4><span class="header-section-number">8.3.4.1</span> Instructions<a href="activity-rstudio.html#instructions-53" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Use basic R commands to explore imported files in RStudio.</li>
+<li>Craft your commands using an R Script - <strong>you will be asked to provide your R Script code</strong>.
+<ul>
+<li>Include all commands you used</li>
+<li>Annotate all commands you used</li>
+<li>See sample R Code below:</li>
+</ul></li>
+</ol>
+<p><img src="activity-RStudio_files/figure-html/1e6d6Z51TJfpo6qrikIqnRwcJe6NTsxOj0tpJj7Fst8Y_g3cf989fcd7c_0_11.png" alt="Image test" width="100%" style="display: block; margin: auto;" /></p>
+<p>Your R Script for Activity 2 should include:</p>
+<pre><code># Part 1: Plasmids
+
+### Explore object
+&lt;your commands&gt;
+### Explore column names
+&lt;your commands&gt;
+### Sort file based on plasmid length, from high to low
+&lt;your commands&gt;
+### Filter file to only include contigs with detected AMRs (amr_genes)
+&lt;your commands&gt;
+
+
+# Part 2: Virus
+
+### Explore object
+&lt;your commands&gt;
+### Explore column names
+&lt;your commands&gt;
+### Sort file based on virus length, from high to low
+&lt;your commands&gt;
+### Filter file to exclude Provirus
+&lt;your commands&gt;</code></pre>
+</div>
+<div id="questions-43" class="section level4 hasAnchor" number="8.3.4.2">
+<h4><span class="header-section-number">8.3.4.2</span> Questions<a href="activity-rstudio.html#questions-43" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="part-1---explore-genomad-plasmid-summary-file-in-rstudio" class="section level4 hasAnchor" number="8.3.4.3">
+<h4><span class="header-section-number">8.3.4.3</span> Part 1 - Explore geNomad plasmid summary file in RStudio<a href="activity-rstudio.html#part-1---explore-genomad-plasmid-summary-file-in-rstudio" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li><p>View your imported plasmid file by typing in the name of your object - <strong>plasmids</strong>.</p>
+<pre><code>plasmids</code></pre></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Question: How many plasmid contigs (rows) are in your file?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="2" style="list-style-type: decimal">
+<li><p>View column names using function <strong>colnames()</strong>.</p>
+<pre><code>colnames(plasmids)</code></pre></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Question: Copy and paste column names below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="3" style="list-style-type: decimal">
+<li>Sort plasmid contigs based on decreasing length, using function <strong>sort()</strong>.
+<ul>
+<li>Store as a new object called <strong>“sorted”</strong>;</li>
+<li>After sorting, to view the ‘sorted’ object, type ‘sorted’.
+<ul>
+<li>Note: the <strong>sort()</strong> command is a function from the <strong>base R package</strong>. It is available in R without installing any special libraries.</li>
+</ul></li>
+<li>Your command will contain the following components:
+<ul>
+<li><code>sorted &lt;-</code> – assigns the result of the operation to a new variable</li>
+<li><code>sort()</code> – the function used to do the sorting</li>
+<li><code>plasmid$length</code> – points to the “length” column in the plasmids object</li>
+<li><code>decreasing = TRUE</code> – specifies that sorting should be descending rather than the default ascending.</li>
+</ul></li>
+</ul></li>
+</ol>
+<p>Use these commands:</p>
+<pre><code>sorted &lt;- sort( plasmids$length, decreasing = TRUE )
+sorted</code></pre>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Question: What is the length of the largest contig length in a file? This should be the 1st number?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="4" style="list-style-type: decimal">
+<li>Filter plasmid contigs using the <strong>filter()</strong> function to retain only those that contain antimicrobial resistance (AMR) genes (amr_genes column); For this, you will need to remove the missing values (NA). Once filtered, view the filtered contigs by calling on the ‘filtered’ object.
+<ul>
+<li><strong>Store as a new object called “filtered”</strong>;</li>
+<li>After filtering, to view the ‘filtered’ object, type <strong>‘filtered’</strong>.
+<ul>
+<li>Note: We use the <code>dplyr</code> <strong>filter()</strong> function and the <strong>%&gt;%</strong> pipe operator in the example below, which are both part of the <strong>tidyverse ecosystem of package</strong> - a popular extension in R, and is not a base R function.
+<ul>
+<li>So, you can mix and match functions from different packages!</li>
+</ul></li>
+</ul></li>
+<li>Your command includes the following operations:
+<ul>
+<li><code>%&gt;%</code> – is an operator that sends the output data from one command as the input data into the next command</li>
+<li><code>filter()</code> – this function selects rows based on a condition</li>
+<li><code>!=</code> – is the “Not equal to” operator</li>
+</ul></li>
+</ul></li>
+</ol>
+<p>Use these commands:</p>
+<pre><code>filtered &lt;- plasmids %&gt;% filter (amr_genes != &quot;NA&quot;)
+filtered</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Question: How many plasmid contigs had an AMR gene?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="part-2---explore-genomad-virus-summary-file-in-rstudio" class="section level4 hasAnchor" number="8.3.4.4">
+<h4><span class="header-section-number">8.3.4.4</span> Part 2 - Explore geNomad virus summary file in RStudio<a href="activity-rstudio.html#part-2---explore-genomad-virus-summary-file-in-rstudio" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ul>
+<li>Use commands you learned in Part 1 above, as a guide to explore virus summary file.</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>View your imported virus file by typing in the name of your object.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1A: Type your command below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1B: How many virus contigs (rows) are in your file?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="2" style="list-style-type: decimal">
+<li>View column names using function colnames().</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2A: Type your command below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2B: Copy and paste column names below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="3" style="list-style-type: decimal">
+<li>Sort virus contigs based on decreasing length, using function <strong>sort()</strong>. Provide your commands and answer the question below.
+<ul>
+<li>Store as a new object called <strong>“sortedV”</strong>;</li>
+<li>After sorting, to view the ‘sorted’ object, type <strong>‘sortedV’</strong>.</li>
+</ul></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3A: Type your commands below:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Command 1:</td>
+</tr>
+<tr class="even">
+<td align="left">Command 2:</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3B: What is the largest contig length in the file?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="4" style="list-style-type: decimal">
+<li>Filter viral contigs using <strong>filter()</strong> function to all viral contigs EXCEPT those identified as “Provirus” (topology column); For this, you will need to eliminate the “Provirus”.
+<ul>
+<li>Store as a new object called <strong>“filteredV”</strong>;</li>
+<li>After filtering, to view the ‘filtered’ object, type <strong>‘filteredV’</strong>.</li>
+</ul></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">4A: Type your commands below:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Command 1:</td>
+</tr>
+<tr class="even">
+<td align="left">Command 2:</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">4B: How many viral contigs were NOT classified as Provirus?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="activity-3-plot-and-modify-histogram-of-contig-lengths" class="section level3 hasAnchor" number="8.3.5">
+<h3><span class="header-section-number">8.3.5</span> Activity 3 – Plot and modify histogram of contig lengths<a href="activity-rstudio.html#activity-3-plot-and-modify-histogram-of-contig-lengths" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Estimated time: 10 min</em></p>
+<div id="instructions-54" class="section level4 hasAnchor" number="8.3.5.1">
+<h4><span class="header-section-number">8.3.5.1</span> Instructions<a href="activity-rstudio.html#instructions-54" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Use base R commands to plot and modify histogram in RStudio</li>
+<li>Continue to add this code to your R Script.</li>
+</ol>
+</div>
+<div id="questions-44" class="section level4 hasAnchor" number="8.3.5.2">
+<h4><span class="header-section-number">8.3.5.2</span> Questions<a href="activity-rstudio.html#questions-44" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="part-1---plot-histogram-of-plasmid-lengths" class="section level4 hasAnchor" number="8.3.5.3">
+<h4><span class="header-section-number">8.3.5.3</span> Part 1 - Plot histogram of plasmid lengths<a href="activity-rstudio.html#part-1---plot-histogram-of-plasmid-lengths" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Plot histogram of plasmid contig lengths using function <strong>hist()</strong> and specifying the length column.
+<ul>
+<li>Your histogram will appear in the Plots tab (bottom right)</li>
+</ul></li>
+</ol>
+<p>Use this command:</p>
+<pre><code>hist(plasmids$length)</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1A: Paste resulting plot below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Modify your histogram by changing the title to “Plasmid Length Distribution”
+Use this command:</p>
+<p>hist (plasmids$length, main = “Plasmid Length Distribution”)</p></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2A: Paste resulting plot below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="3" style="list-style-type: decimal">
+<li>Modify your histogram by changing histogram color to lightblue.</li>
+</ol>
+<p>Use this command:</p>
+<pre><code>hist ( plasmids$length, main = &quot;Plasmid Length Distribution&quot;, col = &quot;lightblue&quot; )</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3A: Paste resulting plot below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="part-2---plot-histogram-of-virus-lengths" class="section level4 hasAnchor" number="8.3.5.4">
+<h4><span class="header-section-number">8.3.5.4</span> Part 2 - Plot histogram of virus lengths<a href="activity-rstudio.html#part-2---plot-histogram-of-virus-lengths" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Plot histogram of viral contig lengths using function hist() and specifying the length column
+<ul>
+<li>Your histogram will appear in the Plots tab (bottom right)</li>
+</ul></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1A: Type your command below:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">1B: Paste resulting plot below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="2" style="list-style-type: decimal">
+<li>Modify your histogram by changing the title to “Virus Length Distribution”</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2A: Type your command below:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2B: Paste resulting plot below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<ol start="3" style="list-style-type: decimal">
+<li>Modify your histogram by changing histogram color to ‘lightgreen’.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3A: Type your command below:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">3B: Paste resulting plot below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="part-3---copy-and-paste-your-r-script-below-which-should-be-structured-as-follows" class="section level4 hasAnchor" number="8.3.5.5">
+<h4><span class="header-section-number">8.3.5.5</span> Part 3 - Copy and paste your R Script below, which should be structured as follows:<a href="activity-rstudio.html#part-3---copy-and-paste-your-r-script-below-which-should-be-structured-as-follows" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<pre><code># Import files into R Studio
+
+### Plasmids
+&lt;your commands&gt;
+### Virus
+&lt;your commands&gt;
+
+# Explore imported files
+
+### Plasmids
+&lt;your commands&gt;
+### Virus
+&lt;your commands&gt;
+
+# Plot histogram of lengths
+
+### Plasmids
+&lt;your commands&gt;
+### Virus
+&lt;your commands&gt;</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Paste your R Script below.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="grading-criteria-14" class="section level3 hasAnchor" number="8.3.6">
+<h3><span class="header-section-number">8.3.6</span> Grading Criteria<a href="activity-rstudio.html#grading-criteria-14" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Download as Microsoft Word (.docx) and upload on Canvas</li>
 </ul>
 </div>
-<div id="footnotes-28" class="section level3 hasAnchor" number="13.1.4">
-<h3><span class="header-section-number">13.1.4</span> Footnotes<a href="a-short-introduction-to-galaxy.html#footnotes-28" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="footnotes-23" class="section level3 hasAnchor" number="8.3.7">
+<h3><span class="header-section-number">8.3.7</span> Footnotes<a href="activity-rstudio.html#footnotes-23" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><strong>Resources</strong></p>
 <ul>
-<li><a href="https://docs.google.com/document/d/1oaInda1rAAR1oY09murtgFQWSJJ4tw4_">Google Doc</a></li>
-<li>Introduction to Galaxy Analyses [<a href="https://training.galaxyproject.org/training-material/topics/introduction/">topic</a>]</li>
+<li><a href="https://docs.google.com/document/d/12jH1dkfMfDc3W54VEt94k_6Tvq3_WOej">Google Doc</a></li>
 </ul>
 <p><strong>Contributions and Affiliations</strong></p>
 <ul>
+<li>Valeriya Gaysinskaya, Johns Hopkins University</li>
 <li>Frederick Tan, Johns Hopkins University</li>
 </ul>
-<p>Last Revised: January 2025</p>
+<p>Last Revised: March 2026</p>
+
 </div>
+</div>
+<!-- </div> -->
+
+
+
 </div>
 <hr>
 <center> 
@@ -578,8 +1153,8 @@
           </div>
         </div>
       </div>
-<a href="galaxy-tutorials.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="quality-control-and-galaxy-workflows.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="activity-genomad.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="scientific-posters.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
