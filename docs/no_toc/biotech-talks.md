@@ -1,0 +1,58 @@
+## Biotech Talks
+
+Biotech Talks feature a guest speaker to showcase their biotech work, share their scientific journety and engage in Q and A with the students. 
+It is a one of a kind opportunity for students to engage with a science, technology and industry expert and explore, broaden or narrow students' scientific interests.
+
+<br>
+
+For each guest, students were asked to prepare by completing the Biotech Talks Activities.
+
+## Science Talks - Amir Saberi
+
+### Introduction
+
+Peek behind the curtain and learn how science and entrepreneurial spirit can lead to tech development and innovation!
+Join Dr Amir Saberi [LinkedIn](https://www.linkedin.com/in/saberiamir/), a Founder & CEO of biotech startup [Ambryon](https://www.ambryon.com) as he talks about his Academia-to-Biotech path designing and building biomanufacturing infrastructure for accelerating cell and gene therapies. 
+
+- Thursday April 2, 2026 from 10:30am - 11:45am EST
+
+Amir received his PhD in Cell and Developmental Biology from the University of Illinois Urbana-Champaign and did his postdoctoral work at the Johns Hopkins University School of Medicine.
+He then worked as a Senior and Principal Scientist at Domicell and Vita Therapeutics, transitioning to Scientific Operations at Vita before founding Ambryon.
+Stem Cells, CRISPR, plasmids, AAVs, gene therapy, biomanufacturing; postdoc, scientist, director, CEO; Industry, startups, biotech - Ask him anything!
+
+<img src="biotech-talks_files/figure-html//1YnyvUne1eGlLl0Ch95ebnB-c77NksGcKvSFQHDa46ZA_g3d1e6d3c4d7_0_0.png" alt="Image test" width="100%" style="display: block; margin: auto;" />
+
+### Activity
+
+*Estimated time: 50 min*
+
+#### Instructions
+
+1. Read the following
+    a. Pick an Ambryon technology blog of your choice. The blogs cover base editors, AAVs, and CRISPR for gene therapy.
+        - <https://www.ambryon.com/community/blog/category/technology>
+    a. Scroll through Amir’s Google Scholar page and look through publication titles, clicking on one title/topic of interest to read a description/abstract of the paper.
+        - <https://scholar.google.com/citations?user=H9OkixYAAAAJ>
+    a. Read snapshot of Amir's proposal with Domicell about stem cell bioreactors to support stem cell therapies.
+        - [Amir-Saberi-MSCRF-Commercialization-Grant-Award](https://drive.google.com/file/d/1goe00KOa9dVigNOaGqcQT8EnXoRLP5Aa)
+1. Post three questions you could ask in the Discussion Forum at <https://help.c-moor.org/c/10>
+    a. Science – What scientific question do you have about Amir’s research and development work, ranging from basic background questions to possible next steps?
+    a. Method – What methods would you like Amir’s insight on, whether computational, genomics, AI, gene therapy, or other exciting technologies?
+    a. Career – What advice would you ask Amir regarding how to get started, finding a mentor, etc.?
+
+### Grading Criteria
+
+- Submit URL to your reply on Canvas
+
+### Footnotes
+
+**Resources**
+
+- [Google Doc](https://docs.google.com/document/d/1suZObt5YZrdkDB-gxbcvFPLFb7KOehLa)
+
+**Contributions and Affiliations**
+
+- Valeriya Gaysinskaya, Johns Hopkins University
+- Frederick Tan, Johns Hopkins University
+
+Last Revised: March 2026
