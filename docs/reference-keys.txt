@@ -317,9 +317,9 @@ grading-criteria-16
 footnotes-25
 resources-2
 contributions-and-affiliations
-activity---share-your-poster
+activity-share-your-poster
 introduction-10
-activity-1-share-your-poster
+activity-1-upload-your-poster
 instructions-56
 questions-45
 activity-2-present-your-poster
