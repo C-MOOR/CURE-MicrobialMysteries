@@ -654,82 +654,74 @@ A: You can, however we suggest being explicit in your experience and add the lev
 
 ### Purpose
 
-This lesson introduces Agentic AI — AI systems that can autonomously plan, reason, and execute multi-step tasks. 
-You will gain hands-on experience using Zo Computer, a personal AI agent, to accomplish real-world tasks: building an academic website and orchestrating scientific data analysis through natural language commands.
+This activity introduces agentic AI, automated systems that can plan, create, and execute multi-step tasks. 
+As these systems require a computer to install and run programs, we will use Zo Computer which provides a personal computer in the cloud equipped with an AI agent.
+You will work through two real-world tasks: building a professional website and orchestrating data analysis through natural language commands.
 
-Getting comfortable with agentic AI is becoming a valuable professional skill across virtually every field — employers increasingly value workers who can leverage AI to automate workflows, accelerate research, and focus on higher-level creative and strategic work. Learning to effectively communicate with and orchestrate AI agents will set you apart in an increasingly AI-driven workplace.
+Getting comfortable with agentic AI is becoming an important professional skill across virtually every field.
+Employers increasingly recruit workers who can leverage AI to automate workflows, accelerate research, and focus on higher-level creative and strategic work.
+Learning to effectively communicate with and orchestrate AI agents will set you apart in an increasingly AI-driven workplace.
 
 ### Learning Objectives
 
-1. Set up and navigate a personal AI agent workspace (Zo Computer)
-2. Create a functional academic website by prompting an AI agent with context-aware instructions
-3. Connect external services (Galaxy, file storage) to an AI agent via API key
-4. Orchestrate complex scientific workflows — such as genome analysis — using only natural language
+1. Set up and navigate a personal AI agent
+2. Create a professional website by prompting an AI agent
+3. Connect an external service to an AI agent using an API key
+4. Orchestrate a genome analysis workflow using natural language
 5. Evaluate and refine AI outputs through iterative prompting
 
-#### Activity 1 - Create an academic website using Zo Computer
+### Activity 1 - Create an academic website
 
 *Estimated time: 20 min*
 
 #### Instructions
 
-1. Create a free Zo account
-    a. Go to zocomputer.com and click Sign Up
+1. Create a free account at Zo Computer
+    a. Go to <https://zocomputer.com> and click Sign Up
     a. Enter your preferred email address and create a password
     a. Check your inbox for a verification email and click the confirmation link
     a. Complete your profile (handle, display name)
-    a. Your Zo Computer will be ready at https://<your-handle>.zo.computer
+    a. Your Zo Computer will be ready at https://&lt;your-handle&gt;.zo.computer
 
-#### Part 1 - Create a sample academic website as prototype
+#### Part 1 - Create a sample website
 
 #### Instructions
 
-1. Use the prompt below to create a sample academic website using sample resume and picture links provided
+1. Use the prompt below to create an example website using the sample resume and picture links provided
 
 ```
 Prompt: 
-Create an academic website similar to [https://demostudent.faculty.bio using resume https://careercenter.ucdavis.edu/sites/g/files/dgvnsk15461/files/media/documents/HBS-Laboratory-Research.pdf, - including all sections - and picture (silhouette placeholder) https://drive.google.com/file/d/1zXVWjLy1vm78v8nzmTYNFFZ_kQxMB1dR/view?usp=share_link
+Create an academic website similar to https://demostudent.faculty.bio using resume https://careercenter.ucdavis.edu/sites/g/files/dgvnsk15461/files/media/documents/HBS-Laboratory-Research.pdf, - including all sections - and picture (silhouette placeholder) https://drive.google.com/file/d/1zXVWjLy1vm78v8nzmTYNFFZ_kQxMB1dR
 ```
 
 #### Questions
 
-| 1. Paste the link to the sample Zo website you created below |
+| 1. Paste the link to the sample website you created below |
 | :--------- | 
 | <br>       |
 
-#### Part 2 - Personalize academic website by replacing sample content
+#### Part 2 - Customize the website
 
 #### Instructions
 
-1. In Zo, personalize a sample academic website with your resume and your picture (or famous scientist’s) by modifying the prompt above to include your personalized information. 
-    a. Upload your resume to Zo Files 
-    a. Name your resume file ‘resume’
-    a. Upload your photo to Zo Files
-    a. Name your  photo file ‘photo’
-    a. Provide  a prompt to build your personal website
+1. Upload to Zo Files a resume and picture of yourself or from the samples below
+    - Additional resumes -- <https://careercenter.ucdavis.edu/resumes-and-materials/resumes/resume-cv-samples>
+    - Photo -- <https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Mark_Rober-_Close.png/250px-Mark_Rober-_Close.png>
+2. Personalize your website by referring to the two files and the following prompt
 
 ```
 Prompt: 
-Replace sample website with my resume and photo attached in Files.
+Replace sample website with my resume and photo in Files.
 ```
+
+3. Add additional information to your website such as
+    - Capstone poster you uploaded to <https://help.c-moor.org>
+    - Short bio (2-3 sentences) and research description
+    - Links to social media profiles e.g. LinkedIn
 
 #### Questions
 
-1. Provide link to personalized website below:
-
-|Link to your personalized academic website: |
-| :--------- | 
-| <br>       |
-
-
-2. Add additional information to your personal website and provide your promts below:
-
-Additional information suggestions:
-  - Your capstone poster you posted on [https://help.c-moor.org](https://help.c-moor.org)
-  - A short bio (2-3 sentences) and research description
-  - Any relevant links - e.g. your LinkedIn
-
-For more information and sample resumes see **Resources** section of this document for more source materials related to academic websites
+1. What additional prompts did you use?
 
 | Your additional prompts: |
 | :--------- | 
@@ -738,31 +730,23 @@ For more information and sample resumes see **Resources** section of this docume
 | Prompt 3: |
 | <br>      |
 
-3. Did Zo do what you asked it to do? If not, what did it get wrong and what prompts did you use to fix it ?
+2. Did your agent do what you asked it to do? If not, what did it get wrong and what prompts did you use to fix it ?
 
 | Your comments: |
 | :--------- | 
 | <br>       |
 
-4. Provide a link to your updated personal academic website:
-
-
-|Link to your UPDATED personalized academic website: |
-| :--------- | 
-| <br>       |
-
-
-#### Activity 2 - Use natural language in Zo to orchestrate Galaxy
+### Activity 2 - Use natural language to orchestrate Galaxy
 
 *Estimated time: 20 min*
 
 #### Instructions
 
-1. Setup Zo with access to your Galaxy account.
-    a. **Get Galaxy API key** by logging into Galaxy > Preferences  (under your use name tab in upper right corner) > Manage Galaxy API Key >  Copy key
-    a. **Store key in Zo** by going to Settings (lower left corner) > Advanced > Secrets and adding a Key named GALAXY_API_KEY and pasting key under Value and click +Add
+1. Set up Zo with access to your Galaxy account
+    a. Get Galaxy API key -- Log into Galaxy > Preferences (under your username in upper right corner) > Manage Galaxy API Key > Copy key
+    a. Store key in Zo -- Go to Settings (lower left corner) > Advanced > Secrets and adding a Key named GALAXY_API_KEY and paste key under Value and click +Add
 
-2. **Use the following Prompt in Zo**, to instruct Galaxy to analyze a small dataset (an imaginary Staphylococcus aureus bacterium with a miniature genome)  using the FastQC tool. 
+2. Use the following prompt to create a Python script that directs Galaxy (through BioBlend) to analyze a small dataset (an imaginary Staphylococcus aureus bacterium with a miniature genome) using the FastQC tool. 
 
 ```
 Prompt: 
@@ -771,31 +755,28 @@ Use Galaxy https://usegalaxy.org](https://usegalaxy.org) to analyze https://zeno
 
 #### Questions
 
-1. Provide Galaxy Link to FastQC Analysis executed by Zo:
+1. Provide Galaxy Link to FastQC Analysis executed by your agent
 
 | Provide Your Galaxy Link to FastQC Analysis: |
 | :--------- | 
 | <br>       |
 
-
-2. Prompt Zo to perform genome assembly in Galaxy from SHORT reads, then provide galaxy link to analysis executed by Zo. 
-  - Note 1: The reads are **not metagenomic reads**, but come from a single mock organism - so don’t need a metagenomic assembler, but a genomic assembler.
-  - Note 2: **Do NOT use Flye tool** designed for long reads, instead google or ask Zo to check which short read assemblers are available for short reads on Galaxy.
+2. Prompt your agent to perform genome assembly in Galaxy from SHORT reads, then provide Galaxy link to analysis. 
+    - Note 1: The reads are **not metagenomic reads**, but come from a single mock organism - so don’t use a metagenomic assembler, but a standard assembler.
+    - Note 2: **Do NOT use Flye tool** designed for long reads, instead google or ask your agent to check which short read assemblers are available for short reads on Galaxy.
 
 | 2A. Include your prompt(s) below: |
 | :--------- | 
 | <br>       |
 
-
-| 2B. Provide your Galaxy Link to assembly analysis: |
+| 2B. Provide link to your Galaxy assembly analysis: |
 | :--------- | 
 | <br>       |
 
 
-| 2C. Ask Zo to ‘List all of my prompts in this conversation’ and paste them below: |
+| 2C. Ask your agent to ‘List all of my prompts in this conversation’ and paste them below: |
 | :--------- | 
 | <br>       |
-
 
 ### Grading Criteria
 
@@ -805,11 +786,8 @@ Use Galaxy https://usegalaxy.org](https://usegalaxy.org) to analyze https://zeno
 
 **Resources**
   
-- Google Doc
-- Relevant source materials for a personal website:
-    - Resume and CV samples [https://careercenter.ucdavis.edu/resumes-and-materials/resumes/resume-cv-samples](https://careercenter.ucdavis.edu/resumes-and-materials/resumes/resume-cv-samples) such as "Laboratory Research" CV [https://careercenter.ucdavis.edu/sites/g/files/dgvnsk15461/files/media/documents/HBS-Laboratory-Research.pdf](https://careercenter.ucdavis.edu/sites/g/files/dgvnsk15461/files/media/documents/HBS-Laboratory-Research.pdf)
-    - Photo from https://en.wikipedia.org/wiki/Mark_Rober
-    - "Demo Student" example website at [https://www.faculty.bio/page/example-academic-websites](https://www.faculty.bio/page/example-academic-websites)
+- [Google Doc](https://docs.google.com/document/d/1CxtUe6_F3n8OGYDmr7vqjVsizTuCPBzx)
+- More example academic website at <https://www.faculty.bio/page/example-academic-websites>
 
 **Contributions and Affiliations**
 
