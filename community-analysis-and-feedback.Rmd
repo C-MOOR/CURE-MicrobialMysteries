@@ -664,7 +664,7 @@ Learning to effectively communicate with and orchestrate AI agents will set you 
 
 ### Learning Objectives
 
-1. Set up and navigate a personal AI agent
+1. Set up a personal AI agent
 2. Create a professional website by prompting an AI agent
 3. Connect an external service to an AI agent using an API key
 4. Orchestrate a genome analysis workflow using natural language
@@ -700,7 +700,7 @@ Create an academic website similar to https://demostudent.faculty.bio using resu
 | :--------- | 
 | <br>       |
 
-#### Part 2 - Customize the website
+#### Part 2 - Customize your website
 
 #### Instructions
 
